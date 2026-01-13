@@ -6,6 +6,7 @@ from mcp.server.fastmcp import FastMCP
 from bs4 import BeautifulSoup
 import httpx
 import pandas
+import io
 
 
 mcp = FastMCP("SA_Pharma")
@@ -40,7 +41,7 @@ async def search_sahpra_products(company_name: str) -> str:
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     }
 
-    async with httpx.AsyncClient(follow_redirects=True, http2=True) as client:
+    async with httpx.AsyncClient(follow_redirects=True, http1=True, http2=True) as client:
         try:
             response = await client.get(SAHPRA_SEARCH_URL, headers=headers, timeout=20.0)
             response.raise_for_status()

@@ -8,5 +8,6 @@ dependencies = [
     "beautifulsoup4>=4.14.3",
     "fastmcp>=2.14.2",
     "httpx[http2]>=0.28.1",
+    "lxml>=6.0.2",
     "pandas>=2.3.3",
 ]
