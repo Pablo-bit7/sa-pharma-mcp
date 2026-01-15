@@ -11,7 +11,7 @@ import io
 
 mcp = FastMCP("SA_Pharma")
 
-SAHPRA_SEARCH_URL = "https://www.sahpra.org.za/registered-health-products/"
+LANDING_URL = "https://www.sahpra.org.za/registered-health-products/"
 
 
 @mcp.tool()
@@ -41,24 +41,30 @@ async def search_sahpra_products(company_name: str) -> str:
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     }
 
-    async with httpx.AsyncClient(follow_redirects=True, http1=True, http2=True) as client:
+    async with httpx.AsyncClient(follow_redirects=True, http1=True, http2=True, timeout=30.0) as client:
         try:
-            response = await client.get(SAHPRA_SEARCH_URL, headers=headers, timeout=20.0)
-            response.raise_for_status()
+            landing_response = await client.get(LANDING_URL, headers=headers)
+            landing_response.raise_for_status()
         except Exception as e:
             return f"SAHRPA currently unreachable: {str(e)}"
 
-    soup = BeautifulSoup(response.text, "html.parser")
+        soup = BeautifulSoup(landing_response.text, "html.parser")
 
-    table = soup.find("table")
-    if not table:
-        return "Could not find database table on the SAHPRA website."
+        file_url = None
+        for link in soup.find_all("a", href=True):
+            href = link["href"]
+            if ("Medicine" in href or "Product" in href) and (href.endswith(".csv") or href.endswith(".xlsx")):
+                file_url = href
 
-    df = pandas.read_html(str(table))[0]
-    result = df[df["Applicant Name"].str.contains(company_name, case=False, na=False)]
+        if not file_url:
+            return "Couldn't directly find a link to the data"
+        
+        file_response = await client.get(file_url, headers=headers)
 
-    if result.empty:
-        return f"No registered products found for '{company_name}'."
+        if file_url.endswith(".csv"):
+            df = pandas.read_csv(io.BytesIO(file_response.content))
+        else:
+            df = pandas.read_excel(io.BytesIO(file_response.content))
 
     return result.to_markdown(index=False)
 
