@@ -55,18 +55,36 @@ async def search_sahpra_products(company_name: str) -> str:
             href = link["href"]
             if ("Medicine" in href or "Product" in href) and (href.endswith(".csv") or href.endswith(".xlsx")):
                 file_url = href
+                break
 
         if not file_url:
             return "Couldn't directly find a link to the data"
         
-        file_response = await client.get(file_url, headers=headers)
+        try:
+            file_response = await client.get(file_url, headers=headers)
+            file_response.raise_for_status()
 
-        if file_url.endswith(".csv"):
-            df = pandas.read_csv(io.BytesIO(file_response.content))
-        else:
-            df = pandas.read_excel(io.BytesIO(file_response.content))
+            if file_url.endswith(".csv"):
+                df = pandas.read_csv(io.BytesIO(file_response.content))
+            else:
+                df = pandas.read_excel(io.BytesIO(file_response.content))
+        except httpx.HTTPStatusError as e:
+            return f"An error occured upon data download. Status: {e.response.status_code}"
+        except Exception as e:
+            return f"Failed to process the resgister: {str(e)}"
 
-    return result.to_markdown(index=False)
+        df.columns = [str(c).strip() for c in df.columns]
+        target_column = next((c for c in df.columns if "Applicant" in c or "Holder" in c), None)
+
+        if not target_column:
+            return f"Could not find a company column in the table. Columns found: {list(df.columns)}"
+
+        results = df[df[target_column].astype(str).str.contains(company_name, case=False, na=False)]
+
+        if results.empty:
+            return f"No results for {company_name}"
+    
+    return results.head(15).to_markdown(index=False)
 
 
 if __name__ == "__main__":
