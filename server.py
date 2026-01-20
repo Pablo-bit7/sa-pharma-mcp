@@ -11,7 +11,7 @@ import io
 
 mcp = FastMCP("SA_Pharma")
 
-LANDING_URL = "https://www.sahpra.org.za/registered-health-products/"
+API_URL = "https://medapps.sahpra.org.za:6006/Home/getData"
 
 
 @mcp.tool()
@@ -38,7 +38,19 @@ async def search_sahpra_products(company_name: str) -> str:
     :rtype: str
     """
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/javascript, */*; q=0.01",
+    "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "X-Requested-With": "XMLHttpRequest",
+    "Origin": "https://medapps.sahpra.org.za:6006",
+    "Referer": "https://medapps.sahpra.org.za:6006/",
+    "Sec-Ch-Ua": '"Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"',
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": '"Windows"',
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
     }
 
     async with httpx.AsyncClient(follow_redirects=True, http1=True, http2=True, timeout=30.0) as client:
