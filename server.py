@@ -3,10 +3,8 @@
 Docstring for sa-pharma-mcp.server
 """
 from mcp.server.fastmcp import FastMCP
-from bs4 import BeautifulSoup
 import httpx
 import pandas
-import io
 
 
 mcp = FastMCP("SA_Pharma")
@@ -53,50 +51,47 @@ async def search_sahpra_products(company_name: str) -> str:
     "Sec-Fetch-Site": "same-origin",
     }
 
-    async with httpx.AsyncClient(follow_redirects=True, http1=True, http2=True, timeout=30.0) as client:
+    payload = {
+        "draw": "1",
+        "start": "0",
+        "length": "10",
+        "search[value]": company_name,
+        "search[regex]": "false",
+        "order[0][column]": "0",
+        "order[0][dir]": "asc"
+    }
+
+    columns = ["applicantName", "productName", "api", "licence_no", "application_no", "reg_date", "status", "secureId"]
+    for i, column_name in enumerate(columns):
+        payload[f"columns[{i}][data]"] = column_name
+        payload[f"columns[{i}][name]"] = column_name if column_name != "secureId" else ""
+        payload[f"columns[{i}][searchable]"] = "true"
+        payload[f"columns[{i}][orderable]"] = "true"
+        payload[f"columns[{i}][search][value]"] = ""
+        payload[f"columns[{i}][search][regex]"] = "false"
+
+    async with httpx.AsyncClient(verify=False, timeout=30.0) as client:
         try:
-            landing_response = await client.get(LANDING_URL, headers=headers)
-            landing_response.raise_for_status()
+            response = await client.post(API_URL, data=payload, headers=headers)
+            response.raise_for_status()
+
+            data = response.json()
+            df = pandas.DataFrame(data["data"])
+
+            if df.empty:
+                return f"No products found for '{company_name}'"
+            
+            display_map = {
+                "applicantName": "Company",
+                "productName": "Product",
+                "licence_no": "Reg No.",
+                "reg_date": "Date"
+            }
+
+            return df[list(display_map.keys())].rename(columns=display_map).to_markdown(index=False)
+
         except Exception as e:
-            return f"SAHRPA currently unreachable: {str(e)}"
-
-        soup = BeautifulSoup(landing_response.text, "html.parser")
-
-        file_url = None
-        for link in soup.find_all("a", href=True):
-            href = link["href"]
-            if ("Medicine" in href or "Product" in href) and (href.endswith(".csv") or href.endswith(".xlsx")):
-                file_url = href
-                break
-
-        if not file_url:
-            return "Couldn't directly find a link to the data"
-        
-        try:
-            file_response = await client.get(file_url, headers=headers)
-            file_response.raise_for_status()
-
-            if file_url.endswith(".csv"):
-                df = pandas.read_csv(io.BytesIO(file_response.content))
-            else:
-                df = pandas.read_excel(io.BytesIO(file_response.content))
-        except httpx.HTTPStatusError as e:
-            return f"An error occured upon data download. Status: {e.response.status_code}"
-        except Exception as e:
-            return f"Failed to process the resgister: {str(e)}"
-
-        df.columns = [str(c).strip() for c in df.columns]
-        target_column = next((c for c in df.columns if "Applicant" in c or "Holder" in c), None)
-
-        if not target_column:
-            return f"Could not find a company column in the table. Columns found: {list(df.columns)}"
-
-        results = df[df[target_column].astype(str).str.contains(company_name, case=False, na=False)]
-
-        if results.empty:
-            return f"No results for {company_name}"
-    
-    return results.head(15).to_markdown(index=False)
+            return f"Search failed: {str(e)}"
 
 
 if __name__ == "__main__":
