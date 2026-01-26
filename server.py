@@ -7,10 +7,7 @@ import httpx
 import pandas
 
 
-mcp = FastMCP(
-    "za-pharma-intelligence",
-    descrption="Integrated pharmaceutical intelligence hub for South Africa"
-)
+mcp = FastMCP("za-pharma-intelligence")
 
 
 API_URL = "https://medapps.sahpra.org.za:6006/Home/getData"
