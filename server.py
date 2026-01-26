@@ -7,7 +7,11 @@ import httpx
 import pandas
 
 
-mcp = FastMCP("SA_Pharma")
+mcp = FastMCP(
+    "za-pharma-intelligence",
+    descrption="Integrated pharmaceutical intelligence hub for South Africa"
+)
+
 
 API_URL = "https://medapps.sahpra.org.za:6006/Home/getData"
 
@@ -95,4 +99,9 @@ async def search_sahpra_products(company_name: str) -> str:
 
 
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(
+        transport="streamable-http",
+        host="0.0.0.0",
+        port=8000,
+        path="/mcp"
+    )
