@@ -1,5 +1,5 @@
 [project]
-name = "sa-pharma-mcp"
+name = "za-pharma-intelligence"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -11,4 +11,5 @@ dependencies = [
     "lxml>=6.0.2",
     "pandas>=2.3.3",
     "tabulate>=0.9.0",
+    "uvicorn>=0.40.0",
 ]
