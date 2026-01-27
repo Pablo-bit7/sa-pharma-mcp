@@ -7,7 +7,7 @@ import httpx
 import pandas
 
 
-mcp = FastMCP("za-pharma-intelligence")
+mcp = FastMCP("za-pharma-intelligence", stateless_http=True)
 
 
 API_URL = "https://medapps.sahpra.org.za:6006/Home/getData"
@@ -104,5 +104,4 @@ if __name__ == "__main__":
         transport="streamable-http",
         host="0.0.0.0",
         port=port,
-        path="/mcp"
     )
