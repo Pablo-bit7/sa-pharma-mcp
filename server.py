@@ -97,11 +97,16 @@ async def search_sahpra_products(company_name: str) -> str:
 
 if __name__ == "__main__":
     import os
+    import sys
 
-    port = int(os.getenv("PORT", 8080))
+    port = os.getenv("PORT")
 
-    mcp.run(
-        transport="streamable-http",
-        host="0.0.0.0",
-        port=port,
-    )
+    if port:
+        mcp.run(
+            transport="streamable-http",
+            host="0.0.0.0",
+            port=int(port),
+        )
+    else:
+        print("Starting local MCP server...", file=sys.stderr)
+        mcp.run()
