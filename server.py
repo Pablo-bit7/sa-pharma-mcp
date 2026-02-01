@@ -103,7 +103,7 @@ if __name__ == "__main__":
 
     if port:
         mcp.run(
-            transport="streamable-http",
+            transport="http",
             host="0.0.0.0",
             port=int(port),
         )
