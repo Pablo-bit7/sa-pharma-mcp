@@ -12,7 +12,7 @@ mcp = FastMCP(
     "za-pharma-intelligence",
     stateless_http=True,
     transport_security=TransportSecuritySettings(
-        allowed_hosts=["localhost:*", "127.0.0.1:*", "*.fastmcp.cloud"]
+        enable_dns_rebinding_protection=False
     )
 )
 
