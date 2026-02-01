@@ -3,11 +3,18 @@
 Docstring for sa-pharma-mcp.server
 """
 from mcp.server.fastmcp import FastMCP
+from mcp.server.transport_security import TransportSecuritySettings
 import httpx
 import pandas
 
 
-mcp = FastMCP("za-pharma-intelligence", stateless_http=True)
+mcp = FastMCP(
+    "za-pharma-intelligence",
+    stateless_http=True,
+    transport_security=TransportSecuritySettings(
+        allowed_hosts=["localhost:*", "127.0.0.1:*", "*.fastmcp.cloud"]
+    )
+)
 
 
 API_URL = "https://medapps.sahpra.org.za:6006/Home/getData"
