@@ -17,9 +17,6 @@ mcp = FastMCP(
 )
 
 
-API_URL = "https://medapps.sahpra.org.za:6006/Home/getData"
-
-
 @mcp.tool()
 async def get_licensed_companies() -> list[str]:
     """
@@ -43,6 +40,8 @@ async def search_sahpra_products(company_name: str) -> str:
     :return: Description
     :rtype: str
     """
+    API_URL = "https://medapps.sahpra.org.za:6006/Home/getData"
+
     headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
     "Accept": "application/json, text/javascript, */*; q=0.01",
