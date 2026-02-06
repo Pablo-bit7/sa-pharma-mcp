@@ -18,15 +18,72 @@ mcp = FastMCP(
 
 
 @mcp.tool()
-async def get_licensed_companies() -> list[str]:
+async def get_licensed_companies(category: str = "Manufacturers & Packers") -> list[str]:
     """
-    Use this to search the SAHPRA website database table for the official list
-    of licensed establishments.
+    Use this to retrieve the official SAHPRA list of establishments for a specific catagory.
+
+    Available categories:
+    - API Manufacturers
+    - Bond Stores
+    - Cannabis Cultivation Licences
+    - Distribution of Scheduled Substances
+    - Gas Manufacturers
+    - Holders of Certificate of Product Registration
+    - Manufacturers & Packers
+    - Private Only Wholesalers
+    - Provincial Depots
+    - Testing Laboratories
     
     :return: Description
     :rtype: list[str]
     """
-    pass
+    API_URL = "https://www.sahpra.org.za/wp-admin/admin-ajax.php"
+
+    headers = {
+        "User Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+        "Accept": "*/*",
+        "Referer": "https://www.sahpra.org.za/approved-licences/",
+        "X-Requested-With": "XMLHttpRequest"
+    }
+
+    TABLE_MAP = {
+        "API Manufacturers": "6964",
+        "Bond Stores": "6972",
+        "Cannabis Cultivation Licences": "6591",
+        "Distribution of Scheduled Substances": "6868",
+        "Gas Manufacturers": "9444",
+        "Holders of Certificate of Product Registration": "7144",
+        "Manufacturers & Packers": "6968",
+        "Private Only Wholesalers": "6974",
+        "Provincial Depots": "6970",
+        "Testing Laboratories": "7872"
+    }
+
+    table_id = TABLE_MAP.get(category)
+    if not table_id:
+        return f"Error: the category `{category}` was not found."
+
+    nonce = "8e846feba8"
+
+    params = {
+        "action": "wp_ajax_ninja_tables_public_action",
+        "table_id": table_id,
+        "target_action": "get-all-data",
+        "default_sorting": "old_first",
+        "skip_rows": "0",
+        "limit_rows": "0",
+        "ninja_table_public_nonce": nonce
+    }
+
+    async with httpx.AsyncClient(verify=False, timeout=30.0) as client:
+        try:
+            response = await client.get(API_URL, params=params, headers=headers)
+            response.raise_for_status()
+
+            #Data processing
+
+        except Exception as e:
+            return f"Failed to retrieve companies: {str(e)}"
 
 
 @mcp.tool()
