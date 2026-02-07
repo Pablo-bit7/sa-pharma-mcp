@@ -18,7 +18,7 @@ mcp = FastMCP(
 
 
 @mcp.tool()
-async def get_licensed_companies(category: str = "Manufacturers & Packers") -> list[str]:
+async def get_licensed_companies(category: str = "Manufacturers & Packers") -> str:
     """
     Use this to retrieve the official SAHPRA list of establishments for a specific catagory.
 
@@ -40,7 +40,7 @@ async def get_licensed_companies(category: str = "Manufacturers & Packers") -> l
     API_URL = "https://www.sahpra.org.za/wp-admin/admin-ajax.php"
 
     headers = {
-        "User Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
         "Accept": "*/*",
         "Referer": "https://www.sahpra.org.za/approved-licences/",
         "X-Requested-With": "XMLHttpRequest"
