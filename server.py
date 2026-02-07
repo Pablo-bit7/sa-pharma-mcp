@@ -61,7 +61,7 @@ async def get_licensed_companies(category: str = "Manufacturers & Packers") -> l
 
     table_id = TABLE_MAP.get(category)
     if not table_id:
-        return f"Error: the category `{category}` was not found."
+        return f"Error: The category `{category}` was not found."
 
     nonce = "8e846feba8"
 
@@ -80,7 +80,13 @@ async def get_licensed_companies(category: str = "Manufacturers & Packers") -> l
             response = await client.get(API_URL, params=params, headers=headers)
             response.raise_for_status()
 
-            #Data processing
+            raw_data = response.json()
+            if not raw_data:
+                return f"No records for `{category}`"
+            
+            df = pandas.DataFrame(raw_data)
+
+            return df.head(50).to_markdown(index=False)
 
         except Exception as e:
             return f"Failed to retrieve companies: {str(e)}"
