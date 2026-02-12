@@ -1,11 +1,22 @@
 #!/usr/bin/env python3
 """
-Docstring for sa-pharma-mcp.server
+MCP server for South African pharma intelligence.
+
+This module exposes a FastMCP server with tools that query public SAHPRA
+endpoints to retrieve licensed establishment lists and registered product
+records. The server is stateless over HTTP and returns Markdown tables.
+
+Tools:
+- `get_licensed_companies`: Fetches official establishment lists by category.
+- `search_sahpra_products`: Searches registered products by company name.
 """
 from mcp.server.fastmcp import FastMCP
 from mcp.server.transport_security import TransportSecuritySettings
+from sahpra_utils import get_sahpra_nonce
 import httpx
 import pandas
+import os
+import sys
 
 
 mcp = FastMCP(
@@ -33,7 +44,9 @@ async def get_licensed_companies(category: str = "Manufacturers & Packers") -> s
     - Private Only Wholesalers
     - Provincial Depots
     - Testing Laboratories
-    
+
+    :param category: Description
+    :type category: str
     :return: Description
     :rtype: list[str]
     """
@@ -63,20 +76,20 @@ async def get_licensed_companies(category: str = "Manufacturers & Packers") -> s
     if not table_id:
         return f"Error: The category `{category}` was not found."
 
-    nonce = "8e846feba8"
-
-    params = {
-        "action": "wp_ajax_ninja_tables_public_action",
-        "table_id": table_id,
-        "target_action": "get-all-data",
-        "default_sorting": "old_first",
-        "skip_rows": "0",
-        "limit_rows": "0",
-        "ninja_table_public_nonce": nonce
-    }
-
     async with httpx.AsyncClient(verify=False, timeout=30.0) as client:
         try:
+            nonce = await get_sahpra_nonce(client)
+
+            params = {
+                "action": "wp_ajax_ninja_tables_public_action",
+                "table_id": table_id,
+                "target_action": "get-all-data",
+                "default_sorting": "old_first",
+                "skip_rows": "0",
+                "limit_rows": "0",
+                "ninja_table_public_nonce": nonce
+            }
+
             response = await client.get(API_URL, params=params, headers=headers)
             response.raise_for_status()
 
@@ -165,9 +178,6 @@ async def search_sahpra_products(company_name: str) -> str:
 
 
 if __name__ == "__main__":
-    import os
-    import sys
-
     port = os.getenv("PORT")
 
     if port:
