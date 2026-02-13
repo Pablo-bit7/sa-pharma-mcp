@@ -80,6 +80,8 @@ async def get_licensed_companies(category: str = "Manufacturers & Packers") -> s
         try:
             nonce = await get_sahpra_nonce(client)
 
+            print(f"DEBUG: Using nonce {nonce} for category '{category}'", file=sys.stderr)
+
             params = {
                 "action": "wp_ajax_ninja_tables_public_action",
                 "table_id": table_id,
