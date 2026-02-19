@@ -1,0 +1,1145 @@
+Contract,NSN,Description,INN,Supplier,Unit_Price,Lead_Time_Days,EML_Status,ATC_Code,Care_Level,Quantity_Awarded,MOQ,Contract_Expiry
+HP13-2025ARV,181901076,"Abacavir; 60mg; Tablet, dispersible; 56 Tablets",Abacavir,Viatris Healthcare (Pty) Ltd,42.47,14,EML,J05AF06,PHC,232400,192,2028-11-30
+HP09-2023SD,189710142,Acetazolamide; 250mg; Tablet; 100 Tablets,Acetazolamide,Adcock Ingram Healthcare (Pty) Ltd,69.77,14,EML,S01EC01,PHC,154756,50,2026-04-30
+HP09-2023SD,189752737,Acetazolamide; 250mg; Tablet; 30 Tablets,Acetazolamide,Adcock Ingram Healthcare (Pty) Ltd,27.0,14,EML,S01EC01,PHC,263645,72,2026-04-30
+HP12-2023LQ,189714841,Acetone; Liquid; 500 ml,Acetone,Resmed Healthcare Cc,98.65,14,Other,V07AY,,33793,10,2026-09-30
+HP06-2024SVP,181915188,Acetylcysteine; 200mg/ml; injection; 10 ml,Acetylcysteine,Equity Pharmaceuticals (pty) Ltd,205.8,14,EML,V03AB23,HOSP,297394,1 x 10 amps,2027-04-30
+HP09-2023SD,181896924,"Acetylcysteine; 200mg; Tablet, dispersible; 25 Tablets",Acetylcysteine,Sandoz SA (Pty) Ltd,49.62,14,EML,V03AB23,PHC,97895,50,2026-04-30
+HP02-2025AI,180256112,"Aciclovir; 200mg; Tablet, dispersible; 25 Tablets",Aciclovir,RANBAXY PHARMACEUTICALS (PTY) LTD,14.84,14,EML,J05AB01,PHC,420346,96,2028-09-30
+HP02-2025AI,180075476,Aciclovir; 250mg; injection; 1 Injection,Aciclovir,Viatris Healthcare (Pty) Ltd,36.66,14,EML,J05AB01,HOSP,538361,10,2028-09-30
+HP02-2025AI,181927637,"Aciclovir; 400mg; Tablet, dispersible; 60 Tablets",Aciclovir,Cipla Medpro Manufacturing (Pty) Ltd,59.98,14,EML,J05AB01,PHC,509018,20,2028-09-30
+HP09-2023SD,180179717,Acitretin; 10mg; Capsule; 30 Capsules,Acitretin,TEVA PHARMACEUTICALS (PTY) LTD,810.98,14,EML,D05BB02,TER,7398,2,2026-04-30
+HP09-2023SD,180179725,Acitretin; 25mg; Capsule; 30 Capsules,Acitretin,TEVA PHARMACEUTICALS (PTY) LTD,1888.68,14,EML,D05BB02,TER,13613,1,2026-04-30
+HP12-2023LQ,189713765,Acriflavine; 0.1%; Emulsion; 100 ml,Acriflavine,Resmed Healthcare Cc,19.76,14,Other,R02AA13,,73560,100,2026-09-30
+HP06-2024SVP,180373081,Adenosine; 6mg/2ml; injection; 2 ml,Adenosine,FRESENIUS KABI SA (PTY) LTD,126.5,14,EML,C01EB10,HOSP,94116,10,2027-04-30
+HP10-2025BIO,189712267,"Albumin, Human, Normal; 20%; Infusion (parenteral); 100 ml","Albumin, Human, Normal",NATIONAL BIOPRODUCTS INSTITUTE NPC,903.12,14,EML,B05AA01,HOSP,122089,30,2027-12-31
+HP10-2025BIO,180181282,"Albumin, Human, Normal; 20%; Infusion (parenteral); 50 ml","Albumin, Human, Normal",NATIONAL BIOPRODUCTS INSTITUTE NPC,451.56,14,EML,B05AA01,HOSP,48178,35,2027-12-31
+HP12-2023LQ/01,222001044,Alcohol; 75%; Solution; 500 ml,Alcohol,B Braun Medical (pty) Ltd,27.55,10,NON-EML,D08AX08,,2868588,20,2026-09-30
+HP06-2024SVP/01,180075489,Alfentanil; 1mg/2ml; injection; 2 ml,Alfentanil,Piramal Critical Care SA (Pty) Ltd,53.21,14,EML,N01AH02,HOSP,130437,5 x 2ml amps,2027-04-30
+HP09-2023SD,180105006,Allopurinol; 100mg; Tablet; 100 Tablets,Allopurinol,Forrester Pharma (Pty) Ltd,28.09,14,EML,M04AA01,PHC,112226,50,2026-04-30
+HP09-2023SD,181923347,Allopurinol; 100mg; Tablet; 28 Tablets,Allopurinol,Forrester Pharma (Pty) Ltd,8.94,14,EML,M04AA01,PHC,419010,100,2026-04-30
+HP09-2023SD,181923347,Allopurinol; 100mg; Tablet; 28 Tablets,Allopurinol,Austell Pharmaceuticals (Pty) Ltd,10.51,14,EML,M04AA01,PHC,279340,10,2026-04-30
+HP09-2023SD,222001079,Allopurinol; 100mg; Tablet; 60 Tablets,Allopurinol,Forrester Pharma (Pty) Ltd,15.9,14,EML,M04AA01,PHC,311858,100,2026-04-30
+HP09-2023SD,180339396,Allopurinol; 300mg; Tablet; 30 Tablets,Allopurinol,Austell Pharmaceuticals (Pty) Ltd,19.13,14,EML,M04AA01,PHC,1123167,10,2026-04-30
+HP09-2023SD,180339396,Allopurinol; 300mg; Tablet; 30 Tablets,Allopurinol,Adcock Ingram Healthcare (Pty) Ltd,18.87,14,EML,M04AA01,PHC,748778,50,2026-04-30
+HP09-2023SD,189714591,Alprazolam; 0.5mg; Tablet; 30 Tablets,Alprazolam,Biotech Laboratories (Pty) Ltd,17.65,14,EML,N05BA12,TER,98528,10,2026-04-30
+HP06-2024SVP,180075498,Alprostadil; 500mcg/ml; injection; 1 ml,Alprostadil,Pfizer Laboratories (Pty) Ltd,2744.6,14,EML,G04BE01,HOSP,9166,1,2027-04-30
+HP06-2024SVP,189762991,Alteplase; 50mg; injection; 1 Injection,Alteplase,Ingelheim Pharmaceuticals (pty) Ltd,7911.92,14,EML,B01AD02,HOSP,14037,1,2027-04-30
+HP12-2023LQ,189714733,Aluminium hydroxide; 300mg/5ml; Suspension; 500 ml,Aluminium hydroxide,Resmed Healthcare Cc,25.59,14,EML,A02AB01,HOSP,402920,24,2026-09-30
+HP09-2023SD,189710390,Amantadine; 100mg; Capsule; 20 Capsules,Amantadine,Novartis SA (Pty) Ltd,107.34,14,NON-EML,N04BB01,,54820,1,2026-04-30
+HP02-2025AI,189708790,Amikacin ; 100mg/2ml; injection; 2 ml,Amikacin ,FRESENIUS KABI SA (PTY) LTD,27.6,14,EML,J01GB06,HOSP,242500,10,2028-09-30
+HP02-2025AI,189708789,Amikacin ; 250mg/2ml; injection; 2 ml,Amikacin ,FRESENIUS KABI SA (PTY) LTD,35.66,14,EML,J01GB06,HOSP,129760,10,2028-09-30
+HP02-2025AI,189708024,Amikacin ; 500mg/2ml; injection; 2 ml,Amikacin ,FRESENIUS KABI SA (PTY) LTD,43.65,14,EML,J01GB06,HOSP,462505,10,2028-09-30
+HP06-2024SVP,189700102,Aminophylline; 250mg/10ml; injection; 10 ml,Aminophylline,Adcock Ingram Critical Care (Pty) Ltd,4.43,14,EML,R03DA05,HOSP,298424,10,2027-04-30
+HP06-2024SVP/02,180075509,Amiodarone; 150mg/3ml; injection; 3 ml,Amiodarone,OETHMAAN BIOSIMS (PTY) LTD,56.59,14,EML,C01BD01,HOSP,119296,20,2027-04-30
+HP09-2023SD,189710641,Amiodarone; 200mg; Tablet; 30 Tablets,Amiodarone,Biotech Laboratories (Pty) Ltd,35.83,14,EML,C01BD01,HOSP,71628,10,2026-04-30
+HP09-2023SD,181807812,Amisulpride; 200mg; Tablet; 30 Tablets,Amisulpride,Sanofi-Aventis SA (Pty) Ltd,186.91,14,EML,N05AL05,TER,487863,50,2026-04-30
+HP09-2023SD,181807811,Amisulpride; 50mg; Tablet; 30 Tablets,Amisulpride,Sanofi-Aventis SA (Pty) Ltd,93.1,14,EML,N05AL05,TER,159068,50,2026-04-30
+HP09-2023SD,189710133,Amitriptyline; 10mg; Tablet; 100 Tablets,Amitriptyline,Pharmacare Limited,28.62,14,EML,N06AA09,PHC,54658,40,2026-04-30
+HP09-2023SD,180339402,Amitriptyline; 10mg; Tablet; 28 Tablets,Amitriptyline,Austell Pharmaceuticals (Pty) Ltd,6.37,14,EML,N06AA09,PHC,2381780,10,2026-04-30
+HP09-2023SD,189760812,Amitriptyline; 25mg; Tablet; 100 Tablets,Amitriptyline,Kiara Health (Pty) Ltd,18.1,14,EML,N06AA09,PHC,166901,140,2026-04-30
+HP09-2023SD,189711829,Amitriptyline; 25mg; Tablet; 28 Tablets,Amitriptyline,Gulf Drug Company (Pty) Ltd,5.69,14,EML,N06AA09,PHC,1668985,300,2026-04-30
+HP09-2023SD,189711829,Amitriptyline; 25mg; Tablet; 28 Tablets,Amitriptyline,Pharmacare Limited,5.24,14,EML,N06AA09,PHC,6675940,200,2026-04-30
+HP09-2023SD,189711830,Amitriptyline; 25mg; Tablet; 56 Tablets,Amitriptyline,Pharmacare Limited,9.27,14,EML,N06AA09,PHC,643130,100,2026-04-30
+HP09-2023SD,189711831,Amitriptyline; 25mg; Tablet; 84 Tablets,Amitriptyline,Pharmacare Limited,13.97,14,EML,N06AA09,PHC,207245,80,2026-04-30
+HP09-2023SD,181936074,Amlodipine; 10mg; Tablet; 28 Tablets,Amlodipine,Shanur Healthcare (Pty) Ltd,5.21,14,EML,C08CA01,PHC,12007961,10,2026-04-30
+HP09-2023SD,181936074,Amlodipine; 10mg; Tablet; 28 Tablets,Amlodipine,Austell Pharmaceuticals (Pty) Ltd,5.46,14,EML,C08CA01,PHC,11436022,10,2026-04-30
+HP09-2023SD,181936074,Amlodipine; 10mg; Tablet; 28 Tablets,Amlodipine,Cipla Medpro Manufacturing (Pty) Ltd,5.01,14,EML,C08CA01,PHC,11909598,720,2026-04-30
+HP09-2023SD,181936075,Amlodipine; 5mg; Tablet; 28 Tablets,Amlodipine,Austell Pharmaceuticals (Pty) Ltd,4.49,14,EML,C08CA01,PHC,14217344,10,2026-04-30
+HP09-2023SD,181936075,Amlodipine; 5mg; Tablet; 28 Tablets,Amlodipine,Unimed Healthcare (Pty) Ltd,3.9,14,EML,C08CA01,PHC,16656461,200,2026-04-30
+HP09-2023SD,181936075,Amlodipine; 5mg; Tablet; 28 Tablets,Amlodipine,Cipla Medpro Manufacturing (Pty) Ltd,3.65,14,EML,C08CA01,PHC,17067317,720,2026-04-30
+HP02-2025AI,180057867,"Amoxicillin, Clavulanic Acid; 1,000mg, 200mg; injection; 1 Injection","Amoxicillin, Clavulanic Acid",Gulf Drug Company (Pty) Ltd,27.7,14,EML,J01CR02,PHC,8713270,300,2028-09-30
+HP02-2025AI,180057867,"Amoxicillin, Clavulanic Acid; 1,000mg, 200mg; injection; 1 Injection","Amoxicillin, Clavulanic Acid",Apothecon Labs CC,26.07,14,EML,J01CR02,PHC,3000000,300,2028-09-30
+HP02-2025AI,189714965,"Amoxicillin, Clavulanic Acid; 250mg, 125mg; Tablet; 15 Tablets","Amoxicillin, Clavulanic Acid",Unimed Healthcare (Pty) Ltd,25.08,14,EML,J01CR02,PHC,5060635,144,2028-09-30
+HP02-2025AI,180158719,"Amoxicillin, Clavulanic Acid; 500mg, 100mg; injection; 1 Injection","Amoxicillin, Clavulanic Acid",Apothecon Labs CC,19.67,14,EML,J01CR02,PHC,455000,300,2028-09-30
+HP02-2025AI,222000960,"Amoxicillin, Clavulanic Acid; 600mg/5ml, 42.9mg/5ml; Suspension; 100 ml","Amoxicillin, Clavulanic Acid",Sandoz SA (Pty) Ltd,160.2,14,EML,J01CR02,PHC,2017881,50,2028-09-30
+HP02-2025AI,222000961,"Amoxicillin, Clavulanic Acid; 600mg/5ml, 42.9mg/5ml; Suspension; 50 ml","Amoxicillin, Clavulanic Acid",Sandoz SA (Pty) Ltd,58.65,14,EML,J01CR02,PHC,1355130,50,2028-09-30
+HP02-2025AI,181854324,"Amoxicillin, Clavulanic Acid; 875mg, 125mg; Tablet; 10 Tablets","Amoxicillin, Clavulanic Acid",RANBAXY PHARMACEUTICALS (PTY) LTD,26.16,14,EML,J01CR02,PHC,1806222,200,2028-09-30
+HP02-2025AI,181854324,"Amoxicillin, Clavulanic Acid; 875mg, 125mg; Tablet; 10 Tablets","Amoxicillin, Clavulanic Acid",Unimed Healthcare (Pty) Ltd,25.94,14,EML,J01CR02,PHC,4214517,144,2028-09-30
+HP02-2025AI,189704685,Amoxicillin; 125mg/5ml; Suspension; 100 ml,Amoxicillin,Innovata Pharmaceuticals (Pty) Ltd,9.0,14,EML,J01CA04,PHC,6328736,100,2028-09-30
+HP02-2025AI,189706340,Amoxicillin; 250mg/5ml; Suspension; 100 ml,Amoxicillin,Innovata Pharmaceuticals (Pty) Ltd,11.44,14,EML,J01CA04,PHC,3054089,100,2028-09-30
+HP02-2025AI,189706340,Amoxicillin; 250mg/5ml; Suspension; 100 ml,Amoxicillin,Epiglo Pharmaceuticals (Pty) Ltd,10.95,14,EML,J01CA04,PHC,7126207,100,2028-09-30
+HP02-2025AI,180198245,Amoxicillin; 250mg; Capsule; 15 Capsules,Amoxicillin,Epiglo Pharmaceuticals (Pty) Ltd,6.66,14,EML,J01CA04,PHC,9318876,100,2028-09-30
+HP02-2025AI,180198245,Amoxicillin; 250mg; Capsule; 15 Capsules,Amoxicillin,OETHMAAN BIOSIMS (PTY) LTD,7.24,14,EML,J01CA04,PHC,2329719,600,2028-09-30
+HP02-2025AI,189710500,Amoxicillin; 500mg; Capsule; 100 Capsules,Amoxicillin,Innovata Pharmaceuticals (Pty) Ltd,78.78,14,EML,J01CA04,PHC,89880,50,2028-09-30
+HP02-2025AI,180292354,Amoxicillin; 500mg; Capsule; 15 Capsules,Amoxicillin,Innovata Pharmaceuticals (Pty) Ltd,11.68,14,EML,J01CA04,PHC,8611972,100,2028-09-30
+HP02-2025AI,180292354,Amoxicillin; 500mg; Capsule; 15 Capsules,Amoxicillin,RANBAXY PHARMACEUTICALS (PTY) LTD,11.04,14,EML,J01CA04,PHC,8831735,833,2028-09-30
+HP02-2025AI,180292354,Amoxicillin; 500mg; Capsule; 15 Capsules,Amoxicillin,Epiglo Pharmaceuticals (Pty) Ltd,10.71,14,EML,J01CA04,PHC,10026697,100,2028-09-30
+HP02-2025AI,189702886,Ampicillin; 250mg; injection; 1 Injection,Ampicillin,Unimed Healthcare (Pty) Ltd,8.03,14,EML,J01CA01,PHC,2748010,300,2028-09-30
+HP02-2025AI,189702887,Ampicillin; 500mg; injection; 1 Injection,Ampicillin,Unimed Healthcare (Pty) Ltd,8.38,14,EML,J01CA01,PHC,6726051,300,2028-09-30
+HP04-2024ONC,180221034,Anastrozole; 1mg; Tablet; 30 Tablets,Anastrozole,Accord Healthcare (Pty) Ltd,11.39,14,EML,L02BG03,TER,120895,20,2026-06-30
+HP02-2025AI,222000934,Anidulafungin; 100mg; injection; 1 Injection,Anidulafungin,Pfizer Laboratories (Pty) Ltd,494.5,14,EML,J02AX06,TER,39068,1,2028-09-30
+HP08-2023SSP,189711199,Aqueous; Cream; 100 g,Aqueous,Evohealth (Pty) Ltd,4.12,14,EML,D02AC,PHC,7041912,500,2026-06-30
+HP08-2023SSP,189711199,Aqueous; Cream; 100 g,Aqueous,Barrs Pharmaceuticals Industries (Pty) Ltd,4.78,14,EML,D02AC,PHC,1760478,100,2026-06-30
+HP08-2023SSP,189715110,Aqueous; Cream; 500 g,Aqueous,Evohealth (Pty) Ltd,10.72,14,EML,D02AC,PHC,3096560,120,2026-06-30
+HP09-2023SD,181807310,Aripiprazole; 10mg; Tablet; 30 Tablets,Aripiprazole,Hetero Drugs SA (Pty) Ltd,30.84,14,EML,N05AX12,TER,18574,45,2026-04-30
+HP09-2023SD,181807313,Aripiprazole; 15mg; Tablet; 30 Tablets,Aripiprazole,Macleods Pharmaceuticals SA (Pty) Ltd,43.97,14,EML,N05AX12,TER,10586,50,2026-04-30
+HP09-2023SD,181869812,Aripiprazole; 5mg; Tablet; 30 Tablets,Aripiprazole,Macleods Pharmaceuticals SA (Pty) Ltd,32.7,14,EML,N05AX12,TER,6205,50,2026-04-30
+HP02-2025AI,180958902,"Artemether, Lumefantrine; 20mg, 120mg; Tablet; 24 Tablets","Artemether, Lumefantrine",Novartis SA (Pty) Ltd,135.0,14,EML,P01BF01,PHC,85417,1,2028-09-30
+HP02-2025AI,222000949,Artesunate; 60mg; injection; 1 Injection,Artesunate,Cospharm Investments (Pty) Ltd,305.88,14,EML,P01BE03,HOSP,166103,10,2028-09-30
+HP09-2023SD,222000916,"Aspirin; 300mg; tablet, scored; 14 Tablets",Aspirin,Resmed Healthcare Cc,4.13,14,EML,B01AC06,PHC,20249787,500,2026-04-30
+HP09-2023SD,222000916,"Aspirin; 300mg; tablet, scored; 14 Tablets",Aspirin,Unimed Healthcare (Pty) Ltd,4.02,14,EML,B01AC06,PHC,20109235,300,2026-04-30
+HP09-2023SD,222000916,"Aspirin; 300mg; tablet, scored; 14 Tablets",Aspirin,Ipharma (Pty) Ltd,5.49,14,EML,B01AC06,PHC,13399216,280,2026-04-30
+HP09-2023SD,189714405,Aspirin; 300mg; Tablet; 96 Tablets,Aspirin,Resmed Healthcare Cc,16.93,14,EML,B01AC06,PHC,318025,300,2026-04-30
+HP13-2025ARV,222001257,"Atazanavir, Ritonavir; 300mg, 100mg; Tablet; 28 Tablets","Atazanavir, Ritonavir",EMCURE PHARMACEUTICALS SA (PTY) LTD,162.5,14,EML,J05AE08,PHC,190406,98,2028-11-30
+HP09-2023SD,180192290,Atenolol; 100mg; Tablet; 28 Tablets,Atenolol,Adcock Ingram Healthcare (Pty) Ltd,5.41,14,EML,C07AB03,PHC,2838438,96,2026-04-30
+HP09-2023SD,222001081,Atenolol; 25mg; Tablet; 28 Tablets,Atenolol,Austell Pharmaceuticals (Pty) Ltd,15.1,14,EML,C07AB03,PHC,44845,10,2026-04-30
+HP09-2023SD,189710125,Atenolol; 50mg; Tablet; 30 Tablets,Atenolol,Adcock Ingram Healthcare (Pty) Ltd,4.17,14,EML,C07AB03,PHC,4454509,300,2026-04-30
+HP09-2023SD,189710125,Atenolol; 50mg; Tablet; 30 Tablets,Atenolol,Arya Pharma (Pty) Ltd,4.03,14,EML,C07AB03,PHC,10393855,600,2026-04-30
+HP09-2023SD,180142176,Atorvastatin; 10mg; Tablet; 28 Tablets,Atorvastatin,RANBAXY PHARMACEUTICALS (PTY) LTD,8.6,14,EML,C10AA05,PHC,740188,10,2026-04-30
+HP09-2023SD,180142176,Atorvastatin; 10mg; Tablet; 28 Tablets,Atorvastatin,Unimed Healthcare (Pty) Ltd,8.24,14,EML,C10AA05,PHC,1727105,50,2026-04-30
+HP09-2023SD,181798133,Atorvastatin; 20mg; Tablet; 30 Tablets,Atorvastatin,Viatris Healthcare (Pty) Ltd,12.34,14,EML,C10AA05,PHC,709722,50,2026-04-30
+HP09-2023SD,181798133,Atorvastatin; 20mg; Tablet; 30 Tablets,Atorvastatin,RANBAXY PHARMACEUTICALS (PTY) LTD,11.58,14,EML,C10AA05,PHC,1064583,10,2026-04-30
+HP09-2023SD,181859938,Atorvastatin; 40mg; Tablet; 30 Tablets,Atorvastatin,RANBAXY PHARMACEUTICALS (PTY) LTD,22.53,14,EML,C10AA05,PHC,407120,120,2026-04-30
+HP06-2024SVP,180075518,Atracurium; 25mg/2.5ml; injection; 2.5 ml,Atracurium,Pharmacare Limited,82.59,14,EML,M03AC04,HOSP,60772,5,2027-04-30
+HP06-2024SVP,180075520,Atracurium; 50mg/5ml; injection; 5 ml,Atracurium,Pharmacare Limited,166.33,14,EML,M03AC04,HOSP,33770,5,2027-04-30
+HP07-2023DAI,180087294,"Atropine; 1%; Drop, Eye; 5 ml",Atropine,Adcock Ingram Healthcare (Pty) Ltd,23.51,14,EML,S01FA01,PHC,247810,200 (1 Shipper),2026-08-31
+HP06-2024SVP,189707024,Atropine; 1mg/ml; injection; 1 ml,Atropine,Pharma-Q (Pty) Ltd,4.45,14,EML,A03BA01,PHC,850372,450,2027-04-30
+HP06-2024SVP,189707024,Atropine; 1mg/ml; injection; 1 ml,Atropine,Unimed Healthcare (Pty) Ltd,4.33,14,EML,A03BA01,PHC,1984200,500,2027-04-30
+HP06-2024SVP/01,189707023,Atropine; 500mcg/ml; injection; 1 ml,Atropine,Pharma-Q (Pty) Ltd,3.94,14,EML,A03BA01,PHC,991732,300,2027-04-30
+HP04-2024ONC,189710268,Azathioprine; 50mg; Tablet; 100 Tablets,Azathioprine,Acino Pharma (Pty) Ltd,125.06,14,EML,L04AX01,HOSP,69723,100,2026-06-30
+HP02-2025AI,180123451,Azithromycin; 200mg/5ml; Suspension; 15 ml,Azithromycin,Aurogen SA (Pty) Ltd,28.32,14,EML,J01FA10,PHC,214527,20,2028-09-30
+HP02-2025AI,180123451,Azithromycin; 200mg/5ml; Suspension; 15 ml,Azithromycin,Innovata Pharmaceuticals (Pty) Ltd,24.14,14,EML,J01FA10,PHC,858106,50,2028-09-30
+HP02-2025AI,222000018,Azithromycin; 200mg/5ml; Suspension; 30 ml,Azithromycin,Aurogen SA (Pty) Ltd,47.15,14,EML,J01FA10,PHC,220350,20,2028-09-30
+HP02-2025AI,181839842,Azithromycin; 500mg; injection; 1 Injection,Azithromycin,Cipla Medpro Manufacturing (Pty) Ltd,210.17,14,EML,J01FA10,HOSP,41839,20,2028-09-30
+HP02-2025AI,181886851,Azithromycin; 500mg; Tablet; 2 Tablets,Azithromycin,Biotech Laboratories (Pty) Ltd,6.34,14,EML,J01FA10,PHC,2159616,10,2028-09-30
+HP02-2025AI,181886851,Azithromycin; 500mg; Tablet; 2 Tablets,Azithromycin,Strides Pharma (SA) (Pty) Ltd,7.06,14,EML,J01FA10,PHC,3239424,200,2028-09-30
+HP02-2025AI,180291039,Azithromycin; 500mg; Tablet; 3 Tablets,Azithromycin,Biotech Laboratories (Pty) Ltd,8.86,14,EML,J01FA10,PHC,4923075,100,2028-09-30
+HP02-2025AI,180291039,Azithromycin; 500mg; Tablet; 3 Tablets,Azithromycin,Cipla Medpro Manufacturing (Pty) Ltd,9.9,14,EML,J01FA10,PHC,4732119,120,2028-09-30
+HP02-2025AI,180291039,Azithromycin; 500mg; Tablet; 3 Tablets,Azithromycin,Strides Pharma (SA) (Pty) Ltd,8.96,14,EML,J01FA10,PHC,5263214,200,2028-09-30
+HP09-2023SD,189710127,Baclofen; 10mg; Tablet; 30 Tablets,Baclofen,TEVA PHARMACEUTICALS (PTY) LTD,16.46,14,NON-EML,M03BX01,,1287995,130,2026-04-30
+HP09-2023SD,189751273,Baclofen; 25mg; Tablet; 30 Tablets,Baclofen,Biotech Laboratories (Pty) Ltd,50.65,14,NON-EML,M03BX01,,311402,10,2026-04-30
+HP07-2023DAI,189712275,"Balanced Salt; solution, ophthalmic; 15 ml",Balanced Salt,Alcon Laboratories (SA) (Pty) Ltd,35.16,14,EML,S01XA20,PHC,161070,36,2026-08-31
+HP07-2023DAI,222001219,"Balanced Salt; solution, ophthalmic; 500 ml",Balanced Salt,Alcon Laboratories (SA) (Pty) Ltd,122.63,14,EML,S01XA20,PHC,38535,6,2026-08-31
+HP05-2024DI,222001232,Barium Sulfate With Suspending Agent; 4.6%; Suspension; 225 ml,Barium Sulfate With Suspending Agent,Africa X-RAY Industrial and Medical (Pty) Ltd,255.48,10,EML,V08BA01,HOSP,6310,24,2027-06-30
+HP05-2024DI,181753063,Barium Sulfate With Suspending Agent; 98g/100g; Powder; 340 g,Barium Sulfate With Suspending Agent,Africa X-RAY Industrial and Medical (Pty) Ltd,233.78,14,EML,V08BA01,HOSP,16173,24,2027-06-30
+HP05-2024DI,180035256,Barium Sulfate;  BP; Suspension; 1 Kit,Barium Sulfate,Africa X-RAY Industrial and Medical (Pty) Ltd,539.34,10,EML,V08BA01,HOSP,2140,24,2027-06-30
+HP07-2023DAI,189762877,Beclometasone; 100mcg; Inhaler; 200 Doses,Beclometasone,Biotech Laboratories (Pty) Ltd,38.1,14,EML,R03BA01,HOSP,620585,1,2026-08-31
+HP07-2023DAI,180327939,Beclometasone; 200mcg; Inhaler; 200 Doses,Beclometasone,Cipla Medpro Manufacturing (Pty) Ltd,69.36,14,EML,R03BA01,HOSP,642030,160 packs,2026-08-31
+HP07-2023DAI,189706018,Beclometasone; 50mcg; Inhaler; 200 Doses,Beclometasone,Cipla Medpro Manufacturing (Pty) Ltd,26.19,14,EML,R03BA01,HOSP,652120,160 packs,2026-08-31
+HP07-2023DAI,222001026,"Beclometasone; 50mcg; Spray, Nasal; 150 Doses",Beclometasone,Cipla Medpro Manufacturing (Pty) Ltd,28.12,14,EML,R03BA01,PHC,270930,192 packs,2026-08-31
+HP01-2025TB,181923856,Bedaquiline; 100mg; Tablet; 188 Tablets,Bedaquiline,Macleods Pharmaceuticals SA (Pty) Ltd,2125.6,14,NON-EML,J04AK05,,17229,10,2027-09-30
+HP02-2025AI,189708890,Benzathine Benzylpenicillin; 1.2MU; injection; 1 Injection,Benzathine Benzylpenicillin,Ando Pharma (Pty) Ltd,8.51,14,EML,J01CE08,PHC,907685,500 vials,2028-09-30
+HP02-2025AI,189700011,Benzathine Benzylpenicillin; 2.4MU; injection; 1 Injection,Benzathine Benzylpenicillin,Ando Pharma (Pty) Ltd,8.97,14,EML,J01CE08,PHC,1963487,300 vials,2028-09-30
+HP08-2023SSP,222001032,Benzoic Acid; Powder; 50 g,Benzoic Acid,Resmed Healthcare Cc,136.98,14,Other,D02BA01,,350,40,2026-06-30
+HP12-2023LQ,189707410,Benzoin Co;  BP; Tincture; 100 ml,Benzoin Co,Barrs Pharmaceuticals Industries (Pty) Ltd,58.72,14,NON-EML,D02AD,,24164,120,2026-09-30
+HP12-2023LQ,189714844,Benzoin Co; Tincture; 20 ml,Benzoin Co,Barrs Pharmaceuticals Industries (Pty) Ltd,17.6,14,NON-EML,D02AD,,95496,384,2026-09-30
+HP12-2023LQ,189707445,Benzyl Benzoate; 25%; Liquid; 100 ml,Benzyl Benzoate,Barrs Pharmaceuticals Industries (Pty) Ltd,7.95,14,EML,P03AX01,PHC,997640,120,2026-09-30
+HP08-2023SSP,189703383,Betamethasone Valerate; 0.1%; Cream; 15 g,Betamethasone Valerate,Pharmacare Limited,11.83,14,EML,D07AC01,PHC,3394970,80,2026-06-30
+HP08-2023SSP,181892281,Betamethasone Valerate; 0.1%; Cream; 50 g,Betamethasone Valerate,Barrs Pharmaceuticals Industries (Pty) Ltd,36.45,14,EML,D07AC01,PHC,502130,150,2026-06-30
+HP08-2023SSP,189707996,Betamethasone Valerate; 0.1%; Cream; 500 g,Betamethasone Valerate,Barrs Pharmaceuticals Industries (Pty) Ltd,153.19,14,EML,D07AC01,PHC,32780,22,2026-06-30
+HP08-2023SSP/01,189711349,Betamethasone Valerate; 0.1%; Ointment; 500 g,Betamethasone Valerate,Pharmacare Limited,964.42,14,EML,D07AC01,PHC,4130,2,2026-06-30
+HP09-2023SD,222000141,Betamethasone; 500mcg; Tablet; 100 Tablets,Betamethasone,Pharmacare Limited,173.47,14,EML,H02AB01,HOSP,11544,5,2026-04-30
+HP07-2023DAI,189708315,"Betaxolol; 5mg/ml; Drop, Eye; 5 ml",Betaxolol,Gen-Eye (Pty) Ltd,27.62,14,EML,S01ED02,HOSP,266410,100,2026-08-31
+HP04-2024ONC,181817552,Bevacizumab; 100mg/4ml; injection; 4 ml,Bevacizumab,Imperial Market Access Healthcare SA (Pty) Ltd,2048.12,14,EML,L01XC07,TER,5700,10,2026-06-30
+HP09-2023SD,180000649,Bezafibrate; 400mg; Tablet; 30 Tablets,Bezafibrate,Sandoz SA (Pty) Ltd,65.89,14,EML,C10AB02,HOSP,288750,20,2026-04-30
+HP06-2024SVP,180075548,Biperiden; 5mg/ml; injection; 1 ml,Biperiden,Pharmaco Distribution (Pty) Ltd,49.45,14,EML,N04AA02,PHC,63191,1,2027-04-30
+HP08-2023SSP,189712125,Bisacodyl; 10mg; Suppository; 10 Suppositories,Bisacodyl,Pharmacare Limited,27.67,14,EML,A06AB02,HOSP,128230,40,2026-06-30
+HP09-2023SD,222001083,Bisacodyl; 5mg; Tablet; 10 Tablets,Bisacodyl,Pharmacare Limited,10.12,14,NON-EML,A06AB02,,19000,50,2026-04-30
+HP04-2024ONC,181770198,Bleomycin; 15IU; injection; 1 Injection,Bleomycin,Cipla Medpro Manufacturing (Pty) Ltd,690.0,14,EML,L01DC01,HOSP,22160,5,2026-06-30
+HP04-2024ONC,222001229,Bortezomib; 1mg; injection; 1 Injection,Bortezomib,Accord Healthcare (Pty) Ltd,113.85,14,EML,L01XG01,TER,740,20,2026-06-30
+HP04-2024ONC,181816794,Bortezomib; 3.5mg; injection; 10 ml,Bortezomib,Accord Healthcare (Pty) Ltd,287.39,14,EML,L01XG01,TER,6949,20,2026-06-30
+HP10-2025BIO,180144073,"Botulinum Toxin, Type A, Lyophilised; 100IU; injection; 1 Injection","Botulinum Toxin, Type A, Lyophilised",AbbVie (Pty) Ltd,1086.0,3,EML,M03AX01,TER,8393,1,2027-12-31
+HP07-2023DAI,181838247,"Brimonidine; 1.5mg/ml; Drop, Eye; 5 ml",Brimonidine,AbbVie (Pty) Ltd,47.45,14,EML,S01EA05,HOSP,822110,12,2026-08-31
+HP07-2023DAI,180284536,"Brimonidine; 2mg/ml; Drop, Eye; 5 ml",Brimonidine,Gen-Eye (Pty) Ltd,67.37,14,EML,S01EA05,HOSP,106680,100,2026-08-31
+HP09-2023SD,189710310,Bromocriptine; 2.5mg; Tablet; 30 Tablets,Bromocriptine,Pharmacare Limited,103.17,14,EML,N04BC01,HOSP,36747,5,2026-04-30
+HP07-2023DAI,222001071,"Budesonide, Formoterol; 160mcg, 4.5mcg; Inhaler; 60 Doses","Budesonide, Formoterol",AstraZeneca Pharmaceuticals (Pty) Ltd,59.47,10,EML,R03AK07,PHC,602290,20,2026-08-31
+HP07-2023DAI,222000964,"Budesonide, Formoterol; 320mcg, 9mcg; Inhaler; 60 Doses","Budesonide, Formoterol",AstraZeneca Pharmaceuticals (Pty) Ltd,67.64,10,EML,R03AK07,PHC,370217,20,2026-08-31
+HP07-2023DAI,180116028,Budesonide; 100mcg; Inhaler; 300 Doses,Budesonide,Cipla Medpro Manufacturing (Pty) Ltd,39.32,14,EML,R03BA02,HOSP,2072585,180 packs,2026-08-31
+HP07-2023DAI,180116030,Budesonide; 200mcg; Inhaler; 300 Doses,Budesonide,Cipla Medpro Manufacturing (Pty) Ltd,69.5,14,EML,R03BA02,PHC,2955860,180 packs,2026-08-31
+HP06-2024SVP,180075555,"Bupivacaine, Adrenaline; 5mg/ml, 5mcg/ml; injection; 20 ml","Bupivacaine, Adrenaline",Adcock Ingram Critical Care (Pty) Ltd,31.05,14,EML,N01BB51,HOSP,309036,10,2027-04-30
+HP06-2024SVP,180075556,"Bupivacaine, Dextrose; 5mg, 72.7mg; injection; 4 ml","Bupivacaine, Dextrose",Adcock Ingram Critical Care (Pty) Ltd,4.83,14,EML,N01BB51,HOSP,966416,10,2027-04-30
+HP06-2024SVP,180075551,Bupivacaine; 5mg/ml; injection (Macaine Plain); 10 ml,Bupivacaine,Pharma-Q (Pty) Ltd,8.48,14,EML,N01BB01,HOSP,619062,250,2027-04-30
+HP06-2024SVP,180075551,Bupivacaine; 5mg/ml; injection (Macaine Plain); 10 ml,Bupivacaine,Adcock Ingram Critical Care (Pty) Ltd,8.95,14,EML,N01BB01,HOSP,412708,10,2027-04-30
+HP06-2024SVP,180075553,Bupivacaine; 5mg/ml; injection (Macaine Plain); 4 ml,Bupivacaine,FRESENIUS KABI SA (PTY) LTD,16.68,14,EML,N01BB01,HOSP,180832,50,2027-04-30
+HP09-2023SD,222001425,Bupropion; 150mg; Tablet; 30 Tablets,Bupropion,RANBAXY PHARMACEUTICALS (PTY) LTD,102.89,14,EML,N06AX12,HOSP,12700,48,2026-04-30
+HP09-2023SD,222001426,Bupropion; 300mg; Tablet; 30 Tablets,Bupropion,RANBAXY PHARMACEUTICALS (PTY) LTD,110.7,14,EML,N06AX12,HOSP,12500,48,2026-04-30
+HP04-2024ONC,189710642,Busulfan; 2mg; Tablet; 100 Tablets,Busulfan,Pharmacare Limited,1311.12,14,EML,L01AB01,TER,254,1,2026-06-30
+HP09-2023SD,180348494,Cabergoline; 500mcg; Tablet; 4 Tablets,Cabergoline,Pfizer Laboratories (Pty) Ltd,255.89,14,EML,G02CB03,TER,54138,1,2026-04-30
+HP06-2024SVP,222001198,Caffeine; 20mg/ml; injection; 1 ml,Caffeine,Safeline Pharmaceuticals (Pty) Ltd,377.26,14,EML,N06BC01,HOSP,336714,100,2027-04-30
+HP12-2023LQ,189703365,Calamine; Lotion; 100 ml,Calamine,Barrs Pharmaceuticals Industries (Pty) Ltd,7.59,14,EML,D04AX,PHC,2935762,120,2026-09-30
+HP08-2023SSP,181842015,"Calcipotriol, Betamethasone Dipropionate; 50mcg/g, 500mcg/g; Ointment; 30 g","Calcipotriol, Betamethasone Dipropionate",Adcock Ingram Healthcare (Pty) Ltd,416.12,14,NON-EML,D05AX52,,66570,1 shipper,2026-06-30
+HP09-2023SD,180964704,Calcium Carbonate; 500mg; Tablet; 10 Tablets,Calcium Carbonate,Unimed Healthcare (Pty) Ltd,7.19,14,EML,A12AA04,PHC,5849708,300,2026-04-30
+HP09-2023SD,180964704,Calcium Carbonate; 500mg; Tablet; 10 Tablets,Calcium Carbonate,Evohealth (Pty) Ltd,7.21,14,EML,A12AA04,PHC,8774561,700,2026-04-30
+HP09-2023SD,181917243,Calcium Carbonate; 500mg; Tablet; 30 Tablets,Calcium Carbonate,Unimed Healthcare (Pty) Ltd,12.59,14,EML,A12AA04,PHC,2079619,50,2026-04-30
+HP09-2023SD,181917243,Calcium Carbonate; 500mg; Tablet; 30 Tablets,Calcium Carbonate,Evohealth (Pty) Ltd,12.38,14,EML,A12AA04,PHC,4852444,800,2026-04-30
+HP11-2023LVP/01,180167408,"Calcium Chloride, Sodium Chloride, Potassium Chloride; 0.175g, 6.42g; Solution (CARDIOPLEGIC); 1 L","Calcium Chloride, Sodium Chloride, Potassium Chloride",Adcock Ingram Critical Care (Pty) Ltd,312.02,14,NON-EML,B05XA16,,5790,6,2026-09-30
+HP06-2024SVP,180075562,Calcium Chloride; 10%; injection; 10 ml,Calcium Chloride,Adcock Ingram Critical Care (Pty) Ltd,4.47,14,EML,A12AA07,HOSP,123460,10,2027-04-30
+HP04-2024ONC,222001016,Calcium Folinate; 100mg; injection; 1 Injection,Calcium Folinate,TEVA PHARMACEUTICALS (PTY) LTD,108.16,14,EML,V03AF03,TER,14250,19,2026-06-30
+HP04-2024ONC,189711671,Calcium Folinate; 15mg; Tablet; 10 Tablets,Calcium Folinate,TEVA PHARMACEUTICALS (PTY) LTD,288.42,14,EML,V03AF03,TER,4372,8,2026-06-30
+HP04-2024ONC,181848888,Calcium Folinate; 300mg; injection; 1 Injection,Calcium Folinate,TEVA PHARMACEUTICALS (PTY) LTD,324.53,14,EML,V03AF03,TER,4716,7,2026-06-30
+HP06-2024SVP,180075565,Calcium Gluconate; 10%; injection; 10 ml,Calcium Gluconate,FRESENIUS KABI SA (PTY) LTD,18.29,14,EML,A12AA03,PHC,911256,260,2027-04-30
+HP09-2023SD,222000440,"Calcium Salt; 168-250mg; Tablet (Calcium salt providing 168mg - 250mg elemental calcium, chewable tablet); 168 Tablets",Calcium Salt,Resmed Healthcare Cc,11.5,14,EML,A02AA02,PHC,3114081,50,2026-04-30
+HP09-2023SD,222000440,"Calcium Salt; 168-250mg; Tablet (Calcium salt providing 168mg - 250mg elemental calcium, chewable tablet); 168 Tablets",Calcium Salt,Evohealth (Pty) Ltd,15.74,14,EML,A02AA02,PHC,346009,240,2026-04-30
+HP04-2024ONC,180957667,Capecitabine; 150mg; Tablet; 60 Tablets,Capecitabine,Accord Healthcare (Pty) Ltd,86.19,14,EML,L01BC06,TER,16811,20,2026-06-30
+HP04-2024ONC,180958744,Capecitabine; 500mg; Tablet; 120 Tablets,Capecitabine,Accord Healthcare (Pty) Ltd,459.94,14,EML,L01BC06,TER,17377,20,2026-06-30
+HP09-2023SD,189710010,Captopril; 25mg; Tablet; 60 Tablets,Captopril,Biotech Laboratories (Pty) Ltd,14.71,14,EML,C09AA01,HOSP,48889,10,2026-04-30
+HP12-2023LQ,189712347,Carbamazepine; 100mg/5ml; Suspension; 250 ml,Carbamazepine,Novartis SA (Pty) Ltd,126.79,14,EML,N03AF01,PHC,179463,1,2026-09-30
+HP09-2023SD,181892375,Carbamazepine; 200mg; Tablet; 28 Tablets,Carbamazepine,OETHMAAN BIOSIMS (PTY) LTD,15.0,14,EML,N03AF01,PHC,1583492,100,2026-04-30
+HP09-2023SD,180339414,Carbamazepine; 200mg; Tablet; 56 Tablets,Carbamazepine,OETHMAAN BIOSIMS (PTY) LTD,34.27,14,EML,N03AF01,PHC,805366,70,2026-04-30
+HP09-2023SD,180339414,Carbamazepine; 200mg; Tablet; 56 Tablets,Carbamazepine,Pharmacare Limited,31.16,14,EML,N03AF01,PHC,2416097,40,2026-04-30
+HP09-2023SD,180339437,Carbamazepine; 200mg; Tablet; 84 Tablets,Carbamazepine,Pharma-Q (Pty) Ltd,48.3,14,EML,N03AF01,PHC,1145004,45,2026-04-30
+HP09-2023SD,180339437,Carbamazepine; 200mg; Tablet; 84 Tablets,Carbamazepine,OETHMAAN BIOSIMS (PTY) LTD,49.59,14,EML,N03AF01,PHC,1717505,50,2026-04-30
+HP09-2023SD,189712669,"Carbamazepine; 400mg; tablet, cr; 28 Tablets",Carbamazepine,Novartis SA (Pty) Ltd,52.5,14,EML,N03AF01,PHC,692969,1,2026-04-30
+HP09-2023SD,222000144,Carbimazole; 5mg; Tablet; 100 Tablets,Carbimazole,Pharmacare Limited,533.79,14,EML,H03BB01,HOSP,261884,5,2026-04-30
+HP04-2024ONC,189714187,Carboplatin; 150mg/15ml; injection; 15 ml,Carboplatin,Accord Healthcare (Pty) Ltd,149.5,14,EML,L01XA02,TER,6255,20,2026-06-30
+HP04-2024ONC,181744809,Carboplatin; 450mg/45ml; injection; 45 ml,Carboplatin,Accord Healthcare (Pty) Ltd,373.75,14,EML,L01XA02,TER,28559,20,2026-06-30
+HP07-2023DAI,181807607,"Carboxymethylcellulose Solution; 5mg/ml; Drop, Eye (15-20ml)); 15 ml",Carboxymethylcellulose Solution,ACS Pharma Access Health Solutions (Pty) Ltd,19.04,14,NON-EML,A06AC06,HOSP,490210,200,2026-08-31
+HP09-2023SD,222001084,Carvedilol; 12.5mg; Tablet; 28 Tablets,Carvedilol,OETHMAAN BIOSIMS (PTY) LTD,9.47,14,EML,C07AG02,PHC,1708140,50,2026-04-30
+HP09-2023SD,180155487,Carvedilol; 25mg; Tablet; 30 Tablets,Carvedilol,Cipla Medpro Manufacturing (Pty) Ltd,17.26,14,EML,C07AG02,PHC,1937375,50,2026-04-30
+HP09-2023SD,180254416,Carvedilol; 6.25mg; Tablet; 30 Tablets,Carvedilol,Cipla Medpro Manufacturing (Pty) Ltd,6.39,14,EML,C07AG02,PHC,1510605,480,2026-04-30
+HP02-2025AI,189705592,Cefalexin; 125mg/5ml; Suspension; 100 ml,Cefalexin,RANBAXY PHARMACEUTICALS (PTY) LTD,14.89,14,EML,J01DB01,PHC,1527630,80,2028-09-30
+HP02-2025AI,189706333,Cefalexin; 250mg/5ml; Suspension; 100 ml,Cefalexin,RANBAXY PHARMACEUTICALS (PTY) LTD,22.94,14,EML,J01DB01,PHC,192105,80,2028-09-30
+HP02-2025AI,189755469,Cefalexin; 250mg; Capsule; 20 Capsules,Cefalexin,RANBAXY PHARMACEUTICALS (PTY) LTD,14.13,14,EML,J01DB01,PHC,290400,120,2028-09-30
+HP02-2025AI,222001216,Cefalexin; 500mg; Capsule; 20 Capsules,Cefalexin,RANBAXY PHARMACEUTICALS (PTY) LTD,24.96,14,EML,J01DB01,PHC,106980,160,2028-09-30
+HP02-2025AI,180113691,Cefazolin; 1g; injection; 1 Injection,Cefazolin,OETHMAAN BIOSIMS (PTY) LTD,7.49,14,EML,J01DB04,HOSP,3794754,20,2028-09-30
+HP02-2025AI,180113691,Cefazolin; 1g; injection; 1 Injection,Cefazolin,Resmed Healthcare Cc,7.83,14,EML,J01DB04,HOSP,2529836,40,2028-09-30
+HP02-2025AI,189708784,Cefazolin; 500mg; injection; 1 Injection,Cefazolin,OETHMAAN BIOSIMS (PTY) LTD,5.08,14,EML,J01DB04,HOSP,1841390,20,2028-09-30
+HP02-2025AI,180186466,Cefepime; 1g; injection; 1 Injection,Cefepime,Aurogen SA (Pty) Ltd,41.17,14,EML,J01DE01,HOSP,170505,10,2028-09-30
+HP02-2025AI,180187880,Cefepime; 2g; injection; 1 Injection,Cefepime,Aurogen SA (Pty) Ltd,81.14,14,EML,J01DE01,HOSP,83835,10,2028-09-30
+HP02-2025AI,189708190,Cefotaxime; 1g; injection; 1 Injection,Cefotaxime,Innovata Pharmaceuticals (Pty) Ltd,6.5,14,EML,J01DD01,HOSP,406970,10,2028-09-30
+HP02-2025AI,189708788,Cefotaxime; 500mg; injection; 1 Injection,Cefotaxime,OETHMAAN BIOSIMS (PTY) LTD,5.08,14,EML,J01DD01,HOSP,325556,20,2028-09-30
+HP02-2025AI,222001353,"Ceftazidime, Avibactam; 2000mg, 500mg; injection; 1 Injection","Ceftazidime, Avibactam",Pfizer Laboratories (Pty) Ltd,998.43,14,EML,J01DD52,HOSP,180320,1,2028-09-30
+HP02-2025AI,189708786,Ceftazidime; 1g; injection; 1 Injection,Ceftazidime,Resmed Healthcare Cc,22.98,14,EML,J01DD02,HOSP,116333,20,2028-09-30
+HP02-2025AI,180374734,Ceftazidime; 2g; injection; 1 Injection,Ceftazidime,Acino Pharma (Pty) Ltd,57.16,14,EML,J01DD02,HOSP,18803,10,2028-09-30
+HP02-2025AI,181750482,Ceftriaxone; 1g; injection; 1 Injection,Ceftriaxone,OETHMAAN BIOSIMS (PTY) LTD,6.49,14,EML,J01DD04,PHC,5512482,20,2028-09-30
+HP02-2025AI,181750482,Ceftriaxone; 1g; injection; 1 Injection,Ceftriaxone,Innovata Pharmaceuticals (Pty) Ltd,6.12,14,EML,J01DD04,PHC,5684151,100,2028-09-30
+HP02-2025AI,181750482,Ceftriaxone; 1g; injection; 1 Injection,Ceftriaxone,Unimed Healthcare (Pty) Ltd,5.85,14,EML,J01DD04,PHC,6143669,100,2028-09-30
+HP02-2025AI,181775872,Ceftriaxone; 250mg; injection; 1 Injection,Ceftriaxone,Innovata Pharmaceuticals (Pty) Ltd,4.23,14,EML,J01DD04,PHC,2062675,100,2028-09-30
+HP02-2025AI,181775872,Ceftriaxone; 250mg; injection; 1 Injection,Ceftriaxone,Unimed Healthcare (Pty) Ltd,4.04,14,EML,J01DD04,PHC,4812909,100,2028-09-30
+HP02-2025AI,181750480,Ceftriaxone; 500mg; injection; 1 Injection,Ceftriaxone,OETHMAAN BIOSIMS (PTY) LTD,5.08,14,EML,J01DD04,PHC,2431314,20,2028-09-30
+HP02-2025AI,181750480,Ceftriaxone; 500mg; injection; 1 Injection,Ceftriaxone,Resmed Healthcare Cc,5.24,14,EML,J01DD04,PHC,1620876,100,2028-09-30
+HP09-2023SD,222000438,Cetirizine; 10mg; Tablet; 28 Tablets,Cetirizine,Biotech Laboratories (Pty) Ltd,4.3,14,EML,R06AE07,PHC,2934882,100,2026-04-30
+HP09-2023SD,222000438,Cetirizine; 10mg; Tablet; 28 Tablets,Cetirizine,Austell Pharmaceuticals (Pty) Ltd,4.5,14,EML,R06AE07,PHC,4402324,10,2026-04-30
+HP12-2023LQ,181894020,Cetirizine; 1mg/ml; Syrup; 150 ml,Cetirizine,Cipla Medpro Manufacturing (Pty) Ltd,10.64,14,EML,R06AE07,PHC,706792,60,2026-09-30
+HP08-2023SSP,180328011,Cetomacrogol; 10%; Cream; 500 g,Cetomacrogol,Barrs Pharmaceuticals Industries (Pty) Ltd,17.16,14,NON-EML,D02AC,,381620,22,2026-06-30
+HP08-2023SSP,189716007,"Charcoal, Activated; Powder; 50 g","Charcoal, Activated",Biotech Laboratories (Pty) Ltd,26.04,14,EML,A07BA01,PHC,83190,1,2026-06-30
+HP04-2024ONC,189710834,Chlorambucil; 2mg; Tablet; 25 Tablets,Chlorambucil,Pharmacare Limited,453.62,14,EML,L01AA02,,3678,2,2026-06-30
+HP02-2025AI,189762331,"Chloramphenicol; 0.5%; Drop, Eye (20 applicators); 0.5 ml",Chloramphenicol,Soflens (Pty) Ltd,297.11,14,EML,S01AA01,HOSP,22557,3 boxes of 20,2028-09-30
+HP02-2025AI,189712133,"Chloramphenicol; 0.5%; Drop, Eye (20 applicators); 10 ml",Chloramphenicol,Gen-Eye (Pty) Ltd,75.57,14,EML,S01AA01,HOSP,130863,100,2028-09-30
+HP08-2023SSP,181821945,CHLORHEXIDINE GLUCONATE; 1%; obstetric cream; 250 ml,CHLORHEXIDINE GLUCONATE,Glenmark Pharmaceuticals SA (Pty) Ltd,57.5,14,EML,D08AC52,PHC,83590,48,2026-06-30
+HP12-2023LQ,180090749,"Chlorhexidine, Alcohol; 0.5%, 70%; Solution (without emolient); 500 ml","Chlorhexidine, Alcohol",Barrs Pharmaceuticals Industries (Pty) Ltd,17.43,14,EML,D08AC52,PHC,1539900,20,2026-09-30
+HP12-2023LQ,180090749,"Chlorhexidine, Alcohol; 0.5%, 70%; Solution (without emolient); 500 ml","Chlorhexidine, Alcohol",B Braun Medical (pty) Ltd,22.83,7,EML,D08AC52,PHC,1026600,20,2026-09-30
+HP12-2023LQ,189711309,"Chlorhexidine, Cetrimide; 1.5%, 15%; Liquid; 5 L","Chlorhexidine, Cetrimide",B Braun Medical (pty) Ltd,453.39,7,NON-EML,D08AC52,,25102,4,2026-09-30
+HP12-2023LQ,189705153,Chlorhexidine; 4%; Solution (Hibiscrub); 500 ml,Chlorhexidine,B Braun Medical (pty) Ltd,33.75,7,EML,D08AC02,PHC,1444435,20,2026-09-30
+HP12-2023LQ,189705153,Chlorhexidine; 4%; Solution (Hibiscrub); 500 ml,Chlorhexidine,Barrs Pharmaceuticals Industries (Pty) Ltd,29.3,14,EML,D08AC02,PHC,2166653,20,2026-09-30
+HP12-2023LQ,189711414,Chlorphenamine; 2mg/5ml; Syrup; 50 ml,Chlorphenamine,RANBAXY PHARMACEUTICALS (PTY) LTD,5.54,14,EML,R06AB04,PHC,16968440,64,2026-09-30
+HP09-2023SD,181821882,Chlorphenamine; 4mg; Tablet; 10 Tablets,Chlorphenamine,Adcock Ingram Healthcare (Pty) Ltd,1.39,14,EML,R06AB04,PHC,16923243,450,2026-04-30
+HP09-2023SD,181917348,Chlorphenamine; 4mg; Tablet; 30 Tablets,Chlorphenamine,Adcock Ingram Healthcare (Pty) Ltd,2.25,14,EML,R06AB04,PHC,5821446,390,2026-04-30
+HP09-2023SD,189711826,Chlorpromazine; 100mg; Tablet; 56 Tablets,Chlorpromazine,Biotech Laboratories (Pty) Ltd,120.54,14,EML,N05AA01,PHC,270313,147,2026-04-30
+HP09-2023SD,181868872,Chlorpromazine; 25mg; Tablet; 56 Tablets,Chlorpromazine,Biotech Laboratories (Pty) Ltd,45.28,14,EML,N05AA01,PHC,279999,147,2026-04-30
+HP04-2024ONC/01,189712364,Ciclosporin; 100mg/ml; Solution; 50 ml,Ciclosporin,Novartis SA (Pty) Ltd,1019.87,14,EML,L04AD01,TER,372,1,2026-06-30
+HP04-2024ONC/01,180001233,Ciclosporin; 100mg; Capsule; 50 Capsules,Ciclosporin,Novartis SA (Pty) Ltd,853.0,14,EML,L04AD01,TER,21073,1,2026-06-30
+HP04-2024ONC/01,180001218,Ciclosporin; 25mg; Capsule; 50 Capsules,Ciclosporin,Novartis SA (Pty) Ltd,213.42,14,EML,L04AD01,TER,39396,1,2026-06-30
+HP02-2025AI,189763036,Ciprofloxacin; 200mg/100ml; injection; 100 ml,Ciprofloxacin,FRESENIUS KABI SA (PTY) LTD,31.45,14,EML,J01MA02,HOSP,87486,10,2028-09-30
+HP02-2025AI,180302525,Ciprofloxacin; 250mg/5ml; Suspension; 100 ml,Ciprofloxacin,Bayer (Pty) Ltd,229.43,14,EML,J01MA02,PHC,243368,1,2028-09-30
+HP02-2025AI,189762972,Ciprofloxacin; 250mg; Tablet; 10 Tablets,Ciprofloxacin,RANBAXY PHARMACEUTICALS (PTY) LTD,4.72,14,EML,J01MA02,PHC,713002,100,2028-09-30
+HP02-2025AI,180073995,"Ciprofloxacin; 3mg/ml; Drop, Eye; 5 ml",Ciprofloxacin,FDC SA (Pty) Ltd,14.48,14,EML,S01AE03,HOSP,381965,125,2028-09-30
+HP02-2025AI,180185726,Ciprofloxacin; 400mg/200ml; injection; 200 ml,Ciprofloxacin,FRESENIUS KABI SA (PTY) LTD,39.96,14,EML,J01MA02,HOSP,191649,10,2028-09-30
+HP02-2025AI,189763034,Ciprofloxacin; 500mg; Tablet; 10 Tablets,Ciprofloxacin,Arya Pharma (Pty) Ltd,7.08,14,EML,J01MA02,PHC,1716936,100,2028-09-30
+HP02-2025AI,189763034,Ciprofloxacin; 500mg; Tablet; 10 Tablets,Ciprofloxacin,Biotech Laboratories (Pty) Ltd,6.66,14,EML,J01MA02,PHC,4006184,10,2028-09-30
+HP06-2024SVP,180308024,Cisatracurium; 10mg/5ml; injection; 5 ml,Cisatracurium,Accord Healthcare (Pty) Ltd,34.27,14,EML,M03AC11,HOSP,142625,20,2027-04-30
+HP06-2024SVP,181767288,Cisatracurium; 5mg/2.5ml; injection; 2.5 ml,Cisatracurium,Accord Healthcare (Pty) Ltd,25.3,14,EML,M03AC11,HOSP,144878,20,2027-04-30
+HP04-2024ONC,180348859,Cisplatin; 10mg/10ml; injection; 10 ml,Cisplatin,Accord Healthcare (Pty) Ltd,29.1,14,EML,L01XA01,TER,2669,20,2026-06-30
+HP04-2024ONC,180348860,Cisplatin; 50mg/50ml; injection; 50 ml,Cisplatin,Accord Healthcare (Pty) Ltd,97.75,14,EML,L01XA01,TER,43217,20,2026-06-30
+HP09-2023SD,181935507,Citalopram; 10mg; Tablet; 28 Tablets,Citalopram,Austell Pharmaceuticals (Pty) Ltd,12.59,14,EML,N06AB04,PHC,62215,10,2026-04-30
+HP09-2023SD,180129661,Citalopram; 20mg; Tablet; 28 Tablets,Citalopram,Austell Pharmaceuticals (Pty) Ltd,8.82,14,EML,N06AB04,PHC,1219700,10,2026-04-30
+HP09-2023SD,180129661,Citalopram; 20mg; Tablet; 28 Tablets,Citalopram,OETHMAAN BIOSIMS (PTY) LTD,7.95,14,EML,N06AB04,PHC,2845966,10,2026-04-30
+HP08-2023SSP,180035474,Citric Acid;  BP; Powder; 500 g,Citric Acid,Resmed Healthcare Cc,84.03,14,NON-EML,A09AB04,,14940,18,2026-06-30
+HP02-2025AI,180145713,Clarithromycin; 500mg; Tablet; 14 Tablets,Clarithromycin,RANBAXY PHARMACEUTICALS (PTY) LTD,62.1,14,EML,J01FA09,PHC,36982,180,2028-09-30
+HP02-2025AI,189712138,Clindamycin; 150mg; Capsule; 100 Capsules,Clindamycin,Pfizer Laboratories (Pty) Ltd,218.5,14,EML,J01FF01,HOSP,7435,1,2028-09-30
+HP02-2025AI,180103949,Clindamycin; 150mg; Capsule; 20 Capsules,Clindamycin,Aurogen SA (Pty) Ltd,37.8,14,EML,J01FF01,HOSP,141860,20,2028-09-30
+HP02-2025AI,189710888,Clindamycin; 600mg/4ml; injection; 4 ml,Clindamycin,FRESENIUS KABI SA (PTY) LTD,36.62,14,EML,J01FF01,HOSP,386623,120,2028-09-30
+HP08-2023SSP,189707981,Clobetasol; 0.05%; Cream; 25 g,Clobetasol,Pharmacare Limited,27.73,14,EML,D07AD01,TER,388650,40,2026-06-30
+HP08-2023SSP,189707980,Clobetasol; 0.05%; Ointment; 25 g,Clobetasol,Pharmacare Limited,29.77,14,EML,D07AD01,TER,826860,35,2026-06-30
+HP01-2025TB,222001709,Clofazimine; 100mg; Tablet; 100 Tablets,Clofazimine,Macleods Pharmaceuticals SA (Pty) Ltd,1021.66,14,NON-EML,J04BA01,,24764,12,2027-09-30
+HP03-2023CHM,180054777,Clomifene; 50mg; Tablet; 10 Tablets,Clomifene,Cipla Medpro Manufacturing (Pty) Ltd,47.95,14,EML,G03GB02,HOSP,6590,30 packs,2026-09-30
+HP09-2023SD,181797926,Clomipramine; 25mg; Tablet; 50 Tablets,Clomipramine,Equity Pharmaceuticals (pty) Ltd,114.31,14,EML,N06AA04,HOSP,37934,10,2026-04-30
+HP09-2023SD,222001088,Clonazepam; 0.5mg; Tablet; 84 Tablets,Clonazepam,Ascendis Pharma (Pty) Ltd,40.7,14,EML,N03AE01,HOSP,277101,10,2026-04-30
+HP06-2024SVP/01,180075726,Clonazepam; 1mg/ml; injection; 1 ml,Clonazepam,Pharmaco Distribution (Pty) Ltd,62.26,14,EML,N03AE01,HOSP,462945,1,2027-04-30
+HP12-2023LQ/01,189711400,"Clonazepam; 2.5mg/ml; Drop, Oral; 10 ml",Clonazepam,Pharmaco Distribution (Pty) Ltd,217.13,14,EML,N03AE01,HOSP,16167,1,2026-09-30
+HP09-2023SD,222001089,Clonazepam; 2mg; Tablet; 84 Tablets,Clonazepam,Ascendis Pharma (Pty) Ltd,95.17,14,EML,N03AE01,HOSP,159302,10,2026-04-30
+HP09-2023SD,180964072,Clopidogrel; 75mg; Tablet; 28 Tablets,Clopidogrel,Macleods Pharmaceuticals SA (Pty) Ltd,18.21,14,EML,B01AC04,HOSP,319709,100 x 28,2026-04-30
+HP06-2024SVP,180075729,Clotiapine; 40mg/4ml; injection; 4 ml,Clotiapine,Pharmaco Distribution (Pty) Ltd,31.63,14,NON-EML,N05AH06,,202362,1,2027-04-30
+HP02-2025AI,189705118,Clotrimazole; 1%; Cream; 20 g,Clotrimazole,Ascendis Pharma (Pty) Ltd,5.6,14,EML,D01AC01,PHC,623533,10,2028-09-30
+HP02-2025AI,189705118,Clotrimazole; 1%; Cream; 20 g,Clotrimazole,Biotech Laboratories (Pty) Ltd,4.5,14,EML,D01AC01,PHC,5611798,10,2028-09-30
+HP02-2025AI,181932694,"Clotrimazole; 500mg/50g; cream, vaginal; 50 g",Clotrimazole,Innovata Pharmaceuticals (Pty) Ltd,17.25,14,EML,G01AF02,PHC,1337184,100,2028-09-30
+HP02-2025AI,189710836,Clotrimazole; 500mg; Pessary; 1 Pessary,Clotrimazole,Glenmark Pharmaceuticals SA (Pty) Ltd,10.93,14,EML,G01AF02,PHC,1739261,20,2028-09-30
+HP02-2025AI,189705615,Cloxacillin; 250mg; injection; 1 Injection,Cloxacillin,FRESENIUS KABI SA (PTY) LTD,12.08,14,EML,J01CF02,HOSP,581700,300,2028-09-30
+HP02-2025AI,189705134,Cloxacillin; 500mg; injection; 1 Injection,Cloxacillin,FRESENIUS KABI SA (PTY) LTD,21.51,14,EML,J01CF02,HOSP,2771568,300,2028-09-30
+HP09-2023SD,189710025,Clozapine; 100mg; Tablet; 100 Tablets,Clozapine,Pharmacare Limited,105.41,14,EML,N05AH02,HOSP,303273,10,2026-04-30
+HP09-2023SD,189710069,Clozapine; 25mg; Tablet; 100 Tablets,Clozapine,Pharmacare Limited,36.5,14,EML,N05AH02,HOSP,136374,30,2026-04-30
+HP12-2023LQ,189712370,Coal Tar;  BP; Solution; 500 ml,Coal Tar,Resmed Healthcare Cc,59.89,14,EML,D05AA,PHC,24753,6,2026-09-30
+HP08-2023SSP,180199008,Coal Tar; shampoo (200-250ml); 250 ml,Coal Tar,Promed Pharmacare (Pty) Ltd,18.31,10,EML,D05AA,PHC,96216,100,2026-06-30
+HP09-2023SD,181937413,Colchicine; 500mcg; Tablet; 12 Tablets,Colchicine,Austell Pharmaceuticals (Pty) Ltd,17.28,14,EML,M04AC01,HOSP,677089,10,2026-04-30
+HP08-2023SSP/01,180046796,"Collagenase, Proteases;  BP; Ointment; 30 g","Collagenase, Proteases",Smith & Nephew (Pty) Ltd,320.77,14,NON-EML,D03BA52,,268846,Per Each 30g Tube,2026-06-30
+HP07-2023DAI,189712311,"Cromoglicic Acid; 2%; Drop, Eye; 10 ml",Cromoglicic Acid,Ipharma (Pty) Ltd,26.65,14,EML,S01GX01,PHC,789140,5,2026-08-31
+HP07-2023DAI,189711429,"Cyclopentolate, Phenylephrine; 2mg, 10mg/ml; Drop, Eye; 5 ml","Cyclopentolate, Phenylephrine",Alcon Laboratories (SA) (Pty) Ltd,89.19,14,EML,S01FA54,HOSP,79170,1,2026-08-31
+HP07-2023DAI,189711430,"Cyclopentolate; 1%; Drop, Eye; 15 ml",Cyclopentolate,Alcon Laboratories (SA) (Pty) Ltd,79.25,14,EML,S01FA04,HOSP,6130,1,2026-08-31
+HP07-2023DAI/01,181891597,"Cyclopentolate; 1%; Drop, Eye; 20 UDVs (0.5ml)",Cyclopentolate,Soflens (Pty) Ltd,332.51,14,EML,S01FA04,HOSP,1124,3 boxes of 20,2026-06-30
+HP04-2024ONC/01,189704487,Cyclophosphamide; 1g; injection; 1 Injection,Cyclophosphamide,BAXTER HEALTHCARE SA (PTY) LTD,191.38,14,EML,L01AA01,HOSP,58117,1,2026-06-30
+HP04-2024ONC,189714585,Cyclophosphamide; 50mg; Tablet; 50 Tablets,Cyclophosphamide,BAXTER HEALTHCARE SA (PTY) LTD,249.74,14,EML,L01AA01,HOSP,6050,1,2026-06-30
+HP03-2023CHM,189707439,"Cyproterone, Ethinylestradiol; 2mg, 0.035mg; Tablet; 28 Tablets","Cyproterone, Ethinylestradiol",Bayer (Pty) Ltd,17.95,14,EML,G03HB01,PHC,79880,1 x 28,2026-09-30
+HP03-2023CHM,180090442,Cyproterone; 100mg/ml; injection; 3 ml,Cyproterone,Bayer (Pty) Ltd,99.33,14,EML,G03HA01,TER,65550,1 x (3 x 3ml),2026-09-30
+HP03-2023CHM,189709124,Cyproterone; 50mg; Tablet; 20 Tablets,Cyproterone,Cipla Medpro Manufacturing (Pty) Ltd,110.12,14,EML,G03HA01,TER,216498,20 packs,2026-09-30
+HP04-2024ONC,180166911,Cytarabine; 100mg; injection; 1 Injection,Cytarabine,FRESENIUS KABI SA (PTY) LTD,97.01,14,EML,L01BC01,TER,9671,120,2026-06-30
+HP04-2024ONC,180166912,Cytarabine; 500mg; injection; 1 Injection,Cytarabine,FRESENIUS KABI SA (PTY) LTD,402.5,14,EML,L01BC01,TER,46225,120,2026-06-30
+HP04-2024ONC,180073563,Dacarbazine; 200mg; injection; 1 Injection,Dacarbazine,Ando Pharma (Pty) Ltd,494.5,14,EML,L01AX04,TER,28118,10 vials,2026-06-30
+HP09-2023SD,180280770,Danazol; 100mg; Capsule; 60 Capsules,Danazol,Cipla Medpro Manufacturing (Pty) Ltd,310.07,14,NON-EML,G03XA01,,6644,50,2026-04-30
+HP02-2025AI,189710181,Dapsone; 100mg; Tablet; 100 Tablets,Dapsone,Pharmacare Limited,340.15,14,EML,J04BA02,HOSP,25399,1,2028-09-30
+HP13-2025ARV,222001315,"Darunavir, Ritonavir; 400mg, 50mg; Tablet; 60 Tablets","Darunavir, Ritonavir",Hetero Drugs SA (Pty) Ltd,380.88,14,NON-EML,J05AR26,PHC,22058,24,2028-11-30
+HP13-2025ARV,181922274,Darunavir; 600mg; Tablet; 60 Tablets,Darunavir,Aurobindo Pharma (Pty) Ltd,561.14,14,NON-EML,J05AE10,,87453,48,2028-11-30
+HP04-2024ONC,189711112,Daunorubicin; 20mg; injection; 1 Injection,Daunorubicin,Pfizer Laboratories (Pty) Ltd,121.79,14,NON-EML,L01DB02,,9980,1,2026-06-30
+HP09-2023SD,222001427,Deferasirox; 180mg; Tablet; 30 Tablets,Deferasirox,Novartis SA (Pty) Ltd,1202.0,14,EML,V03AC03,TER,2833,1,2026-04-30
+HP09-2023SD,181810861,Deferasirox; 250mg; Tablet; 28 Tablets,Deferasirox,Novartis SA (Pty) Ltd,1121.86,14,EML,V03AC03,TER,5419,1,2026-04-30
+HP09-2023SD,181810862,Deferasirox; 500mg; Tablet; 28 Tablets,Deferasirox,Novartis SA (Pty) Ltd,2243.43,14,EML,V03AC03,TER,7619,1,2026-04-30
+HP06-2024SVP/01,180075755,Deferoxamine; 500mg; injection; 1 Injection,Deferoxamine,Novartis SA (Pty) Ltd,138.0,14,EML,V03AC01,HOSP,18116,1,2027-04-30
+HP01-2025TB,222000902,Delamanid; 50mg; Tablet; 48 Tablets,Delamanid,Viatris Healthcare (Pty) Ltd,1498.4,14,NON-EML,J04AK06,,58557,10,2027-09-30
+HP09-2023SD,180772047,Desmopressin; 0.1mg; Tablet; 30 Tablets,Desmopressin,Ferring (Pty) Ltd,467.37,14,EML,H01BA02,HOSP,18448,5,2026-04-30
+HP09-2023SD,181795796,Desmopressin; 0.2mg; Tablet; 30 Tablets,Desmopressin,Ferring (Pty) Ltd,613.48,14,EML,H01BA02,HOSP,15019,5,2026-04-30
+HP09-2023SD,222001428,Desmopressin; 120mcg; Tablet; 30 Tablets,Desmopressin,Ferring (Pty) Ltd,611.62,14,EML,H01BA02,HOSP,1698,5,2026-04-30
+HP09-2023SD,222001429,Desmopressin; 240mcg; Tablet; 30 Tablets,Desmopressin,Ferring (Pty) Ltd,1224.0,14,EML,H01BA02,HOSP,825,5,2026-04-30
+HP06-2024SVP,180075757,Desmopressin; 4mcg/ml; injection; 1 Injection,Desmopressin,Ferring (Pty) Ltd,98.3,14,EML,H01BA02,HOSP,15240,5 x 10 Ampoules pack (50 Ampoules),2027-04-30
+HP02-2025AI,189708057,"Dexamethasone, Neomycin, Polymyxin B; 1mg/ml, 3.5mg/ml, 6,000IU/ml; Drop, Eye; 5 ml","Dexamethasone, Neomycin, Polymyxin B",Novartis SA (Pty) Ltd,54.12,14,NON-EML,S01CA01,,389247,1,2028-09-30
+HP02-2025AI,189755066,"Dexamethasone, Neomycin, Polymyxin B; 1mg/ml, 3.5mg/ml, 6,000IU/ml; ointment, eye; 3.5 g","Dexamethasone, Neomycin, Polymyxin B",Novartis SA (Pty) Ltd,52.4,14,NON-EML,S01CA01,,176940,1,2028-09-30
+HP07-2023DAI,189711204,"Dexamethasone; 0.1%; Drop, Eye; 5 ml",Dexamethasone,Novartis SA (Pty) Ltd,12.32,14,EML,S01BA01,HOSP,508820,1,2026-08-31
+HP06-2024SVP,180075759,Dexamethasone; 4mg/ml; injection; 1 ml,Dexamethasone,Trinity Pharma (Pty) Ltd,6.83,14,EML,H02AB02,HOSP,1648878,10,2027-04-30
+HP06-2024SVP,181937349,Dexmedetomidine; 200mcg/2ml; injection; 2 ml,Dexmedetomidine,Accord Healthcare (Pty) Ltd,46.0,14,NON-EML,N05CM18,,90100,20,2027-04-30
+HP06-2024SVP,180075794,Dextrose In Water; 50%; injection; 20 ml,Dextrose In Water,FRESENIUS KABI SA (PTY) LTD,29.7,14,EML,B05BA03,PHC,1391400,130,2027-04-30
+HP06-2024SVP,180352804,Dextrose In Water; 50%; injection; 50 ml,Dextrose In Water,FRESENIUS KABI SA (PTY) LTD,44.64,14,EML,B05BA03,PHC,1437265,60,2027-04-30
+HP08-2023SSP,189712091,Dextrose Monohydrate;  BP; Powder; 500 g,Dextrose Monohydrate,Resmed Healthcare Cc,37.83,14,EML,V06DC01,PHC,9492,5,2026-06-30
+HP08-2023SSP,189716005,Dextrose Monohydrate;  BP; Powder; 75 g,Dextrose Monohydrate,Resmed Healthcare Cc,8.25,14,EML,V06DC01,PHC,345560,150,2026-06-30
+HP11-2023LVP/01,180005302,"Dextrose, Electrolyte; 5%; Infusion (parenteral); 1 L","Dextrose, Electrolyte",Adcock Ingram Critical Care (Pty) Ltd,51.34,14,EML,B05BB02,HOSP,63910,12,2026-09-30
+HP11-2023LVP,180019333,"Dextrose, Maintelyte; 10%; Infusion (parenteral); 1 L","Dextrose, Maintelyte",Adcock Ingram Critical Care (Pty) Ltd,22.73,14,EML,B05BB02,HOSP,221844,12,2026-09-30
+HP11-2023LVP,180031182,"Dextrose, Maintelyte; 5%; Infusion (parenteral); 1 L","Dextrose, Maintelyte",Adcock Ingram Critical Care (Pty) Ltd,20.0,14,EML,B05BB02,HOSP,540370,12,2026-09-30
+HP11-2023LVP,189703042,Dextrose; 10%; Infusion (parenteral); 1 L,Dextrose,FRESENIUS KABI SA (PTY) LTD,36.23,14,EML,B05BA03,PHC,195017,12,2026-09-30
+HP11-2023LVP,180018990,Dextrose; 5%; Infusion (parenteral); 1 L,Dextrose,Adcock Ingram Critical Care (Pty) Ltd,19.6,14,EML,B05BA03,PHC,1532483,12,2026-09-30
+HP11-2023LVP,189761558,Dextrose; 5%; Infusion (parenteral); 100 ml,Dextrose,Adcock Ingram Critical Care (Pty) Ltd,10.24,14,EML,B05BA03,PHC,135918,50,2026-09-30
+HP11-2023LVP,189761516,Dextrose; 5%; Infusion (parenteral); 200 ml,Dextrose,Adcock Ingram Critical Care (Pty) Ltd,12.55,14,EML,B05BA03,PHC,922777,36,2026-09-30
+HP11-2023LVP,189761557,Dextrose; 5%; Infusion (parenteral); 50 ml,Dextrose,Adcock Ingram Critical Care (Pty) Ltd,8.59,14,EML,B05BA03,PHC,345574,72,2026-09-30
+HP11-2023LVP,189711855,Dextrose; 50%; Infusion (parenteral); 500 ml,Dextrose,FRESENIUS KABI SA (PTY) LTD,115.0,14,EML,B05BA03,PHC,15598,20,2026-09-30
+HP06-2024SVP,180075798,Diazepam; 10mg/2ml; injection; 2 ml,Diazepam,Unimed Healthcare (Pty) Ltd,4.75,14,EML,N05BA01,PHC,489430,200,2027-04-30
+HP09-2023SD,180280749,Diazepam; 5mg; Tablet; 100 Tablets,Diazepam,Innovata Pharmaceuticals (Pty) Ltd,11.06,14,EML,N05BA01,PHC,124845,50 x 100 tablets,2026-04-30
+HP09-2023SD,222001090,Diazepam; 5mg; Tablet; 14 Tablets,Diazepam,Innovata Pharmaceuticals (Pty) Ltd,5.22,14,EML,N05BA01,PHC,178906,50 x 14 tablets,2026-04-30
+HP09-2023SD,189714440,Diazoxide; 20mg; Capsule; 100 Capsules,Diazoxide,MSD (Pty) Ltd,478.43,14,EML,C02DA01,HOSP,2477,1,2026-04-30
+HP09-2023SD,222001430,diclofenac; 50mg; Tablet; 28 Tablets,diclofenac,OETHMAAN BIOSIMS (PTY) LTD,7.67,14,EML,M01AB05,PHC,2421745,20,2026-04-30
+HP09-2023SD,222001430,diclofenac; 50mg; Tablet; 28 Tablets,diclofenac,Viatris Healthcare (Pty) Ltd,8.2,14,EML,M01AB05,PHC,1037891,864,2026-04-30
+HP09-2023SD,222001431,diclofenac; 50mg; Tablet; 9 Tablets,diclofenac,OETHMAAN BIOSIMS (PTY) LTD,3.72,14,EML,M01AB05,PHC,1177200,60,2026-04-30
+HP09-2023SD,222001431,diclofenac; 50mg; Tablet; 9 Tablets,diclofenac,Viatris Healthcare (Pty) Ltd,3.56,14,EML,M01AB05,PHC,1765800,864,2026-04-30
+HP06-2024SVP,180075799,Diclofenac; 75mg/3ml; Injection; 3 ml,Diclofenac,Innovata Pharmaceuticals (Pty) Ltd,1.84,14,EML,M01AB05,HOSP,1887884,300 (6 cartons x 50 ampoules),2027-04-30
+HP06-2024SVP,180075799,Diclofenac; 75mg/3ml; Injection; 3 ml,Diclofenac,Biotech Laboratories (Pty) Ltd,1.24,14,EML,M01AB05,HOSP,7551536,5,2027-04-30
+HP09-2023SD,222001091,Digoxin; 250mcg; Tablet; 30 Tablets,Digoxin,Pharmacare Limited,15.05,14,EML,C01AA05,HOSP,553305,70,2026-04-30
+HP06-2024SVP,180075803,Digoxin; 500mcg/2ml; injection; 2 ml,Digoxin,Pharmacare Limited,22.46,14,NON-EML,C01AA05,,32922,5,2027-04-30
+HP09-2023SD,181898753,Digoxin; 62.5mcg; Tablet; 100 Tablets,Digoxin,Pharmacare Limited,102.47,14,EML,C01AA05,HOSP,18710,10,2026-04-30
+HP08-2023SSP,189753544,"Dinoprostone; 1mg/3g; Syringe, Prefilled; 3 g",Dinoprostone,Pfizer Laboratories (Pty) Ltd,456.72,14,EML,G02AD02,HOSP,73617,1,2026-06-30
+HP06-2024SVP,189715235,Dobutamine; 250mg/20ml; injection; 20 ml,Dobutamine,FRESENIUS KABI SA (PTY) LTD,103.5,14,EML,C01CA07,HOSP,237900,50,2027-04-30
+HP04-2024ONC,180182958,Docetaxel; 20mg/ml; injection; 1 ml,Docetaxel,Accord Healthcare (Pty) Ltd,91.94,14,EML,L01CD02,TER,14265,20,2026-06-30
+HP04-2024ONC,180182961,Docetaxel; 80mg/4ml; injection; 4 ml,Docetaxel,Accord Healthcare (Pty) Ltd,183.94,14,EML,L01CD02,TER,39812,20,2026-06-30
+HP13-2025ARV,222001655,"Dolutegravir, Emtricitabine, Tenofovir Alafenamide; 50mg, 200mg, 25mg; Tablet; 180 Tablets","Dolutegravir, Emtricitabine, Tenofovir Alafenamide",Viatris Healthcare (Pty) Ltd,538.49,14,EML,J05AR29,HOSP,37333,40,2028-11-30
+HP13-2025ARV,222001602,"Dolutegravir, Lamivudine, Tenofovir Alafenamide; 50mg, 300mg, 25mg; Tablet; 30 Tablets","Dolutegravir, Lamivudine, Tenofovir Alafenamide",Viatris Healthcare (Pty) Ltd,91.54,14,EML,J05AR,HOSP,605257,192,2028-11-30
+HP13-2025ARV,222001656,"Dolutegravir, Lamivudine, Tenofovir Alafenamide; 50mg, 300mg, 25mg; Tablet; 90 Tablets","Dolutegravir, Lamivudine, Tenofovir Alafenamide",Viatris Healthcare (Pty) Ltd,269.24,14,EML,J05AR,HOSP,135758,80,2028-11-30
+HP13-2025ARV,222001316,"Dolutegravir; 10mg; Tablet, dispersible; 28 Tablets",Dolutegravir,Macleods Pharmaceuticals SA (Pty) Ltd,27.34,14,EML,J05AJ03,PHC,1021403,240,2028-11-30
+HP13-2025ARV,222001316,"Dolutegravir; 10mg; Tablet, dispersible; 28 Tablets",Dolutegravir,Viatris Healthcare (Pty) Ltd,30.3,14,EML,J05AJ03,PHC,437744,144,2028-11-30
+HP13-2025ARV,222000208,"Dolutegravir; 50mg; tablet, scored; 30 Tablets",Dolutegravir,Sonke Pharmaceuticals (Pty) Ltd,25.13,14,EML,J05AJ03,PHC,209506,144,2028-11-30
+HP13-2025ARV,181936065,Dolutegravir; 50mg; Tablet; 30 Tablets,Dolutegravir,EMCURE PHARMACEUTICALS SA (PTY) LTD,17.25,14,EML,J05AJ03,PHC,2863094,150,2028-11-30
+HP13-2025ARV,181936065,Dolutegravir; 50mg; Tablet; 30 Tablets,Dolutegravir,Viatris Healthcare (Pty) Ltd,18.93,14,EML,J05AJ03,PHC,4294641,90,2028-11-30
+HP09-2023SD,189763011,Doxazosin; 1mg; Tablet; 30 Tablets,Doxazosin,Viatris Healthcare (Pty) Ltd,16.81,14,EML,C02CA04,HOSP,315258,50,2026-04-30
+HP09-2023SD,189763013,Doxazosin; 4mg; Tablet; 30 Tablets,Doxazosin,Aurogen SA (Pty) Ltd,15.52,14,EML,C02CA04,HOSP,2737682,1 pack,2026-04-30
+HP09-2023SD,189763013,Doxazosin; 4mg; Tablet; 30 Tablets,Doxazosin,Viatris Healthcare (Pty) Ltd,17.8,14,EML,C02CA04,HOSP,4106522,210,2026-04-30
+HP04-2024ONC,189762107,Doxorubicin; 10mg/5ml; injection; 5 ml,Doxorubicin,Accord Healthcare (Pty) Ltd,46.0,14,EML,L01DB01,TER,13514,20,2026-06-30
+HP04-2024ONC,189762108,Doxorubicin; 50mg/25ml; injection; 25 ml,Doxorubicin,Accord Healthcare (Pty) Ltd,115.0,14,EML,L01DB01,TER,79173,20,2026-06-30
+HP02-2025AI,222000938,Doxycycline; 100mg; Tablet; 100 Tablets,Doxycycline,Biotech Laboratories (Pty) Ltd,43.26,14,EML,J01AA02,PHC,15790,1,2028-09-30
+HP02-2025AI,222001528,Doxycycline; 100mg; Tablet; 14 Tablets,Doxycycline,Arya Pharma (Pty) Ltd,7.1,14,EML,J01AA02,PHC,2952973,100,2028-09-30
+HP13-2025ARV,181922255,Efavirenz; 200mg; Tablet; 84 Tablets,Efavirenz,Viatris Healthcare (Pty) Ltd,51.66,14,EML,J05AG03,PHC,86896,144,2028-11-30
+HP13-2025ARV,181896196,Efavirenz; 600mg; Tablet; 28 Tablets,Efavirenz,Viatris Healthcare (Pty) Ltd,40.23,14,EML,J05AG03,PHC,191384,144,2028-11-30
+HP08-2023SSP,189713910,Electrode Gel (Ecg) Chloride Free;  BP; Gel; 250 ml,Electrode Gel (Ecg) Chloride Free,Lechoba Medical Technologies (Pty) Ltd,12.45,7,NON-EML,V07AY,,133840,66,2026-06-30
+HP11-2023LVP,180058953,"Electrolyte No 2 Solution: Na, K, Cl, Mg, Hpo4, Dextrose; injection; 1 L","Electrolyte No 2 Solution: Na, K, Cl, Mg, Hpo4, Dextrose",FRESENIUS KABI SA (PTY) LTD,39.1,14,Other,B05BB02,,65024,12,2026-09-30
+HP10-2025BIO,222001684,Emicizumab Parenteral Administration Kit V4; 1ml Syringes (1 Kit of 12 Needles And Syringes); 1 Kit,Emicizumab Parenteral Administration Kit V4,Roche Products (Pty) Ltd,0.0,14,,,TER,1000,1 Kit of 12 Needles and Syringes,2027-12-31
+HP10-2025BIO,222001685,Emicizumab Parenteral Administration Kit V5; 2ml Syringes (1 Kit of 12 Needles And Syringes); 1 Kit,Emicizumab Parenteral Administration Kit V5,Roche Products (Pty) Ltd,0.0,14,,,TER,1000,1 Kit of 12 Needles and Syringes,2027-12-31
+HP10-2025BIO,222001028,Emicizumab; 105mg; injection; 1 Injection,Emicizumab,Roche Products (Pty) Ltd,25982.0,14,EML,B02BX06,TER,884,1,2027-12-31
+HP10-2025BIO,222001075,Emicizumab; 150mg; injection; 1 Injection,Emicizumab,Roche Products (Pty) Ltd,37117.0,14,EML,B02BX06,TER,212,1,2027-12-31
+HP10-2025BIO,222001143,Emicizumab; 30mg; injection; 1 Injection,Emicizumab,Roche Products (Pty) Ltd,7423.0,14,EML,B02BX06,TER,735,1,2027-12-31
+HP10-2025BIO,222000967,Emicizumab; 60mg; injection; 1 Injection,Emicizumab,Roche Products (Pty) Ltd,14847.0,14,EML,B02BX06,TER,353,1,2027-12-31
+HP08-2023SSP,189707512,Emulsifying;  BP; Ointment; 500 g,Emulsifying,Evohealth (Pty) Ltd,34.55,14,EML,D02AC,PHC,3065620,120,2026-06-30
+HP09-2023SD,189708531,Enalapril; 10mg; Tablet; 28 Tablets,Enalapril,Unimed Healthcare (Pty) Ltd,5.26,14,EML,C09AA02,PHC,12751893,200,2026-04-30
+HP09-2023SD,189708531,Enalapril; 10mg; Tablet; 28 Tablets,Enalapril,Arya Pharma (Pty) Ltd,4.45,14,EML,C09AA02,PHC,25000000,200,2026-04-30
+HP09-2023SD,189708531,Enalapril; 10mg; Tablet; 28 Tablets,Enalapril,Pharmacare Limited,4.58,14,EML,C09AA02,PHC,37751893,200,2026-04-30
+HP09-2023SD,189710187,Enalapril; 20mg; Tablet; 30 Tablets,Enalapril,Arya Pharma (Pty) Ltd,6.78,14,EML,C09AA02,PHC,16717868,200,2026-04-30
+HP09-2023SD,189710187,Enalapril; 20mg; Tablet; 30 Tablets,Enalapril,Pharmacare Limited,6.7,14,EML,C09AA02,PHC,4179467,150,2026-04-30
+HP09-2023SD,189710188,Enalapril; 5mg; Tablet; 28 Tablets,Enalapril,RANBAXY PHARMACEUTICALS (PTY) LTD,3.88,14,EML,C09AA02,PHC,3434215,240,2026-04-30
+HP09-2023SD,189710188,Enalapril; 5mg; Tablet; 28 Tablets,Enalapril,Arya Pharma (Pty) Ltd,4.14,14,EML,C09AA02,PHC,5151323,200,2026-04-30
+HP06-2024SVP,222001599,"Enoxaparin; 20mg/0.2ml; Syringe, Prefilled; 0.2 ml",Enoxaparin,Sanofi-Aventis SA (Pty) Ltd,43.99,14,EML,B01AB05,HOSP,3600,10,2027-04-30
+HP06-2024SVP,180077964,"Enoxaparin; 40mg/0.4ml; Syringe, Prefilled; 0.4 ml",Enoxaparin,Sanofi-Aventis SA (Pty) Ltd,42.49,14,EML,B01AB05,HOSP,9283410,10,2027-04-30
+HP06-2024SVP,222000901,"Enoxaparin; 60mg/0.6ml; Syringe, Prefilled; 0.6 ml",Enoxaparin,Sanofi-Aventis SA (Pty) Ltd,53.5,14,EML,B01AB05,HOSP,1193990,10,2027-04-30
+HP06-2024SVP,180970533,"Enoxaparin; 80mg/0.8ml; Syringe, Prefilled; 0.8 ml",Enoxaparin,Sanofi-Aventis SA (Pty) Ltd,64.6,14,EML,B01AB05,HOSP,1820608,10,2027-04-30
+HP06-2024SVP,189713748,Ephedrine; 50mg/ml; injection; 1 ml,Ephedrine,Pfizer Laboratories (Pty) Ltd,26.84,14,EML,C01CA26,HOSP,291960,1,2027-04-30
+HP06-2024SVP,222000173,Epinephrine (Adrenaline); 0.15mg/0.3ml; auto-pen; 0.3 ml,Epinephrine (Adrenaline),Viatris Healthcare (Pty) Ltd,849.0,14,EML,C01CA24,PHC,2334,10,2027-04-30
+HP06-2024SVP,222000174,Epinephrine (Adrenaline); 0.3mg/0.3ml; auto-pen; 0.3 ml,Epinephrine (Adrenaline),Viatris Healthcare (Pty) Ltd,849.0,14,EML,C01CA24,PHC,1126,10,2027-04-30
+HP04-2024ONC,189710736,Epirubicin; 10mg/5ml; injection; 5 ml,Epirubicin,Accord Healthcare (Pty) Ltd,114.94,14,EML,L01DB03,TER,900,20,2026-06-30
+HP04-2024ONC,189710735,Epirubicin; 50mg/25ml; injection; 25 ml,Epirubicin,Accord Healthcare (Pty) Ltd,287.44,14,EML,L01DB03,TER,17930,20,2026-06-30
+HP06-2024SVP/02,180076474,"Ergometrine, Oxytocin; 500mcg, 5IU; injection; 1 ml","Ergometrine, Oxytocin",Adcock Ingram Critical Care (Pty) Ltd,109.37,14,EML,G02AC01,PHC,146731,5,2027-04-30
+HP02-2025AI,222000942,Ertapenem; 1g; injection; 1 Injection,Ertapenem,Aurogen SA (Pty) Ltd,310.5,14,NON-EML,J01DH03,,212620,10,2028-09-30
+HP06-2024SVP,222001233,Erythropoietin; 10000IU; injection; 1 ml,Erythropoietin,Roche Products (Pty) Ltd,232.45,10,EML,B03XA01,HOSP,64058,1 pack of 6 vials,2027-04-30
+HP06-2024SVP,222000447,"Erythropoietin; 2000IU/0.3ml; Syringe, Prefilled; 1 Syringe, Pre-filled",Erythropoietin,Roche Products (Pty) Ltd,50.32,10,EML,B03XA01,HOSP,688189,1 pack of 6 vials,2027-04-30
+HP06-2024SVP,181829692,"Erythropoietin; 30000IU/0.6ml; Syringe, Prefilled; 1 Syringe, Pre-filled",Erythropoietin,Roche Products (Pty) Ltd,762.64,10,EML,B03XA01,HOSP,3468,1 vial,2027-04-30
+HP06-2024SVP,222001235,Erythropoietin; 4000IU; injection; 1 ml,Erythropoietin,Roche Products (Pty) Ltd,75.47,10,EML,B03XA01,HOSP,544027,1 pack of 6 vials,2027-04-30
+HP06-2024SVP,222001234,Erythropoietin; 6000IU; injection; 1 ml,Erythropoietin,Roche Products (Pty) Ltd,157.37,10,EML,B03XA01,HOSP,10000,1 pack of 6 vials,2027-04-30
+HP03-2023CHM,222001524,"Estradiol and Dydrogesterone 1/0 (14) and 1/10mg (14) tablet, 28 tablets, calendar pack; 28 Tablets","Estradiol and Dydrogesterone 1/0 (14) and 1/10mg (14) tablet, 28 tablets, calendar pack",Abbott Laboratories SA (Pty) Ltd,109.25,14,EML,G03FB08,PHC,61000,10,2026-09-30
+HP03-2023CHM,181767218,"Estradiol, Norethisterone Acetate; 1mg, 0.5mg; Tablet; 28 Tablets","Estradiol, Norethisterone Acetate",Novo Nordisk (pty) Ltd,101.2,14,EML,G03CA53,PHC,19126,10,2026-09-30
+HP03-2023CHM,180212294,"Estradiol, Norethisterone Acetate; 2mg, 1mg; Tablet; 28 Tablets","Estradiol, Norethisterone Acetate",Novo Nordisk (pty) Ltd,117.38,14,EML,G03CA53,PHC,2015060,10,2026-09-30
+HP03-2023CHM,180142527,Estradiol; 1mg; Tablet; 28 Tablets,Estradiol,Novo Nordisk (pty) Ltd,43.21,14,EML,G03CA03,PHC,27682,10,2026-09-30
+HP03-2023CHM,180155496,Estradiol; 2mg; Tablet; 28 Tablets,Estradiol,Novo Nordisk (pty) Ltd,81.23,14,EML,G03CA03,PHC,53093,10,2026-09-30
+HP03-2023CHM,181814209,"Estrogen, Conjugated ; 0.3mg; Tablet; 28 Tablets","Estrogen, Conjugated ",Pfizer Laboratories (Pty) Ltd,132.0,14,EML,G03CA57,PHC,88068,1,2026-09-30
+HP03-2023CHM,181892392,"Estrogen, Conjugated ; 0.625mg; Tablet; 28 Tablets","Estrogen, Conjugated ",Pfizer Laboratories (Pty) Ltd,153.9,14,EML,G03CA57,PHC,696355,1,2026-09-30
+HP01-2025TB,181817490,Ethionamide; 250mg; Tablet; 56 Tablets,Ethionamide,Macleods Pharmaceuticals SA (Pty) Ltd,172.0,14,EML,J04AD03,PHC,9300,60,2027-09-30
+HP01-2025TB,181817491,Ethionamide; 250mg; Tablet; 84 Tablets,Ethionamide,Macleods Pharmaceuticals SA (Pty) Ltd,258.0,14,EML,J04AD03,PHC,8410,60,2027-09-30
+HP12-2023LQ/01,189750547,Ethyl Chloride; spray topical; 100 ml,Ethyl Chloride,ACS Pharma Access Health Solutions (Pty) Ltd,172.48,14,NON-EML,N01BX01,,17661,25,2026-09-30
+HP06-2024SVP,180075956,Etomidate; 20mg/10ml; injection; 10 ml,Etomidate,B Braun Medical (pty) Ltd,45.35,14,EML,N01AX07,HOSP,137607,10,2027-04-30
+HP03-2023CHM,181902532,Etonogestrel; 68mg; Implant; 1 Device,Etonogestrel,Organon SA (Pty) Ltd,385.25,14,EML,G03AC08,PHC,1323010,1,2026-09-30
+HP04-2024ONC,180076160,Etoposide; 100mg; injection; 1 Injection,Etoposide,FRESENIUS KABI SA (PTY) LTD,128.8,14,EML,L01CB01,TER,51169,10,2026-06-30
+HP04-2024ONC/01,181807552,Everolimus; 250mcg; Tablet; 60 Tablets,Everolimus,Novartis SA (Pty) Ltd,683.46,14,NON-EML,L04AA18,,1497,1,2026-06-30
+HP04-2024ONC/01,181810492,Everolimus; 750mcg; Tablet; 60 Tablets,Everolimus,Novartis SA (Pty) Ltd,2050.29,14,NON-EML,L04AA18,,1505,1,2026-06-30
+HP04-2024ONC,181785231,Exemestane; 25mg; Tablet; 30 Tablets,Exemestane,Pfizer Laboratories (Pty) Ltd,186.13,14,EML,L02BG06,TER,2183,1,2026-06-30
+HP09-2023SD,181797762,Ezetimibe; 10mg; Tablet; 30 Tablets,Ezetimibe,Viatris Healthcare (Pty) Ltd,35.64,14,EML,C10AX09,TER,36652,50,2026-04-30
+HP06-2024SVP,180075959,Fentanyl; 100mcg/2ml; injection; 2 ml,Fentanyl,FRESENIUS KABI SA (PTY) LTD,12.88,14,EML,N01AH01,HOSP,565324,100,2027-04-30
+HP06-2024SVP,180075960,Fentanyl; 500mcg/10ml; injection; 10 ml,Fentanyl,FRESENIUS KABI SA (PTY) LTD,23.0,14,EML,N01AH01,HOSP,70008,215,2027-04-30
+HP12-2023LQ,180079580,Ferrous Gluconate; 350mg/5ml; Syrup; 100 ml,Ferrous Gluconate,Resmed Healthcare Cc,6.99,14,EML,B03AA03,PHC,952268,100,2026-09-30
+HP09-2023SD,181923348,Ferrous Sulfate Co; 170mg; Tablet; 28 Tablets,Ferrous Sulfate Co,Gulf Drug Company (Pty) Ltd,8.28,14,EML,B03AA07,PHC,21839815,50,2026-04-30
+HP09-2023SD,181923349,Ferrous Sulfate Co; 170mg; Tablet; 56 Tablets,Ferrous Sulfate Co,Gulf Drug Company (Pty) Ltd,15.19,14,EML,B03AA07,PHC,1926251,50,2026-04-30
+HP09-2023SD,181923350,Ferrous Sulfate Co; 170mg; Tablet; 84 Tablets,Ferrous Sulfate Co,Gulf Drug Company (Pty) Ltd,22.16,14,EML,B03AA07,PHC,2699735,50,2026-04-30
+HP04-2024ONC,181747103,"Filgrastim; 30MU; Syringe, Prefilled; 1 Syringe, Pre-filled",Filgrastim,Sandoz SA (Pty) Ltd,274.76,14,EML,L03AA02,TER,125100,50,2026-06-30
+HP04-2024ONC,180954695,"Filgrastim; 48MU; Syringe, Prefilled; 1 Syringe, Pre-filled",Filgrastim,Sandoz SA (Pty) Ltd,398.3,14,EML,L03AA02,TER,5997,50,2026-06-30
+HP02-2025AI,189710066,Flucloxacillin; 250mg; Capsule; 100 Capsules,Flucloxacillin,Innovata Pharmaceuticals (Pty) Ltd,62.41,14,EML,J01CF05,PHC,92314,75,2028-09-30
+HP02-2025AI,180342029,Flucloxacillin; 250mg; Capsule; 20 Capsules,Flucloxacillin,Unimed Healthcare (Pty) Ltd,12.17,14,EML,J01CF05,PHC,3681066,200,2028-09-30
+HP02-2025AI,180342029,Flucloxacillin; 250mg; Capsule; 20 Capsules,Flucloxacillin,OETHMAAN BIOSIMS (PTY) LTD,13.26,14,EML,J01CF05,PHC,1577600,180,2028-09-30
+HP02-2025AI,181818543,Flucloxacillin; 250mg; Capsule; 40 Capsules,Flucloxacillin,OETHMAAN BIOSIMS (PTY) LTD,24.15,14,EML,J01CF05,PHC,3622627,108,2028-09-30
+HP02-2025AI,181818543,Flucloxacillin; 250mg; Capsule; 40 Capsules,Flucloxacillin,Innovata Pharmaceuticals (Pty) Ltd,23.92,14,EML,J01CF05,PHC,1552555,500,2028-09-30
+HP02-2025AI,180101098,Fluconazole; 200mg/100ml; Infusion (parenteral); 100 ml,Fluconazole,Biotech Laboratories (Pty) Ltd,16.2,14,EML,J02AC01,HOSP,474654,10,2028-09-30
+HP02-2025AI,180962874,Fluconazole; 200mg; Tablet; 28 Tablets,Fluconazole,Biotech Laboratories (Pty) Ltd,29.73,14,EML,J02AC01,PHC,505856,10,2028-09-30
+HP02-2025AI,181791499,Fluconazole; 50mg/5ml; Suspension; 35 ml,Fluconazole,Pfizer Laboratories (Pty) Ltd,191.44,14,EML,J02AC01,PHC,89870,1,2028-09-30
+HP02-2025AI,222001217,Fluconazole; 50mg; Tablet; 14 Tablets,Fluconazole,Biotech Laboratories (Pty) Ltd,8.65,14,EML,J02AC01,PHC,267855,10,2028-09-30
+HP04-2024ONC,180221925,Fludarabine; 50mg; injection; 1 Injection,Fludarabine,TEVA PHARMACEUTICALS (PTY) LTD,2175.67,14,EML,L01BB05,TER,3610,1,2026-06-30
+HP09-2023SD/01,189710316,Fludrocortisone; 0.1mg; Tablet; 100 Tablets,Fludrocortisone,Pharmacare Limited,317.96,14,EML,H02AA02,HOSP,2767,5,2026-04-30
+HP08-2023SSP,189714641,Fluocinolone Acetonide; 0.025%; Gel; 30 g,Fluocinolone Acetonide,Glenmark Pharmaceuticals SA (Pty) Ltd,74.75,14,EML,D07AC04,PHC,161458,88,2026-06-30
+HP08-2023SSP,189702797,Fluocinolone Acetonide; 0.025%; Ointment; 15 g,Fluocinolone Acetonide,Pharmacare Limited,15.53,14,EML,D07AC04,PHC,1174790,70,2026-06-30
+HP05-2024DI,181837484,Fluorescein; 100mg/ml; injection; 5 ml,Fluorescein,Alcon Laboratories (SA) (Pty) Ltd,315.45,14,NON-EML,S01JA01,,805,12 units,2027-06-30
+HP04-2024ONC,222001262,Fluorouracil; 1g; injection; 1 Injection,Fluorouracil,TEVA PHARMACEUTICALS (PTY) LTD,93.89,14,EML,L01BC02,TER,21561,22,2026-06-30
+HP04-2024ONC,180166914,Fluorouracil; 5%; Ointment; 20 g,Fluorouracil,Viatris Healthcare (Pty) Ltd,678.49,14,EML,L01BC02,TER,7601,20,2026-06-30
+HP09-2023SD,180106075,Fluoxetine; 20mg; Capsule; 100 Capsules,Fluoxetine,Unimed Healthcare (Pty) Ltd,23.71,14,EML,N06AB03,PHC,372863,100,2026-04-30
+HP09-2023SD,180106075,Fluoxetine; 20mg; Capsule; 100 Capsules,Fluoxetine,OETHMAAN BIOSIMS (PTY) LTD,21.2,14,EML,N06AB03,PHC,1491452,100,2026-04-30
+HP09-2023SD,189712353,Fluoxetine; 20mg; Capsule; 28 Capsules,Fluoxetine,OETHMAAN BIOSIMS (PTY) LTD,6.75,14,EML,N06AB03,PHC,3581956,10,2026-04-30
+HP09-2023SD,189712353,Fluoxetine; 20mg; Capsule; 28 Capsules,Fluoxetine,Shanur Healthcare (Pty) Ltd,7.71,14,EML,N06AB03,PHC,895489,10,2026-04-30
+HP09-2023SD,180670485,Fluoxetine; 20mg; Tablet; 28 Tablets,Fluoxetine,Pharmacare Limited,11.63,14,EML,N06AB03,PHC,444019,100,2026-04-30
+HP06-2024SVP/01,180017761,Flupentixol; 20mg/ml; injection; 1 ml,Flupentixol,Lundbeck South Africa (pty) Ltd,43.19,14,EML,N05AF01,PHC,1400670,5,2027-04-30
+HP07-2023DAI,189763130,"Fluticasone Propionate; 50mcg; Spray, Nasal; 120 Doses",Fluticasone Propionate,Cipla Medpro Manufacturing (Pty) Ltd,22.64,14,EML,R01AD08,PHC,3598235,192 packs,2026-08-31
+HP09-2023SD,189757933,Folic Acid; 5mg; Tablet; 100 Tablets,Folic Acid,RANBAXY PHARMACEUTICALS (PTY) LTD,12.84,14,EML,B03BB01,PHC,660841,200,2026-04-30
+HP09-2023SD,189713751,Folic Acid; 5mg; Tablet; 28 Tablets,Folic Acid,Gulf Drug Company (Pty) Ltd,6.25,14,EML,B03BB01,PHC,16348424,50,2026-04-30
+HP09-2023SD,189713751,Folic Acid; 5mg; Tablet; 28 Tablets,Folic Acid,RANBAXY PHARMACEUTICALS (PTY) LTD,4.99,14,EML,B03BB01,PHC,12420000,28,2026-04-30
+HP07-2023DAI,181840032,Formoterol; 12mcg; Inhaler; 120 Doses,Formoterol,Cipla Medpro Manufacturing (Pty) Ltd,71.83,14,EML,R03AC13,PHC,29125,160,2026-08-31
+HP02-2025AI,222000019,Fosfomycin; Granules; 1 Sachet (3g),Fosfomycin,Adcock Ingram Healthcare (Pty) Ltd,62.78,14,EML,J01XX01,PHC,299560,144,2028-09-30
+HP12-2023LQ,189714763,Furosemide; 10mg/ml; Solution; 100 ml,Furosemide,Sanofi-Aventis SA (Pty) Ltd,301.67,14,EML,C03CA01,PHC,53213,30,2026-09-30
+HP06-2024SVP,180075982,Furosemide; 20mg/2ml; injection; 2 ml,Furosemide,Adcock Ingram Critical Care (Pty) Ltd,3.23,14,EML,C03CA01,PHC,2728384,10,2027-04-30
+HP06-2024SVP,180075982,Furosemide; 20mg/2ml; injection; 2 ml,Furosemide,Unimed Healthcare (Pty) Ltd,3.28,14,EML,C03CA01,PHC,2728384,500,2027-04-30
+HP09-2023SD,181859966,Furosemide; 40mg; Tablet; 112 Tablets,Furosemide,Trinity Pharma (Pty) Ltd,15.8,14,EML,C03CA01,PHC,404425,300,2026-04-30
+HP09-2023SD,180339712,Furosemide; 40mg; Tablet; 28 Tablets,Furosemide,Austell Pharmaceuticals (Pty) Ltd,5.05,14,EML,C03CA01,PHC,5160751,10,2026-04-30
+HP09-2023SD,180339712,Furosemide; 40mg; Tablet; 28 Tablets,Furosemide,Trinity Pharma (Pty) Ltd,4.75,14,EML,C03CA01,PHC,3440501,300,2026-04-30
+HP09-2023SD,181798154,Furosemide; 40mg; Tablet; 56 Tablets,Furosemide,Unimed Healthcare (Pty) Ltd,9.31,14,EML,C03CA01,PHC,1243070,200,2026-04-30
+HP09-2023SD,181798154,Furosemide; 40mg; Tablet; 56 Tablets,Furosemide,Trinity Pharma (Pty) Ltd,8.37,14,EML,C03CA01,PHC,1864605,300,2026-04-30
+HP09-2023SD,181798156,Furosemide; 40mg; Tablet; 84 Tablets,Furosemide,Trinity Pharma (Pty) Ltd,12.59,14,EML,C03CA01,PHC,649435,300,2026-04-30
+HP09-2023SD,189710019,Furosemide; 500mg; Tablet; 100 Tablets,Furosemide,Sanofi-Aventis SA (Pty) Ltd,3570.13,14,EML,C03CA01,HOSP,12184,72,2026-04-30
+HP06-2024SVP,180075985,Furosemide; 50mg/5ml; injection; 5 ml,Furosemide,Pharma-Q (Pty) Ltd,6.0,14,EML,C03CA01,PHC,316990,300,2027-04-30
+HP09-2023SD,180103509,Gabapentin; 100mg; Capsule; 100 Capsules,Gabapentin,Biotech Laboratories (Pty) Ltd,58.03,14,EML,N03AX12,TER,51112,10,2026-04-30
+HP09-2023SD,180103511,Gabapentin; 300mg; Capsule; 100 Capsules,Gabapentin,Biotech Laboratories (Pty) Ltd,113.01,14,EML,N03AX12,TER,18459,10,2026-04-30
+HP09-2023SD,180103512,Gabapentin; 400mg; Capsule; 100 Capsules,Gabapentin,Biotech Laboratories (Pty) Ltd,143.56,14,EML,N03AX12,TER,1832,10,2026-04-30
+HP05-2024DI,180073826,Gadopentetic Acid; 469.01mg/ml; injection; 20 ml,Gadopentetic Acid,Bayer (Pty) Ltd,177.11,14,NON-EML,V08CA01,,18640,10,2027-06-30
+HP02-2025AI,180156448,Ganciclovir; 500mg; injection; 1 Injection,Ganciclovir,Pharmaco Distribution (Pty) Ltd,748.16,14,EML,J05AB06,HOSP,41010,1,2028-09-30
+HP04-2024ONC,180188832,Gemcitabine; 1g; injection; 1 Injection,Gemcitabine,Hetero Drugs SA (Pty) Ltd,169.54,14,EML,L01BC05,TER,21348,1,2026-06-30
+HP04-2024ONC,180188801,Gemcitabine; 200mg; injection; 1 Injection,Gemcitabine,Hetero Drugs SA (Pty) Ltd,74.75,14,EML,L01BC05,TER,2910,1,2026-06-30
+HP02-2025AI,189710974,Gentamicin; 20mg/2ml; injection; 2 ml,Gentamicin,FRESENIUS KABI SA (PTY) LTD,5.0,14,EML,J01GB03,HOSP,470702,270,2028-09-30
+HP02-2025AI,180056669,Gentamicin; 80mg/2ml; injection; 2 ml,Gentamicin,FRESENIUS KABI SA (PTY) LTD,7.25,14,EML,J01GB03,HOSP,2694011,270,2028-09-30
+HP09-2023SD,180189209,Glibenclamide; 5mg; Tablet; 28 Tablets,Glibenclamide,Unimed Healthcare (Pty) Ltd,4.07,14,EML,A10BB01,PHC,1384126,300,2026-04-30
+HP09-2023SD,180189209,Glibenclamide; 5mg; Tablet; 28 Tablets,Glibenclamide,OETHMAAN BIOSIMS (PTY) LTD,3.73,14,EML,A10BB01,PHC,3229627,100,2026-04-30
+HP09-2023SD,180340162,Glibenclamide; 5mg; Tablet; 56 Tablets,Glibenclamide,Unimed Healthcare (Pty) Ltd,6.73,14,EML,A10BB01,PHC,686802,300,2026-04-30
+HP09-2023SD,180340162,Glibenclamide; 5mg; Tablet; 56 Tablets,Glibenclamide,OETHMAAN BIOSIMS (PTY) LTD,5.56,14,EML,A10BB01,PHC,2747209,100,2026-04-30
+HP09-2023SD,180340166,Glibenclamide; 5mg; Tablet; 84 Tablets,Glibenclamide,OETHMAAN BIOSIMS (PTY) LTD,7.11,14,EML,A10BB01,PHC,1244729,100,2026-04-30
+HP09-2023SD,222001094,Glimepiride; 1mg; Tablet; 28 Tablets,Glimepiride,Austell Pharmaceuticals (Pty) Ltd,3.74,14,EML,A10BB12,PHC,558183,10,2026-04-30
+HP09-2023SD,222001094,Glimepiride; 1mg; Tablet; 28 Tablets,Glimepiride,OETHMAAN BIOSIMS (PTY) LTD,3.1,14,EML,A10BB12,PHC,2232732,100,2026-04-30
+HP09-2023SD,222001095,Glimepiride; 2mg; Tablet; 28 Tablets,Glimepiride,OETHMAAN BIOSIMS (PTY) LTD,4.81,14,EML,A10BB12,PHC,4548893,100,2026-04-30
+HP09-2023SD,222001095,Glimepiride; 2mg; Tablet; 28 Tablets,Glimepiride,Unimed Healthcare (Pty) Ltd,5.68,14,EML,A10BB12,PHC,1137223,200,2026-04-30
+HP09-2023SD,222001096,Glimepiride; 4mg; Tablet; 28 Tablets,Glimepiride,OETHMAAN BIOSIMS (PTY) LTD,6.99,14,EML,A10BB12,PHC,2926732,100,2026-04-30
+HP09-2023SD,222001096,Glimepiride; 4mg; Tablet; 28 Tablets,Glimepiride,Austell Pharmaceuticals (Pty) Ltd,7.11,14,EML,A10BB12,PHC,1951154,10,2026-04-30
+HP12-2023LQ,189715124,Glycerol;  BP; Liquid; 500 ml,Glycerol,Resmed Healthcare Cc,48.97,14,EML,A06AX01,HOSP,12496,14,2026-09-30
+HP12-2023LQ,189712406,Glyco Thymol Co; Mouthwash; 100 ml,Glyco Thymol Co,Resmed Healthcare Cc,3.87,14,EML,A01AB11,HOSP,1456222,100,2026-09-30
+HP04-2024ONC,180969540,"Goserelin; 10.8mg; Syringe, Prefilled; 1 Syringe, Pre-filled",Goserelin,AstraZeneca Pharmaceuticals (Pty) Ltd,878.55,14,EML,L02AE03,TER,68329,5,2026-06-30
+HP04-2024ONC,189709944,"Goserelin; 3.6mg; Syringe, Prefilled; 1 Syringe, Pre-filled",Goserelin,AstraZeneca Pharmaceuticals (Pty) Ltd,519.71,14,EML,L02AE03,TER,8010,5,2026-06-30
+HP04-2024ONC,180073795,Granisetron; 3mg/3ml; injection; 3 ml,Granisetron,Acino Pharma (Pty) Ltd,16.86,14,EML,A04AA02,HOSP,154550,100,2026-06-30
+HP11-2023LVP,189705608,Half Darrow With Glucose; 5%; Infusion (parenteral); 200 ml,Half Darrow With Glucose,Adcock Ingram Critical Care (Pty) Ltd,14.52,14,EML,B05BB02,HOSP,828620,36,2026-09-30
+HP11-2023LVP,189711189,Half Darrow With Glucose; 5%; Infusion (parenteral); 500 ml,Half Darrow With Glucose,Adcock Ingram Critical Care (Pty) Ltd,17.44,14,EML,B05BB02,HOSP,565616,18,2026-09-30
+HP09-2023SD,189710367,Haloperidol; 1.5mg; Tablet; 100 Tablets,Haloperidol,OETHMAAN BIOSIMS (PTY) LTD,16.91,14,EML,N05AD01,PHC,309576,200,2026-04-30
+HP09-2023SD,189710327,Haloperidol; 5mg; Tablet; 100 Tablets,Haloperidol,OETHMAAN BIOSIMS (PTY) LTD,21.71,14,EML,N05AD01,PHC,378556,200,2026-04-30
+HP09-2023SD,181923352,Haloperidol; 5mg; Tablet; 28 Tablets,Haloperidol,OETHMAAN BIOSIMS (PTY) LTD,6.24,14,EML,N05AD01,PHC,1415286,100,2026-04-30
+HP09-2023SD,181923353,Haloperidol; 5mg; Tablet; 56 Tablets,Haloperidol,OETHMAAN BIOSIMS (PTY) LTD,13.74,14,EML,N05AD01,PHC,246875,50,2026-04-30
+HP12-2023LQ,189750285,Halothane; Liquid; 250 ml,Halothane,Safeline Pharmaceuticals (Pty) Ltd,449.05,14,EML,N01AB01,HOSP,900,72,2026-09-30
+HP06-2024SVP/01,189710951,Heparin; 25000IU/5ml; injection; 5 ml,Heparin,FRESENIUS KABI SA (PTY) LTD,80.08,14,EML,B01AB01,HOSP,1093520,60,2027-04-30
+HP06-2024SVP/01,189715772,Heparin; 5000IU/5ml; injection; 5 ml,Heparin,FRESENIUS KABI SA (PTY) LTD,34.34,14,EML,B01AB01,HOSP,604248,150,2027-04-30
+HP10-2025BIO,180352238,"Human Coagulation Factor Concentrate: Activated Prothrombin Complex; 1,000IU; injection; 1 Injection",Human Coagulation Factor Concentrate: Activated Prothrombin Complex,TAKEDA (PTY) LTD,12958.78,5,EML,B02BD03,TER,7975,5,2027-12-31
+HP10-2025BIO,180323313,Human Coagulation Factor Concentrate: Activated Prothrombin Complex; 500IU; injection; 1 Injection,Human Coagulation Factor Concentrate: Activated Prothrombin Complex,TAKEDA (PTY) LTD,6479.39,5,EML,B02BD03,TER,3730,5,2027-12-31
+HP10-2025BIO,180169317,Human Coagulation Factor Concentrate: Factor Ix Complex; 500IU; injection; 1 Injection,Human Coagulation Factor Concentrate: Factor Ix Complex,NATIONAL BIOPRODUCTS INSTITUTE NPC,2338.55,14,EML,B02BD04,HOSP,53097,15,2027-12-31
+HP10-2025BIO,181894394,"Human Coagulation Factor Concentrate: Factor Viia Complex; 100,000IU; injection; 1 Injection",Human Coagulation Factor Concentrate: Factor Viia Complex,Novo Nordisk (pty) Ltd,21962.26,14,EML,B02BD08,TER,4764,1,2027-12-31
+HP10-2025BIO,181918372,"Human Coagulation Factor Concentrate: Factor Viia Complex; 250,000IU; injection; 1 Injection",Human Coagulation Factor Concentrate: Factor Viia Complex,Novo Nordisk (pty) Ltd,54905.66,14,EML,B02BD08,TER,552,1,2027-12-31
+HP10-2025BIO,181893510,"Human Coagulation Factor Concentrate: Factor Viia Complex; 50,000IU; injection; 1 Injection",Human Coagulation Factor Concentrate: Factor Viia Complex,Novo Nordisk (pty) Ltd,10981.13,14,EML,B02BD08,TER,2934,1,2027-12-31
+HP10-2025BIO,180172066,"Human Coagulation Factor Concentrate: Factor Viii Complex; 1,000IU; injection; 1 Injection",Human Coagulation Factor Concentrate: Factor Viii Complex,NATIONAL BIOPRODUCTS INSTITUTE NPC,3762.16,14,EML,B02BD02,HOSP,68861,10,2027-12-31
+HP10-2025BIO,180263367,Human Coagulation Factor Concentrate: Factor Viii Complex; 300IU; injection; 1 Injection,Human Coagulation Factor Concentrate: Factor Viii Complex,NATIONAL BIOPRODUCTS INSTITUTE NPC,1266.73,14,EML,B02BD02,HOSP,3328,15,2027-12-31
+HP10-2025BIO,180169780,Human Coagulation Factor Concentrate: Factor Viii Complex; 500IU; injection; 1 Injection,Human Coagulation Factor Concentrate: Factor Viii Complex,NATIONAL BIOPRODUCTS INSTITUTE NPC,1952.99,14,EML,B02BD02,HOSP,96175,15,2027-12-31
+HP07-2023DAI,189711240,"Hyaluronic Acid; 10mg/ml; Syringe, Prefilled; 0.4 ml",Hyaluronic Acid,Alcon Laboratories (SA) (Pty) Ltd,169.83,14,EML,S01KA01,HOSP,56170,1,2026-08-31
+HP07-2023DAI,180087337,"Hyaluronic Acid; 10mg/ml; Syringe, Prefilled; 0.55 ml",Hyaluronic Acid,Alcon Laboratories (SA) (Pty) Ltd,224.56,14,EML,S01KA01,HOSP,84420,1,2026-08-31
+HP07-2023DAI,180301660,"Hyaluronidase; 1,500IU; injection; 1 Injection",Hyaluronidase,Viatris Healthcare (Pty) Ltd,451.37,14,NON-EML,B06AA03,,35540,10,2026-08-31
+HP09-2023SD,181798157,Hydralazine; 25mg; Tablet; 56 Tablets,Hydralazine,Kiara Health (Pty) Ltd,25.49,14,EML,C02DB02,HOSP,1461275,140,2026-04-30
+HP09-2023SD,180091224,Hydralazine; 25mg; Tablet; 84 Tablets,Hydralazine,Kiara Health (Pty) Ltd,40.15,14,EML,C02DB02,HOSP,336125,140,2026-04-30
+HP09-2023SD,181821883,Hydrochlorothiazide; 12.5mg; Tablet; 28 Tablets,Hydrochlorothiazide,Pharmacare Limited,4.17,14,EML,C03AA03,PHC,77794182,250,2026-04-30
+HP09-2023SD,180190405,Hydrochlorothiazide; 25mg; Tablet; 28 Tablets,Hydrochlorothiazide,Shanur Healthcare (Pty) Ltd,4.37,14,EML,C03AA03,PHC,10265039,10,2026-04-30
+HP09-2023SD,180190405,Hydrochlorothiazide; 25mg; Tablet; 28 Tablets,Hydrochlorothiazide,Pharmacare Limited,4.08,14,EML,C03AA03,PHC,14664341,250,2026-04-30
+HP09-2023SD,180190405,Hydrochlorothiazide; 25mg; Tablet; 28 Tablets,Hydrochlorothiazide,Unimed Healthcare (Pty) Ltd,4.69,14,EML,C03AA03,PHC,4399302,200,2026-04-30
+HP08-2023SSP,189709037,Hydrocortisone; 1%; Cream (20-25g); 20 g,Hydrocortisone,Pharmacare Limited,16.87,14,EML,D07AA02,PHC,5618090,60,2026-06-30
+HP08-2023SSP,180320694,Hydrocortisone; 1%; Ointment (20-25g); 25 g,Hydrocortisone,Pharmacare Limited,26.73,14,EML,D07AA02,PHC,2398160,40,2026-06-30
+HP06-2024SVP/01,180018040,Hydrocortisone; 100mg/2ml; injection; 2 ml,Hydrocortisone,Macleods Pharmaceuticals SA (Pty) Ltd,21.76,14,EML,H02AB09,PHC,3289338,2 x 50 vials,2027-04-30
+HP09-2023SD,189710516,Hydrocortisone; 10mg; Tablet; 100 Tablets,Hydrocortisone,Adcock Ingram Healthcare (Pty) Ltd,166.51,14,EML,H02AB09,HOSP,22322,50,2026-04-30
+HP12-2023LQ,189700824,Hydrogen Perioxide; 6%; Solution; 500 ml,Hydrogen Perioxide,Resmed Healthcare Cc,25.28,14,Other,D08AX01,,76464,24,2026-09-30
+HP07-2023DAI,180034698,"Hydroxypropylmethylcellulose; 3mg/ml; Drop, Eye; 20 ml",Hydroxypropylmethylcellulose,Adcock Ingram Healthcare (Pty) Ltd,19.77,14,EML,S01KA02,HOSP,1057380,210 (1 Shipper),2026-08-31
+HP04-2024ONC/02,189761385,Hydroxyurea; 500mg; Capsule; 100 Capsules,Hydroxyurea,Equity Pharmaceuticals (pty) Ltd,458.98,14,EML,L01XX35,,8954,10,2026-06-30
+HP09-2023SD,189711820,Hyoscine butylbromide; 10mg; Tablet; 10 Tablets,Hyoscine butylbromide,Pharmacare Limited,24.95,14,EML,A03BB01,PHC,4012167,40,2026-04-30
+HP09-2023SD,189711820,Hyoscine butylbromide; 10mg; Tablet; 10 Tablets,Hyoscine butylbromide,Adcock Ingram Healthcare (Pty) Ltd,28.18,14,EML,A03BB01,PHC,2674778,50,2026-04-30
+HP06-2024SVP,180076081,Hyoscine butylbromide; 20mg/ml; injection; 1 ml,Hyoscine butylbromide,Pharma-Q (Pty) Ltd,5.78,14,EML,A03BB01,HOSP,819406,300,2027-04-30
+HP06-2024SVP,180076081,Hyoscine butylbromide; 20mg/ml; injection; 1 ml,Hyoscine butylbromide,Unimed Healthcare (Pty) Ltd,5.62,14,EML,A03BB01,HOSP,1229110,250,2027-04-30
+HP12-2023LQ,180074004,Hyoscine butylbromide; 5mg/5ml; Syrup; 100 ml,Hyoscine butylbromide,Pharmacare Limited,22.06,14,EML,A03BB01,PHC,202198,50,2026-09-30
+HP04-2024ONC,222000026,Ibandronic acid; 6mg; injection; 6 ml,Ibandronic acid,Accord Healthcare (Pty) Ltd,113.85,14,EML,M05BA06,TER,11804,20,2026-06-30
+HP12-2023LQ,189712348,Ibuprofen; 100mg/5ml; Suspension; 100 ml,Ibuprofen,Pharmaceutical Contractors (pty) Ltd,13.93,14,EML,M01AE01,PHC,3087947,96,2026-09-30
+HP09-2023SD,180339460,Ibuprofen; 200mg; Tablet; 15 Tablets,Ibuprofen,Shanur Healthcare (Pty) Ltd,3.71,14,EML,M01AE01,PHC,11484330,10,2026-04-30
+HP09-2023SD,180339460,Ibuprofen; 200mg; Tablet; 15 Tablets,Ibuprofen,Adcock Ingram Healthcare (Pty) Ltd,4.03,14,EML,M01AE01,PHC,10009262,240,2026-04-30
+HP09-2023SD,180339460,Ibuprofen; 200mg; Tablet; 15 Tablets,Ibuprofen,Unimed Healthcare (Pty) Ltd,3.61,14,EML,M01AE01,PHC,11678371,200,2026-04-30
+HP09-2023SD,181798173,Ibuprofen; 200mg; Tablet; 42 Tablets,Ibuprofen,Unimed Healthcare (Pty) Ltd,8.46,14,EML,M01AE01,PHC,1963076,200,2026-04-30
+HP09-2023SD,181798173,Ibuprofen; 200mg; Tablet; 42 Tablets,Ibuprofen,Adcock Ingram Healthcare (Pty) Ltd,8.41,14,EML,M01AE01,PHC,1308718,192,2026-04-30
+HP09-2023SD,180339461,Ibuprofen; 200mg; Tablet; 84 Tablets,Ibuprofen,RANBAXY PHARMACEUTICALS (PTY) LTD,13.85,14,EML,M01AE01,PHC,1529655,200,2026-04-30
+HP09-2023SD,181923355,Ibuprofen; 400mg; Tablet; 15 Tablets,Ibuprofen,Unimed Healthcare (Pty) Ltd,5.0,14,EML,M01AE01,PHC,4088704,200,2026-04-30
+HP09-2023SD,181923355,Ibuprofen; 400mg; Tablet; 15 Tablets,Ibuprofen,Shanur Healthcare (Pty) Ltd,5.14,14,EML,M01AE01,PHC,2725802,10,2026-04-30
+HP09-2023SD,189711816,Ibuprofen; 400mg; Tablet; 84 Tablets,Ibuprofen,Unimed Healthcare (Pty) Ltd,23.6,14,EML,M01AE01,PHC,846284,100,2026-04-30
+HP09-2023SD,189711816,Ibuprofen; 400mg; Tablet; 84 Tablets,Ibuprofen,Shanur Healthcare (Pty) Ltd,23.4,14,EML,M01AE01,PHC,1269426,10,2026-04-30
+HP08-2023SSP,189714886,Ichthammol;  BP; Ointment; 500 g,Ichthammol,Biotech Laboratories (Pty) Ltd,135.7,14,NON-EML,D05AA,,14170,1,2026-06-30
+HP04-2024ONC/01,189714258,Ifosfamide; 1g; injection; 1 Injection,Ifosfamide,BAXTER HEALTHCARE SA (PTY) LTD,862.17,14,EML,L01AA06,TER,4942,1,2026-06-30
+HP04-2024ONC/01,189714259,Ifosfamide; 2g; injection; 1 Injection,Ifosfamide,BAXTER HEALTHCARE SA (PTY) LTD,1392.98,14,EML,L01AA06,TER,12220,1,2026-06-30
+HP04-2024ONC/01,189714257,Ifosfamide; 500mg; injection; 1 Injection,Ifosfamide,BAXTER HEALTHCARE SA (PTY) LTD,631.08,14,EML,L01AA06,TER,180,1,2026-06-30
+HP04-2024ONC,181758086,Imatinib; 100mg; Tablet; 60 Tablets,Imatinib,Hetero Drugs SA (Pty) Ltd,99.73,14,EML,L01XE01,TER,14257,1,2026-06-30
+HP04-2024ONC,181911919,Imatinib; 400mg; Tablet; 30 Tablets,Imatinib,Hetero Drugs SA (Pty) Ltd,224.4,14,EML,L01XE01,TER,16302,1,2026-06-30
+HP02-2025AI,222000943,"Imipenem, Cilastatin; 500mg, 500mg; injection; 1 Injection","Imipenem, Cilastatin",RANBAXY PHARMACEUTICALS (PTY) LTD,60.95,14,EML,J01DH51,HOSP,601212,24,2028-09-30
+HP10-2025BIO,189755220,"Immunoglobulin, Anti-D; 100mcg; injection; 2 ml","Immunoglobulin, Anti-D",NATIONAL BIOPRODUCTS INSTITUTE NPC,948.39,14,EML,J06BB01,PHC,83176,20,2027-12-31
+HP10-2025BIO,180351608,"Immunoglobulin, Hepatitis B;  100IU/ml; injection; 1 Injection","Immunoglobulin, Hepatitis B",NATIONAL BIOPRODUCTS INSTITUTE NPC,979.7,14,EML,J06BB04,PHC,6115,20,2027-12-31
+HP10-2025BIO,180177484,"Immunoglobulin, Human, Normal; 12g; Infusion (parenteral); 1 Injection","Immunoglobulin, Human, Normal",NATIONAL BIOPRODUCTS INSTITUTE NPC,6595.39,14,EML,J06BA02,TER,30456,6,2027-12-31
+HP10-2025BIO,180082278,"Immunoglobulin, Human, Normal; 16%; injection; 5 ml","Immunoglobulin, Human, Normal",NATIONAL BIOPRODUCTS INSTITUTE NPC,376.38,14,EML,J06BA02,HOSP,2275,20,2027-12-31
+HP10-2025BIO,180082250,"Immunoglobulin, Human, Normal; 1g; Infusion (parenteral); 1 Injection","Immunoglobulin, Human, Normal",NATIONAL BIOPRODUCTS INSTITUTE NPC,805.93,14,EML,J06BA02,HOSP,14203,12,2027-12-31
+HP10-2025BIO,180082906,"Immunoglobulin, Human, Normal; 3g; Infusion (parenteral); 1 Injection","Immunoglobulin, Human, Normal",NATIONAL BIOPRODUCTS INSTITUTE NPC,1648.85,14,EML,J06BA02,HOSP,17036,10,2027-12-31
+HP10-2025BIO,189712717,"Immunoglobulin, Human, Normal; 6g; Infusion (parenteral); 1 Injection","Immunoglobulin, Human, Normal",NATIONAL BIOPRODUCTS INSTITUTE NPC,3300.14,14,EML,J06BA02,HOSP,14478,10,2027-12-31
+HP10-2025BIO,189706843,"Immunoglobulin, Rabies; 150IU/ml; injection; 2 ml","Immunoglobulin, Rabies",NATIONAL BIOPRODUCTS INSTITUTE NPC,1043.01,14,EML,J06BB05,PHC,113788,20,2027-12-31
+HP07-2023DAI,222001018,Indacaterol; 150mcg; Inhaler; 30 Capsules,Indacaterol,Novartis SA (Pty) Ltd,133.73,14,EML,R03AC18,PHC,13600,1,2026-08-31
+HP09-2023SD,189714494,Indometacin; 25mg; Capsule; 100 Capsules,Indometacin,Resmed Healthcare Cc,18.9,14,EML,M01AB01,HOSP,3240000,200,2026-04-30
+HP06-2024SVP/02,222001641,"Insulin, Analogue, Human, Biphasic 30/70; 100IU/ml; pen, prefilled; 3 ml","Insulin, Analogue, Human, Biphasic 30/70",Novo Nordisk (pty) Ltd,69.93,14,,A10AD01,PHC,9709286,54,2027-04-30
+HP06-2024SVP,222000179,"Insulin, Analogue, Human, Long Acting; 100IU/ml; pen, prefilled; 3 ml","Insulin, Analogue, Human, Long Acting",Sanofi-Aventis SA (Pty) Ltd,41.06,14,EML,A10AE01,PHC,1062590,5,2027-04-30
+HP06-2024SVP,222000181,"Insulin, Analogue, Human, Ultrafast-Acting; 100IU/ml; pen, prefilled; 3 ml","Insulin, Analogue, Human, Ultrafast-Acting",Sanofi-Aventis SA (Pty) Ltd,78.09,14,EML,A10AB01,PHC,249620,5,2027-04-30
+HP06-2024SVP,189710587,"Insulin, Biosynthetic,  Human, Isophane; 100IU/ml; injection; 10 ml","Insulin, Biosynthetic,  Human, Isophane",Novo Nordisk (pty) Ltd,43.65,14,EML,A10AD01,PHC,968400,160,2027-04-30
+HP06-2024SVP,189711634,"Insulin, Biosynthetic, Human, Biphasic 30/70; 100IU/ml; injection; 10 ml","Insulin, Biosynthetic, Human, Biphasic 30/70",Novo Nordisk (pty) Ltd,43.65,14,EML,A10AD01,PHC,5514880,160,2027-04-30
+HP06-2024SVP,189710585,"Insulin, Biosynthetic, Human, Soluble; 100IU/ml; injection; 10 ml","Insulin, Biosynthetic, Human, Soluble",Novo Nordisk (pty) Ltd,43.65,14,EML,A10AB01,PHC,390810,160,2027-04-30
+HP06-2024SVP,189710585,"Insulin, Biosynthetic, Human, Soluble; 100IU/ml; injection; 10 ml","Insulin, Biosynthetic, Human, Soluble",Shanur Healthcare (Pty) Ltd,38.51,14,EML,A10AB01,PHC,130270,10,2027-04-30
+HP04-2024ONC,222000039,Interferon Beta-1a; 12MIU; injection; 1 Injection,Interferon Beta-1a,Merck (pty) Ltd,410.47,14,EML,L03AB07,TER,548,1,2026-06-30
+HP04-2024ONC,222000038,Interferon Beta-1a; 22mcg/0.5ml; injection; 1 Injection,Interferon Beta-1a,Merck (pty) Ltd,368.47,14,EML,L03AB07,TER,5515,1,2026-06-30
+HP04-2024ONC,222001070,Interferon Beta-1b; 8MIU; injection; 1 Injection,Interferon Beta-1b,Bayer (Pty) Ltd,345.0,14,EML,L03AB08,TER,14025,15,2026-06-30
+HP05-2024DI/01,189711690,Iohexol; 300mg/ml; injection; 100 ml,Iohexol,GE Healthcare (Pty) Ltd,379.3,14,EML,V08AB02,HOSP,374700,10,2027-06-30
+HP05-2024DI/01,189715375,Iohexol; 300mg/ml; injection; 50 ml,Iohexol,GE Healthcare (Pty) Ltd,189.65,14,EML,V08AB02,HOSP,135400,10,2027-06-30
+HP05-2024DI/01,189711691,Iohexol; 350mg/ml; injection; 100 ml,Iohexol,GE Healthcare (Pty) Ltd,442.51,14,EML,V08AB02,HOSP,355480,10,2027-06-30
+HP05-2024DI/01,189709118,Iohexol; 350mg/ml; injection; 50 ml,Iohexol,GE Healthcare (Pty) Ltd,221.26,14,EML,V08AB02,HOSP,88700,10,2027-06-30
+HP05-2024DI,222001598,Iopamidol; 300mg/ml; injection (Iodine Eq); 100 ml,Iopamidol,Africa X-RAY Industrial and Medical (Pty) Ltd,492.6,10,EML,V08AB04,HOSP,1500,30,2027-06-30
+HP05-2024DI,222001597,Iopamidol; 300mg/ml; injection (Iodine Eq); 50 ml,Iopamidol,Africa X-RAY Industrial and Medical (Pty) Ltd,254.18,10,EML,V08AB04,HOSP,750,30,2027-06-30
+HP05-2024DI,222000031,Iopamidol; 370mg/ml; injection (Iodine Eq); 100 ml,Iopamidol,Africa X-RAY Industrial and Medical (Pty) Ltd,663.12,10,EML,V08AB04,HOSP,6716,30,2027-06-30
+HP05-2024DI,222000030,Iopamidol; 370mg/ml; injection (Iodine Eq); 50 ml,Iopamidol,Africa X-RAY Industrial and Medical (Pty) Ltd,342.17,10,EML,V08AB04,HOSP,2500,30,2027-06-30
+HP07-2023DAI,222001019,Ipratropium Bromide; 20mcg; Inhaler; 200 Doses,Ipratropium Bromide,Ingelheim Pharmaceuticals (pty) Ltd,109.25,14,EML,R03BB01,PHC,96050,1,2026-08-31
+HP07-2023DAI,180114760,"Ipratropium Bromide; 250mcg/2ml; solution, inhalation; 60 UDVs (2ml)",Ipratropium Bromide,Adcock Ingram Critical Care (Pty) Ltd,126.19,14,EML,R03BB01,PHC,92200,1 x 60 amps,2026-08-31
+HP07-2023DAI,180008212,"Ipratropium Bromide; 500mcg/2ml; solution, inhalation; 60 UDVs (2ml)",Ipratropium Bromide,Adcock Ingram Critical Care (Pty) Ltd,132.58,14,EML,R03BB01,PHC,71340,1 x 60 amps,2026-08-31
+HP04-2024ONC,180281234,Irinotecan; 100mg/5ml; injection; 5 ml,Irinotecan,Hetero Drugs SA (Pty) Ltd,99.73,14,EML,L01XX19,TER,9958,1,2026-06-30
+HP04-2024ONC,180347574,Irinotecan; 40mg/2ml; injection; 2 ml,Irinotecan,Hetero Drugs SA (Pty) Ltd,62.33,14,EML,L01XX19,TER,944,1,2026-06-30
+HP06-2024SVP,181891028,Iron (III) Hydroxide Dextran Complex; 100mg/2ml; injection; 2 ml,Iron (III) Hydroxide Dextran Complex,Acino Pharma (Pty) Ltd,62.03,14,EML,B03AC,HOSP,295681,5,2027-04-30
+HP06-2024SVP,181871852,Iron (III) Hydroxide Dextran Complex; 500mg/10ml; injection; 10 ml,Iron (III) Hydroxide Dextran Complex,Acino Pharma (Pty) Ltd,310.13,14,EML,B03AC,HOSP,25600,2,2027-04-30
+HP06-2024SVP,180185678,Iron Sucrose Co; 100mg/5ml; injection; 5 ml,Iron Sucrose Co,Innovata Pharmaceuticals (Pty) Ltd,29.49,14,EML,B03AC,HOSP,410830,100 ampoules (20 x 5 ampoules),2027-04-30
+HP12-2023LQ,180199767,Isoflurane; Liquid; 250 ml,Isoflurane,Safeline Pharmaceuticals (Pty) Ltd,908.5,14,EML,N01AB06,HOSP,33644,72,2026-09-30
+HP01-2025TB,222001526,"Isoniazid, Rifapentine; 300mg, 300mg; Tablet; 12 Tablets","Isoniazid, Rifapentine",Pharma Dynamics (pty) Ltd,69.51,14,EML,J04AC51,PHC,1780021,10,2027-09-30
+HP01-2025TB,222001527,"Isoniazid, Rifapentine; 300mg, 300mg; Tablet; 36 Tablets","Isoniazid, Rifapentine",Macleods Pharmaceuticals SA (Pty) Ltd,205.0,14,EML,J04AC51,PHC,764520,60,2027-09-30
+HP01-2025TB,181879044,Isoniazid; 100mg; Tablet; 28 Tablets,Isoniazid,Macleods Pharmaceuticals SA (Pty) Ltd,13.03,14,EML,J04AC01,PHC,618374,240,2027-09-30
+HP01-2025TB,181879045,Isoniazid; 300mg; Tablet; 28 Tablets,Isoniazid,Pharma Dynamics (pty) Ltd,11.95,14,EML,J04AC01,PHC,5504030,10,2027-09-30
+HP01-2025TB,181879045,Isoniazid; 300mg; Tablet; 28 Tablets,Isoniazid,Macleods Pharmaceuticals SA (Pty) Ltd,14.2,14,EML,J04AC01,PHC,1376008,160,2027-09-30
+HP09-2023SD,180146434,Isosorbide Dinitrate; 10mg; Tablet; 84 Tablets,Isosorbide Dinitrate,Kiara Health (Pty) Ltd,21.11,14,EML,C01DA08,PHC,852908,140,2026-04-30
+HP09-2023SD,189710453,Isosorbide Dinitrate; 5mg; Tablet; 50 Tablets,Isosorbide Dinitrate,Kiara Health (Pty) Ltd,18.97,14,EML,C01DA08,PHC,903740,100,2026-04-30
+HP09-2023SD/01,181773023,Isosorbide mononitrate; 20mg; Tablet; 56 Tablets,Isosorbide mononitrate,Pharmaco Distribution (Pty) Ltd,177.1,14,EML,C01DA14,PHC,121657,1,2026-04-30
+HP09-2023SD,189712676,Isotretinoin; 10mg; Capsule; 60 Capsules,Isotretinoin,Acino Pharma (Pty) Ltd,156.16,14,EML,D10BA01,TER,12199,10,2026-04-30
+HP09-2023SD,189712688,Isotretinoin; 20mg; Capsule; 60 Capsules,Isotretinoin,Acino Pharma (Pty) Ltd,239.86,14,EML,D10BA01,TER,15260,10,2026-04-30
+HP08-2023SSP,189712316,Ispaghula Husk; Powder; 30 sachet (3.5g),Ispaghula Husk,Gulf Drug Company (Pty) Ltd,155.32,14,EML,A06AC01,HOSP,18480,100,2026-06-30
+HP03-2023CHM,189753751,"IUCD, Copper; Implant; 1 Device","IUCD, Copper",Bayer (Pty) Ltd,248.0,14,EML,G02BA02,PHC,185293,1,2026-09-30
+HP03-2023CHM,180359299,"IUCD, Levonorgestrel; 52mg; Implant; 1 Device","IUCD, Levonorgestrel",Bayer (Pty) Ltd,720.36,14,EML,G02BA03,TER,22759,1,2026-09-30
+HP06-2024SVP,189706747,Ketamine; 1000mg/10ml; injection; 10 ml,Ketamine,FRESENIUS KABI SA (PTY) LTD,137.75,14,EML,N01AX03,HOSP,74700,40,2027-04-30
+HP06-2024SVP,189710933,Ketamine; 200mg/20ml; injection; 20 ml,Ketamine,FRESENIUS KABI SA (PTY) LTD,51.84,14,EML,N01AX03,HOSP,106306,100,2027-04-30
+HP06-2024SVP,189710574,Ketamine; 500mg/10ml; injection; 10 ml,Ketamine,FRESENIUS KABI SA (PTY) LTD,68.88,14,EML,N01AX03,HOSP,75238,70,2027-04-30
+HP07-2023DAI,180306324,"Ketorolac; 5mg/ml; Drop, Eye; 5 ml",Ketorolac,AbbVie (Pty) Ltd,41.98,14,NON-EML,S01BC05,,423300,12,2026-08-31
+HP06-2024SVP/02,222001704,Labetalol; 5mg/ml; injection; 40 ml,Labetalol,Adcock Ingram Critical Care (Pty) Ltd,414.0,14,EML,C07AG01,HOSP,71142,1,2027-04-30
+HP12-2023LQ,189707998,Lactulose; 3.35g/5ml; Syrup; 150 ml,Lactulose,Cipla Medpro Manufacturing (Pty) Ltd,25.58,14,EML,A06AD11,PHC,3805164,10,2026-09-30
+HP12-2023LQ,189711239,Lactulose; 3.35g/5ml; Syrup; 500 ml,Lactulose,Cipla Medpro Manufacturing (Pty) Ltd,74.08,14,EML,A06AD11,PHC,350298,20,2026-09-30
+HP13-2025ARV,222000210,"Lamivudine, Abacavir, Dolutegravir; 300mg, 600mg, 50mg; Tablet; 28 Tablets","Lamivudine, Abacavir, Dolutegravir",Hetero Drugs SA (Pty) Ltd,139.31,14,EML,J05AR13,PHC,2519680,72,2028-11-30
+HP13-2025ARV,222000210,"Lamivudine, Abacavir, Dolutegravir; 300mg, 600mg, 50mg; Tablet; 28 Tablets","Lamivudine, Abacavir, Dolutegravir",EMCURE PHARMACEUTICALS SA (PTY) LTD,136.0,14,EML,J05AR13,PHC,3779519,70,2028-11-30
+HP13-2025ARV,181900960,"Lamivudine, Abacavir; 300mg, 600mg; Tablet; 28 Tablets","Lamivudine, Abacavir",Hetero Drugs SA (Pty) Ltd,119.47,14,EML,J05AR02,PHC,786692,56,2028-11-30
+HP13-2025ARV,181900960,"Lamivudine, Abacavir; 300mg, 600mg; Tablet; 28 Tablets","Lamivudine, Abacavir",Viatris Healthcare (Pty) Ltd,120.84,14,EML,J05AR02,PHC,1180039,144,2028-11-30
+HP13-2025ARV,222001210,"Lamivudine, Abacavir; 60mg, 120mg; Tablet; 28 Tablets","Lamivudine, Abacavir",Cipla Medpro Manufacturing (Pty) Ltd,66.7,14,EML,J05AR02,PHC,560560,80,2028-11-30
+HP13-2025ARV,222001210,"Lamivudine, Abacavir; 60mg, 120mg; Tablet; 28 Tablets","Lamivudine, Abacavir",Viatris Healthcare (Pty) Ltd,55.36,14,EML,J05AR02,PHC,840839,144,2028-11-30
+HP13-2025ARV,180205026,Lamivudine; 10mg/ml; Solution; 240 ml,Lamivudine,Aurobindo Pharma (Pty) Ltd,24.85,14,EML,J05AF05,PHC,480700,30,2028-11-30
+HP13-2025ARV,181896198,Lamivudine; 150mg; Tablet; 56 Tablets,Lamivudine,Macleods Pharmaceuticals SA (Pty) Ltd,27.32,14,EML,J05AF05,PHC,879930,200,2028-11-30
+HP09-2023SD,222001417,Lamotrigine; 100mg; Tablet; 56 Tablets,Lamotrigine,Strides Pharma (SA) (Pty) Ltd,35.13,14,EML,N03AX09,PHC,612850,50,2026-04-30
+HP09-2023SD,222001418,Lamotrigine; 200mg; Tablet; 56 Tablets,Lamotrigine,Strides Pharma (SA) (Pty) Ltd,68.21,14,EML,N03AX09,PHC,107983,60,2026-04-30
+HP09-2023SD,222001419,Lamotrigine; 25mg; Tablet; 56 Tablets,Lamotrigine,Strides Pharma (SA) (Pty) Ltd,17.43,14,EML,N03AX09,PHC,629995,50,2026-04-30
+HP09-2023SD,222001420,Lamotrigine; 50mg; Tablet; 56 Tablets,Lamotrigine,Strides Pharma (SA) (Pty) Ltd,17.43,14,EML,N03AX09,PHC,525503,50,2026-04-30
+HP07-2023DAI,189711449,"Lanolin; 3%; ointment, eye; 3.5 g",Lanolin,Alcon Laboratories (SA) (Pty) Ltd,46.15,14,EML,S01XA20,HOSP,941210,1,2026-08-31
+HP07-2023DAI,222001462,Latanoprost; 50mcg/ml; ophthalmic drops; 3 ml,Latanoprost,Ipharma (Pty) Ltd,34.02,14,EML,S01EE01,HOSP,677295,10,2026-08-31
+HP09-2023SD,181781164,Leflunomide; 10mg; Tablet; 30 Tablets,Leflunomide,Adcock Ingram Healthcare (Pty) Ltd,84.1,14,EML,L04AA13,TER,9783,150,2026-04-30
+HP09-2023SD,181753191,Leflunomide; 20mg; Tablet; 30 Tablets,Leflunomide,Adcock Ingram Healthcare (Pty) Ltd,110.18,14,EML,L04AA13,TER,79330,150,2026-04-30
+HP04-2024ONC,222001457,Lenalidomide; 10mg; Capsule; 21 Capsules,Lenalidomide,Cipla Medpro Manufacturing (Pty) Ltd,862.5,14,EML,L04AX04,TER,7003,3,2026-06-30
+HP04-2024ONC,222001459,Lenalidomide; 25mg; Capsule; 21 Capsules,Lenalidomide,Cipla Medpro Manufacturing (Pty) Ltd,977.5,14,EML,L04AX04,TER,13300,3,2026-06-30
+HP04-2024ONC,180142507,Letrozole; 2.5mg; Tablet; 30 Tablets,Letrozole,Aurogen SA (Pty) Ltd,27.1,14,EML,L02BG04,TER,5545,1 pack,2026-06-30
+HP12-2023LQ/01,222000137,Levetiracetam; 100mg/ml; Solution; 300 ml,Levetiracetam,Hetero Drugs SA (Pty) Ltd,333.0,14,EML,N03AX14,PHC,8979,1,2026-09-30
+HP09-2023SD,181934912,Levetiracetam; 250mg; Tablet; 30 Tablets,Levetiracetam,Dr Reddy’s Laboratories (Pty) Ltd,23.46,14,EML,N03AX14,PHC,161376,1,2026-04-30
+HP09-2023SD,222001100,Levetiracetam; 500mg; Tablet; 30 Tablets,Levetiracetam,Dr Reddy’s Laboratories (Pty) Ltd,43.24,14,EML,N03AX14,PHC,84140,1,2026-04-30
+HP09-2023SD,181934915,Levetiracetam; 750mg; Tablet; 30 Tablets,Levetiracetam,Dr Reddy’s Laboratories (Pty) Ltd,64.4,14,EML,N03AX14,PHC,82267,1,2026-04-30
+HP09-2023SD,189710283,"Levodopa, Carbidopa; 100mg, 25mg; Tablet; 100 Tablets","Levodopa, Carbidopa",RANBAXY PHARMACEUTICALS (PTY) LTD,101.18,14,EML,N04BA02,HOSP,207534,10,2026-04-30
+HP09-2023SD,189710383,"Levodopa, Carbidopa; 250mg, 25mg; Tablet; 100 Tablets","Levodopa, Carbidopa",RANBAXY PHARMACEUTICALS (PTY) LTD,151.44,14,EML,N04BA02,HOSP,51953,10,2026-04-30
+HP01-2025TB,181914508,Levofloxacin; 250mg; Tablet (scored); 28 Tablets,Levofloxacin,Macleods Pharmaceuticals SA (Pty) Ltd,50.2,14,EML,J01MA12,HOSP,238726,108,2027-09-30
+HP01-2025TB,181925747,Levofloxacin; 500mg; Tablet (scored); 28 Tablets,Levofloxacin,Macleods Pharmaceuticals SA (Pty) Ltd,69.1,14,EML,J01MA12,HOSP,241310,108,2027-09-30
+HP03-2023CHM,189707391,"Levonorgestrel, Ethinylestradiol, Triphasic; Tablet; 28 Tablets","Levonorgestrel, Ethinylestradiol, Triphasic",Pharmacare Limited,6.55,14,EML,G03AB03,PHC,11935336,99,2026-09-30
+HP03-2023CHM,189705223,"Levonorgestrel, Ethinylestradiol; 0.15mg, 0.03mg; Tablet (Monophasic); 28 Tablets","Levonorgestrel, Ethinylestradiol",Pharmacare Limited,6.67,14,EML,G03AA07,PHC,6782410,99,2026-09-30
+HP03-2023CHM,189703093,Levonorgestrel; 0.03mg; Tablet; 28 Tablets,Levonorgestrel,Pharmacare Limited,6.08,14,EML,G03AC03,PHC,2246220,99,2026-09-30
+HP03-2023CHM,181901862,Levonorgestrel; 1.5mg; Tablet; 1 Tablet,Levonorgestrel,Viatris Healthcare (Pty) Ltd,20.12,14,EML,G03AC03,PHC,1517310,100,2026-09-30
+HP09-2023SD/01,222001581,Levothyroxine Sodium; 0.025mg; Tablet; 30 Tablets,Levothyroxine Sodium,Merck (pty) Ltd,3.53,14,EML,H03AA01,PHC,10660,500,2026-04-30
+HP09-2023SD/01,222001582,Levothyroxine Sodium; 0.05mg; Tablet; 30 Tablets,Levothyroxine Sodium,Merck (pty) Ltd,5.08,14,EML,H03AA01,PHC,1362601,500,2026-04-30
+HP09-2023SD/01,222001583,Levothyroxine Sodium; 0.1mg; Tablet; 30 Tablets,Levothyroxine Sodium,Merck (pty) Ltd,7.03,14,EML,H03AA01,PHC,1531299,500,2026-04-30
+HP06-2024SVP,180076312,"Lidocaine, Epinephrine (Adrenaline); 2%, 12.5mg; dental cartridge; 1.8 ml","Lidocaine, Epinephrine (Adrenaline)",Adcock Ingram Healthcare (Pty) Ltd,8.29,14,EML,N01BB52,PHC,17550350,1 x 100 x 1.8ml (15 per shipper),2027-04-30
+HP06-2024SVP,180076306,Lidocaine; 1%; injection (not for iv use); 20 ml,Lidocaine,B Braun Medical (pty) Ltd,9.68,14,EML,C01BB01,PHC,2322040,20,2027-04-30
+HP06-2024SVP,180076360,Lidocaine; 10%; injection; 5 ml,Lidocaine,FRESENIUS KABI SA (PTY) LTD,23.83,14,EML,C01BB01,HOSP,29630,50,2027-04-30
+HP06-2024SVP,180076343,Lidocaine; 2%; dental cartridge; 1.8 ml,Lidocaine,Adcock Ingram Healthcare (Pty) Ltd,8.29,14,EML,N01BB02,PHC,1563040,1 x 100 x 1.8ml (15 per shipper),2027-04-30
+HP06-2024SVP,189703157,Lidocaine; 2%; injection (not for iv use); 20 ml,Lidocaine,B Braun Medical (pty) Ltd,9.86,14,EML,N01BB02,PHC,1621990,20,2027-04-30
+HP06-2024SVP,180076308,Lidocaine; 2%; injection (not for iv use); 5 ml,Lidocaine,B Braun Medical (pty) Ltd,3.37,14,EML,N01BB02,PHC,1928550,20,2027-04-30
+HP02-2025AI,181756711,Linezolid; 100mg/5ml; Suspension; 150 ml,Linezolid,Pfizer Laboratories (Pty) Ltd,2272.37,14,EML,J01XX08,TER,6320,1,2028-09-30
+HP02-2025AI,181749810,Linezolid; 600mg/300ml; Infusion (parenteral); 300 ml,Linezolid,FRESENIUS KABI SA (PTY) LTD,172.5,14,EML,J01XX08,TER,67531,10,2028-09-30
+HP01-2025TB,181926729,Linezolid; 600mg; Tablet; 30 Tablets,Linezolid,Pharma Dynamics (pty) Ltd,91.47,14,EML,J01XX08,HOSP,112298,10,2027-09-30
+HP02-2025AI,180188046,"Liposomal amphotericin B for injection containing 50 mg amphotericin B, 1 vial; 1 Injection","Liposomal amphotericin B for injection containing 50 mg amphotericin B, 1 vial",Key Oncologics (Pty) Ltd,1167.48,2,EML,J02AA01,HOSP,166056,10 vials,2028-09-30
+HP12-2023LQ,189714770,Liquid Paraffin;  BP; Liquid; 200 ml,Liquid Paraffin,Barrs Pharmaceuticals Industries (Pty) Ltd,15.15,14,EML,A06AA01,HOSP,1121544,70,2026-09-30
+HP09-2023SD/01,189710365,Lithium Carbonate; 250mg; Tablet; 100 Tablets,Lithium Carbonate,Pharmacare Limited,414.58,14,EML,N05AN01,HOSP,260498,5,2026-04-30
+HP09-2023SD/01,189710053,Lithium Carbonate; 400mg; Tablet; 100 Tablets,Lithium Carbonate,Pharmacare Limited,444.07,14,EML,N05AN01,HOSP,75883,5,2026-04-30
+HP09-2023SD,189710479,Loperamide; 2mg; Tablet; 6 Tablets,Loperamide,Adcock Ingram Healthcare (Pty) Ltd,1.53,14,EML,A07DA03,PHC,5263539,176,2026-04-30
+HP09-2023SD,189710479,Loperamide; 2mg; Tablet; 6 Tablets,Loperamide,Cipla Medpro Manufacturing (Pty) Ltd,2.55,14,EML,A07DA03,PHC,584838,960,2026-04-30
+HP13-2025ARV,181922256,"Lopinavir, Ritonavir; 100mg, 25mg; Tablet; 56 Tablets","Lopinavir, Ritonavir",Viatris Healthcare (Pty) Ltd,74.51,14,EML,J05AR10,PHC,129803,144,2028-11-30
+HP13-2025ARV,181896251,"Lopinavir, Ritonavir; 200mg, 50mg; Tablet; 112 Tablets","Lopinavir, Ritonavir",Viatris Healthcare (Pty) Ltd,272.74,14,EML,J05AR10,PHC,281283,48,2028-11-30
+HP09-2023SD,189710157,Lorazepam; 1mg; Tablet; 100 Tablets,Lorazepam,Pharmacare Limited,108.68,14,EML,N05BA06,HOSP,110136,10,2026-04-30
+HP09-2023SD,189714603,Lorazepam; 2.5mg; Tablet; 100 Tablets,Lorazepam,Pharmacare Limited,170.27,14,EML,N05BA06,HOSP,33131,5,2026-04-30
+HP09-2023SD,181936085,Losartan; 100mg; Tablet; 28 Tablets,Losartan,Austell Pharmaceuticals (Pty) Ltd,18.58,14,EML,C09CA01,HOSP,797142,10,2026-04-30
+HP09-2023SD,181936086,Losartan; 50mg; Tablet; 28 Tablets,Losartan,Austell Pharmaceuticals (Pty) Ltd,8.68,14,EML,C09CA01,HOSP,1400755,10,2026-04-30
+HP08-2023SSP,180086460,"Lubricant, Jelly; Gel; 1 sachet (2.5g)","Lubricant, Jelly",Biotech Laboratories (Pty) Ltd,0.69,14,EML,V07AY,,9444618,"100 x 2,5g sachets",2026-06-30
+HP08-2023SSP,180086460,"Lubricant, Jelly; Gel; 1 sachet (2.5g)","Lubricant, Jelly",Promed Pharmacare (Pty) Ltd,0.98,10,EML,V07AY,,1049402,2000,2026-06-30
+HP08-2023SSP,189700662,"Lubricant, Jelly; Gel; 50 g","Lubricant, Jelly",Promed Pharmacare (Pty) Ltd,12.1,10,EML,V07AY,,316000,1,2026-06-30
+HP10-2025BIO,180351552,Lyophilised Plasma; Infusion (parenteral); 200 ml,Lyophilised Plasma,NATIONAL BIOPRODUCTS INSTITUTE NPC,1528.04,14,EML,B05AX03,HOSP,194709,12,2027-12-31
+HP10-2025BIO,181746097,Lyophilised Plasma; Infusion (parenteral); 50 ml,Lyophilised Plasma,NATIONAL BIOPRODUCTS INSTITUTE NPC,382.01,14,EML,B05AX03,HOSP,19785,12,2027-12-31
+HP08-2023SSP,189712093,Magnesium Sulfate;  BP; Powder; 500 g,Magnesium Sulfate,Resmed Healthcare Cc,15.78,14,Other,A12CC02,,2013,18,2026-06-30
+HP06-2024SVP,189710942,Magnesium Sulfate; 50%; injection; 2 ml,Magnesium Sulfate,Adcock Ingram Critical Care (Pty) Ltd,2.86,14,EML,A12CC02,PHC,5272098,10,2027-04-30
+HP11-2023LVP,180106599,Mannitol; 20%; Infusion (parenteral); 500 ml,Mannitol,Adcock Ingram Critical Care (Pty) Ltd,47.6,14,EML,B05BC01,HOSP,71654,18,2026-09-30
+HP06-2024SVP,189704505,Mannitol; 25%; injection; 50 ml,Mannitol,FRESENIUS KABI SA (PTY) LTD,54.05,14,EML,B05BC01,HOSP,28494,60,2027-04-30
+HP11-2023LVP,189761561,Mannitol; 5%; Infusion (parenteral); 3 L,Mannitol,Adcock Ingram Critical Care (Pty) Ltd,144.94,14,EML,B05BC01,HOSP,27469,4,2026-09-30
+HP02-2025AI,189708035,Mebendazole; 100mg/5ml; Suspension; 30 ml,Mebendazole,RANBAXY PHARMACEUTICALS (PTY) LTD,12.08,14,EML,P02CA01,PHC,2188239,50,2028-09-30
+HP02-2025AI,180339466,Mebendazole; 100mg; Tablet; 6 Tablets,Mebendazole,RANBAXY PHARMACEUTICALS (PTY) LTD,7.59,14,EML,P02CA01,PHC,5050880,50,2028-09-30
+HP02-2025AI,180146448,Mebendazole; 500mg; Tablet; 1 Tablet,Mebendazole,RANBAXY PHARMACEUTICALS (PTY) LTD,7.59,14,EML,P02CA01,PHC,10152980,50,2028-09-30
+HP03-2023CHM,180108150,Medroxyprogesterone; 10mg; Tablet; 30 Tablets,Medroxyprogesterone,Pfizer Laboratories (Pty) Ltd,71.06,14,EML,G03DA02,PHC,3890,1,2026-09-30
+HP03-2023CHM,189762873,Medroxyprogesterone; 150mg; injection; 1 Injection,Medroxyprogesterone,Pfizer Laboratories (Pty) Ltd,15.83,14,EML,G03DA02,PHC,9780224,1 x 25,2026-09-30
+HP03-2023CHM,189762873,Medroxyprogesterone; 150mg; injection; 1 Injection,Medroxyprogesterone,Viatris Healthcare (Pty) Ltd,18.34,14,EML,G03DA02,PHC,14670336,4 x 25,2026-09-30
+HP03-2023CHM,189710263,Medroxyprogesterone; 5mg; Tablet; 30 Tablets,Medroxyprogesterone,Pfizer Laboratories (Pty) Ltd,59.41,14,EML,G03DA02,PHC,140894,1,2026-09-30
+HP05-2024DI,189712139,"Meglumine Amidotrizoate, Sodium Amidotrizoate; 660mg/ml, 100mg/ml; injection; 100 ml","Meglumine Amidotrizoate, Sodium Amidotrizoate",Bayer (Pty) Ltd,657.55,14,NON-EML,V08AA01,,35850,1,2027-06-30
+HP05-2024DI,189710989,"Meglumine Diatrizoate, Sodium Diatrizoate; 26.1%, 3.9%; injection; 250 ml","Meglumine Diatrizoate, Sodium Diatrizoate",Bayer (Pty) Ltd,448.53,14,NON-EML,V08AA01,,36026,1,2027-06-30
+HP04-2024ONC,189710669,Mercaptopurine; 50mg; Tablet; 25 Tablets,Mercaptopurine,Equity Pharmaceuticals (pty) Ltd,751.27,14,NON-EML,L01BB02,,11533,10,2026-06-30
+HP02-2025AI,222000944,Meropenem; 1g; injection; 30 ml,Meropenem,Epiglo Pharmaceuticals (Pty) Ltd,42.09,14,EML,J01DH02,HOSP,1242952,20,2028-09-30
+HP02-2025AI,222000945,Meropenem; 500mg; injection; 20 ml,Meropenem,Epiglo Pharmaceuticals (Pty) Ltd,26.24,14,EML,J01DH02,HOSP,785000,20,2028-09-30
+HP09-2023SD,189762990,Mesalazine; 400mg; Tablet; 90 Tablets,Mesalazine,Equity Pharmaceuticals (pty) Ltd,384.63,14,EML,A07EC02,TER,24185,20,2026-04-30
+HP04-2024ONC,189711688,Mesna; 400mg; injection; 1 Injection,Mesna,BAXTER HEALTHCARE SA (PTY) LTD,44.1,14,EML,V03AF01,,83620,15,2026-06-30
+HP09-2023SD,222001105,Metformin; 500mg; Tablet; 112 Tablets,Metformin,Unimed Healthcare (Pty) Ltd,23.03,14,EML,A10BA02,PHC,258270,36,2026-04-30
+HP09-2023SD,222001105,Metformin; 500mg; Tablet; 112 Tablets,Metformin,Macleods Pharmaceuticals SA (Pty) Ltd,20.41,14,EML,A10BA02,PHC,602630,108 x 112,2026-04-30
+HP09-2023SD,180670492,Metformin; 500mg; Tablet; 56 Tablets,Metformin,Shanur Healthcare (Pty) Ltd,10.93,14,EML,A10BA02,PHC,4739069,10,2026-04-30
+HP09-2023SD,180670492,Metformin; 500mg; Tablet; 56 Tablets,Metformin,Austell Pharmaceuticals (Pty) Ltd,11.24,14,EML,A10BA02,PHC,4611712,10,2026-04-30
+HP09-2023SD,180670492,Metformin; 500mg; Tablet; 56 Tablets,Metformin,Viatris Healthcare (Pty) Ltd,11.02,14,EML,A10BA02,PHC,4557939,90,2026-04-30
+HP09-2023SD,180339480,Metformin; 500mg; Tablet; 84 Tablets,Metformin,Viatris Healthcare (Pty) Ltd,15.73,14,EML,A10BA02,PHC,2724179,60,2026-04-30
+HP09-2023SD,180339480,Metformin; 500mg; Tablet; 84 Tablets,Metformin,Macleods Pharmaceuticals SA (Pty) Ltd,15.77,14,EML,A10BA02,PHC,1816119,144 x 84,2026-04-30
+HP09-2023SD,189711806,Metformin; 850mg; Tablet; 28 Tablets,Metformin,Viatris Healthcare (Pty) Ltd,8.26,14,EML,A10BA02,PHC,747146,90,2026-04-30
+HP09-2023SD,189711806,Metformin; 850mg; Tablet; 28 Tablets,Metformin,Shanur Healthcare (Pty) Ltd,8.38,14,EML,A10BA02,PHC,1120719,10,2026-04-30
+HP09-2023SD,180670494,Metformin; 850mg; Tablet; 56 Tablets,Metformin,Austell Pharmaceuticals (Pty) Ltd,15.68,14,EML,A10BA02,PHC,3390266,10,2026-04-30
+HP09-2023SD,180670494,Metformin; 850mg; Tablet; 56 Tablets,Metformin,Shanur Healthcare (Pty) Ltd,15.43,14,EML,A10BA02,PHC,3446501,10,2026-04-30
+HP09-2023SD,180670494,Metformin; 850mg; Tablet; 56 Tablets,Metformin,Viatris Healthcare (Pty) Ltd,15.28,14,EML,A10BA02,PHC,3371625,60,2026-04-30
+HP09-2023SD,189711808,Metformin; 850mg; Tablet; 84 Tablets,Metformin,Macleods Pharmaceuticals SA (Pty) Ltd,20.92,14,EML,A10BA02,PHC,2197502,75 x 84,2026-04-30
+HP09-2023SD,189711808,Metformin; 850mg; Tablet; 84 Tablets,Metformin,Viatris Healthcare (Pty) Ltd,21.42,14,EML,A10BA02,PHC,1465001,40,2026-04-30
+HP12-2023LQ,222000194,Methadone; 2mg; Solution; 60 ml,Methadone,Equity Pharmaceuticals (pty) Ltd,57.8,14,EML,N07BC02,HOSP,10034,12,2026-09-30
+HP04-2024ONC,189715286,Methotrexate; 1g/10ml; injection; 10 ml,Methotrexate,TEVA PHARMACEUTICALS (PTY) LTD,695.12,14,EML,L01BA01,TER,10811,3,2026-06-30
+HP04-2024ONC,189752693,Methotrexate; 2.5mg; Tablet; 100 Tablets,Methotrexate,Pfizer Laboratories (Pty) Ltd,142.22,14,EML,L04AX03,HOSP,149974,1,2026-06-30
+HP04-2024ONC,181767289,Methotrexate; 50mg/2ml; injection; 2 ml,Methotrexate,TEVA PHARMACEUTICALS (PTY) LTD,48.32,14,EML,L01BA01,HOSP,19700,43,2026-06-30
+HP04-2024ONC,189714911,Methotrexate; 5g/50ml; injection; 50 ml,Methotrexate,TEVA PHARMACEUTICALS (PTY) LTD,3853.97,14,EML,L01BA01,TER,1423,1,2026-06-30
+HP08-2023SSP,189711948,Methyl Salicylate; 10%; Ointment; 25 g,Methyl Salicylate,Barrs Pharmaceuticals Industries (Pty) Ltd,3.59,14,EML,M02AC,PHC,20074050,294,2026-06-30
+HP08-2023SSP,189711948,Methyl Salicylate; 10%; Ointment; 25 g,Methyl Salicylate,Unimed Healthcare (Pty) Ltd,5.2,14,EML,M02AC,PHC,2230450,400,2026-06-30
+HP09-2023SD,189711810,Methyldopa; 250mg; Tablet; 56 Tablets,Methyldopa,Trinity Pharma (Pty) Ltd,47.44,14,EML,C02AB01,PHC,664857,150,2026-04-30
+HP09-2023SD,189711810,Methyldopa; 250mg; Tablet; 56 Tablets,Methyldopa,Shanur Healthcare (Pty) Ltd,54.65,14,EML,C02AB01,PHC,443238,10,2026-04-30
+HP09-2023SD,189710812,Methyldopa; 250mg; Tablet; 84 Tablets,Methyldopa,Shanur Healthcare (Pty) Ltd,74.98,14,EML,C02AB01,PHC,658763,10,2026-04-30
+HP09-2023SD,189710812,Methyldopa; 250mg; Tablet; 84 Tablets,Methyldopa,Trinity Pharma (Pty) Ltd,67.6,14,EML,C02AB01,PHC,988145,150,2026-04-30
+HP09-2023SD/02,181769645,"Methylphenidate; 20mg; Capsule, MR; 30 Capsules",Methylphenidate,Adcock Ingram Healthcare (Pty) Ltd,136.93,14,NON-EML,N06BA04,,314658,10,2026-04-30
+HP06-2024SVP,189710776,Methylprednisolone Acetate; 40mg/ml; injection; 2 ml,Methylprednisolone Acetate,Pfizer Laboratories (Pty) Ltd,94.72,14,EML,H02AB04,HOSP,187726,1,2027-04-30
+HP06-2024SVP,189710775,Methylprednisolone Acetate; 40mg/ml; injection; 5 ml,Methylprednisolone Acetate,Pfizer Laboratories (Pty) Ltd,97.18,14,EML,H02AB04,HOSP,20100,1,2027-04-30
+HP06-2024SVP,180076396,Metoclopramide; 10mg/2ml; injection; 2 ml,Metoclopramide,Trinity Pharma (Pty) Ltd,2.94,14,EML,A03FA01,PHC,2455846,1400 (140 packs of 10),2027-04-30
+HP06-2024SVP,180076396,Metoclopramide; 10mg/2ml; injection; 2 ml,Metoclopramide,Austell Pharmaceuticals (Pty) Ltd,2.85,14,EML,A03FA01,PHC,3683768,100,2027-04-30
+HP09-2023SD,181798176,Metoclopramide; 10mg; Tablet; 10 Tablets,Metoclopramide,OETHMAAN BIOSIMS (PTY) LTD,2.22,14,EML,A03FA01,PHC,984060,100,2026-04-30
+HP09-2023SD,181798176,Metoclopramide; 10mg; Tablet; 10 Tablets,Metoclopramide,Adcock Ingram Healthcare (Pty) Ltd,1.9,14,EML,A03FA01,PHC,3936241,450,2026-04-30
+HP09-2023SD,189711057,Metoclopramide; 10mg; Tablet; 100 Tablets,Metoclopramide,Adcock Ingram Healthcare (Pty) Ltd,11.56,14,EML,A03FA01,PHC,73586,100,2026-04-30
+HP02-2025AI,189706001,Metronidazole; 200mg/5ml; Suspension; 100 ml,Metronidazole,Sanofi-Aventis SA (Pty) Ltd,40.25,14,EML,P01AB01,PHC,1522858,30,2028-09-30
+HP02-2025AI,189750013,Metronidazole; 200mg; Tablet; 21 Tablets,Metronidazole,Innovata Pharmaceuticals (Pty) Ltd,4.37,14,EML,P01AB01,PHC,674960,300,2028-09-30
+HP02-2025AI,189750013,Metronidazole; 200mg; Tablet; 21 Tablets,Metronidazole,OETHMAAN BIOSIMS (PTY) LTD,4.0,14,EML,P01AB01,PHC,2699841,600,2028-09-30
+HP02-2025AI,189710264,Metronidazole; 200mg; Tablet; 250 Tablets,Metronidazole,Innovata Pharmaceuticals (Pty) Ltd,37.94,14,EML,P01AB01,PHC,32280,45,2028-09-30
+HP02-2025AI,189711051,Metronidazole; 400mg; Tablet; 100 Tablets,Metronidazole,Innovata Pharmaceuticals (Pty) Ltd,29.44,14,EML,P01AB01,PHC,143856,74,2028-09-30
+HP02-2025AI,181798177,Metronidazole; 400mg; Tablet; 14 Tablets,Metronidazole,Innovata Pharmaceuticals (Pty) Ltd,4.37,14,EML,P01AB01,PHC,1180078,100,2028-09-30
+HP02-2025AI,181798177,Metronidazole; 400mg; Tablet; 14 Tablets,Metronidazole,Unimed Healthcare (Pty) Ltd,4.06,14,EML,P01AB01,PHC,4720312,100,2028-09-30
+HP02-2025AI,181798178,Metronidazole; 400mg; Tablet; 21 Tablets,Metronidazole,Innovata Pharmaceuticals (Pty) Ltd,5.81,14,EML,P01AB01,PHC,2118406,300,2028-09-30
+HP02-2025AI,180282750,Metronidazole; 400mg; Tablet; 5 Tablets,Metronidazole,OETHMAAN BIOSIMS (PTY) LTD,2.31,14,EML,P01AB01,PHC,2519800,1440,2028-09-30
+HP02-2025AI,180282750,Metronidazole; 400mg; Tablet; 5 Tablets,Metronidazole,Unimed Healthcare (Pty) Ltd,2.09,14,EML,P01AB01,PHC,5879532,100,2028-09-30
+HP02-2025AI,189707172,Metronidazole; 500mg/100ml; injection; 100 ml,Metronidazole,Adcock Ingram Critical Care (Pty) Ltd,11.62,14,EML,J01XD01,HOSP,868657,50,2028-09-30
+HP02-2025AI,189707172,Metronidazole; 500mg/100ml; injection; 100 ml,Metronidazole,Biotech Laboratories (Pty) Ltd,6.33,14,EML,J01XD01,HOSP,7817911,10,2028-09-30
+HP02-2025AI,222000937,Micafungin; 50mg; injection; 1 Injection,Micafungin,RANBAXY PHARMACEUTICALS (PTY) LTD,437.0,14,EML,J02AX05,TER,19418,20,2028-09-30
+HP02-2025AI,189708022,"Miconazole; 2%; Gel, Oral; 30 g",Miconazole,Barrs Pharmaceuticals Industries (Pty) Ltd,69.63,14,EML,A01AB09,HOSP,529602,100,2028-09-30
+HP06-2024SVP,180076404,Midazolam; 15mg/3ml; injection; 3 ml,Midazolam,Adcock Ingram Critical Care (Pty) Ltd,8.51,14,EML,N05CD08,PHC,346911,10,2027-04-30
+HP06-2024SVP,180076404,Midazolam; 15mg/3ml; injection; 3 ml,Midazolam,Accord Healthcare (Pty) Ltd,6.67,14,EML,N05CD08,PHC,809459,20,2027-04-30
+HP09-2023SD/01,180190409,Midazolam; 15mg; Tablet; 20 Tablets,Midazolam,Pharmaco Distribution (Pty) Ltd,150.63,14,EML,N05CD08,HOSP,2094,1,2026-04-30
+HP06-2024SVP,180018352,Midazolam; 50mg/10ml; injection; 10 ml,Midazolam,Accord Healthcare (Pty) Ltd,16.1,14,EML,N05CD08,PHC,171295,20,2027-04-30
+HP06-2024SVP,180076401,Midazolam; 5mg/5ml; injection; 5 ml,Midazolam,Adcock Ingram Critical Care (Pty) Ltd,5.75,14,EML,N05CD08,PHC,708690,10,2027-04-30
+HP09-2023SD/01,181751133,Midazolam; 7.5mg; Tablet; 20 Tablets,Midazolam,Pharmaco Distribution (Pty) Ltd,104.67,14,EML,N05CD08,HOSP,878,1,2026-04-30
+HP03-2023CHM,222001525,"Mifepristone and Misoprostol 200/0.2mg (1/4) vaginal tablet, combipack of 5 tablets; 5 Vaginal Tablets","Mifepristone and Misoprostol 200/0.2mg (1/4) vaginal tablet, combipack of 5 tablets",RANBAXY PHARMACEUTICALS (PTY) LTD,323.06,14,EML,G03XB51,PHC,197600,180,2026-09-30
+HP03-2023CHM,181830030,Mifepristone; 200mg; Tablet; 3 Tablets,Mifepristone,Medi-Challenge (Pty) Ltd,828.0,14,EML,G03XB01,PHC,35742,10,2026-09-30
+HP03-2023CHM,180339642,Misoprostol; 200mcg; Tablet; 60 Tablets,Misoprostol,Pfizer Laboratories (Pty) Ltd,320.84,14,EML,G02AD06,PHC,43120,1,2026-09-30
+HP09-2023SD,180344233,Montelukast; 10mg; Tablet; 28 Tablets,Montelukast,Macleods Pharmaceuticals SA (Pty) Ltd,18.27,14,EML,R03DC03,TER,71110,120 x 28,2026-04-30
+HP09-2023SD,181789304,"Montelukast; 4mg; Tablet, chew; 28 Tablets",Montelukast,Macleods Pharmaceuticals SA (Pty) Ltd,16.91,14,EML,R03DC03,TER,5268,50,2026-04-30
+HP09-2023SD,180344234,Montelukast; 5mg; Tablet; 28 Tablets,Montelukast,Macleods Pharmaceuticals SA (Pty) Ltd,17.48,14,EML,R03DC03,TER,53417,50,2026-04-30
+HP08-2023SSP,189715464,Morphine Hydrochloride; 10g; Powder; 10 g,Morphine Hydrochloride,Barrs Pharmaceuticals Industries (Pty) Ltd,787.38,14,EML,N02AA01,HOSP,48075,10,2026-06-30
+HP06-2024SVP,189703413,Morphine Hydrochloride; 10mg/ml; injection; 1 ml,Morphine Hydrochloride,Unimed Healthcare (Pty) Ltd,4.32,14,EML,N02AA01,PHC,2423232,300,2027-04-30
+HP06-2024SVP,189700425,Morphine Hydrochloride; 15mg/ml; injection; 1 ml,Morphine Hydrochloride,Unimed Healthcare (Pty) Ltd,4.66,14,EML,N02AA01,PHC,1462458,300,2027-04-30
+HP02-2025AI,180965259,Moxifloxacin; 400mg; Tablet; 10 Tablets,Moxifloxacin,Macleods Pharmaceuticals SA (Pty) Ltd,43.0,14,EML,J01MA14,PHC,14280,120,2028-09-30
+HP01-2025TB,222000928,Moxifloxacin; 400mg; Tablet; 28 Tablets,Moxifloxacin,Macleods Pharmaceuticals SA (Pty) Ltd,93.58,14,EML,J01MA14,PHC,19390,120,2027-09-30
+HP02-2025AI,181878933,Moxifloxacin; 400mg; Tablet; 5 Tablets,Moxifloxacin,Macleods Pharmaceuticals SA (Pty) Ltd,25.0,14,EML,J01MA14,PHC,9150,144,2028-09-30
+HP11-2023LVP,222001056,"Multichamber TPN for Adults: High volume bag with electrolytes, Very high protein, Very high calorie for central line; Infusion (parenteral); 2 L","Multichamber TPN for Adults: High volume bag with electrolytes, Very high protein, Very high calorie for central line",Adcock Ingram Critical Care (Pty) Ltd,1969.22,14,EML,B05BA,HOSP,6750,4,2026-09-30
+HP11-2023LVP,222001058,"Multichamber TPN for Adults: High volume bag with electrolytes: high protein, very high calorie for central line; Infusion (parenteral); 2 L","Multichamber TPN for Adults: High volume bag with electrolytes: high protein, very high calorie for central line",B Braun Medical (pty) Ltd,989.1,14,EML,B05BA,HOSP,4677,5,2026-09-30
+HP11-2023LVP,222001059,"Multichamber TPN for Adults: High volume bag with electrolytes: Moderate protein, high calorie through central line; Infusion (parenteral); 2 L","Multichamber TPN for Adults: High volume bag with electrolytes: Moderate protein, high calorie through central line",B Braun Medical (pty) Ltd,1110.75,14,EML,B05BA,HOSP,3471,5,2026-09-30
+HP11-2023LVP,222001487,"Multichamber TPN for Adults: High volume bag with electrolytes:Very high protein, very high calorie with fish oil for central line,  >1500 – 2000ml; 1500 ml","Multichamber TPN for Adults: High volume bag with electrolytes:Very high protein, very high calorie with fish oil for central line,  >1500 – 2000ml",FRESENIUS KABI SA (PTY) LTD,1725.0,14,EML,B05BA10,HOSP,4540,4,2026-09-30
+HP11-2023LVP,222000011,"Multichamber TPN for Adults: High volume bag without electrolytes: high protein, very high calorie through central line.; 1500 ml","Multichamber TPN for Adults: High volume bag without electrolytes: high protein, very high calorie through central line.",B Braun Medical (pty) Ltd,1155.71,14,EML,B05BA10,HOSP,7500,5,2026-09-30
+HP11-2023LVP,222001488,"Multichamber TPN for Adults: Low volume bag with electrolytes: low protein, low calorie with fish oil for peripheral line, 1000 - 1500ml; 1000 ml","Multichamber TPN for Adults: Low volume bag with electrolytes: low protein, low calorie with fish oil for peripheral line, 1000 - 1500ml",FRESENIUS KABI SA (PTY) LTD,920.0,14,EML,B05BA10,HOSP,960,4,2026-09-30
+HP11-2023LVP,222001060,"Multichamber TPN for Adults: Low volume bag with electrolytes: low protein, moderate calorie through central line; Infusion (parenteral); 1.5 L","Multichamber TPN for Adults: Low volume bag with electrolytes: low protein, moderate calorie through central line",Adcock Ingram Critical Care (Pty) Ltd,984.61,14,EML,B05BA,HOSP,4510,6,2026-09-30
+HP11-2023LVP,222001485,"Multichamber TPN for Adults: Low volume bag with electrolytes: Low protein, moderate calorie with fish oil for central line;  <1000ml (>500ml); 500 ml","Multichamber TPN for Adults: Low volume bag with electrolytes: Low protein, moderate calorie with fish oil for central line",FRESENIUS KABI SA (PTY) LTD,862.5,14,EML,B05BA10,HOSP,665,4,2026-09-30
+HP11-2023LVP,222001061,"Multichamber TPN for Adults: Moderate volume bag with electrolytes: Moderate protein, high calorie through central line; Infusion (parenteral); 1.5 L","Multichamber TPN for Adults: Moderate volume bag with electrolytes: Moderate protein, high calorie through central line",B Braun Medical (pty) Ltd,883.31,14,EML,B05BA,HOSP,13295,5,2026-09-30
+HP11-2023LVP,222001063,"Multichamber TPN for Adults: Moderate volume bag without electrolytes: Moderate protein, high calorie through central line; Infusion (parenteral); 1 L","Multichamber TPN for Adults: Moderate volume bag without electrolytes: Moderate protein, high calorie through central line",Adcock Ingram Critical Care (Pty) Ltd,984.61,14,EML,B05BA,HOSP,5800,6,2026-09-30
+HP11-2023LVP,222001484,"Multichamber TPN for Adults: Very low volume bag with electrolytes:Very low protein, low calorie with fish oil for central line, <500ml; 500 ml","Multichamber TPN for Adults: Very low volume bag with electrolytes:Very low protein, low calorie with fish oil for central line, <500ml",FRESENIUS KABI SA (PTY) LTD,603.75,14,EML,B05BA10,HOSP,670,6,2026-09-30
+HP11-2023LVP,222001054,"Multichamber TPN for Adults: Very low volume weaning bag with electrolytes: very low protein, low calorie for central line; Infusion (parenteral); 1 L","Multichamber TPN for Adults: Very low volume weaning bag with electrolytes: very low protein, low calorie for central line",B Braun Medical (pty) Ltd,554.12,14,EML,B05BA10,HOSP,15214,5,2026-09-30
+HP04-2024ONC,181932695,Mycophenolate Mofetil; 200mg/ml; Suspension; 175 ml,Mycophenolate Mofetil,Roche Products (Pty) Ltd,1624.58,10,EML,L04AA06,TER,168,1,2026-06-30
+HP04-2024ONC,180300085,Mycophenolate Mofetil; 250mg; Capsule; 100 Capsules,Mycophenolate Mofetil,Ascend Laboratories (Pty) Ltd,160.61,14,EML,L04AA06,TER,34770,1,2026-06-30
+HP04-2024ONC,181820031,Mycophenolate Mofetil; 500mg; Tablet; 50 Tablets,Mycophenolate Mofetil,Ascend Laboratories (Pty) Ltd,160.61,14,EML,L04AA06,TER,74441,1,2026-06-30
+HP04-2024ONC,181835259,Mycophenolic Acid; 180mg; Tablet; 120 Tablets,Mycophenolic Acid,Ascend Laboratories (Pty) Ltd,340.0,14,EML,L04AA06,TER,1510,1,2026-06-30
+HP04-2024ONC,181813273,Mycophenolic Acid; 360mg; Tablet; 120 Tablets,Mycophenolic Acid,Ascend Laboratories (Pty) Ltd,450.0,14,EML,L04AA06,TER,2710,1,2026-06-30
+HP06-2024SVP/01,189708068,Naloxone; 40mcg/2ml; injection; 2 ml,Naloxone,FRESENIUS KABI SA (PTY) LTD,30.48,14,EML,V03AB15,PHC,77280,20,2027-04-30
+HP06-2024SVP,181915212,"Needle, Insulin, 31G x 5mm; needle; 100 Units","Needle, Insulin, 31G x 5mm",Tara Healthcare (Pty) Ltd,39.5,5,NON-EML,V07AY,,159452,100 Boxes ,2027-04-30
+HP06-2024SVP,181915214,"Needle, Insulin, 31G x 8mm; needle; 100 Units","Needle, Insulin, 31G x 8mm",Tara Healthcare (Pty) Ltd,39.5,5,NON-EML,V07AY,,374552,100 Boxes,2027-04-30
+HP11-2023LVP,180056346,"Neonatal Maintenance, Dextrose (Potassium Free); 33,5,33,100mmol; Infusion (parenteral); 200 ml","Neonatal Maintenance, Dextrose (Potassium Free)",Adcock Ingram Critical Care (Pty) Ltd,41.87,14,EML,B05BB02,HOSP,402550,36,2026-09-30
+HP11-2023LVP,189711064,"Neonatal Maintenance, Dextrose; 20,15,2.5,0.5,21,2mmol, 10%; Infusion (parenteral); 200 ml","Neonatal Maintenance, Dextrose",Adcock Ingram Critical Care (Pty) Ltd,16.15,14,EML,B05BB02,HOSP,1070138,36,2026-09-30
+HP06-2024SVP,180089506,Neostigmine; 2.5mg/ml; injection; 1 ml,Neostigmine,Pharma-Q (Pty) Ltd,9.15,14,EML,N07AA01,HOSP,461040,220,2027-04-30
+HP06-2024SVP/02,180076423,Neostigmine; 500mcg/ml; injection; 1 ml,Neostigmine,FRESENIUS KABI SA (PTY) LTD,6.92,14,EML,N07AA01,HOSP,23947,20,2027-04-30
+HP13-2025ARV,181871672,Nevirapine; 50mg/5ml; Suspension; 100 ml,Nevirapine,Cipla Medpro Manufacturing (Pty) Ltd,21.85,14,EML,J05AG01,PHC,733614,60,2028-11-30
+HP13-2025ARV,180387396,Nevirapine; 50mg/5ml; Suspension; 240 ml,Nevirapine,Aurobindo Pharma (Pty) Ltd,26.93,14,EML,J05AG01,PHC,89198,30,2028-11-30
+HP09-2023SD,189710326,Nifedipine; 10mg; Capsule; 100 Capsules,Nifedipine,Biotech Laboratories (Pty) Ltd,79.36,14,EML,C08CA05,PHC,24280,10,2026-04-30
+HP09-2023SD,189710364,Nifedipine; 5mg; Capsule; 100 Capsules,Nifedipine,Biotech Laboratories (Pty) Ltd,56.81,14,EML,C08CA05,HOSP,66271,10,2026-04-30
+HP04-2024ONC/01,222001413,Nilotinib; 150mg; Capsule; 112 Capsules,Nilotinib,Novartis SA (Pty) Ltd,2529.5,14,EML,L01XE08,TER,3140,1,2026-06-30
+HP04-2024ONC/01,181866360,Nilotinib; 200mg; Capsule; 112 Capsules,Nilotinib,Novartis SA (Pty) Ltd,2529.5,14,EML,L01XE08,TER,4697,1,2026-06-30
+HP09-2023SD,189763128,Nimodipine; 30mg; Tablet; 100 Tablets,Nimodipine,Bayer (Pty) Ltd,857.44,14,EML,C08CA06,HOSP,3112,1 x 100,2026-04-30
+HP02-2025AI,189714357,Nitrofurantoin; 100mg; Capsule; 50 Capsules,Nitrofurantoin,Pharmacare Limited,165.68,14,EML,J01XE01,PHC,250501,10,2028-09-30
+HP02-2025AI,189714356,Nitrofurantoin; 50mg; Capsule; 50 Capsules,Nitrofurantoin,Aurogen SA (Pty) Ltd,112.7,14,EML,J01XE01,HOSP,46420,10,2028-09-30
+HP03-2023CHM,189714135,Norethisterone Acetate; 5mg; Tablet; 30 Tablets,Norethisterone Acetate,Bayer (Pty) Ltd,116.0,14,EML,G03DC02,HOSP,24824,1 x 30,2026-09-30
+HP03-2023CHM,189705261,Norethisterone Enanthate; 200mg/ml; injection; 1 ml,Norethisterone Enanthate,Bayer (Pty) Ltd,23.92,14,EML,G03AC01,PHC,11300000,1 x 100,2026-09-30
+HP02-2025AI,189712135,"Nystatin; 100000IU/ml; Drop, Oral (suspension); 20 ml",Nystatin,RANBAXY PHARMACEUTICALS (PTY) LTD,16.5,14,EML,D01AA01,PHC,2584438,36,2028-09-30
+HP06-2024SVP/01,180076442,Octreotide; 0.05mg/ml; injection; 1 Injection,Octreotide,Novartis SA (Pty) Ltd,111.44,14,EML,H01CB02,HOSP,34110,1,2027-04-30
+HP06-2024SVP/01,180076445,Octreotide; 0.1mg/ml; injection; 1 Injection,Octreotide,Novartis SA (Pty) Ltd,212.61,14,EML,H01CB02,HOSP,110710,1,2027-04-30
+HP02-2025AI,180179329,"Ofloxacin; 3mg/ml; Drop, Eye; 5 ml",Ofloxacin,AbbVie (Pty) Ltd,41.11,14,EML,S01AE01,HOSP,29941,12,2028-09-30
+HP09-2023SD/02,222001563,"Olanzapine; 10mg; Tablet, dispersible; 28 Tablets",Olanzapine,Macleods Pharmaceuticals SA (Pty) Ltd,28.75,14,EML,N05AH03,HOSP,37282,10,2026-04-30
+HP09-2023SD,180142326,Olanzapine; 10mg; Tablet; 28 Tablets,Olanzapine,Macleods Pharmaceuticals SA (Pty) Ltd,13.34,14,EML,N05AH03,HOSP,768685,80 x 28,2026-04-30
+HP09-2023SD,180959585,Olanzapine; 2.5mg; Tablet; 28 Tablets,Olanzapine,Macleods Pharmaceuticals SA (Pty) Ltd,10.29,14,EML,N05AH03,HOSP,193942,80 x 28,2026-04-30
+HP09-2023SD/02,222001562,"Olanzapine; 5mg; Tablet, dispersible; 28 Tablets",Olanzapine,Macleods Pharmaceuticals SA (Pty) Ltd,20.7,14,EML,N05AH03,HOSP,35221,10,2026-04-30
+HP09-2023SD,180142318,Olanzapine; 5mg; Tablet; 28 Tablets,Olanzapine,Macleods Pharmaceuticals SA (Pty) Ltd,8.79,14,EML,N05AH03,HOSP,394810,90 x 28,2026-04-30
+HP09-2023SD,181868887,"Omeprazole; 10mg; Tablet, dispersible; 28 Tablets",Omeprazole,Equity Pharmaceuticals (pty) Ltd,52.01,14,EML,A02BC01,PHC,543200,48,2026-04-30
+HP04-2024ONC,180073817,Ondansetron; 4mg/2ml; injection; 2 ml,Ondansetron,Biotech Laboratories (Pty) Ltd,2.52,14,EML,A04AA01,HOSP,287910,5,2026-06-30
+HP04-2024ONC,180954155,"Ondansetron; 4mg; Tablet, dispersible; 10 Tablets",Ondansetron,RANBAXY PHARMACEUTICALS (PTY) LTD,7.59,14,EML,A04AA01,TER,52660,368,2026-06-30
+HP04-2024ONC,180073819,Ondansetron; 8mg/4ml; injection; 4 ml,Ondansetron,Biotech Laboratories (Pty) Ltd,3.93,14,EML,A04AA01,TER,373648,5,2026-06-30
+HP04-2024ONC,181858255,Ondansetron; 8mg; Tablet; 10 Tablets,Ondansetron,Biotech Laboratories (Pty) Ltd,7.6,14,EML,A04AA01,HOSP,47460,1,2026-06-30
+HP08-2023SSP,222000966,Oral Rehydration; Powder; 1 Sachet,Oral Rehydration,Specpharm (Pty) Ltd,4.99,14,EML,A07CA,PHC,9382530,1,2026-06-30
+HP08-2023SSP,181899908,Organic N-Chloro Comp; 30g; Powder; 50 Sachets,Organic N-Chloro Comp,Evohealth (Pty) Ltd,59.47,14,NON-EML,D08A,,1718510,10,2026-06-30
+HP08-2023SSP/01,189715466,Organic N-Chloro Comp; 6g; Powder; 100 Sachets,Organic N-Chloro Comp,Evohealth (Pty) Ltd,64.78,14,NON-EML,D08A,,919300,20,2026-06-30
+HP04-2024ONC,181804852,Oxaliplatin; 100mg; injection; 1 Injection,Oxaliplatin,Accord Healthcare (Pty) Ltd,178.25,14,EML,L01XA03,TER,25178,20,2026-06-30
+HP04-2024ONC,181804849,Oxaliplatin; 50mg; injection; 1 Injection,Oxaliplatin,Accord Healthcare (Pty) Ltd,113.85,14,EML,L01XA03,TER,13766,20,2026-06-30
+HP09-2023SD,189712225,Oxazepam; 10mg; Tablet; 100 Tablets,Oxazepam,Pharmacare Limited,44.1,14,EML,N05BA04,HOSP,51140,30,2026-04-30
+HP09-2023SD,222001432,Oxazepam; 15mg; Tablet; 100 Tablets,Oxazepam,Arya Pharma (Pty) Ltd,31.22,14,EML,N05BA04,PHC,40176,100,2026-04-30
+HP09-2023SD,189714612,Oxazepam; 30mg; Tablet; 100 Tablets,Oxazepam,Arya Pharma (Pty) Ltd,39.86,14,EML,N05BA04,HOSP,40690,100,2026-04-30
+HP07-2023DAI/01,189762327,"Oxybuprocaine; 0.4%; Drop, Eye; 20 UDVs (0.5ml)",Oxybuprocaine,Soflens (Pty) Ltd,347.01,14,EML,S01HA02,HOSP,9586,3 boxes of 20,2026-06-30
+HP09-2023SD,222001116,Oxybutynin; 5mg; Tablet; 84 Tablets,Oxybutynin,OETHMAAN BIOSIMS (PTY) LTD,44.33,14,EML,G04BD04,HOSP,252413,1,2026-04-30
+HP07-2023DAI,180139617,"Oxymetazoline; 0.025%; Drop, Eye; 15 ml",Oxymetazoline,AbbVie (Pty) Ltd,24.84,14,EML,S01GA04,PHC,3213500,12,2026-08-31
+HP07-2023DAI,189707390,"Oxymetazoline; 0.025%; Drop, Nasal; 10 ml",Oxymetazoline,P and G South African Trading (Pty) Ltd,14.95,14,EML,R01AA05,PHC,1526440,120,2026-08-31
+HP07-2023DAI,189705181,"Oxymetazoline; 0.05%; Drop, Nasal; 10 ml",Oxymetazoline,P and G South African Trading (Pty) Ltd,16.68,14,EML,R01AA05,PHC,1280810,120,2026-08-31
+HP07-2023DAI,189707389,"Oxymetazoline; 0.05%; Spray, Nasal (15-20) ml); 20 ml",Oxymetazoline,P and G South African Trading (Pty) Ltd,19.5,14,EML,R01AA05,PHC,806360,120,2026-08-31
+HP06-2024SVP,180076472,Oxytocin; 10IU/ml; injection; 1 ml,Oxytocin,Cospharm Investments (Pty) Ltd,5.74,14,EML,H01BB02,PHC,4740608,10,2027-04-30
+HP06-2024SVP,180076472,Oxytocin; 10IU/ml; injection; 1 ml,Oxytocin,Activo Health (Pty) Ltd,9.9,14,EML,H01BB02,PHC,1185152,10,2027-04-30
+HP06-2024SVP,180076470,Oxytocin; 5IU/ml; injection; 1 ml,Oxytocin,Specpharm (Pty) Ltd,13.51,14,EML,H01BB02,PHC,1394530,10,2027-04-30
+HP04-2024ONC,222001261,"Paclitaxel, Vented Intravenous Giving Set;  BP; device; 1 Kit","Paclitaxel, Vented Intravenous Giving Set",OETHMAAN BIOSIMS (PTY) LTD,26.33,14,,L01CD01,,24220,10,2026-06-30
+HP04-2024ONC,180270223,Paclitaxel; 100mg/16.7ml; injection; 16.7 ml,Paclitaxel,OETHMAAN BIOSIMS (PTY) LTD,273.66,14,EML,L01CD01,TER,69322,10,2026-06-30
+HP04-2024ONC,180138165,Paclitaxel; 30mg/5ml; injection; 5 ml,Paclitaxel,OETHMAAN BIOSIMS (PTY) LTD,79.45,14,EML,L01CD01,TER,13257,10,2026-06-30
+HP09-2023SD,181747895,"Pancreatin: Lipase, Amylase, Protease; 150mg; Capsule; 100 Capsules","Pancreatin: Lipase, Amylase, Protease",Abbott Laboratories SA (Pty) Ltd,562.7,14,EML,A09AA02,HOSP,27366,1,2026-04-30
+HP09-2023SD,180231590,"Pancreatin: Lipase, Amylase, Protease; 300mg; Capsule; 100 Capsules","Pancreatin: Lipase, Amylase, Protease",Abbott Laboratories SA (Pty) Ltd,1143.7,14,EML,A09AA02,HOSP,26064,1,2026-04-30
+HP09-2023SD,222001421,Pantoprazole; 20mg; Tablet; 28 Tablets,Pantoprazole,Macleods Pharmaceuticals SA (Pty) Ltd,8.91,14,EML,A02BC02,PHC,1536092,216 x 28,2026-04-30
+HP06-2024SVP,181753528,Pantoprazole; 40mg; injection; 1 Injection,Pantoprazole,Austell Pharmaceuticals (Pty) Ltd,18.76,14,EML,A02BC02,TER,1736030,5,2027-04-30
+HP09-2023SD,180132385,Pantoprazole; 40mg; Tablet; 14 Tablets,Pantoprazole,Macleods Pharmaceuticals SA (Pty) Ltd,7.04,14,EML,A02BC02,PHC,5846436,216 x 14,2026-04-30
+HP09-2023SD/02,180132386,Pantoprazole; 40mg; Tablet; 28 Tablets,Pantoprazole,Austell Pharmaceuticals (Pty) Ltd,9.32,14,EML,A02BC02,PHC,9504919,10,2026-04-30
+HP12-2023LQ,181783743,Paracetamol; 120mg/5ml; Syrup; 100 ml,Paracetamol,Resmed Healthcare Cc,8.1,14,EML,N02BE01,PHC,4673274,100,2026-09-30
+HP12-2023LQ,181783743,Paracetamol; 120mg/5ml; Syrup; 100 ml,Paracetamol,Barrs Pharmaceuticals Industries (Pty) Ltd,6.93,14,EML,N02BE01,PHC,5391256,120,2026-09-30
+HP12-2023LQ,181783743,Paracetamol; 120mg/5ml; Syrup; 100 ml,Paracetamol,Gulf Drug Company (Pty) Ltd,10.04,14,EML,N02BE01,PHC,2710959,150,2026-09-30
+HP12-2023LQ,189712404,Paracetamol; 120mg/5ml; Syrup; 50 ml,Paracetamol,Gulf Drug Company (Pty) Ltd,5.63,14,EML,N02BE01,PHC,3353584,150,2026-09-30
+HP12-2023LQ,189712404,Paracetamol; 120mg/5ml; Syrup; 50 ml,Paracetamol,Barrs Pharmaceuticals Industries (Pty) Ltd,3.86,14,EML,N02BE01,PHC,6780411,150,2026-09-30
+HP12-2023LQ,189712404,Paracetamol; 120mg/5ml; Syrup; 50 ml,Paracetamol,Resmed Healthcare Cc,4.76,14,EML,N02BE01,PHC,5449574,100,2026-09-30
+HP12-2023LQ,181783747,Paracetamol; 120mg/5ml; Syrup; 500 ml,Paracetamol,Barrs Pharmaceuticals Industries (Pty) Ltd,24.69,14,EML,N02BE01,PHC,135624,30,2026-09-30
+HP12-2023LQ,181783747,Paracetamol; 120mg/5ml; Syrup; 500 ml,Paracetamol,Resmed Healthcare Cc,32.78,14,EML,N02BE01,PHC,90416,24,2026-09-30
+HP08-2023SSP,180207805,Paracetamol; 125mg; Suppository; 10 Suppositories,Paracetamol,Acino Pharma (Pty) Ltd,25.88,14,EML,N02BE01,HOSP,56570,10,2026-06-30
+HP06-2024SVP,181818827,Paracetamol; 1g/100ml; Infusion (parenteral); 100 ml,Paracetamol,Biotech Laboratories (Pty) Ltd,11.14,14,EML,N02BE01,HOSP,3063790,1,2027-04-30
+HP08-2023SSP,180207808,Paracetamol; 250mg; Suppository; 10 Suppositories,Paracetamol,Acino Pharma (Pty) Ltd,30.48,14,EML,N02BE01,HOSP,60920,10,2026-06-30
+HP06-2024SVP,222000185,Paracetamol; 500mg/50ml; injection; 50 ml,Paracetamol,Biotech Laboratories (Pty) Ltd,13.03,14,EML,N02BE01,HOSP,1288,1,2027-04-30
+HP09-2023SD,189753434,Paracetamol; 500mg; Tablet; 100 Tablets,Paracetamol,Adcock Ingram Healthcare (Pty) Ltd,15.49,14,EML,N02BE01,PHC,2993510,100,2026-04-30
+HP09-2023SD,189753434,Paracetamol; 500mg; Tablet; 100 Tablets,Paracetamol,Innovata Pharmaceuticals (Pty) Ltd,18.71,14,EML,N02BE01,PHC,2452980,74 x 100,2026-04-30
+HP09-2023SD,189753434,Paracetamol; 500mg; Tablet; 100 Tablets,Paracetamol,Resmed Healthcare Cc,19.01,14,EML,N02BE01,PHC,2343891,150,2026-04-30
+HP09-2023SD,180155484,Paracetamol; 500mg; Tablet; 20 Tablets,Paracetamol,Innovata Pharmaceuticals (Pty) Ltd,4.93,14,EML,N02BE01,PHC,19129540,300 x 20,2026-04-30
+HP09-2023SD,180155484,Paracetamol; 500mg; Tablet; 20 Tablets,Paracetamol,OETHMAAN BIOSIMS (PTY) LTD,4.78,14,EML,N02BE01,PHC,20457084,100,2026-04-30
+HP09-2023SD,180155484,Paracetamol; 500mg; Tablet; 20 Tablets,Paracetamol,Arya Pharma (Pty) Ltd,4.25,14,EML,N02BE01,PHC,25020517,500,2026-04-30
+HP09-2023SD,180155484,Paracetamol; 500mg; Tablet; 20 Tablets,Paracetamol,Resmed Healthcare Cc,4.29,14,EML,N02BE01,PHC,23361087,500,2026-04-30
+HP09-2023SD,180155484,Paracetamol; 500mg; Tablet; 20 Tablets,Paracetamol,Adcock Ingram Healthcare (Pty) Ltd,3.52,14,EML,N02BE01,PHC,29205968,240,2026-04-30
+HP06-2024SVP,180076540,Pethidine; 100mg/2ml; injection; 2 ml,Pethidine,Pharma-Q (Pty) Ltd,6.12,14,NON-EML,N02AB02,,1559242,200,2027-04-30
+HP06-2024SVP,180076540,Pethidine; 100mg/2ml; injection; 2 ml,Pethidine,Unimed Healthcare (Pty) Ltd,6.91,14,NON-EML,N02AB02,,1039494,200,2027-04-30
+HP06-2024SVP,189703124,Pethidine; 25mg/ml; injection; 1 ml,Pethidine,Pharma-Q (Pty) Ltd,5.0,14,NON-EML,N02AB02,,251030,200,2027-04-30
+HP06-2024SVP,180076519,Pethidine; 50mg/ml; injection; 1 ml,Pethidine,Pharma-Q (Pty) Ltd,4.74,14,NON-EML,N02AB02,HOSP,339808,200,2027-04-30
+HP06-2024SVP,180076519,Pethidine; 50mg/ml; injection; 1 ml,Pethidine,Unimed Healthcare (Pty) Ltd,4.87,14,NON-EML,N02AB02,HOSP,1359234,200,2027-04-30
+HP09-2023SD,180190436,Phenobarbital; 30mg; Tablet; 28 Tablets,Phenobarbital,RANBAXY PHARMACEUTICALS (PTY) LTD,5.18,14,EML,N03AA02,PHC,417303,250,2026-04-30
+HP09-2023SD,180339595,Phenobarbital; 30mg; Tablet; 56 Tablets,Phenobarbital,RANBAXY PHARMACEUTICALS (PTY) LTD,9.81,14,EML,N03AA02,PHC,201173,250,2026-04-30
+HP09-2023SD,180155499,Phenobarbital; 30mg; Tablet; 84 Tablets,Phenobarbital,RANBAXY PHARMACEUTICALS (PTY) LTD,15.36,14,EML,N03AA02,PHC,232381,250,2026-04-30
+HP02-2025AI,189703675,Phenoxymethylpenicillin; 125mg/5ml; Suspension; 100 ml,Phenoxymethylpenicillin,RANBAXY PHARMACEUTICALS (PTY) LTD,11.62,14,EML,J01CE02,PHC,1204120,100,2028-09-30
+HP02-2025AI,189706020,Phenoxymethylpenicillin; 250mg/5ml; Suspension; 100 ml,Phenoxymethylpenicillin,RANBAXY PHARMACEUTICALS (PTY) LTD,15.87,14,EML,J01CE02,PHC,1543998,100,2028-09-30
+HP02-2025AI,180292357,Phenoxymethylpenicillin; 250mg; Tablet; 40 Tablets,Phenoxymethylpenicillin,RANBAXY PHARMACEUTICALS (PTY) LTD,21.62,14,EML,J01CE02,PHC,3447719,30,2028-09-30
+HP06-2024SVP,180076556,Phenylephrine; 10mg/ml; injection; 1 ml,Phenylephrine,Abbott Laboratories SA (Pty) Ltd,63.67,14,EML,C01CA06,HOSP,640865,10,2027-04-30
+HP09-2023SD,189715312,Phenytoin; 100mg; Capsule; 100 Capsules,Phenytoin,Pharmacare Limited,66.64,14,EML,N03AB02,PHC,106345,20,2026-04-30
+HP09-2023SD,180342249,Phenytoin; 100mg; Tablet; 84 Tablets,Phenytoin,Pharmacare Limited,55.36,14,EML,N03AB02,PHC,2226825,20,2026-04-30
+HP06-2024SVP/01,189708084,Phenytoin; 250mg/5ml; injection; 5 ml,Phenytoin,Ascendis Pharma (Pty) Ltd,55.03,14,EML,N03AB02,HOSP,1262918,10,2027-04-30
+HP06-2024SVP,181772157,"Phospholipids, Total; 100mg/4ml; injection; 4 ml","Phospholipids, Total",AbbVie (Pty) Ltd,1664.07,14,EML,R07AA02,HOSP,47013,10,2027-04-30
+HP06-2024SVP,189753628,"Phospholipids, Total; 200mg/8ml; injection; 8 ml","Phospholipids, Total",AbbVie (Pty) Ltd,3327.64,14,EML,R07AA02,HOSP,16338,10,2027-04-30
+HP07-2023DAI,189714725,"Pilocarpine; 1%; Drop, Eye; 15 ml",Pilocarpine,Novartis SA (Pty) Ltd,42.96,14,EML,S01EB01,HOSP,25655,1,2026-08-31
+HP02-2025AI,180185518,"Piperacillin, Tazobactam; 4g, 500mg; injection; 1 Injection","Piperacillin, Tazobactam",Ando Pharma (Pty) Ltd,36.8,14,EML,J01CR05,HOSP,1857154,50 vials,2028-09-30
+HP11-2023LVP,180031056,"Plasmalyte B; sodium, potassium, chloride, magnesium, bicarbonate;130,4,110,1.5,27mmol; Infusion (parenteral) (balsol); 1 L; 1 L",Plasmalyte B,Adcock Ingram Critical Care (Pty) Ltd,29.26,14,NON-EML,B05BB01,,966016,10,2026-09-30
+HP08-2023SSP,189712704,Polystyrene Sulfonate; Powder; 454 g,Polystyrene Sulfonate,Adcock Ingram Critical Care (Pty) Ltd,656.19,14,EML,V03AE01,HOSP,98410,1 x 454g,2026-06-30
+HP08-2023SSP,180035581,Potassium Chloride;  BP; Powder; 500 g,Potassium Chloride,Resmed Healthcare Cc,95.0,14,EML,A12BA01,HOSP,3422,18,2026-06-30
+HP06-2024SVP,189710612,Potassium Chloride; 15%; injection; 10 ml,Potassium Chloride,FRESENIUS KABI SA (PTY) LTD,2.47,14,EML,B05XA01,HOSP,2148352,100,2027-04-30
+HP09-2023SD,181917399,Potassium Chloride; 600mg; Tablet; 100 Tablets,Potassium Chloride,Pharmacare Limited,68.7,14,EML,A12BA01,HOSP,600761,20,2026-04-30
+HP12-2023LQ,189705099,Potassium Citrate;  BP; Suspension; 200 ml,Potassium Citrate,Resmed Healthcare Cc,15.61,14,EML,A12BA02,HOSP,119238,50,2026-09-30
+HP06-2024SVP,180076573,Potassium Phosphate; 1g/10ml; injection; 10 ml,Potassium Phosphate,Adcock Ingram Critical Care (Pty) Ltd,9.29,14,NON-EML,B05XA06,,162748,10,2027-04-30
+HP12-2023LQ,189712111,Povidone Iodine; 0.75%; Liquid; 1 L,Povidone Iodine,B Braun Medical (pty) Ltd,111.8,7,EML,D08AG02,PHC,71969,10,2026-09-30
+HP12-2023LQ,181861436,Povidone Iodine; 1%; Liquid; 100 ml,Povidone Iodine,Barrs Pharmaceuticals Industries (Pty) Ltd,17.27,14,EML,D08AG02,PHC,149026,120,2026-09-30
+HP12-2023LQ,189712302,Povidone Iodine; 10%; Liquid; 1 L,Povidone Iodine,Barrs Pharmaceuticals Industries (Pty) Ltd,103.2,14,EML,D08AG02,PHC,376783,12,2026-09-30
+HP12-2023LQ,189712302,Povidone Iodine; 10%; Liquid; 1 L,Povidone Iodine,B Braun Medical (pty) Ltd,126.21,7,EML,D08AG02,PHC,251188,10,2026-09-30
+HP08-2023SSP,189703515,Povidone Iodine; 10%; Ointment; 25 g,Povidone Iodine,Cipla Medpro Manufacturing (Pty) Ltd,9.46,14,EML,D08AG02,PHC,648184,270,2026-06-30
+HP08-2023SSP,189703515,Povidone Iodine; 10%; Ointment; 25 g,Povidone Iodine,Barrs Pharmaceuticals Industries (Pty) Ltd,9.33,14,EML,D08AG02,PHC,972276,200,2026-06-30
+HP08-2023SSP,189707388,Povidone Iodine; 10%; Ointment; 500 g,Povidone Iodine,Barrs Pharmaceuticals Industries (Pty) Ltd,119.58,14,EML,D08AG02,PHC,62110,22,2026-06-30
+HP08-2023SSP,180119662,Povidone Iodine; 5%; Cream; 25 g,Povidone Iodine,B Braun Medical (pty) Ltd,11.8,14,EML,D08AG02,PHC,636990,480,2026-06-30
+HP08-2023SSP,189708213,Povidone Iodine; 5%; Cream; 500 g,Povidone Iodine,B Braun Medical (pty) Ltd,61.09,14,EML,D08AG02,PHC,55400,12,2026-06-30
+HP09-2023SD,181758021,Pramipexole; 0.25mg; Tablet; 100 Tablets,Pramipexole,Pharmacare Limited,153.42,14,EML,N04BC05,TER,18185,10,2026-04-30
+HP09-2023SD,180230824,Pravastatin; 20mg; Tablet; 30 Tablets,Pravastatin,Accord Healthcare (Pty) Ltd,20.7,14,EML,C10AA03,PHC,2092263,20,2026-04-30
+HP09-2023SD,222001118,Pravastatin; 40mg; Tablet; 30 Tablets,Pravastatin,Accord Healthcare (Pty) Ltd,34.5,14,EML,C10AA03,PHC,2512234,20,2026-04-30
+HP08-2023SSP,180966026,"Prednisolone Caproate, Cinchocaine; 1.3mg, 1mg; Suppository; 12 Suppositories","Prednisolone Caproate, Cinchocaine",Adcock Ingram Healthcare (Pty) Ltd,200.0,14,NON-EML,C05AA04,,79660,1 shipper,2026-06-30
+HP08-2023SSP,222001027,"Prednisolone Caproate, Cinchocaine; 1.9mg/g, 5mg/g; Ointment (15-30g); 15 g","Prednisolone Caproate, Cinchocaine",Adcock Ingram Healthcare (Pty) Ltd,339.63,14,NON-EML,C05AA04,,8470,1 shipper,2026-06-30
+HP12-2023LQ,180187762,Prednisolone; 15mg/5ml; Syrup; 50 ml,Prednisolone,Pharmacare Limited,95.21,14,EML,H02AB06,HOSP,389822,10,2026-09-30
+HP09-2023SD,189714134,Prednisone; 5mg; Tablet; 100 Tablets,Prednisone,RANBAXY PHARMACEUTICALS (PTY) LTD,15.77,14,EML,H02AB07,PHC,1630450,250,2026-04-30
+HP09-2023SD,181798179,Prednisone; 5mg; Tablet; 28 Tablets,Prednisone,Gulf Drug Company (Pty) Ltd,5.97,14,EML,H02AB07,PHC,2979550,50,2026-04-30
+HP09-2023SD,181798179,Prednisone; 5mg; Tablet; 28 Tablets,Prednisone,RANBAXY PHARMACEUTICALS (PTY) LTD,4.85,14,EML,H02AB07,PHC,7452000,250,2026-04-30
+HP09-2023SD,181892395,Prednisone; 5mg; Tablet; 40 Tablets,Prednisone,Gulf Drug Company (Pty) Ltd,8.38,14,EML,H02AB07,PHC,1136310,300,2026-04-30
+HP09-2023SD,181860002,Prednisone; 5mg; Tablet; 56 Tablets,Prednisone,Gulf Drug Company (Pty) Ltd,10.79,14,EML,H02AB07,PHC,3319870,300,2026-04-30
+HP09-2023SD,181836131,Pregabalin; 150mg; Tablet; 56 Capsules,Pregabalin,Dr Reddy’s Laboratories (Pty) Ltd,43.07,14,EML,N03AX16,TER,38718,1,2026-04-30
+HP09-2023SD,222001424,Pregabalin; 25mg; Capsule; 60 Capsules,Pregabalin,Macleods Pharmaceuticals SA (Pty) Ltd,24.96,14,EML,N03AX16,TER,70045,196 x 60,2026-04-30
+HP09-2023SD,181831898,Pregabalin; 75mg; Capsule; 56 Capsules,Pregabalin,Strides Pharma (SA) (Pty) Ltd,37.63,14,EML,N03AX16,TER,159002,50,2026-04-30
+HP01-2025TB,222001523,Pretomanid; 200mg; Tablet; 30 Tablets,Pretomanid,Macleods Pharmaceuticals SA (Pty) Ltd,815.2,14,EML,J04AK08,HOSP,106502,64,2027-09-30
+HP06-2024SVP/02,189703419,Promethazine; 25mg/ml; injection; 1 ml,Promethazine,FRESENIUS KABI SA (PTY) LTD,9.11,14,EML,R06AD02,PHC,624641,100,2027-04-30
+HP09-2023SD/01,189710049,Promethazine; 25mg; Tablet; 100 Tablets,Promethazine,Pharma-Q (Pty) Ltd,44.79,14,EML,R06AD02,HOSP,285015,35,2026-04-30
+HP06-2024SVP,189703420,Promethazine; 50mg/2ml; injection; 2 ml,Promethazine,FRESENIUS KABI SA (PTY) LTD,15.87,14,EML,R06AD02,PHC,405487,100,2027-04-30
+HP12-2023LQ,189702847,Promethazine; 5mg/5ml; Elixir; 100 ml,Promethazine,Resmed Healthcare Cc,8.71,14,EML,R06AD02,PHC,28634,100,2026-09-30
+HP06-2024SVP,180076590,Propofol; 10mg/ml; injection; 20 ml,Propofol,Biotech Laboratories (Pty) Ltd,13.04,14,EML,N01AX10,HOSP,1291648,5,2027-04-30
+HP06-2024SVP,189763039,Propofol; 10mg/ml; injection; 50 ml,Propofol,FRESENIUS KABI SA (PTY) LTD,36.23,14,EML,N01AX10,HOSP,184260,100,2027-04-30
+HP09-2023SD,181798180,Propranolol; 10mg; Tablet; 28 Tablets,Propranolol,Unimed Healthcare (Pty) Ltd,5.08,14,EML,C07AA05,HOSP,301770,500,2026-04-30
+HP09-2023SD,189716004,Propranolol; 10mg; Tablet; 50 Tablets,Propranolol,Unimed Healthcare (Pty) Ltd,7.15,14,EML,C07AA05,HOSP,244101,300,2026-04-30
+HP09-2023SD,181798181,Propranolol; 10mg; Tablet; 84 Tablets,Propranolol,Unimed Healthcare (Pty) Ltd,9.26,14,EML,C07AA05,HOSP,83360,200,2026-04-30
+HP09-2023SD,189711802,Propranolol; 40mg; Tablet; 56 Tablets,Propranolol,Unimed Healthcare (Pty) Ltd,13.48,14,EML,C07AA05,HOSP,89445,200,2026-04-30
+HP09-2023SD,180190493,Propranolol; 40mg; Tablet; 84 Tablets,Propranolol,Unimed Healthcare (Pty) Ltd,18.55,14,EML,C07AA05,HOSP,27851,100,2026-04-30
+HP12-2023LQ,189714878,Propylene Glycol;  BP; Liquid; 2.5 L,Propylene Glycol,Resmed Healthcare Cc,381.02,14,NON-EML,V07AB,,1223,5,2026-09-30
+HP01-2025TB,181817499,Pyrazinamide; 500mg; Tablet; 56 Tablets,Pyrazinamide,Macleods Pharmaceuticals SA (Pty) Ltd,58.3,14,EML,J04AK01,PHC,56385,112,2027-09-30
+HP01-2025TB,181901581,Pyrazinamide; 500mg; Tablet; 84 Tablets,Pyrazinamide,Macleods Pharmaceuticals SA (Pty) Ltd,87.1,14,EML,J04AK01,PHC,70690,112,2027-09-30
+HP09-2023SD,180000607,Pyridostigmine; 10mg; Tablet; 50 Tablets,Pyridostigmine,Viatris Healthcare (Pty) Ltd,319.08,14,EML,N07AA02,HOSP,45163,20,2026-04-30
+HP09-2023SD,189710277,Pyridostigmine; 60mg; Tablet; 150 Tablets,Pyridostigmine,Viatris Healthcare (Pty) Ltd,1432.6,14,EML,N07AA02,HOSP,32250,20,2026-04-30
+HP09-2023SD,180351237,Quetiapine; 100mg; Tablet; 90 Tablets,Quetiapine,Macleods Pharmaceuticals SA (Pty) Ltd,42.11,14,EML,N05AH04,HOSP,57925,126 x 90,2026-04-30
+HP09-2023SD,180351239,Quetiapine; 200mg; Tablet; 60 Tablets,Quetiapine,Macleods Pharmaceuticals SA (Pty) Ltd,45.27,14,EML,N05AH04,HOSP,97119,192 x 60,2026-04-30
+HP09-2023SD,180350983,Quetiapine; 25mg; Tablet; 100 Tablets,Quetiapine,Macleods Pharmaceuticals SA (Pty) Ltd,24.3,14,EML,N05AH04,HOSP,87738,50,2026-04-30
+HP09-2023SD,181772178,Quetiapine; 300mg; Tablet; 60 Tablets,Quetiapine,Macleods Pharmaceuticals SA (Pty) Ltd,62.42,14,EML,N05AH04,HOSP,19730,90 x 60,2026-04-30
+HP10-2025BIO,222001066,Recombinant Anthihaemophilic Factor VIII; 1000IU; injection; 1 Dose,Recombinant Anthihaemophilic Factor VIII,Bayer (Pty) Ltd,3622.5,14,,B02BD02,HOSP,1800,1,2027-12-31
+HP10-2025BIO,222001067,Recombinant Anthihaemophilic Factor VIII; 250IU; injection; 1 Dose,Recombinant Anthihaemophilic Factor VIII,Bayer (Pty) Ltd,1207.5,14,,B02BD02,HOSP,210,1,2027-12-31
+HP10-2025BIO,222001068,Recombinant Anthihaemophilic Factor VIII; 500IU; injection; 1 Dose,Recombinant Anthihaemophilic Factor VIII,Bayer (Pty) Ltd,1811.25,14,,B02BD02,HOSP,1820,1,2027-12-31
+HP06-2024SVP,181757213,Remifentanil; 2mg; injection; 1 Injection,Remifentanil,Viatris Healthcare (Pty) Ltd,57.97,14,NON-EML,N01AH06,,49540,25,2027-04-30
+HP01-2025TB,181817633,"Rifampicin, Isoniazid; 150mg, 75mg; Tablet; 56 Tablets","Rifampicin, Isoniazid",Pharma Dynamics (pty) Ltd,60.25,14,EML,J04AM02,PHC,332168,6,2027-09-30
+HP01-2025TB,181817633,"Rifampicin, Isoniazid; 150mg, 75mg; Tablet; 56 Tablets","Rifampicin, Isoniazid",Macleods Pharmaceuticals SA (Pty) Ltd,61.0,14,EML,J04AM02,PHC,221446,216,2027-09-30
+HP01-2025TB,181817634,"Rifampicin, Isoniazid; 150mg, 75mg; Tablet; 84 Tablets","Rifampicin, Isoniazid",Pharma Dynamics (pty) Ltd,90.35,14,EML,J04AM02,PHC,275634,6,2027-09-30
+HP01-2025TB,181817634,"Rifampicin, Isoniazid; 150mg, 75mg; Tablet; 84 Tablets","Rifampicin, Isoniazid",Macleods Pharmaceuticals SA (Pty) Ltd,91.6,14,EML,J04AM02,PHC,183756,168,2027-09-30
+HP01-2025TB,181817575,"Rifampicin, Isoniazid; 300mg, 150mg; Tablet; 56 Tablets","Rifampicin, Isoniazid",Macleods Pharmaceuticals SA (Pty) Ltd,133.0,14,EML,J04AM02,PHC,891770,112,2027-09-30
+HP01-2025TB,222001710,"Rifampicin, Isoniazid; 75mg, 50mg; Tablet; 28 Tablets","Rifampicin, Isoniazid",Pharma Dynamics (pty) Ltd,29.83,14,EML,J04AM02,PHC,82744,6,2027-09-30
+HP01-2025TB,222000932,"Rifampicin, Isoniazid; 75mg, 50mg; Tablet; 84 Tablets","Rifampicin, Isoniazid",Pharma Dynamics (pty) Ltd,83.55,14,EML,J04AM02,PHC,174734,6,2027-09-30
+HP01-2025TB,181817608,"Rifampicin, Pyrazinamide, Ethambutol, Isoniazid; 150mg, 400mg, 275mg, 75mg; Tablet; 112 Tablets","Rifampicin, Pyrazinamide, Ethambutol, Isoniazid",Macleods Pharmaceuticals SA (Pty) Ltd,231.64,14,EML,J04AM06,PHC,165602,120,2027-09-30
+HP01-2025TB,181817608,"Rifampicin, Pyrazinamide, Ethambutol, Isoniazid; 150mg, 400mg, 275mg, 75mg; Tablet; 112 Tablets","Rifampicin, Pyrazinamide, Ethambutol, Isoniazid",Pharma Dynamics (pty) Ltd,228.9,14,EML,J04AM06,PHC,248402,4,2027-09-30
+HP01-2025TB,181817624,"Rifampicin, Pyrazinamide, Ethambutol, Isoniazid; 150mg, 400mg, 275mg, 75mg; Tablet; 28 Tablets","Rifampicin, Pyrazinamide, Ethambutol, Isoniazid",Macleods Pharmaceuticals SA (Pty) Ltd,58.12,14,EML,J04AM06,PHC,99082,160,2027-09-30
+HP01-2025TB,181817626,"Rifampicin, Pyrazinamide, Ethambutol, Isoniazid; 150mg, 400mg, 275mg, 75mg; Tablet; 56 Tablets","Rifampicin, Pyrazinamide, Ethambutol, Isoniazid",Pharma Dynamics (pty) Ltd,118.4,14,EML,J04AM06,PHC,244970,4,2027-09-30
+HP01-2025TB,181817626,"Rifampicin, Pyrazinamide, Ethambutol, Isoniazid; 150mg, 400mg, 275mg, 75mg; Tablet; 56 Tablets","Rifampicin, Pyrazinamide, Ethambutol, Isoniazid",Macleods Pharmaceuticals SA (Pty) Ltd,116.08,14,EML,J04AM06,PHC,367454,112,2027-09-30
+HP01-2025TB,181817627,"Rifampicin, Pyrazinamide, Ethambutol, Isoniazid; 150mg, 400mg, 275mg, 75mg; Tablet; 84 Tablets","Rifampicin, Pyrazinamide, Ethambutol, Isoniazid",Macleods Pharmaceuticals SA (Pty) Ltd,173.77,14,EML,J04AM06,PHC,364943,144,2027-09-30
+HP01-2025TB,181817627,"Rifampicin, Pyrazinamide, Ethambutol, Isoniazid; 150mg, 400mg, 275mg, 75mg; Tablet; 84 Tablets","Rifampicin, Pyrazinamide, Ethambutol, Isoniazid",Pharma Dynamics (pty) Ltd,176.7,14,EML,J04AM06,PHC,243296,4,2027-09-30
+HP01-2025TB,222001650,"Rifampicin, Pyrazinamide, Isoniazid; 75mg, 150mg, 50mg; Tablet; 28 Tablets","Rifampicin, Pyrazinamide, Isoniazid",Macleods Pharmaceuticals SA (Pty) Ltd,70.0,14,EML,J04AM05,PHC,42322,50,2027-09-30
+HP01-2025TB,222000933,"Rifampicin, Pyrazinamide, Isoniazid; 75mg, 150mg, 50mg; Tablet; 84 Tablets","Rifampicin, Pyrazinamide, Isoniazid",Macleods Pharmaceuticals SA (Pty) Ltd,205.0,14,EML,J04AM05,PHC,100125,50,2027-09-30
+HP01-2025TB,222001651,Rifapentine; 300mg; Tablet; 12 Tablets,Rifapentine,Pharma Dynamics (pty) Ltd,84.67,14,NON-EML,J04AB05,PHC,801000,4,2027-09-30
+HP11-2023LVP,180018948,Ringer Lactate; Infusion (parenteral); 1 L,Ringer Lactate,Adcock Ingram Critical Care (Pty) Ltd,17.31,14,EML,B05BB01,HOSP,12038434,12,2026-09-30
+HP11-2023LVP,189761537,Ringer Lactate; Infusion (parenteral); 200 ml,Ringer Lactate,Adcock Ingram Critical Care (Pty) Ltd,12.03,14,EML,B05BB01,HOSP,1414348,36,2026-09-30
+HP09-2023SD,181786131,Risedronic Acid; 35mg; Tablet; 4 Tablets,Risedronic Acid,Macleods Pharmaceuticals SA (Pty) Ltd,7.89,14,EML,M05BA07,HOSP,60213,180 x 4,2026-04-30
+HP09-2023SD,181799554,Risperidone; 0.5mg; Tablet; 30 Tablets,Risperidone,Cipla Medpro Manufacturing (Pty) Ltd,4.6,14,EML,N05AX08,PHC,929682,200,2026-04-30
+HP12-2023LQ,180968975,Risperidone; 1mg/ml; Solution; 30 ml,Risperidone,Unimed Healthcare (Pty) Ltd,170.79,14,EML,N05AX08,HOSP,283438,25,2026-09-30
+HP09-2023SD,180339003,Risperidone; 1mg; Tablet; 30 Tablets,Risperidone,Cipla Medpro Manufacturing (Pty) Ltd,5.29,14,EML,N05AX08,PHC,1916776,200,2026-04-30
+HP09-2023SD,180965107,Risperidone; 2mg; Tablet; 30 Tablets,Risperidone,Cipla Medpro Manufacturing (Pty) Ltd,5.51,14,EML,N05AX08,PHC,2526621,200,2026-04-30
+HP09-2023SD,180964999,Risperidone; 3mg; Tablet; 30 Tablets,Risperidone,Cipla Medpro Manufacturing (Pty) Ltd,6.9,14,EML,N05AX08,PHC,1491300,100,2026-04-30
+HP13-2025ARV,181929005,Ritonavir; 100mg; Tablet; 60 Tablets,Ritonavir,Hetero Drugs SA (Pty) Ltd,91.52,14,EML,J05AE03,PHC,103304,24,2028-11-30
+HP04-2024ONC,181752974,Rituximab; 100mg/10ml; injection; 10 ml,Rituximab,Dr Reddy’s Laboratories (Pty) Ltd,805.0,14,EML,L01XC02,TER,17660,1,2026-06-30
+HP04-2024ONC,180669542,Rituximab; 500mg/50ml; injection; 50 ml,Rituximab,Dr Reddy’s Laboratories (Pty) Ltd,5333.0,14,EML,L01XC02,TER,10269,1,2026-06-30
+HP09-2023SD,181870433,Rivaroxaban; 10mg; Tablet; 30 Tablets,Rivaroxaban,Bayer (Pty) Ltd,439.66,14,EML,B01AF01,HOSP,38190,1 x 30,2026-04-30
+HP09-2023SD,222001163,Rivaroxaban; 15mg; Tablet; 42 Tablets,Rivaroxaban,Bayer (Pty) Ltd,615.52,14,EML,B01AF01,HOSP,2428,1 X 42,2026-04-30
+HP09-2023SD,222001433,Rivaroxaban; 20mg; Tablet; 28 Tablets,Rivaroxaban,Bayer (Pty) Ltd,410.35,14,EML,B01AF01,HOSP,17220,1 X 28,2026-04-30
+HP06-2024SVP,180960252,Rocuronium Bromide; 50mg/5ml; injection; 5 ml,Rocuronium Bromide,Biotech Laboratories (Pty) Ltd,32.85,14,EML,M03AC09,HOSP,745520,10,2027-04-30
+HP09-2023SD,222001127,Rosuvastatin; 10mg; Tablet; 28 Tablets,Rosuvastatin,Macleods Pharmaceuticals SA (Pty) Ltd,8.51,14,EML,C10AA07,HOSP,1471080,198 X 28,2026-04-30
+HP09-2023SD,222001128,Rosuvastatin; 5mg; Tablet; 28 Tablets,Rosuvastatin,Macleods Pharmaceuticals SA (Pty) Ltd,7.05,14,EML,C10AA07,PHC,1330552,120 X 28,2026-04-30
+HP07-2023DAI,180146017,"Salbutamol, Ipratropium Bromide; 2.5mg/2.5ml, 0.5mg/2.5ml; solution, inhalation; 60 UDVs (2.5ml)","Salbutamol, Ipratropium Bromide",Cipla Medpro Manufacturing (Pty) Ltd,101.6,14,EML,R03AL02,PHC,100720,5,2026-08-31
+HP07-2023DAI,189703618,Salbutamol; 100mcg; Inhaler; 200 Doses,Salbutamol,Unimed Healthcare (Pty) Ltd,19.55,14,EML,R03AC02,PHC,3000000,120,2026-08-31
+HP07-2023DAI,189703618,Salbutamol; 100mcg; Inhaler; 200 Doses,Salbutamol,Ipharma (Pty) Ltd,20.55,14,EML,R03AC02,PHC,3657432,10,2026-08-31
+HP07-2023DAI,189703618,Salbutamol; 100mcg; Inhaler; 200 Doses,Salbutamol,Cipla Medpro Manufacturing (Pty) Ltd,17.95,14,EML,R03AC02,PHC,8581868,160 packs,2026-08-31
+HP07-2023DAI,181762518,"Salmeterol, Fluticasone; 25mcg, 125mcg; Inhaler; 120 Doses","Salmeterol, Fluticasone",Cipla Medpro Manufacturing (Pty) Ltd,81.46,14,EML,R03AK06,PHC,165350,120,2026-08-31
+HP07-2023DAI,181844131,"Salmeterol, Fluticasone; 25mcg, 250mcg; Inhaler; 120 Doses","Salmeterol, Fluticasone",Cipla Medpro Manufacturing (Pty) Ltd,110.12,14,EML,R03AK06,PHC,84690,120,2026-08-31
+HP07-2023DAI,181776847,"Salmeterol, Fluticasone; 25mcg, 50mcg; Inhaler; 120 Doses","Salmeterol, Fluticasone",Cipla Medpro Manufacturing (Pty) Ltd,58.29,14,EML,R03AK06,PHC,13700,120,2026-08-31
+HP07-2023DAI,181772025,"Salmeterol, Fluticasone; 50mcg, 250mcg; Inhaler; 60 Doses","Salmeterol, Fluticasone",Cipla Medpro Manufacturing (Pty) Ltd,124.83,14,EML,R03AK06,PHC,68580,10,2026-08-31
+HP08-2023SSP,189714836,Selenium Sulfide; 2.5%; Suspension; 50 ml,Selenium Sulfide,Mentholatum SA (Pty) Ltd,62.0,8,EML,D01AE13,PHC,676300,96,2026-06-30
+HP09-2023SD,181826115,Senna Glycosides; 13.5mg; Tablet; 20 Tablets,Senna Glycosides,Cipla Medpro Manufacturing (Pty) Ltd,5.09,14,EML,A06AB06,PHC,2980530,480,2026-04-30
+HP12-2023LQ,180190323,Sevoflurane;  BP; Liquid; 250 ml,Sevoflurane,Safeline Pharmaceuticals (Pty) Ltd,911.28,14,EML,N01AB08,HOSP,100769,72,2026-09-30
+HP09-2023SD,181828390,Sildenafil; 20mg; Tablet; 90 Tablets,Sildenafil,Viatris Healthcare (Pty) Ltd,1350.0,14,EML,G04BE03,TER,7225,10,2026-04-30
+HP08-2023SSP,189715755,"Silver Nitrate, Potassium Nitrate; 95%, 5%; stick; 1 stick","Silver Nitrate, Potassium Nitrate",Viomed (Pty) Ltd,20.94,14,NON-EML,D08AL01,,109190,50 units,2026-06-30
+HP02-2025AI,189711323,Silver Sulfadiazine; 1%; Cream; 250 g,Silver Sulfadiazine,Biotech Laboratories (Pty) Ltd,76.9,14,EML,D06BA01,HOSP,52874,1,2028-09-30
+HP02-2025AI,189705116,Silver Sulfadiazine; 1%; Cream; 50 g,Silver Sulfadiazine,Biotech Laboratories (Pty) Ltd,19.22,14,EML,D06BA01,HOSP,428222,1,2028-09-30
+HP02-2025AI,189705115,Silver Sulfadiazine; 1%; Cream; 500 g,Silver Sulfadiazine,Biotech Laboratories (Pty) Ltd,142.48,14,EML,D06BA01,HOSP,151151,1,2028-09-30
+HP09-2023SD,189762856,Simvastatin; 10mg; Tablet; 28 Tablets,Simvastatin,Cipla Medpro Manufacturing (Pty) Ltd,5.74,14,EML,C10AA01,PHC,11207670,240,2026-04-30
+HP09-2023SD,189762856,Simvastatin; 10mg; Tablet; 28 Tablets,Simvastatin,OETHMAAN BIOSIMS (PTY) LTD,5.79,14,EML,C10AA01,PHC,11644332,200,2026-04-30
+HP09-2023SD,189762856,Simvastatin; 10mg; Tablet; 28 Tablets,Simvastatin,Strides Pharma (SA) (Pty) Ltd,5.63,14,EML,C10AA01,PHC,11443125,200,2026-04-30
+HP09-2023SD,189762970,Simvastatin; 20mg; Tablet; 28 Tablets,Simvastatin,Unimed Healthcare (Pty) Ltd,8.52,14,EML,C10AA01,PHC,5086616,200,2026-04-30
+HP09-2023SD,189762970,Simvastatin; 20mg; Tablet; 28 Tablets,Simvastatin,OETHMAAN BIOSIMS (PTY) LTD,8.01,14,EML,C10AA01,PHC,5431218,200,2026-04-30
+HP09-2023SD,189762970,Simvastatin; 20mg; Tablet; 28 Tablets,Simvastatin,Strides Pharma (SA) (Pty) Ltd,7.6,14,EML,C10AA01,PHC,5465678,200,2026-04-30
+HP09-2023SD,222000166,Simvastatin; 40mg; Tablet; 30 Tablets,Simvastatin,Strides Pharma (SA) (Pty) Ltd,13.01,14,EML,C10AA01,PHC,1613170,200,2026-04-30
+HP11-2023LVP,222001490,"Single Unit amino acid solution with 12.9g of nitrogen per litre.  High concentration of branched chain amino acids., 500-1000ml; 500 ml","Single Unit amino acid solution with 12.9g of nitrogen per litre.  High concentration of branched chain amino acids., 500-1000ml",FRESENIUS KABI SA (PTY) LTD,458.85,14,EML,B05BA01,HOSP,1070,10,2026-09-30
+HP11-2023LVP,222001489,"Single unit amino acid solution with 18g nitrogen per litre, 500- 1000ml; 500 ml","Single unit amino acid solution with 18g nitrogen per litre, 500- 1000ml",FRESENIUS KABI SA (PTY) LTD,365.99,14,EML,B05BA01,HOSP,1195,10,2026-09-30
+HP04-2024ONC,181756276,Sirolimus; 1mg; Tablet; 30 Tablets,Sirolimus,Pfizer Laboratories (Pty) Ltd,2420.6,14,EML,L04AA10,TER,6545,1,2026-06-30
+HP08-2023SSP,189711288,Sodium Bicarbonate;  BP; Powder; 500 g,Sodium Bicarbonate,Resmed Healthcare Cc,37.27,14,Other,A02AH,,47885,18,2026-06-30
+HP06-2024SVP,180358064,Sodium Bicarbonate; 4%; injection; 50 ml,Sodium Bicarbonate,FRESENIUS KABI SA (PTY) LTD,61.53,14,EML,B05XA02,HOSP,118804,60,2027-04-30
+HP11-2023LVP,180106500,Sodium Bicarbonate; 4.2%; Infusion (parenteral); 200 ml,Sodium Bicarbonate,Adcock Ingram Critical Care (Pty) Ltd,191.84,14,EML,B05CB04,HOSP,78492,12,2026-09-30
+HP06-2024SVP,180358068,Sodium Bicarbonate; 8.5%; injection; 50 ml,Sodium Bicarbonate,FRESENIUS KABI SA (PTY) LTD,78.32,14,EML,B05XA02,HOSP,541018,60,2027-04-30
+HP11-2023LVP,189761513,"Sodium Chloride, Dextrose; 0.2%, 5%; Infusion (parenteral); 200 ml","Sodium Chloride, Dextrose",Adcock Ingram Critical Care (Pty) Ltd,52.23,14,EML,B05BB02,HOSP,10630,36,2026-09-30
+HP11-2023LVP,189761525,"Sodium Chloride, Dextrose; 0.45%, 5%; Infusion (parenteral); 1 L","Sodium Chloride, Dextrose",Adcock Ingram Critical Care (Pty) Ltd,20.02,14,EML,B05BB02,HOSP,444000,12,2026-09-30
+HP11-2023LVP,189711067,"Sodium Chloride, Dextrose; 0.9%, 5%; Infusion (parenteral); 1 L","Sodium Chloride, Dextrose",Adcock Ingram Critical Care (Pty) Ltd,20.0,14,EML,B05BB02,PHC,501184,12,2026-09-30
+HP11-2023LVP/01,189761515,"Sodium Chloride, Dextrose; 0.9%, 5%; Infusion (parenteral); 200 ml","Sodium Chloride, Dextrose",Adcock Ingram Critical Care (Pty) Ltd,26.6,14,EML,B05BB02,PHC,135008,36,2026-09-30
+HP08-2023SSP,189753372,Sodium Chloride;  BP; Powder; 500 g,Sodium Chloride,Resmed Healthcare Cc,94.94,14,Other,B05CB01,,1585,18,2026-06-30
+HP11-2023LVP,189761551,Sodium Chloride; 0.45%; Infusion (parenteral); 1 L,Sodium Chloride,Adcock Ingram Critical Care (Pty) Ltd,20.9,14,EML,B05XA03,HOSP,866885,12,2026-09-30
+HP11-2023LVP,180031142,Sodium Chloride; 0.9%; Infusion (parenteral); 1 L,Sodium Chloride,Adcock Ingram Critical Care (Pty) Ltd,17.63,14,EML,B05XA03,PHC,11002521,12,2026-09-30
+HP11-2023LVP,189761560,Sodium Chloride; 0.9%; Infusion (parenteral); 100 ml,Sodium Chloride,B Braun Medical (pty) Ltd,8.73,14,EML,B05XA03,PHC,2358657,72,2026-09-30
+HP11-2023LVP,189761560,Sodium Chloride; 0.9%; Infusion (parenteral); 100 ml,Sodium Chloride,Adcock Ingram Critical Care (Pty) Ltd,9.34,14,EML,B05XA03,PHC,3537985,50,2026-09-30
+HP11-2023LVP,180031088,Sodium Chloride; 0.9%; Infusion (parenteral); 200 ml,Sodium Chloride,Adcock Ingram Critical Care (Pty) Ltd,11.04,14,EML,B05XA03,PHC,9834019,36,2026-09-30
+HP11-2023LVP,180019342,Sodium Chloride; 0.9%; Infusion (parenteral); 50 ml,Sodium Chloride,B Braun Medical (pty) Ltd,7.58,14,EML,B05XA03,PHC,8087590,72,2026-09-30
+HP11-2023LVP,180019342,Sodium Chloride; 0.9%; Infusion (parenteral); 50 ml,Sodium Chloride,Adcock Ingram Critical Care (Pty) Ltd,9.06,14,EML,B05XA03,PHC,8087590,72,2026-09-30
+HP06-2024SVP,189700088,Sodium Chloride; 0.9%; injection; 10 ml,Sodium Chloride,Adcock Ingram Critical Care (Pty) Ltd,3.17,14,EML,B05XA03,PHC,10118352,100,2027-04-30
+HP06-2024SVP,189700088,Sodium Chloride; 0.9%; injection; 10 ml,Sodium Chloride,B Braun Medical (pty) Ltd,3.71,14,EML,B05XA03,PHC,2529588,100,2027-04-30
+HP11-2023LVP,180238165,"Sodium Chloride; 0.9%; solution, irrigation, bag; 1 L",Sodium Chloride,Adcock Ingram Critical Care (Pty) Ltd,22.32,14,EML,B05CB01,PHC,90968,12,2026-09-30
+HP11-2023LVP,180037639,"Sodium Chloride; 0.9%; solution, irrigation, bag; 3 L",Sodium Chloride,Adcock Ingram Critical Care (Pty) Ltd,60.25,14,EML,B05CB01,PHC,170927,4,2026-09-30
+HP11-2023LVP,189761566,"Sodium Chloride; 0.9%; solution, irrigation, bottle; 1 L",Sodium Chloride,Adcock Ingram Critical Care (Pty) Ltd,19.54,14,EML,B05CB01,PHC,3291556,12,2026-09-30
+HP07-2023DAI,180301667,"Sodium Chloride; 0.9%; solution, irrigation; 30 ml",Sodium Chloride,Adcock Ingram Critical Care (Pty) Ltd,5.76,14,EML,B05CB01,PHC,43070,1 x 25 amps,2026-08-31
+HP07-2023DAI,222000954,Sodium Chloride; 0.9%; spray topical; 20 ml,Sodium Chloride,ACS Pharma Access Health Solutions (Pty) Ltd,23.39,14,NON-EML,B05CB01,,63600,200,2026-08-31
+HP11-2023LVP,181932688,Sodium Chloride; 5%; Infusion (parenteral); 200 ml,Sodium Chloride,FRESENIUS KABI SA (PTY) LTD,48.07,14,EML,B05XA03,HOSP,126758,30,2026-09-30
+HP08-2023SSP,189715099,Sodium Citrate;  BP; Powder; 500 g,Sodium Citrate,Resmed Healthcare Cc,65.14,14,Other,B05CB02,,15980,18,2026-06-30
+HP12-2023LQ,189712241,"Sodium Phosphate, Sodium Acid Phosphate; Enema; 135 ml","Sodium Phosphate, Sodium Acid Phosphate",Adcock Ingram Critical Care (Pty) Ltd,18.63,14,EML,A06AG01,HOSP,500456,10,2026-09-30
+HP12-2023LQ,189712241,"Sodium Phosphate, Sodium Acid Phosphate; Enema; 135 ml","Sodium Phosphate, Sodium Acid Phosphate",Pharmacare Limited,29.69,14,EML,A06AG01,HOSP,214481,40,2026-09-30
+HP11-2023LVP,180031183,"Sodium, Potassium, Calcium, Lactate; 35mmol/L, 12mmol/L, 47mmol/L, 50g/L; Infusion (parenteral) (Paediatric Maintenance); 200 ml","Sodium, Potassium, Calcium, Lactate",Adcock Ingram Critical Care (Pty) Ltd,39.22,14,EML,B05BB01,HOSP,141362,18,2026-09-30
+HP11-2023LVP,180031184,"Sodium, Potassium, Calcium, Lactate; 35mmol/L, 12mmol/L, 47mmol/L, 50g/L; Infusion (parenteral) (Paediatric Maintenance); 500 ml","Sodium, Potassium, Calcium, Lactate",Adcock Ingram Critical Care (Pty) Ltd,43.75,14,EML,B05BB01,HOSP,7480,36,2026-09-30
+HP11-2023LVP,180035962,"Sodium, Potassium, Chloride, Lactate; 131mmol, 5mmol, 108mmol, 29mmol; Infusion (calcium free) (parenteral) (Plasmalyte L); 1 L; 1 L","Sodium, Potassium, Chloride, Lactate",Adcock Ingram Critical Care (Pty) Ltd,18.52,14,EML,B05BB01,HOSP,2178572,12,2026-09-30
+HP02-2025AI,222001548,"Sofosbuvir, Velpatasvir; 400mg, 100mg; Tablet; 28 Tablets","Sofosbuvir, Velpatasvir",Gilead Sciences SA (Pty) Ltd,6792.77,14,EML,J05AP55,HOSP,1828,3,2028-09-30
+HP08-2023SSP,189707435,"Soft Paraffin, White;  BP; Ointment; 500 g","Soft Paraffin, White",Evohealth (Pty) Ltd,27.08,14,EML,D02AC,HOSP,238875,120,2026-06-30
+HP06-2024SVP,181799365,Somatropin; 10mg/1.5ml; cartridge; 1.5 ml,Somatropin,Sandoz SA (Pty) Ltd,1147.5,14,EML,H01AC01,TER,16200,10,2027-04-30
+HP12-2023LQ,222001045,Sorbitol; 70%; Solution; 500 ml,Sorbitol,Resmed Healthcare Cc,65.95,14,EML,A06AD18,HOSP,8702,24,2026-09-30
+HP07-2023DAI,189750639,Spacer With Mask For Children; Medical device; 1 Device,Spacer With Mask For Children,Cipla Medpro Manufacturing (Pty) Ltd,116.73,14,EML,V07AY,PHC,94950,6 units,2026-08-31
+HP07-2023DAI,189750638,Spacer With Mask For Infants; Medical device; 1 Device,Spacer With Mask For Infants,Glenmark Pharmaceuticals SA (Pty) Ltd,88.5,14,EML,V07AY,PHC,23150,20,2026-08-31
+HP09-2023SD,189711050,Spironolactone; 100mg; Tablet; 60 Tablets,Spironolactone,Pharmacare Limited,146.8,14,EML,C03DA01,PHC,9010,10,2026-04-30
+HP09-2023SD,181798184,Spironolactone; 25mg; Tablet; 28 Tablets,Spironolactone,Pharmacare Limited,13.51,14,EML,C03DA01,PHC,3575286,80,2026-04-30
+HP09-2023SD,181747912,Spironolactone; 25mg; Tablet; 56 Tablets,Spironolactone,Kiara Health (Pty) Ltd,25.47,14,EML,C03DA01,PHC,1442563,280,2026-04-30
+HP09-2023SD,181747914,Spironolactone; 25mg; Tablet; 84 Tablets,Spironolactone,Kiara Health (Pty) Ltd,34.09,14,EML,C03DA01,PHC,152409,150,2026-04-30
+HP11-2023LVP,180006415,Sterile Water For Irrigation; Liquid (Pour Water); 1 L,Sterile Water For Irrigation,Adcock Ingram Critical Care (Pty) Ltd,17.15,14,EML,V07AB,PHC,5802692,12,2026-09-30
+HP11-2023LVP,189761562,Sterile Water For Irrigation; Liquid; 1 L,Sterile Water For Irrigation,Adcock Ingram Critical Care (Pty) Ltd,26.4,14,EML,V07AB,PHC,676639,12,2026-09-30
+HP11-2023LVP,189761563,Sterile Water For Irrigation; Liquid; 3 L,Sterile Water For Irrigation,Adcock Ingram Critical Care (Pty) Ltd,128.64,14,EML,V07AB,PHC,65845,4,2026-09-30
+HP02-2025AI,189703514,"Sulfamethoxazole, Trimethoprim; 200mg/5ml, 40mg/5ml; Suspension; 100 ml","Sulfamethoxazole, Trimethoprim",Gulf Drug Company (Pty) Ltd,8.51,14,EML,J01EE01,PHC,2560094,150,2028-09-30
+HP02-2025AI,189703514,"Sulfamethoxazole, Trimethoprim; 200mg/5ml, 40mg/5ml; Suspension; 100 ml","Sulfamethoxazole, Trimethoprim",Unimed Healthcare (Pty) Ltd,8.63,14,EML,J01EE01,PHC,3840142,300,2028-09-30
+HP02-2025AI,189710380,"Sulfamethoxazole, Trimethoprim; 400mg, 80mg; Tablet (Co-trimoxazole); 100 Tablets","Sulfamethoxazole, Trimethoprim",Unimed Healthcare (Pty) Ltd,26.85,14,EML,J01EE01,PHC,141800,100,2028-09-30
+HP02-2025AI,181860989,"Sulfamethoxazole, Trimethoprim; 400mg, 80mg; Tablet (Co-trimoxazole); 28 Tablets","Sulfamethoxazole, Trimethoprim",Resmed Healthcare Cc,7.14,14,EML,J01EE01,PHC,1449525,100,2028-09-30
+HP02-2025AI,181798147,"Sulfamethoxazole, Trimethoprim; 400mg, 80mg; Tablet (Co-trimoxazole); 56 Tablets","Sulfamethoxazole, Trimethoprim",Unimed Healthcare (Pty) Ltd,13.44,14,EML,J01EE01,PHC,4594614,300,2028-09-30
+HP02-2025AI,181798147,"Sulfamethoxazole, Trimethoprim; 400mg, 80mg; Tablet (Co-trimoxazole); 56 Tablets","Sulfamethoxazole, Trimethoprim",Innovata Pharmaceuticals (Pty) Ltd,13.34,14,EML,J01EE01,PHC,3063076,200,2028-09-30
+HP02-2025AI,189710893,"Sulfamethoxazole, Trimethoprim; 400mg/5ml, 80mg/5ml; injection; 5 ml","Sulfamethoxazole, Trimethoprim",Pharma-Q Holdings (Pty) Ltd,7.5,14,EML,J01EE01,HOSP,804080,260,2028-09-30
+HP09-2023SD,189714546,Sulfasalazine; 500mg; Tablet; 100 Tablets,Sulfasalazine,Pfizer Laboratories (Pty) Ltd,309.57,14,EML,A07EC01,HOSP,372251,10,2026-04-30
+HP08-2023SSP,181915443,Sunscreen; 30SPF; Cream (150-250ml); 150 ml,Sunscreen,Mintedge Trading (Pty) Ltd,33.72,14,EML,D02BA,PHC,651930,100 x 150ml,2026-06-30
+HP06-2024SVP/02,180076785,Suxamethonium; 100mg/2ml; injection; 2 ml,Suxamethonium,FRESENIUS KABI SA (PTY) LTD,14.28,14,EML,M03AB01,HOSP,368786,50,2027-04-30
+HP12-2023LQ,181777984,"Syrup, Simplex;  BP; Syrup; 2.5 L","Syrup, Simplex",Resmed Healthcare Cc,85.93,14,EML,V07AB,HOSP,4669,5,2026-09-30
+HP04-2024ONC,222000430,Tacrolimus; 0.5mg; Capsule; 30 Capsules,Tacrolimus,Strides Pharma (SA) (Pty) Ltd,72.86,14,EML,L04AD02,TER,15438,48,2026-06-30
+HP04-2024ONC,222000431,Tacrolimus; 1mg; Capsule; 30 Capsules,Tacrolimus,Strides Pharma (SA) (Pty) Ltd,108.1,14,EML,L04AD02,TER,103729,48,2026-06-30
+HP04-2024ONC,222000432,Tacrolimus; 5mg; Capsule; 30 Capsules,Tacrolimus,Strides Pharma (SA) (Pty) Ltd,342.7,14,EML,L04AD02,TER,14731,48,2026-06-30
+HP04-2024ONC,189714589,Tamoxifen; 20mg; Tablet; 30 Tablets,Tamoxifen,Trinity Pharma (Pty) Ltd,56.81,14,EML,L02BA01,HOSP,177703,100,2026-06-30
+HP13-2025ARV,181896256,"Tenofovir, Emtricitabine, Efavirenz; 300mg, 200mg, 600mg; Tablet; 28 Tablets","Tenofovir, Emtricitabine, Efavirenz",Viatris Healthcare (Pty) Ltd,79.49,14,EML,J05AR06,PHC,924206,144,2028-11-30
+HP13-2025ARV,222001250,"Tenofovir, Emtricitabine, Efavirenz; 300mg, 200mg, 600mg; Tablet; 90 Tablets","Tenofovir, Emtricitabine, Efavirenz",Viatris Healthcare (Pty) Ltd,247.9,14,EML,J05AR06,PHC,10000,48,2028-11-30
+HP13-2025ARV,181896252,"Tenofovir, Emtricitabine; 300mg, 200mg; Tablet; 28 Tablets","Tenofovir, Emtricitabine",Hetero Drugs SA (Pty) Ltd,53.87,14,EML,J05AR03,PHC,4006286,54,2028-11-30
+HP13-2025ARV,181896252,"Tenofovir, Emtricitabine; 300mg, 200mg; Tablet; 28 Tablets","Tenofovir, Emtricitabine",Viatris Healthcare (Pty) Ltd,56.13,14,EML,J05AR03,PHC,6009429,144,2028-11-30
+HP13-2025ARV,222000207,"Tenofovir, Lamivudine, Dolutegravir; 300mg, 300mg, 50mg; Tablet; 28 Tablets","Tenofovir, Lamivudine, Dolutegravir",Viatris Healthcare (Pty) Ltd,56.22,14,EML,J05AR27,PHC,16166813,192,2028-11-30
+HP13-2025ARV,222000207,"Tenofovir, Lamivudine, Dolutegravir; 300mg, 300mg, 50mg; Tablet; 28 Tablets","Tenofovir, Lamivudine, Dolutegravir",Pharma Dynamics (pty) Ltd,64.04,14,EML,J05AR27,PHC,14041199,10,2028-11-30
+HP13-2025ARV,222000207,"Tenofovir, Lamivudine, Dolutegravir; 300mg, 300mg, 50mg; Tablet; 28 Tablets","Tenofovir, Lamivudine, Dolutegravir",Macleods Pharmaceuticals SA (Pty) Ltd,56.77,14,EML,J05AR27,PHC,16081788,108,2028-11-30
+HP13-2025ARV,222000207,"Tenofovir, Lamivudine, Dolutegravir; 300mg, 300mg, 50mg; Tablet; 28 Tablets","Tenofovir, Lamivudine, Dolutegravir",Barrs Pharmaceuticals Industries (Pty) Ltd,62.4,14,EML,J05AR27,PHC,15923885,128,2028-11-30
+HP13-2025ARV,222000207,"Tenofovir, Lamivudine, Dolutegravir; 300mg, 300mg, 50mg; Tablet; 28 Tablets","Tenofovir, Lamivudine, Dolutegravir",Pharmacare Limited,63.25,14,EML,J05AR27,PHC,14089784,14,2028-11-30
+HP13-2025ARV,222000207,"Tenofovir, Lamivudine, Dolutegravir; 300mg, 300mg, 50mg; Tablet; 28 Tablets","Tenofovir, Lamivudine, Dolutegravir",EMCURE PHARMACEUTICALS SA (PTY) LTD,55.9,14,EML,J05AR27,PHC,16470472,96,2028-11-30
+HP13-2025ARV,222000207,"Tenofovir, Lamivudine, Dolutegravir; 300mg, 300mg, 50mg; Tablet; 28 Tablets","Tenofovir, Lamivudine, Dolutegravir",Innovata Pharmaceuticals (Pty) Ltd,56.86,14,EML,J05AR27,PHC,13822564,192 x 28,2028-11-30
+HP13-2025ARV,222000207,"Tenofovir, Lamivudine, Dolutegravir; 300mg, 300mg, 50mg; Tablet; 28 Tablets","Tenofovir, Lamivudine, Dolutegravir",Aurobindo Pharma (Pty) Ltd,63.1,14,EML,J05AR27,PHC,14867152,48,2028-11-30
+HP13-2025ARV,222001255,"Tenofovir, Lamivudine, Dolutegravir; 300mg, 300mg, 50mg; Tablet; 84 Tablets","Tenofovir, Lamivudine, Dolutegravir",EMCURE PHARMACEUTICALS SA (PTY) LTD,156.0,14,EML,J05AR27,PHC,4901521,80,2028-11-30
+HP13-2025ARV,222001255,"Tenofovir, Lamivudine, Dolutegravir; 300mg, 300mg, 50mg; Tablet; 84 Tablets","Tenofovir, Lamivudine, Dolutegravir",Innovata Pharmaceuticals (Pty) Ltd,168.99,14,EML,J05AR27,PHC,4668884,90,2028-11-30
+HP13-2025ARV,222001255,"Tenofovir, Lamivudine, Dolutegravir; 300mg, 300mg, 50mg; Tablet; 84 Tablets","Tenofovir, Lamivudine, Dolutegravir",Viatris Healthcare (Pty) Ltd,160.68,14,EML,J05AR27,PHC,4756123,80,2028-11-30
+HP13-2025ARV,222001255,"Tenofovir, Lamivudine, Dolutegravir; 300mg, 300mg, 50mg; Tablet; 84 Tablets","Tenofovir, Lamivudine, Dolutegravir",Macleods Pharmaceuticals SA (Pty) Ltd,160.0,14,EML,J05AR27,PHC,4778740,112,2028-11-30
+HP13-2025ARV,222001255,"Tenofovir, Lamivudine, Dolutegravir; 300mg, 300mg, 50mg; Tablet; 84 Tablets","Tenofovir, Lamivudine, Dolutegravir",Barrs Pharmaceuticals Industries (Pty) Ltd,170.49,14,EML,J05AR27,PHC,4623649,50,2028-11-30
+HP13-2025ARV,222001255,"Tenofovir, Lamivudine, Dolutegravir; 300mg, 300mg, 50mg; Tablet; 84 Tablets","Tenofovir, Lamivudine, Dolutegravir",Aurobindo Pharma (Pty) Ltd,175.0,14,EML,J05AR27,PHC,4307005,24,2028-11-30
+HP13-2025ARV,222001255,"Tenofovir, Lamivudine, Dolutegravir; 300mg, 300mg, 50mg; Tablet; 84 Tablets","Tenofovir, Lamivudine, Dolutegravir",Pharmacare Limited,175.95,14,EML,J05AR27,PHC,4274695,10,2028-11-30
+HP13-2025ARV,181896242,Tenofovir; 300mg; Tablet; 28 Tablets,Tenofovir,Macleods Pharmaceuticals SA (Pty) Ltd,31.18,14,EML,J05AF07,PHC,85017,72,2028-11-30
+HP04-2024ONC,222001184,Teriflunomide; 14mg; Tablet; 28 Tablets,Teriflunomide,TEVA PHARMACEUTICALS (PTY) LTD,2243.13,14,EML,L04AA31,TER,531,1,2026-06-30
+HP01-2025TB,181774577,Terizidone; 250mg; Capsule; 100 Capsules,Terizidone,Macleods Pharmaceuticals SA (Pty) Ltd,1372.3,14,EML,J04AK03,HOSP,75321,12,2027-09-30
+HP05-2024DI/01,222001177,Test: TB LAM AG; test kit; 25 Test Strips,Test: TB LAM AG,Obsidian Health (Pty) Ltd,103.57,14,,V04CF01,,62899,1,2027-06-30
+HP05-2024DI,222001179,"Test: Urine, Gluc., Prot., Bl., pH, Ket., Leuk., Nit., Bilir., Urob., specific gravity.; test kit; 100 Test Strips","Test: Urine, Gluc., Prot., Bl., pH, Ket., Leuk., Nit., Bilir., Urob., specific gravity.",Unitrade 1032 Cc,45.6,14,Other,V04B,,575022,100 packs,2027-06-30
+HP06-2024SVP,189705469,Testosterone Cypionate; 100mg/ml; injection; 10 ml,Testosterone Cypionate,Pfizer Laboratories (Pty) Ltd,164.12,14,EML,G03BA03,HOSP,15758,1,2027-04-30
+HP07-2023DAI/01,189762325,"Tetracaine; 1%; Drop, Eye; 20 UDVs (0.5ml)",Tetracaine,Soflens (Pty) Ltd,321.8,14,EML,S01HA03,PHC,9586,3 boxes of 20,2026-06-30
+HP09-2023SD,189762882,"Theophylline; 200mg; Tablet, MR; 60 Tablets",Theophylline,Kiara Health (Pty) Ltd,28.46,14,EML,R03DA04,HOSP,2487612,140,2026-04-30
+HP07-2023DAI,181885838,"Timolol, Bimatoprost; 5mg/ml, 0.3mg/ml; Drop, Eye; 3 ml","Timolol, Bimatoprost",AbbVie (Pty) Ltd,38.95,14,EML,S01ED51,HOSP,221230,12,2026-08-31
+HP07-2023DAI,181848373,"Timolol, Brimonidine; 5mg/ml, 2mg/ml; Drop, Eye; 5 ml","Timolol, Brimonidine",AbbVie (Pty) Ltd,75.82,14,EML,S01ED51,HOSP,264620,12,2026-08-31
+HP07-2023DAI,222000021,"Timolol, Dorzolamide; 5mg/ml, 20mg/ml; Drop, Eye; 5 ml","Timolol, Dorzolamide",Forrester Pharma (Pty) Ltd,43.83,14,NON-EML,S01ED51,,266950,100,2026-08-31
+HP07-2023DAI,222000963,"Timolol, Travoprost; 5mg/ml, 40mcg/ml; Drop, Eye; 2.5 ml","Timolol, Travoprost",Novartis SA (Pty) Ltd,43.18,14,EML,S01ED51,HOSP,671600,1,2026-08-31
+HP04-2024ONC,189712247,Tioguanine; 40mg; Tablet; 25 Tablets,Tioguanine,Pharmacare Limited,2515.1,14,NON-EML,L01BB03,,1436,1,2026-06-30
+HP02-2025AI,189708681,"Tobramycin; 3mg/g; ointment, eye; 3.5 g",Tobramycin,Novartis SA (Pty) Ltd,120.84,14,NON-EML,S01AA12,,51425,1,2028-09-30
+HP09-2023SD,180208573,Topiramate; 100mg; Tablet; 60 Tablets,Topiramate,RANBAXY PHARMACEUTICALS (PTY) LTD,46.98,14,EML,N03AX11,HOSP,45400,70,2026-04-30
+HP09-2023SD,180208565,Topiramate; 25mg; Tablet; 60 Tablets,Topiramate,RANBAXY PHARMACEUTICALS (PTY) LTD,24.07,14,EML,N03AX11,HOSP,77764,70,2026-04-30
+HP09-2023SD,180208570,Topiramate; 50mg; Tablet; 60 Tablets,Topiramate,RANBAXY PHARMACEUTICALS (PTY) LTD,29.29,14,EML,N03AX11,HOSP,72947,70,2026-04-30
+HP11-2023LVP,222001057,"TPN for Adults: High volume bag with electrolytes: high protein, high calorie for central line; Infusion (parenteral); 2 L","TPN for Adults: High volume bag with electrolytes: high protein, high calorie for central line",Adcock Ingram Critical Care (Pty) Ltd,1390.04,14,EML,B05BA10,HOSP,25037,4,2026-09-30
+HP11-2023LVP,222001062,"TPN for Adults: Moderate volume bag without electrolytes: Moderate protein, high calorie For IV infusion through central line. Multichamber bag containing:  Amino Acids: a minimum of histidine, ","TPN for Adults: Moderate volume bag without electrolytes: Moderate protein, high calorie For IV infusion through central line. Multichamber bag ",B Braun Medical (pty) Ltd,915.05,14,EML,B05BA10,HOSP,13611,5,2026-09-30
+HP11-2023LVP,222001055,"TPN for Adults: Very low volume weaning bag with electrolytes: very low protein, low calorie for peripheral line; Infusion (parenteral); 1 L","TPN for Adults: Very low volume weaning bag with electrolytes: very low protein, low calorie for peripheral line",B Braun Medical (pty) Ltd,875.9,14,EML,B05BA10,HOSP,5130,5,2026-09-30
+HP11-2023LVP,222001491,Trace Elements suitable for admixture without Iron.; 10 ml,Trace Elements suitable for admixture without Iron.,FRESENIUS KABI SA (PTY) LTD,161.0,14,EML,A12C,HOSP,2660,10,2026-09-30
+HP11-2023LVP,180192775,Trace Elements; injection; 10 ml,Trace Elements,BAXTER HEALTHCARE SA (PTY) LTD,99.95,14,EML,B05XA30,HOSP,39010,1 pack,2026-09-30
+HP06-2024SVP/01,180124495,Tramadol; 100mg/2ml; injection; 2 ml,Tramadol,Zydus Healthcare SA (Pty) Ltd,4.14,14,EML,N02AX02,HOSP,2525614,100,2027-04-30
+HP09-2023SD,181761190,"Tramadol; 100mg; Tablet, MR; 60 Tablets",Tramadol,Austell Pharmaceuticals (Pty) Ltd,55.02,14,EML,N02AX02,PHC,244568,6,2026-04-30
+HP09-2023SD,222001422,Tramadol; 50mg; Tablet; 100 Tablets,Tramadol,Austell Pharmaceuticals (Pty) Ltd,29.55,14,EML,N02AX02,PHC,1062710,6,2026-04-30
+HP09-2023SD,222001423,Tramadol; 50mg; Tablet; 20 Tablets,Tramadol,Unimed Healthcare (Pty) Ltd,6.93,14,EML,N02AX02,PHC,2705500,72,2026-04-30
+HP06-2024SVP,180076981,Tranexamic Acid; 500mg/5ml; injection; 5 ml,Tranexamic Acid,Pfizer Laboratories (Pty) Ltd,37.6,14,EML,B02AA02,HOSP,209067,1,2027-04-30
+HP06-2024SVP,180076981,Tranexamic Acid; 500mg/5ml; injection; 5 ml,Tranexamic Acid,Biotech Laboratories (Pty) Ltd,17.05,14,EML,B02AA02,HOSP,1881599,5,2027-04-30
+HP09-2023SD,222000951,Tranexamic Acid; 500mg; Tablet; 30 Tablets,Tranexamic Acid,Biotech Laboratories (Pty) Ltd,117.76,14,EML,B02AA02,HOSP,221410,10,2026-04-30
+HP04-2024ONC,181776294,Trastuzumab; 440mg; injection; 1 Injection,Trastuzumab,Imperial Market Access Healthcare SA (Pty) Ltd,3224.73,14,EML,L01XC03,TER,6515,20,2026-06-30
+HP08-2023SSP/01,189709033,Tretinoin; 0.05%; Cream; 20 g,Tretinoin,Pharmacare Limited,111.75,14,EML,D10AD01,PHC,131190,10,2026-06-30
+HP04-2024ONC,222001600,Tretinoin; 10mg; Capsule; 100 Capsules,Tretinoin,Pharmaco Distribution (Pty) Ltd,4894.4,14,EML,L01XF14,TER,2272,1,2026-06-30
+HP07-2023DAI,189714739,"Tropicamide; 1%; Drop, Eye; 15 ml",Tropicamide,Alcon Laboratories (SA) (Pty) Ltd,69.5,14,EML,S01FA06,HOSP,21650,1,2026-08-31
+HP07-2023DAI/01,180957297,"Tropicamide; 1%; Drop, Eye; 20 UDVs (0.5ml)",Tropicamide,Soflens (Pty) Ltd,357.06,14,EML,S01FA06,HOSP,9906,3 boxes of 20,2026-06-30
+HP05-2024DI/01,180141728,Tuberculin PPD RT23; 2TU/0.1ml; injection; 1.5 ml,Tuberculin PPD RT23,KAHMA BIOTECH (Pty) Ltd,181.78,14,EML,V04CF01,PHC,237909,10,2027-06-30
+HP08-2023SSP,189715112,"Ultrasound Gel, High Viscosity; Gel; 250 ml","Ultrasound Gel, High Viscosity",Viomed (Pty) Ltd,11.15,14,Other,V07AY,,196210,96 units,2026-06-30
+HP08-2023SSP,189712178,"Ultrasound Gel, Medium Viscosity; Gel; 250 ml","Ultrasound Gel, Medium Viscosity",Viomed (Pty) Ltd,10.92,14,Other,V07AY,,171210,96 Units,2026-06-30
+HP16-2024EPI,180327653,Vaccine: BCG; Injection; 20 Doses,Vaccine: BCG,The Biologicals and Vaccines Institute of Southern Africa (Pty) Ltd,156.57,14,EML,L03AX03,PHC,1016158,1 x 10,2026-12-31
+HP16-2024EPI,181756185,"Vaccine: Diphtheria, Pertussis, Tetanus; 0.5ml; injection; 1 Dose","Vaccine: Diphtheria, Pertussis, Tetanus",Sanofi-Aventis SA (Pty) Ltd,156.61,14,EML,J07AJ51,PHC,11162230,10 x 10,2026-12-31
+HP16-2024EPI/01,181922609,"Vaccine: Diptheria, Haemophilus Influenzae B, Pertussis, Polio, Tetanus, Hepatitis B; Syringe, Prefilled; 1 Dose","Vaccine: Diptheria, Haemophilus Influenzae B, Pertussis, Polio, Tetanus, Hepatitis B",The Biologicals and Vaccines Institute of Southern Africa (Pty) Ltd,420.46,14,EML,J07CA09,PHC,16545710,10,2026-12-31
+HP10-2025BIO,222001069,Vaccine: Hepatitis B Adult; 20mcg/ml; injection; 1 Dose,Vaccine: Hepatitis B Adult,Cipla Medpro Manufacturing (Pty) Ltd,60.0,14,EML,J07BC01,PHC,296993,50,2027-12-31
+HP16-2024EPI,180323312,Vaccine: Hepatitis B Peadiatric; 10mcg/0.5ml; injection; 10 Doses,Vaccine: Hepatitis B Peadiatric,Cipla Medpro Manufacturing (Pty) Ltd,106.85,14,EML,J07BC01,PHC,9640,10,2026-12-31
+HP16-2024EPI,222001064,"Vaccine: Human Papillomavirus, Bivalent; injection; 2 Doses","Vaccine: Human Papillomavirus, Bivalent",GlaxoSmithkline SA (Pty) Ltd,384.93,14,EML,J07BM02,PHC,1816170,100 vials (200 doses),2026-12-31
+HP10-2025BIO,189714663,"Vaccine: Influenza; Syringe, Prefilled; 1 Dose",Vaccine: Influenza,Abbott Laboratories SA (Pty) Ltd,51.75,14,EML,J07BB02,PHC,2485567,5,2027-12-31
+HP16-2024EPI/02,222001478,"Vaccine: Measles, Rubella; 5ml; injection; 10 Doses","Vaccine: Measles, Rubella",Cipla Medpro Manufacturing (Pty) Ltd,181.26,14,EML,J07BD52,PHC,1875800,50,2026-12-31
+HP10-2025BIO,222000434,Vaccine: Meningococcal Polysaccharide Diphtheria Toxoid Conjugate; injection; 1 Dose,Vaccine: Meningococcal Polysaccharide Diphtheria Toxoid Conjugate,Sanofi-Aventis SA (Pty) Ltd,525.93,14,EML,J07AH08,HOSP,24302,1,2027-12-31
+HP10-2025BIO,189715733,"Vaccine: Pneumococcal, 23-Valent Polysaccharide; injection; 1 Dose","Vaccine: Pneumococcal, 23-Valent Polysaccharide",MSD (Pty) Ltd,263.79,14,EML,J07AL01,HOSP,16732,1,2027-12-31
+HP16-2024EPI,222001550,"Vaccine: Pneumococcal, Conjugated; Syringe, Prefilled, 10 serotype; 1 Injection","Vaccine: Pneumococcal, Conjugated",Cipla Medpro Manufacturing (Pty) Ltd,106.11,14,EML,J07AL02,PHC,12598826,1 x 50,2026-12-31
+HP10-2025BIO,181872565,"Vaccine: Pneumococcal, Conjugated; Syringe, Prefilled, 13 serotype; 1 Dose","Vaccine: Pneumococcal, Conjugated",Pfizer Laboratories (Pty) Ltd,269.12,14,EML,J07AL02,HOSP,16382,10,2027-12-31
+HP10-2025BIO,189707156,Vaccine: Rabies; injection; 1 Dose,Vaccine: Rabies,KAHMA BIOTECH (Pty) Ltd,161.68,14,EML,J07BG01,PHC,1155695,10,2027-12-31
+HP16-2024EPI,181810302,"Vaccine: Rotavirus; Drop, Oral; 1 Dose",Vaccine: Rotavirus,GlaxoSmithkline SA (Pty) Ltd,128.52,14,EML,J07BH01,PHC,8304936,10 tubes,2026-12-31
+HP16-2024EPI,181760445,Vaccine: Tetanus Toxoid; injection; 10 Doses,Vaccine: Tetanus Toxoid,The Biologicals and Vaccines Institute of Southern Africa (Pty) Ltd,46.05,14,EML,J07AM01,PHC,544740,1 x 24,2026-12-31
+HP10-2025BIO,222001643,Vaccine: Yellow Fever Card; Medical device; 1 Unit,Vaccine: Yellow Fever Card,Sanofi-Aventis SA (Pty) Ltd,0.0,14,Other,,,7900,1,2027-12-31
+HP10-2025BIO,180141704,Vaccine: Yellow Fever; injection; 1 Dose,Vaccine: Yellow Fever,Sanofi-Aventis SA (Pty) Ltd,368.25,14,NON-EML,J07BL01,,9100,1,2027-12-31
+HP02-2025AI,222000020,Valganciclovir; 50mg/ml; Suspension; 100 ml,Valganciclovir,Hetero Drugs SA (Pty) Ltd,3726.0,14,EML,J05AB14,HOSP,2698,1,2028-09-30
+HP09-2023SD,181808859,"Valproate Sodium; 100mg; Tablet, dispersible; 100 Tablets",Valproate Sodium,Sanofi-Aventis SA (Pty) Ltd,147.11,14,EML,N03AG01,PHC,66896,56,2026-04-30
+HP09-2023SD,180223205,"Valproic Acid, Valproate Sodium; 145mg, 333mg; Tablet, MR; 100 Tablets","Valproic Acid, Valproate Sodium",Sanofi-Aventis SA (Pty) Ltd,130.97,14,EML,N03AG01,HOSP,1212866,24,2026-04-30
+HP09-2023SD,181813974,"Valproic Acid, Valproate Sodium; 145mg, 333mg; Tablet, MR; 56 Tablets","Valproic Acid, Valproate Sodium",Sanofi-Aventis SA (Pty) Ltd,81.68,14,EML,N03AG01,HOSP,4639144,42,2026-04-30
+HP09-2023SD,180145714,"Valproic Acid, Valproate Sodium; 58mg, 133.2mg; Tablet, MR; 100 Tablets","Valproic Acid, Valproate Sodium",Sanofi-Aventis SA (Pty) Ltd,67.07,14,EML,N03AG01,PHC,1096388,50,2026-04-30
+HP09-2023SD,181813970,"Valproic Acid, Valproate Sodium; 58mg, 133.2mg; Tablet, MR; 56 Tablets","Valproic Acid, Valproate Sodium",Sanofi-Aventis SA (Pty) Ltd,42.78,14,EML,N03AG01,PHC,3275628,72,2026-04-30
+HP09-2023SD,180145716,"Valproic Acid, Valproate Sodium; 87mg, 199.8mg; Tablet, MR; 100 Tablets","Valproic Acid, Valproate Sodium",Sanofi-Aventis SA (Pty) Ltd,86.86,14,EML,N03AG01,PHC,1022756,24,2026-04-30
+HP09-2023SD,181813972,"Valproic Acid, Valproate Sodium; 87mg, 199.8mg; Tablet, MR; 56 Tablets","Valproic Acid, Valproate Sodium",Sanofi-Aventis SA (Pty) Ltd,54.4,14,EML,N03AG01,PHC,3785888,42,2026-04-30
+HP12-2023LQ,189709032,Valproic Acid; 200mg/5ml; Syrup; 300 ml,Valproic Acid,Sanofi-Aventis SA (Pty) Ltd,132.7,14,EML,N03AG01,PHC,827782,20,2026-09-30
+HP09-2023SD,181851983,"Venlafaxine; 37.5mg; Capsule, MR; 30 Capsules",Venlafaxine,Adcock Ingram Healthcare (Pty) Ltd,26.19,14,EML,N06AX16,TER,17384,126,2026-04-30
+HP09-2023SD,189709075,"Verapamil; 240mg; Tablet, MR; 30 Tablets",Verapamil,Sandoz SA (Pty) Ltd,74.28,14,EML,C08DA01,HOSP,62438,50,2026-04-30
+HP09-2023SD,180339609,Verapamil; 40mg; Tablet; 84 Tablets,Verapamil,OETHMAAN BIOSIMS (PTY) LTD,24.34,14,EML,C08DA01,HOSP,141986,50,2026-04-30
+HP04-2024ONC,180969693,Vinblastine; 10mg/10ml; injection; 1 Injection,Vinblastine,TEVA PHARMACEUTICALS (PTY) LTD,327.46,14,EML,L01CA01,TER,8805,7,2026-06-30
+HP09-2023SD,181798187,"Vitamin A (Retinol); 100,000IU; Capsule; 50 Capsules",Vitamin A (Retinol),Biotech Laboratories (Pty) Ltd,65.19,14,EML,A11CA01,PHC,225042,10,2026-04-30
+HP09-2023SD,181798190,"Vitamin A (Retinol); 200,000IU; Capsule; 50 Capsules",Vitamin A (Retinol),Biotech Laboratories (Pty) Ltd,99.94,14,EML,A11CA01,PHC,364041,10,2026-04-30
+HP09-2023SD,181798191,"Vitamin A (Retinol); 50,000IU; Capsule; 50 Capsules",Vitamin A (Retinol),Biotech Laboratories (Pty) Ltd,52.19,14,EML,A11CA01,PHC,75362,10,2026-04-30
+HP06-2024SVP,180185361,"Vitamin B1 (Thiamine), Vitamin B6 (Pyridoxine), Vitamin B12 (Cyanocobalamin); 100mg, 100mg, 1mg; injection; 3 ml","Vitamin B1 (Thiamine), Vitamin B6 (Pyridoxine), Vitamin B12 (Cyanocobalamin)",P and G South African Trading (Pty) Ltd,52.2,14,,A11DB,,393541,30,2027-04-30
+HP06-2024SVP/01,189700006,Vitamin B1 (Thiamine); 100mg/ml; injection; 10 ml,Vitamin B1 (Thiamine),Acino Pharma (Pty) Ltd,37.56,14,EML,A11DA01,PHC,422630,10,2027-04-30
+HP09-2023SD,181798189,Vitamin B1 (Thiamine); 100mg; Tablet; 28 Tablets,Vitamin B1 (Thiamine),Resmed Healthcare Cc,6.93,14,EML,A11DA01,PHC,4622322,100,2026-04-30
+HP09-2023SD,181798189,Vitamin B1 (Thiamine); 100mg; Tablet; 28 Tablets,Vitamin B1 (Thiamine),Adcock Ingram Healthcare (Pty) Ltd,7.67,14,EML,A11DA01,PHC,1155581,192,2026-04-30
+HP09-2023SD,181917416,Vitamin B1 (Thiamine); 100mg; Tablet; 84 Tablets,Vitamin B1 (Thiamine),Adcock Ingram Healthcare (Pty) Ltd,23.96,14,EML,A11DA01,PHC,84822,144,2026-04-30
+HP09-2023SD,180339515,Vitamin B3 (Nicotinamide); 100mg; Tablet; 28 Tablets,Vitamin B3 (Nicotinamide),Unimed Healthcare (Pty) Ltd,7.46,14,EML,A11HA01,PHC,408760,400,2026-04-30
+HP09-2023SD,181917398,Vitamin B3 (Nicotinamide); 100mg; Tablet; 84 Tablets,Vitamin B3 (Nicotinamide),Unimed Healthcare (Pty) Ltd,18.37,14,EML,A11HA01,PHC,39310,400,2026-04-30
+HP09-2023SD,189710278,Vitamin B6 (Pyridoxine); 25mg; Tablet; 100 Tablets,Vitamin B6 (Pyridoxine),Resmed Healthcare Cc,8.53,14,EML,A11HA02,PHC,252430,50,2026-04-30
+HP09-2023SD,180339610,Vitamin B6 (Pyridoxine); 25mg; Tablet; 28 Tablets,Vitamin B6 (Pyridoxine),Evohealth (Pty) Ltd,3.22,14,EML,A11HA02,PHC,10111193,600,2026-04-30
+HP09-2023SD,180339610,Vitamin B6 (Pyridoxine); 25mg; Tablet; 28 Tablets,Vitamin B6 (Pyridoxine),Unimed Healthcare (Pty) Ltd,3.08,14,EML,A11HA02,PHC,10183017,500,2026-04-30
+HP09-2023SD,180339610,Vitamin B6 (Pyridoxine); 25mg; Tablet; 28 Tablets,Vitamin B6 (Pyridoxine),Resmed Healthcare Cc,3.03,14,EML,A11HA02,PHC,10973078,100,2026-04-30
+HP09-2023SD,189712166,Vitamin D (Alfacalcidol); 0.25mcg; Capsule; 30 Capsules,Vitamin D (Alfacalcidol),Strides Pharma (SA) (Pty) Ltd,71.54,14,EML,A11CC03,HOSP,196790,50,2026-04-30
+HP09-2023SD,189714139,Vitamin D (Alfacalcidol); 1mcg; Capsule; 30 Capsules,Vitamin D (Alfacalcidol),Strides Pharma (SA) (Pty) Ltd,235.46,14,EML,A11CC03,HOSP,61255,50,2026-04-30
+HP12-2023LQ,189712409,"Vitamin D2 (Ergocalciferol); 5,000IU/ml; Drop, Oral; 15 ml",Vitamin D2 (Ergocalciferol),Pharmacare Limited,68.6,14,EML,A11CC01,HOSP,389306,20,2026-09-30
+HP09-2023SD,189759820,"Vitamin D2 (Ergocalciferol); 50,000IU; Tablet; 100 Tablets",Vitamin D2 (Ergocalciferol),Pharmacare Limited,271.81,14,EML,A11CC01,HOSP,62677,5,2026-04-30
+HP09-2023SD/01,189710186,Vitamin D3 (Calcitriol); 0.25mcg; Capsule; 30 Capsules,Vitamin D3 (Calcitriol),Pharmaco Distribution (Pty) Ltd,184.0,14,EML,A11CC04,HOSP,17389,1,2026-04-30
+HP06-2024SVP,180146851,Vitamin K1 (Phytomenadione); 10mg; injection; 1 ml,Vitamin K1 (Phytomenadione),Pharmaco Distribution (Pty) Ltd,27.6,14,EML,B02BA01,HOSP,567568,1,2027-04-30
+HP06-2024SVP,180953330,Vitamin K1 (Phytomenadione); 2mg; injection; 0.2 ml,Vitamin K1 (Phytomenadione),Pharmaco Distribution (Pty) Ltd,16.1,14,EML,B02BA01,PHC,3040174,1,2027-04-30
+HP11-2023LVP,180192703,"Vitamin, Fat Soluble, Vitamin E; injection; 10 ml","Vitamin, Fat Soluble, Vitamin E",FRESENIUS KABI SA (PTY) LTD,98.33,14,EML,B05XC,HOSP,1210,10,2026-09-30
+HP12-2023LQ,189700483,"Vitamin, Multi; Drop, Oral; 25 ml","Vitamin, Multi",Barrs Pharmaceuticals Industries (Pty) Ltd,15.25,14,EML,A11BA,PHC,739642,50,2026-09-30
+HP11-2023LVP,181830445,"Vitamin, Multi; injection; 10 ml","Vitamin, Multi",Adcock Ingram Critical Care (Pty) Ltd,115.28,14,EML,A11BA,HOSP,52270,10,2026-09-30
+HP12-2023LQ,189718286,"Vitamin, Multi; Syrup; 100 ml","Vitamin, Multi",Barrs Pharmaceuticals Industries (Pty) Ltd,4.34,14,EML,A11BA,PHC,5564766,120,2026-09-30
+HP12-2023LQ,189718286,"Vitamin, Multi; Syrup; 100 ml","Vitamin, Multi",Unimed Healthcare (Pty) Ltd,4.78,14,EML,A11BA,PHC,2384900,300,2026-09-30
+HP11-2023LVP,180055706,"Vitamin, Water Soluble; injection (for intravenous use in adults); 5ml or 10 ml; 10 ml","Vitamin, Water Soluble",FRESENIUS KABI SA (PTY) LTD,106.38,14,EML,A11BA,HOSP,18940,10,2026-09-30
+HP09-2023SD,189759084,Warfarin; 5mg; Tablet; 100 Tablets,Warfarin,Strides Pharma (SA) (Pty) Ltd,36.34,14,EML,B01AA03,HOSP,558352,22,2026-04-30
+HP06-2024SVP,189710862,Water For Injection; injection; 20 ml,Water For Injection,FRESENIUS KABI SA (PTY) LTD,2.88,14,EML,V07AB,PHC,3478030,320,2027-04-30
+HP13-2025ARV,181896255,"Zidovudine, Lamivudine; 300mg, 150mg; Tablet; 56 Tablets","Zidovudine, Lamivudine",Viatris Healthcare (Pty) Ltd,91.5,14,EML,J05AR01,PHC,2082675,144,2028-11-30
+HP13-2025ARV,181922278,Zidovudine; 100mg; Tablet; 100 Tablets,Zidovudine,Viatris Healthcare (Pty) Ltd,58.85,14,EML,J05AF01,PHC,14620,192,2028-11-30
+HP13-2025ARV,181896243,Zidovudine; 300mg; Capsule; 56 Capsules,Zidovudine,Macleods Pharmaceuticals SA (Pty) Ltd,95.42,14,EML,J05AF01,PHC,63788,96,2028-11-30
+HP08-2023SSP,189715429,"Zinc Oxide, Castor Oil; Ointment; 25 g","Zinc Oxide, Castor Oil",Evohealth (Pty) Ltd,3.79,14,EML,D02AB,PHC,2616910,500,2026-06-30
+HP09-2023SD,181896936,Zinc Sulfate; 20mg; Tablet; 10 Tablets,Zinc Sulfate,Evohealth (Pty) Ltd,4.2,14,EML,A12CB01,PHC,123070,200,2026-04-30
+HP09-2023SD,181862059,Zinc Sulfate; 20mg; Tablet; 100 Tablets,Zinc Sulfate,Unimed Healthcare (Pty) Ltd,10.92,14,EML,A12CB01,PHC,186776,50,2026-04-30
+HP04-2024ONC,181844609,Zoledronic Acid; 4mg; injection; 1 Injection,Zoledronic Acid,Hetero Drugs SA (Pty) Ltd,124.66,14,EML,M05BA08,HOSP,21570,1,2026-06-30
+HP06-2024SVP/01,189753243,Zuclopentixol Acetate; 50mg/ml; injection; 1 ml,Zuclopentixol Acetate,Lundbeck South Africa (pty) Ltd,113.64,14,EML,N05AF05,HOSP,281544,5,2027-04-30
+HP06-2024SVP/01,180057631,Zuclopentixol Decanoate; 200mg/ml; injection; 1 ml,Zuclopentixol Decanoate,Lundbeck South Africa (pty) Ltd,59.66,14,EML,N05AF05,PHC,2328758,5,2027-04-30

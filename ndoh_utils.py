@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """
-...
+Utilities for retrieving the NDoH Master Health Product List (MHPL).
+
+The module discovers the latest MHPL Excel link from the NDoH tenders page,
+downloads and parses the file, and caches a cleaned CSV locally for faster
+reuse. If an update fails, it falls back to the most recent cached data.
 """
 import pandas
 import httpx
@@ -8,12 +12,15 @@ import sys
 import os
 import re
 import io
+from urllib.parse import urljoin
+import asyncio
 
 
 CACHE_DIR = "./data"
 os.makedirs(CACHE_DIR, exist_ok=True)
 LINK_TRACKER = os.path.join(CACHE_DIR, "latest_link.txt")
 CACHE_FILE = os.path.join(CACHE_DIR, "ndoh_mhpl_cache.csv")
+
 
 async def discover_latest_ndoh_prod_list_link(client: httpx.AsyncClient) -> str:
     """
@@ -29,15 +36,19 @@ async def discover_latest_ndoh_prod_list_link(client: httpx.AsyncClient) -> str:
     response.raise_for_status()
 
     match = re.search(
-        r'href=["\'](https?://[^"\']+Master-Health-Product-List[^"\']+\.xlsx)["\']',
-        response.text
+        r'href=["\']([^"\']*(?:Master-Health-Product-List|MHPL)[^"\']+\.xlsx)["\']',
+        response.text,
+        re.IGNORECASE
     )
 
     if match:
-        return match.group(1)
+        RELATIVE_PATH = match.group(1)
+        FULL_URL = urljoin(URL, RELATIVE_PATH)
+
+        return FULL_URL
     
     raise ValueError(
-        "Could not find the Master Health Product List link on the Tenders page."
+        f"Could not find the Master Health Product List link at {URL}."
     )
 
 
@@ -87,5 +98,41 @@ async def get_latest_ndoh_prod_list_df() -> pandas.DataFrame:
         except Exception as e:
             if os.path.exists(CACHE_FILE):
                 print(f"ERROR: Update failed, falling back to stale cache: {str(e)}", file=sys.stderr)
+
                 return pandas.read_csv(CACHE_FILE)
             raise e
+
+
+if __name__ == "__main__":
+    async def test_utility():
+        print("\n" + "="*50, file=sys.stderr)
+        print("RUNNING NDOH UTILITY TEST", file=sys.stderr)
+        print("="*50 + "\n", file=sys.stderr)
+        
+        try:
+            df = await get_latest_ndoh_prod_list_df()
+
+            print(f"Success: Loaded {len(df)} products.", file=sys.stderr)
+            print(f"Columns: {list(df.columns)}", file=sys.stderr)
+            
+            print("\n--- DATA SAMPLE (TOP 5) ---")
+            print(df.head(5).to_markdown(index=False))
+            
+            mock_query = "Aspirin"
+
+            print(f"\n--- MOCK SEARCH: '{mock_query}' ---")
+            results = df[df['Description'].str.contains(mock_query, case=False, na=False)]
+            if not results.empty:
+                print(results.head(3).to_markdown(index=False))
+            else:
+                print(f"No results found for {mock_query}")
+                
+            print("\n" + "="*50, file=sys.stderr)
+            print("TEST COMPLETE", file=sys.stderr)
+            print("="*50, file=sys.stderr)
+
+        except Exception as e:
+            print(f"\n❌ TEST FAILED: {str(e)}", file=sys.stderr)
+
+
+    asyncio.run(test_utility())
