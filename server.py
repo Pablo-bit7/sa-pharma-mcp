@@ -9,10 +9,13 @@ records. The server is stateless over HTTP and returns Markdown tables.
 Tools:
 - `get_licensed_companies`: Fetches official establishment lists by category.
 - `search_sahpra_products`: Searches registered products by company name.
+- `analyse_ndoh_market`: Analyses the NDoH Master Health Product List for
+    public sector procurement trends, pricing, and supplier market share.
 """
 from mcp.server.fastmcp import FastMCP
 from mcp.server.transport_security import TransportSecuritySettings
 from sahpra_utils import get_sahpra_nonce
+from ndoh_utils import get_latest_ndoh_prod_list_df
 import httpx
 import pandas
 import os
@@ -33,22 +36,16 @@ async def get_licensed_companies(category: str = "Manufacturers & Packers") -> s
     """
     Use this to retrieve the official SAHPRA list of establishments for a specific catagory.
 
-    Available categories:
-    - API Manufacturers
-    - Bond Stores
-    - Cannabis Cultivation Licences
-    - Distribution of Scheduled Substances
-    - Gas Manufacturers
-    - Holders of Certificate of Product Registration
-    - Manufacturers & Packers
-    - Private Only Wholesalers
-    - Provincial Depots
-    - Testing Laboratories
-
-    :param category: Description
+    :param category: Valid options:
+        'API Manufacturers', 'Bond Stores',
+        'Cannabis Cultivation Licences', 'Distribution of Scheduled Substances',
+        'Gas Manufacturers', 'Holders of Certificate of Product Registration',
+        'Manufacturers & Packers', 'Private Only Wholesalers',
+        'Provincial Depots', 'Testing Laboratories'.
     :type category: str
-    :return: Description
-    :rtype: list[str]
+    :type category: str
+    :return: A markdown table containing the first 50 licensed establishments for the requested category.
+    :rtype: str
     """
     API_URL = "https://www.sahpra.org.za/wp-admin/admin-ajax.php"
 
@@ -113,9 +110,9 @@ async def search_sahpra_products(company_name: str) -> str:
     Use this to search the SAHPRA website database table for health products
     registered to a specific company.
     
-    :param company_name: Description
+    :param company_name: The name of the applicant or company to search for (e.g., 'Cipla', 'Aspen').
     :type company_name: str
-    :return: Description
+    :return: A markdown table of matching registered products, or a 'No products found' message.
     :rtype: str
     """
     API_URL = "https://medapps.sahpra.org.za:6006/Home/getData"
@@ -177,6 +174,55 @@ async def search_sahpra_products(company_name: str) -> str:
 
         except Exception as e:
             return f"Search failed: {str(e)}"
+
+
+@mcp.tool()
+async def analyse_ndoh_market(
+    query: str = None,
+    filter_type: str = "all",
+    aggregate_by: str = None,
+    sort_by: str = ...,
+    top_n: int = 15
+) -> str:
+    """
+    Use this to analyse the NDoH Master Health Product List for the South African
+    public sector. Provides real-time procurement data, pricing, and market
+    share.
+
+    :param query: Text to search for (e.g., "Aspirin", "J05", "Cipla").
+    :type query: str
+    :param filter_type: Where to look. Valid options: "inn", "supplier", "atc", "all".
+    :type filter_type: str
+    :param aggregate_by: Set to "Supplier", "INN", or "Care_Level" for summarized statistics.
+    :type aggregate_by: str
+    :param sort_by: Column to sort by. Valid options: "Unit_Price", "Quantity_Awarded", "Contract_Expiry".
+    :type sort_by: str
+    :param top_n: Number of rows to return (default 15). Keep low to save context window.
+    :type top_n: int
+    :return: Description
+    :rtype: str
+    """
+    df = await get_latest_ndoh_prod_list_df()
+
+    df['Unit_Price'] = pandas.to_numeric(df["Unit_Price"], errors="coerce").fillna(0)
+    df['Quantity_Awarded'] = pandas.to_numeric(df['Quantity_Awarded'], errors="coerce").fillna(0)
+    df['Award_Value'] = df["Unit_Price"] * df["Quantity_Awarded"]
+
+    if query:
+        if filter_type == "inn":
+            df = df[df['INN'].str.contains(query, case=False, na=False)]
+        elif filter_type == "suplier":
+            df = df[df['Supplier'].str.contains(query, case=False, na=False)]
+        elif filter_type == "atc":
+            df = df[df['ATC_Code'].str.startswith(query.upper(), na=False)]
+        else:
+            mask = df.apply(lambda x: x.astype(str).str.contains(query, case=False).any(), axis=1)
+            df = df[mask]
+
+    if df.empty:
+        return f"No procurement data found for `{query}` with filter `{filter_type}`."
+
+    # --- Analysis ---
 
 
 if __name__ == "__main__":
