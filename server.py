@@ -204,17 +204,17 @@ async def analyse_ndoh_market(
     """
     df = await get_latest_ndoh_prod_list_df()
 
-    df['Unit_Price'] = pandas.to_numeric(df["Unit_Price"], errors="coerce").fillna(0)
-    df['Quantity_Awarded'] = pandas.to_numeric(df['Quantity_Awarded'], errors="coerce").fillna(0)
-    df['Award_Value'] = df["Unit_Price"] * df["Quantity_Awarded"]
+    df["Unit_Price"] = pandas.to_numeric(df["Unit_Price"], errors="coerce").fillna(0)
+    df["Quantity_Awarded"] = pandas.to_numeric(df["Quantity_Awarded"], errors="coerce").fillna(0)
+    df["Award_Value"] = df["Unit_Price"] * df["Quantity_Awarded"]
 
     if query:
         if filter_type == "inn":
-            df = df[df['INN'].str.contains(query, case=False, na=False)]
+            df = df[df["INN"].str.contains(query, case=False, na=False)]
         elif filter_type == "suplier":
-            df = df[df['Supplier'].str.contains(query, case=False, na=False)]
+            df = df[df["Supplier"].str.contains(query, case=False, na=False)]
         elif filter_type == "atc":
-            df = df[df['ATC_Code'].str.startswith(query.upper(), na=False)]
+            df = df[df["ATC_Code"].str.startswith(query.upper(), na=False)]
         else:
             mask = df.apply(lambda x: x.astype(str).str.contains(query, case=False).any(), axis=1)
             df = df[mask]
@@ -222,7 +222,24 @@ async def analyse_ndoh_market(
     if df.empty:
         return f"No procurement data found for `{query}` with filter `{filter_type}`."
 
-    # --- Analysis ---
+    if aggregate_by and aggregate_by in df.columns:
+        summary = df.groupby(aggregate_by).agg({
+            "Contract": "cont",
+            "Award_value": "sum",
+            "Quantity_Awarded": "sum",
+            "Unit_Price": ["min", "max", "mean"]
+        }).reset_index()
+
+        summary.columns = [aggregate_by, "Contracts", "Total_Value_ZAR", "Total_Qty", "Min_Price", "Max_Price", "Avg_Price"]
+        summary = summary.sort_values(by="Total_Value_ZAR", ascending=False)
+
+        return (f"Aggregate Analysis by {aggregate_by}\n" + 
+                summary.head(top_n).to_markdown(index=False))
+    
+    df = df.sort_values(by=sort_by, ascending=(sort_by == "Unit_Price"))
+
+    return (f"Granular Contract View (Top {top_n})\n" + 
+            df.head(top_n).to_markdown(index=False))
 
 
 if __name__ == "__main__":
@@ -235,5 +252,4 @@ if __name__ == "__main__":
             port=int(port),
         )
     else:
-        print("Starting local MCP server...", file=sys.stderr)
         mcp.run()
