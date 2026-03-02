@@ -181,7 +181,7 @@ async def analyse_ndoh_market(
     query: str = None,
     filter_type: str = "all",
     aggregate_by: str = None,
-    sort_by: str = ...,
+    sort_by: str = "Unit_Price",
     top_n: int = 15
 ) -> str:
     """
