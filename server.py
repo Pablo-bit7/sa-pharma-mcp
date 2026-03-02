@@ -224,8 +224,8 @@ async def analyse_ndoh_market(
 
     if aggregate_by and aggregate_by in df.columns:
         summary = df.groupby(aggregate_by).agg({
-            "Contract": "cont",
-            "Award_value": "sum",
+            "Contract": "count",
+            "Award_Value": "sum",
             "Quantity_Awarded": "sum",
             "Unit_Price": ["min", "max", "mean"]
         }).reset_index()
