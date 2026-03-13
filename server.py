@@ -211,7 +211,7 @@ async def analyse_ndoh_market(
     if query:
         if filter_type == "inn":
             df = df[df["INN"].str.contains(query, case=False, na=False)]
-        elif filter_type == "suplier":
+        elif filter_type == "supplier":
             df = df[df["Supplier"].str.contains(query, case=False, na=False)]
         elif filter_type == "atc":
             df = df[df["ATC_Code"].str.startswith(query.upper(), na=False)]
