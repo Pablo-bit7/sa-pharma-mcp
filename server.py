@@ -242,6 +242,27 @@ async def analyse_ndoh_market(
             df.head(top_n).to_markdown(index=False))
 
 
+@mcp.prompt()
+def supplier_integrity_audit(company: str) -> str:
+    """
+    Standardized workflow to adit a supplier's public sector footprint against
+    their regulatory standing
+    """
+
+    return f"""
+    Perform a multi-source integrity audit for: {company}
+
+    1. **Tender Footprint:** Use 'analyse_ndoh_market' (filter_type='supplier') to 
+       calculate their total award value, contract volume, and average pricing.
+    2. **Regulatory Check:** Use 'get_licensed_companies' to verify if they are 
+       officially licensed as 'Manufacturers & Packers' or 'Holders of Certificate of Product Registration'.
+    3. **Product Portfolio:** Use 'search_sahpra_products' to list their registered medicines.
+    4. **Synthesis:** Do their registered products match their tender awards? 
+       Flag any instances where they are winning contracts for molecules not 
+       immediately visible in their registered products list.
+    """
+
+
 if __name__ == "__main__":
     port = os.getenv("PORT")
 
