@@ -263,6 +263,30 @@ def supplier_integrity_audit(company: str) -> str:
     """
 
 
+@mcp.prompt()
+def therapeutic_category_assessment(atc_code: str) -> str:
+    """
+    Analyzes a specific therapeutic class (e.g., J05 for ARVs) to identify 
+    market dominance and supply chain risk.
+    """
+    return f"""
+    Analyze the market landscape for Therapeutic Class (ATC): {atc_code}
+
+    1. **Market Concentration:** Use 'analyse_ndoh_market' with filter_type='atc' 
+       and aggregate_by='Supplier' to find the top 3 dominant companies.
+    2. **Pricing Efficiency:** For this ATC category, use the same tool to 
+       compare 'Min_Price' vs 'Max_Price'. Identify if there is a wide variance 
+       suggesting procurement inefficiency.
+    3. **Operational Risk:** Use a granular view of the ATC category to flag 
+       contracts with lead times > 14 days or expiry dates within the next 6 months.
+    4. **Regulatory Density:** For the top 3 suppliers identified, check 
+       'get_licensed_companies' to see if they are local manufacturers or 
+       private wholesalers.
+
+    Conclude with a 'Stability Rating' for this category.
+    """
+
+
 if __name__ == "__main__":
     port = os.getenv("PORT")
 
