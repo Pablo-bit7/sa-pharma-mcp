@@ -248,7 +248,6 @@ def supplier_integrity_audit(company: str) -> str:
     Standardized workflow to adit a supplier's public sector footprint against
     their regulatory standing
     """
-
     return f"""
     Perform a multi-source integrity audit for: {company}
 
@@ -288,6 +287,24 @@ def therapeutic_category_assessment(atc_code: str) -> str:
        flag any single-supplier dependencies, and identify pricing outliers.
 
     Conclude with a 'Stability Rating' for this category.
+    """
+
+
+@mcp.prompt()
+def market_entry_scouting(molecule_name: str) -> str:
+    """
+    Assess the viability of entering the market with a new generic product.
+    """
+    return f"""
+    I am scouting the market for a potential new entry of: {molecule_name}
+
+    1. **State Spend:** Use 'analyse_ndoh_market' (filter_type='inn') to find 
+       the current 'Avg_Price' and total 'Quantity_Awarded' in the public sector.
+    2. **Competitor Density:** Use 'search_sahpra_products' with the molecule name 
+       to see how many other companies already have a registered product for this molecule.
+    3. **The 'Gap' Analysis:** Compare the number of registered competitors 
+       (SAHPRA) vs. the number of companies actually winning tenders (NDoH). 
+       Is the market saturated, or is there a dominant player that could be disrupted?
     """
 
 
