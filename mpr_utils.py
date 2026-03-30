@@ -51,3 +51,67 @@ async def discover_latest_mpr_list_link(client: httpx.AsyncClient) -> str:
     raise ValueError(
         f"Could not find the Database of Medicine Prices link at {URL}."
     )
+
+
+async def get_latest_mpr_list_df() -> pandas.DataFrame:
+    """
+    Returns the Database of Medicine Prices as a Pandas DataFrame. Downloads
+    only if a newer link is found or if the cache is missing.
+    """
+    async with httpx.AsyncClient(verify=False, timeout=30.0) as client:
+        try:
+            current_link = await discover_latest_mpr_list_link(client)
+
+            last_link = ""
+            if os.path.exists(LINK_TRACKER):
+                with open(LINK_TRACKER, "r") as file:
+                    last_link = file.read().strip()
+            
+            if last_link == current_link and os.path.exists(CACHE_FILE):
+                print(f"DEBUG: MPR cache is up to date.", file=sys.stderr)
+                return pandas.read_csv(CACHE_FILE)
+            
+            print(f"DEBUG: Downloading new MPR: {current_link}", file=sys.stderr)
+            response = await client.get(current_link)
+            response.raise_for_status()
+
+            print(f"DEBUG: Parsing Excel file...", file=sys.stderr)
+            raw_df = pandas.read_excel(io.BytesIO(response.content), header=1)
+
+            target_columns = [1, 6, 7, 10, 11, 12, 3, 13, 14, 16]
+            df = raw_df.iloc[:, target_columns].copy()
+
+            df.columns = [
+                "Applicant", "Proprietery_Name", "Active_Ingredients",
+                "Dosage_Form", "Pack_Size", "Quantity", "NAPPI_Code",
+                "Manufacturer_Price", "Logistics_Fee", "SEP"
+            ]
+
+            cols_to_fill = [
+                "Applicant", "Proprietery_Name",
+                "Dosage_Form", "Pack_Size",
+                "Quantity", "NAPPI_Code",
+                "Manufacturer_Price", "Logistics_Fee",
+                "SEP"
+            ]
+            df[cols_to_fill] = df[cols_to_fill].ffill()
+
+            df.dropna(subset=["Active_Ingredients"], inplace=True)
+
+            df.to_csv(CACHE_FILE, index=False)
+            with open(LINK_TRACKER, "w") as file:
+                file.write(current_link)
+
+            print(f"DEBUG: MPR cache rebuilt.", file=sys.stderr)
+            return df
+        
+        except Exception as e:
+            if os.path.exists(CACHE_FILE):
+                print(f"ERROR: Update failed, falling back to stale cache: {str(e)}", file=sys.stderr)
+
+                return pandas.read_csv(CACHE_FILE)
+            raise e
+
+
+if __name__ == "__main__":
+    ...
