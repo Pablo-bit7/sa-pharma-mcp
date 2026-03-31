@@ -27,7 +27,7 @@ async def discover_latest_mpr_list_link(client: httpx.AsyncClient) -> str:
     Scrapes the NDoH NHI page to find the current Database of Medicine Prices
     link.
     """
-    URL = "https://www.health.gov.za/nhi/"
+    URL = "https://www.health.gov.za/nhi-pee/"
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -114,4 +114,40 @@ async def get_latest_mpr_list_df() -> pandas.DataFrame:
 
 
 if __name__ == "__main__":
-    ...
+    async def test_utility():
+        print("\n" + "="*50, file=sys.stderr)
+        print("RUNNING MPR UTILITY TEST", file=sys.stderr)
+        print("="*50 + "\n", file=sys.stderr)
+        
+        try:
+            df = await get_latest_mpr_list_df()
+
+            print(f"Success: Loaded {len(df)} medicines.", file=sys.stderr)
+            print(f"Columns: {list(df.columns)}", file=sys.stderr)
+            
+            print("\n--- DATA SAMPLE (TOP 5) ---")
+            try:
+                print(df.head(5).to_markdown(index=False))
+            except ImportError:
+                print(df.head(5).to_string(index=False))
+            
+            mock_query = "Paracetamol"
+
+            print(f"\n--- MOCK SEARCH: '{mock_query}' ---")
+            results = df[df['Active_Ingredients'].str.contains(mock_query, case=False, na=False)]
+            if not results.empty:
+                try:
+                    print(results.head(3).to_markdown(index=False))
+                except ImportError:
+                    print(results.head(3).to_string(index=False))
+            else:
+                print(f"No results found for {mock_query}")
+                
+            print("\n" + "="*50, file=sys.stderr)
+            print("TEST COMPLETE", file=sys.stderr)
+            print("="*50, file=sys.stderr)
+
+        except Exception as e:
+            print(f"\n❌ TEST FAILED: {str(e)}", file=sys.stderr)
+
+    asyncio.run(test_utility())
