@@ -18,8 +18,8 @@ import asyncio
 
 CACHE_DIR = "./data"
 os.makedirs(CACHE_DIR, exist_ok=True)
-LINK_TRACKER = os.path.join(CACHE_DIR, "mpr_latest_link.txt")
-CACHE_FILE = os.path.join(CACHE_DIR, "mpr_sep_cache.csv")
+LINK_TRACKER = os.path.join(CACHE_DIR, "ndoh_mpr_latest_link.txt")
+CACHE_FILE = os.path.join(CACHE_DIR, "ndoh_mpr_sep_cache.csv")
 
 
 async def discover_latest_mpr_list_link(client: httpx.AsyncClient) -> str:

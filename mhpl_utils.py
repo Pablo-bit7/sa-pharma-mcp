@@ -18,7 +18,7 @@ import asyncio
 
 CACHE_DIR = "./data"
 os.makedirs(CACHE_DIR, exist_ok=True)
-LINK_TRACKER = os.path.join(CACHE_DIR, "latest_link.txt")
+LINK_TRACKER = os.path.join(CACHE_DIR, "ndoh_mhpl_latest_link.txt")
 CACHE_FILE = os.path.join(CACHE_DIR, "ndoh_mhpl_cache.csv")
 
 

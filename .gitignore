@@ -1,4 +1,6 @@
 __pycache__/
 .venv/
+data/ndoh_mhpl_latest_link.txt
+data/ndoh_mpr_latest_link.txt
 data/ndoh_mhpl_cache.csv
-data\mpr_sep_cache.csv
+data/ndoh_mpr_sep_cache.csv
