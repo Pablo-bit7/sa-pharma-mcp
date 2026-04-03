@@ -11,11 +11,14 @@ Tools:
 - `search_sahpra_products`: Searches registered products by company name.
 - `analyse_ndoh_market`: Analyses the NDoH Master Health Product List for
     public sector procurement trends, pricing, and supplier market share.
+- `analyse_private_market`: Analyses the Single Exit Price (MPR) database
+    for private sector pricing, molecule competitiveness, and applicant presence.
 """
 from mcp.server.fastmcp import FastMCP
 from mcp.server.transport_security import TransportSecuritySettings
 from sahpra_utils import get_sahpra_nonce
 from mhpl_utils import get_latest_ndoh_prod_list_df
+from mpr_utils import get_latest_mpr_list_df
 import httpx
 import pandas
 import os
@@ -199,7 +202,7 @@ async def analyse_ndoh_market(
     :type sort_by: str
     :param top_n: Number of rows to return (default 15). Keep low to save context window.
     :type top_n: int
-    :return: Description
+    :return: A markdown table containing the analysis results.
     :rtype: str
     """
     df = await get_latest_ndoh_prod_list_df()
@@ -230,7 +233,11 @@ async def analyse_ndoh_market(
             "Unit_Price": ["min", "max", "mean"]
         }).reset_index()
 
-        summary.columns = [aggregate_by, "Contracts", "Total_Value_ZAR", "Total_Qty", "Min_Price", "Max_Price", "Avg_Price"]
+        summary.columns = [
+            aggregate_by,
+            "Contracts", "Total_Value_ZAR", "Total_Qty",
+            "Min_Price", "Max_Price", "Avg_Price"
+        ]
         summary = summary.sort_values(by="Total_Value_ZAR", ascending=False)
 
         return (f"Aggregate Analysis by {aggregate_by}\n" + 
@@ -239,6 +246,75 @@ async def analyse_ndoh_market(
     df = df.sort_values(by=sort_by, ascending=(sort_by == "Unit_Price"))
 
     return (f"Granular Contract View (Top {top_n})\n" + 
+            df.head(top_n).to_markdown(index=False))
+
+
+@mcp.tool()
+async def analyse_private_market(
+    query: str = None,
+    filter_type: str = "all",
+    aggregate_by: str = None,
+    sort_by: str = "SEP",
+    top_n: int = 15
+) -> str:
+    """
+    Use this to analyse the Database of Medicine Prices (MPR) for South
+    African private sector pricing, molecule competetiveness, and applicant
+    presence.
+
+    :param query: Text to search for (e.g., "Paracetamol", "Cipla").
+    :type query: str
+    :param filter_type: Where to look. Valid options: "active_ingredient", "applicant", "nappi", "all".
+    :type filter_type: str
+    :param aggregate_by: Set to "Applicant" or "Active_Ingredient" for summarized statistics.
+    :type aggregate_by: str
+    :param sort_by: Column to sort by. Valid options: "SEP", "Manufacturer_Price".
+    :type sort_by: str
+    :param top_n: Number of rows to return (default 15). Keep low to save context window.
+    :type top_n: int
+    :return: A markdown table containing the analysis results.
+    :rtype: str
+    """
+    df = await get_latest_mpr_list_df()
+
+    df["SEP"] = pandas.to_numeric(df["SEP"], errors="coerce").fillna(0)
+    df["Manufacturer_Price"] = pandas.to_numeric(df["Manufacturer_Price"], errors="coerce").fillna(0)
+
+    if query:
+        if filter_type == "active_ingredient":
+            df = df[df["Active_Ingredient"].str.contains(query, case=False, na=False)]
+        elif filter_type == "applicant":
+            df = df[df["Applicant"].str.contains(query, case=False, na=False)]
+        elif filter_type == "nappi":
+            df = df[df["NAPPI_Code"].str.startswith(query.upper(), na=False)]
+        else:
+            mask = df.apply(lambda x: x.astype(str).str.contains(query, case=False).any(), axis=1)
+            df = df[mask]
+    
+    if df.empty:
+        return f"No private sector data found for `{query}` with filter `{filter_type}`."
+    
+    if aggregate_by and aggregate_by in df.columns:
+        summary = df.groupby(aggregate_by).agg({
+            "Proprietery_Name": "count",
+            "SEP": ["min", "max", "mean"],
+            "Manufacturer_Price": ["min", "max", "mean"]
+        }).reset_index()
+    
+        summary.columns = [
+            aggregate_by,
+            "Total_Products",
+            "Min_SEP", "Max_SEP", "Avg_SEP",
+            "Min_Mfg_Price", "Max_Mfg_Price", "Avg_Mfg_Price"
+        ]
+        summary = summary.sort_values(by="Total_Products", ascending=False)
+
+        return (f"Aggregate Private Market Analysis by {aggregate_by}\n" + 
+                summary.head(top_n).to_markdown(index=False))
+    
+    df = df.sort_values(by=sort_by if sort_by in df.columns else "SEP", ascending=True)
+
+    return (f"Granular Private Sector View (Top {top_n})\n" + 
             df.head(top_n).to_markdown(index=False))
 
 
