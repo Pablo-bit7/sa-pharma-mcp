@@ -310,7 +310,7 @@ async def analyse_private_market(
         summary.columns = [
             aggregate_by,
             "Total_Products",
-            "Min_SEP", "Max_SEP", "Avg_SEP", "Avg_Price_Age_Days"
+            "Min_SEP", "Max_SEP", "Avg_SEP", "Avg_Price_Age_Days",
             "Min_Mfg_Price", "Max_Mfg_Price", "Avg_Mfg_Price"
         ]
         summary = summary.sort_values(by="Total_Products", ascending=False)

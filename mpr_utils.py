@@ -82,7 +82,7 @@ async def get_latest_mpr_list_df() -> pandas.DataFrame:
             df = raw_df.iloc[:, target_columns].copy()
 
             df.columns = [
-                "Applicant", "Proprietery_Name", "Active_Ingredients",
+                "Applicant", "Proprietery_Name", "Active_Ingredient",
                 "Dosage_Form", "Pack_Size", "Quantity", "NAPPI_Code",
                 "Manufacturer_Price", "Logistics_Fee", "SEP", "Effective_Date"
             ]
@@ -96,7 +96,7 @@ async def get_latest_mpr_list_df() -> pandas.DataFrame:
             ]
             df[cols_to_fill] = df[cols_to_fill].ffill()
 
-            df.dropna(subset=["Active_Ingredients"], inplace=True)
+            df.dropna(subset=["Active_Ingredient"], inplace=True)
 
             df.to_csv(CACHE_FILE, index=False)
             with open(LINK_TRACKER, "w") as file:
@@ -134,7 +134,7 @@ if __name__ == "__main__":
             mock_query = "Paracetamol"
 
             print(f"\n--- MOCK SEARCH: '{mock_query}' ---")
-            results = df[df['Active_Ingredients'].str.contains(mock_query, case=False, na=False)]
+            results = df[df['Active_Ingredient'].str.contains(mock_query, case=False, na=False)]
             if not results.empty:
                 try:
                     print(results.head(3).to_markdown(index=False))
