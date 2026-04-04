@@ -210,6 +210,8 @@ async def analyse_ndoh_market(
     df["Unit_Price"] = pandas.to_numeric(df["Unit_Price"], errors="coerce").fillna(0)
     df["Quantity_Awarded"] = pandas.to_numeric(df["Quantity_Awarded"], errors="coerce").fillna(0)
     df["Award_Value"] = df["Unit_Price"] * df["Quantity_Awarded"]
+    df["Contract_Expiry"] = pandas.to_datetime(df["Contract_Expiry"], errors="coerce")
+    df["Days_Remaining"] = (df["Contract_Expiry"] - pandas.Timestamp.now()).dt.days
 
     if query:
         if filter_type == "inn":
@@ -230,13 +232,14 @@ async def analyse_ndoh_market(
             "Contract": "count",
             "Award_Value": "sum",
             "Quantity_Awarded": "sum",
-            "Unit_Price": ["min", "max", "mean"]
+            "Unit_Price": ["min", "max", "mean"],
+            "Days_Remaining": "mean"
         }).reset_index()
 
         summary.columns = [
             aggregate_by,
             "Contracts", "Total_Value_ZAR", "Total_Qty",
-            "Min_Price", "Max_Price", "Avg_Price"
+            "Min_Price", "Max_Price", "Avg_Price", "Avg_Days_Left"
         ]
         summary = summary.sort_values(by="Total_Value_ZAR", ascending=False)
 
@@ -279,6 +282,8 @@ async def analyse_private_market(
 
     df["SEP"] = pandas.to_numeric(df["SEP"], errors="coerce").fillna(0)
     df["Manufacturer_Price"] = pandas.to_numeric(df["Manufacturer_Price"], errors="coerce").fillna(0)
+    df["Effective_Date"] = pandas.to_datetime(df["Effective_Date"], errors="coerce")
+    df["Price_Age_Days"] = (pandas.Timestamp.now() - df["Effective_Date"]).dt.days
 
     if query:
         if filter_type == "active_ingredient":
@@ -298,13 +303,14 @@ async def analyse_private_market(
         summary = df.groupby(aggregate_by).agg({
             "Proprietery_Name": "count",
             "SEP": ["min", "max", "mean"],
-            "Manufacturer_Price": ["min", "max", "mean"]
+            "Manufacturer_Price": ["min", "max", "mean"],
+            "Price_Age_Days": "mean"
         }).reset_index()
     
         summary.columns = [
             aggregate_by,
             "Total_Products",
-            "Min_SEP", "Max_SEP", "Avg_SEP",
+            "Min_SEP", "Max_SEP", "Avg_SEP", "Avg_Price_Age_Days"
             "Min_Mfg_Price", "Max_Mfg_Price", "Avg_Mfg_Price"
         ]
         summary = summary.sort_values(by="Total_Products", ascending=False)
@@ -347,11 +353,11 @@ def therapeutic_category_assessment(atc_code: str) -> str:
 
     1. **Market size:** Use 'analyse_ndoh_market' (filter_type='atc', aggregate_by='INN') to rank molecules by total award value.
     2. **Market Concentration:** Use 'analyse_ndoh_market' (filter_type='atc', aggregate_by='Supplier') to find dominant companies.
-    3. **Pricing Efficiency:** Compare 'Min_Price' vs 'Max_Price' for variance.
+    3. **Tender Renewal Pipeline:** Look at the 'Avg_Days_Left' column in the Supplier aggregation to understand how soon these contracts are up for renewal.
     
     **Visual Render Protocol:** Transform this structural data into an in-chat visual interface or an SVG chart. 
     Draw a pie chart or a horizontal bar chart showing the market share of the top 3 dominant suppliers in this ATC category. 
-    Render a visual 'Stability Rating' meter at the bottom indicating whether this category is heavily dependent on a single supplier.
+    Render a visual 'Stability Rating' meter at the bottom indicating whether this category is heavily dependent on a single supplier or is currently operating in an active "Tender Expiry Window" (e.g., highlighting categories with less than 90 'Avg_Days_Left' as red/high priority).
     """
 
 
@@ -382,12 +388,12 @@ def private_market_disruption_scouting(molecule: str) -> str:
     I am scouting the South African private sector market for potential entry with the molecule: {molecule}
 
     1. **Landscape Assessment:** Use 'analyse_private_market' (filter_type='active_ingredient') to find the pricing spectrum for this molecule.
-    2. **Market Fragmentation:** Group the results by 'Applicant' to see how many players hold market share.
+    2. **Market Fragmentation & Activity:** Group the results by 'Applicant' to see how many players hold market share and check the 'Avg_Price_Age_Days' to identify inactive or stale listings.
     3. **The Disruption Window:** Look at the gap between the lowest cost generic and the maximum listed price.
     
     **Visual Render Protocol:** Do not just dump text tables. Take the extracted data and create a visual 'Disruption Dashboard' using your in-chat visualization/artifact capabilities. 
     Render an interactive bar chart or an SVG plot showing the Applicants on the X-axis and their SEP pricing on the Y-axis. 
-    Highlight the 'Disruption Gap' visually where a new lower-priced entrant could aggressively target the margin.
+    Highlight the 'Disruption Gap' visually where a new lower-priced entrant could aggressively target the margin. Use visual flags or data labels for applicants with exceptionally high 'Avg_Price_Age_Days' (stale pricing) to mark them as vulnerable competitors.
     """
 
 

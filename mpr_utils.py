@@ -78,13 +78,13 @@ async def get_latest_mpr_list_df() -> pandas.DataFrame:
             print(f"DEBUG: Parsing Excel file...", file=sys.stderr)
             raw_df = pandas.read_excel(io.BytesIO(response.content), header=1)
 
-            target_columns = [1, 6, 7, 10, 11, 12, 3, 13, 14, 16]
+            target_columns = [1, 6, 7, 10, 11, 12, 3, 13, 14, 16, 18]
             df = raw_df.iloc[:, target_columns].copy()
 
             df.columns = [
                 "Applicant", "Proprietery_Name", "Active_Ingredients",
                 "Dosage_Form", "Pack_Size", "Quantity", "NAPPI_Code",
-                "Manufacturer_Price", "Logistics_Fee", "SEP"
+                "Manufacturer_Price", "Logistics_Fee", "SEP", "Effective_Date"
             ]
 
             cols_to_fill = [
@@ -92,7 +92,7 @@ async def get_latest_mpr_list_df() -> pandas.DataFrame:
                 "Dosage_Form", "Pack_Size",
                 "Quantity", "NAPPI_Code",
                 "Manufacturer_Price", "Logistics_Fee",
-                "SEP"
+                "SEP", "Effective_Date"
             ]
             df[cols_to_fill] = df[cols_to_fill].ffill()
 
