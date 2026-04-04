@@ -321,20 +321,18 @@ async def analyse_private_market(
 @mcp.prompt()
 def supplier_integrity_audit(company: str) -> str:
     """
-    Standardized workflow to adit a supplier's public sector footprint against
-    their regulatory standing
+    Standardized workflow to audit a supplier's public sector footprint against
+    their regulatory standing.
     """
     return f"""
     Perform a multi-source integrity audit for: {company}
 
-    1. **Tender Footprint:** Use 'analyse_ndoh_market' (filter_type='supplier') to 
-       calculate their total award value, contract volume, and average pricing.
-    2. **Regulatory Check:** Use 'get_licensed_companies' to verify if they are 
-       officially licensed as 'Manufacturers & Packers' or 'Holders of Certificate of Product Registration'.
+    1. **Tender Footprint:** Use 'analyse_ndoh_market' (filter_type='supplier') to calculate their total award value and contract volume.
+    2. **Regulatory Check:** Use 'get_licensed_companies' to verify if they are officially licensed.
     3. **Product Portfolio:** Use 'search_sahpra_products' to list their registered medicines.
-    4. **Synthesis:** Do their registered products match their tender awards? 
-       Flag any instances where they are winning contracts for molecules not 
-       immediately visible in their registered products list.
+    
+    **Visual Render Protocol:** Do not deliver pure text lists. Use your UI visualization capabilities to generate a 'Supplier Risk Scorecard' or a visual layout. 
+    Map their listed molecules against their won tenders visually. Use a color-coded matrix (e.g., green for matched, red for discrepancy) to flag any instances where they are winning contracts for molecules that are not immediately visible in their registered products list.
     """
 
 
@@ -347,22 +345,13 @@ def therapeutic_category_assessment(atc_code: str) -> str:
     return f"""
     Analyze the market landscape for Therapeutic Class (ATC): {atc_code}
 
-    1. **Market size:** Use 'analyse_ndoh_market' (filter_type='atc', aggregate_by='INN')
-       to rank molecules by total award value and quantity.
-    2. **Market Concentration:** Use 'analyse_ndoh_market' with filter_type='atc' 
-       and aggregate_by='Supplier' to find the top 3 dominant companies.
-    3. **Pricing Efficiency:** For this ATC category, use the same tool to 
-       compare 'Min_Price' vs 'Max_Price'. Identify if there is a wide variance 
-       suggesting procurement inefficiency.
-    4. **Operational Risk:** Use a granular view of the ATC category to flag 
-       contracts with lead times > 14 days or expiry dates within the next 6 months.
-    5. **Regulatory Density:** For the top 3 suppliers identified, check 
-       'get_licensed_companies' to see if they are local manufacturers or 
-       private wholesalers.
-    6. **Synthesis:** Summarise category maturity (competitive vs. niche),
-       flag any single-supplier dependencies, and identify pricing outliers.
-
-    Conclude with a 'Stability Rating' for this category.
+    1. **Market size:** Use 'analyse_ndoh_market' (filter_type='atc', aggregate_by='INN') to rank molecules by total award value.
+    2. **Market Concentration:** Use 'analyse_ndoh_market' (filter_type='atc', aggregate_by='Supplier') to find dominant companies.
+    3. **Pricing Efficiency:** Compare 'Min_Price' vs 'Max_Price' for variance.
+    
+    **Visual Render Protocol:** Transform this structural data into an in-chat visual interface or an SVG chart. 
+    Draw a pie chart or a horizontal bar chart showing the market share of the top 3 dominant suppliers in this ATC category. 
+    Render a visual 'Stability Rating' meter at the bottom indicating whether this category is heavily dependent on a single supplier.
     """
 
 
@@ -374,13 +363,48 @@ def market_entry_scouting(molecule_name: str) -> str:
     return f"""
     I am scouting the market for a potential new entry of: {molecule_name}
 
-    1. **State Spend:** Use 'analyse_ndoh_market' (filter_type='inn') to find 
-       the current 'Avg_Price' and total 'Quantity_Awarded' in the public sector.
-    2. **Competitor Density:** Use 'search_sahpra_products' with the molecule name 
-       to see how many other companies already have a registered product for this molecule.
-    3. **The 'Gap' Analysis:** Compare the number of registered competitors 
-       (SAHPRA) vs. the number of companies actually winning tenders (NDoH). 
-       Is the market saturated, or is there a dominant player that could be disrupted?
+    1. **State Spend:** Use 'analyse_ndoh_market' (filter_type='inn') to find the current 'Avg_Price' and total 'Quantity_Awarded' in the public sector.
+    2. **Competitor Density:** Use 'search_sahpra_products' with the molecule name to see registered competitors.
+    
+    **Visual Render Protocol:** Execute a 'Gap Analysis' and present it using an in-chat visual artifact or layout. 
+    Represent the relationship between registered products (SAHPRA) vs. companies actually winning state tenders (NDoH) visually (such as a split card view or a visual quadrant plot). 
+    Show whether the market is saturated or ripe for disruption.
+    """
+
+
+@mcp.prompt()
+def private_market_disruption_scouting(molecule: str) -> str:
+    """
+    Analyze the private sector Single Exit Price (MPR) landscape for a molecule
+    to identify overpriced originators or highly fragmented generic gaps.
+    """
+    return f"""
+    I am scouting the South African private sector market for potential entry with the molecule: {molecule}
+
+    1. **Landscape Assessment:** Use 'analyse_private_market' (filter_type='active_ingredient') to find the pricing spectrum for this molecule.
+    2. **Market Fragmentation:** Group the results by 'Applicant' to see how many players hold market share.
+    3. **The Disruption Window:** Look at the gap between the lowest cost generic and the maximum listed price.
+    
+    **Visual Render Protocol:** Do not just dump text tables. Take the extracted data and create a visual 'Disruption Dashboard' using your in-chat visualization/artifact capabilities. 
+    Render an interactive bar chart or an SVG plot showing the Applicants on the X-axis and their SEP pricing on the Y-axis. 
+    Highlight the 'Disruption Gap' visually where a new lower-priced entrant could aggressively target the margin.
+    """
+
+
+@mcp.prompt()
+def cross_market_viability_check(molecule: str) -> str:
+    """
+    Compare public sector tender prices with private sector Single Exit Prices (SEP)
+    to evaluate the viability of entering both markets.
+    """
+    return f"""
+    Perform a multi-market price parity audit for: {molecule}
+
+    1. **Public Sector Baseline:** Use 'analyse_ndoh_market' (filter_type='inn') to find the average awarded Unit Price in government tenders.
+    2. **Private Sector Baseline:** Use 'analyse_private_market' (filter_type='active_ingredient') to find the Single Exit Price (SEP) range.
+    
+    **Visual Render Protocol:** Synthesize these pricing streams. Use your in-chat visual UI capabilities to construct a 'Market Parity Chart' (such as a dual-bar visual or a pricing bracket SVG). 
+    Clearly illustrate the gap between what the state pays versus what the private sector absorbs. Conclude with a visual indicator (Green/Yellow/Red) denoting whether the margin profile for entering this molecule is healthy or cutthroat.
     """
 
 
