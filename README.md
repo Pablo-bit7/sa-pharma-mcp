@@ -1,14 +1,14 @@
 # ZA Pharma Intelligence — MCP Server
 
-A stateless Model Context Protocol (MCP) server that aggregates, normalises, and exposes South African pharmaceutical regulatory and procurement data through structured AI-callable tools.
+A high-performance Model Context Protocol (MCP) server that aggregates, normalizes, and exposes South African pharmaceutical regulatory and procurement data through structured AI-callable tools.
 
 ---
 
 ## Overview
 
-South Africa's pharmaceutical landscape spans two distinct markets — a public sector driven by state tenders, and a private sector governed by Single Exit Pricing (SEP) regulation. The data underpinning both markets is publicly available but scattered across multiple government portals in inconsistent formats.
+South Africa's pharmaceutical landscape spans two distinct markets: a public sector driven by state tenders and a private sector governed by Single Exit Pricing (SEP) regulation. The data underpinning both is publicly available but scattered across siloed government portals in inconsistent formats.
 
-**ZA Pharma Intelligence** solves this by acting as a unified intelligence layer. It connects to live public endpoints from SAHPRA (South African Health Products Regulatory Authority) and the National Department of Health (NDoH), normalises the data at runtime, and exposes it through a clean set of AI-callable tools via the MCP protocol. This enables LLM-powered agents to answer complex, domain-specific questions about market structure, supplier presence, and pricing dynamics — using real, authoritative data.
+**ZA Pharma Intelligence** serves as a unified intelligence layer. It connects to live endpoints from SAHPRA (South African Health Products Regulatory Authority) and the National Department of Health (NDoH), normalizes data at runtime, and exposes it through a clean set of AI-callable tools. This enables LLM-powered agents to conduct complex, domain-specific analysis — such as cross-referencing tender awards against manufacturing licenses — using real-time, authoritative data.
 
 ---
 
@@ -18,95 +18,99 @@ South Africa's pharmaceutical landscape spans two distinct markets — a public 
 
 | Tool | Description |
 |---|---|
-| `get_licensed_companies` | Retrieves official SAHPRA establishment lists across 10 licence categories (Manufacturers, API Producers, Bond Stores, etc.) |
+| `get_licensed_companies` | Retrieves official SAHPRA establishment lists across 10 license categories (Manufacturers, API Producers, etc.) |
 | `search_sahpra_products` | Searches the SAHPRA registered medicine database by company name, returning product portfolio and registration metadata |
-| `analyse_ndoh_market` | Analyses the NDoH Master Health Product List (MHPL) for public sector contract values, pricing, supplier share, and tender pipeline |
-| `analyse_private_market` | Analyses the Database of Medicine Prices (MPR/SEP) for private sector pricing competitiveness and applicant market presence |
+| `analyse_ndoh_market` | Analyzes the NDoH Master Health Product List (MHPL) for contract values, supplier share, and tender pipeline |
+| `analyse_private_market` | Analyzes the Database of Medicine Prices (MPR/SEP) for private sector pricing competitiveness and applicant market presence |
 
 ### Prompts (Agentic Workflows)
 
-Pre-built prompt templates that chain tools into structured multi-step analyses:
+Pre-built templates that chain tools into structured multi-step analyses:
 
-- **`supplier_integrity_audit`** — Cross-references a supplier's tender footprint against their SAHPRA licence status and product registrations, with visual discrepancy flagging
-- **`therapeutic_category_assessment`** — Identifies market concentration and supply chain risk within a specific ATC drug class
-- **`market_entry_scouting`** — Evaluates the public sector opportunity for a new generic product launch
-- **`private_market_disruption_scouting`** — Locates pricing gaps in the private SEP landscape where a lower-cost entrant could compete
-- **`cross_market_viability_check`** — Compares state tender pricing against private sector SEP to assess dual-market margin viability
+- **`supplier_integrity_audit`** — Cross-references a supplier's tender footprint against their SAHPRA license status.
+- **`therapeutic_category_assessment`** — Identifies market concentration and supply chain risk within specific ATC drug classes.
+- **`market_entry_scouting`** — Evaluates the public sector opportunity for new generic product launches.
+- **`private_market_disruption_scouting`** — Locates pricing gaps in the private SEP landscape for competitive entry.
+- **`cross_market_viability_check`** — Compares state tender pricing against private SEP to assess dual-market margin viability.
 
-### Data Pipeline
+### Data Pipeline & Caching
 
-- **SAHPRA nonce caching** — Fetches and caches the Ninja Tables public nonce used by SAHPRA's licence endpoints for 12 hours, reducing redundant page fetches
-- **MHPL caching** — Discovers the latest NDoH MHPL Excel link at runtime, downloads and parses it, and persists a normalised CSV locally; falls back to stale cache on failure
-- **MPR/SEP caching** — Two-layer cache (RAM + disk) for the Medicine Prices database, with in-memory hit detection to avoid repeated disk reads between requests
+- **SAHPRA Nonce Caching** — Fetches and caches the Ninja Tables public nonce used by SAHPRA endpoints for 12 hours.
+- **Multi-Tiered Caching (RAM/Disk)** — Implements a "Freshness-First" cache. The system checks **RAM** first for sub-millisecond response, falls back to **Disk** (normalized CSV), and triggers a **Web** fetch only if the upstream link has changed.
+- **Read-Only Resilience** — Gracefully handles write-protected environments (e.g., Cloud Inspector) by suppressing disk-write errors while maintaining full functionality in-memory.
 
 ---
 
 ## Tech Stack
 
-- **Python 3** — Core runtime
+- **Python 3.11+** — Core runtime
 - **FastMCP** — MCP server framework (`mcp.server.fastmcp`)
-- **httpx** — Async HTTP client for all upstream requests
-- **pandas** — Data normalisation, filtering, aggregation, and Markdown table rendering
-- **openpyxl / xlrd** — Excel parsing for NDoH and MPR source files
-- **Stateless HTTP transport** — Deployed as a horizontally scalable, sessionless service
-
----
-
-## Data Sources
-
-| Source | Dataset | Update Frequency |
-|---|---|---|
-| SAHPRA (`sahpra.org.za`) | Approved Establishment Licences | As published |
-| SAHPRA (`medapps.sahpra.org.za`) | Registered Medicine Database | As published |
-| NDoH (`health.gov.za/tenders`) | Master Health Product List (MHPL) | Per tender cycle |
-| NDoH (`health.gov.za/nhi-pee`) | Database of Medicine Prices (MPR/SEP) | Per SEP update |
+- **uv** — High-performance dependency manager and runtime
+- **httpx** — Asynchronous HTTP client for upstream data retrieval
+- **pandas** — Data normalization, filtering, and aggregation
+- **openpyxl / xlrd** — High-speed Excel parsing for NDoH and MPR source files
 
 ---
 
 ## Usage
 
-### Prerequisites
+### 1. Installation & Setup
+
+We use **uv** for lightning-fast dependency management and environment isolation.
 
 ```bash
-pip install fastmcp httpx pandas openpyxl tabulate
+# Clone the repository
+git clone https://github.com/your-username/za-pharma-mcp
+cd za-pharma-mcp
+
+# Sync environment and dependencies
+uv sync
 ```
 
-### Run Locally (stdio transport)
+### 2. Development & Testing
+
+To launch the **FastMCP Inspector** and test tools and prompts visually in your browser:
 
 ```bash
-python server.py
+uv run fastmcp dev server.py
 ```
 
-### Run as HTTP Service
+### 3. Integration with Claude Desktop
 
-```bash
-PORT=8080 python server.py
-```
-
-The server binds to `0.0.0.0:{PORT}` using the `streamable-http` transport, suitable for deployment behind a reverse proxy.
-
-### Example Tool Call (via MCP client)
+Add the following to your `claude_desktop_config.json` to enable the pharma intelligence tools:
 
 ```json
 {
-  "tool": "analyse_ndoh_market",
-  "arguments": {
-    "query": "Tenofovir",
-    "filter_type": "inn",
-    "aggregate_by": "Supplier",
-    "top_n": 10
+  "mcpServers": {
+    "za-pharma": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--path",
+        "/absolute/path/to/project",
+        "fastmcp",
+        "run",
+        "server.py"
+      ]
+    }
   }
 }
 ```
 
+### 4. Deployment (SSE Transport)
+
+To run the server as a stateless HTTP service (e.g., for **n8n** integration or a custom UI):
+
+```bash
+PORT=8080 uv run fastmcp run server.py --transport sse
+```
+
 ---
 
-## Future Improvements
+## Future Roadmap
 
-- Add a `search_ndoh_market` tool with fuzzy matching for medicine name resolution
-- Scheduled background refresh of MHPL and MPR caches to eliminate cold-start latency
-- Webhook support to notify downstream systems when new tender data is detected
-- Structured JSON output mode alongside Markdown for programmatic consumers
+- **Vector Migration** — Transition to a RAG-based vector store for longitudinal trend analysis.
+- **Proactive Refresh** — Scheduled background refresh of caches to eliminate cold-start latency.
 
 ---
 
