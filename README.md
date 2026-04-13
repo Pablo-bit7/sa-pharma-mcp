@@ -33,12 +33,6 @@ Pre-built templates that chain tools into structured multi-step analyses:
 - **`private_market_disruption_scouting`** — Locates pricing gaps in the private SEP landscape for competitive entry.
 - **`cross_market_viability_check`** — Compares state tender pricing against private SEP to assess dual-market margin viability.
 
-### Data Pipeline & Caching
-
-- **SAHPRA Nonce Caching** — Fetches and caches the Ninja Tables public nonce used by SAHPRA endpoints for 12 hours.
-- **Multi-Tiered Caching (RAM/Disk)** — Implements a "Freshness-First" cache. The system checks **RAM** first for sub-millisecond response, falls back to **Disk** (normalized CSV), and triggers a **Web** fetch only if the upstream link has changed.
-- **Read-Only Resilience** — Gracefully handles write-protected environments (e.g., Cloud Inspector) by suppressing disk-write errors while maintaining full functionality in-memory.
-
 ---
 
 ## Tech Stack
