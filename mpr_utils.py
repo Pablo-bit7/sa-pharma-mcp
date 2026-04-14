@@ -80,7 +80,7 @@ async def get_latest_mpr_list_df() -> pandas.DataFrame:
                 _CACHED_DF = pandas.read_csv(CACHE_FILE)
                 _CACHED_LINK = current_link
                 return _CACHED_DF
-            
+
             print(f"DEBUG: Downloading new MPR: {current_link}", file=sys.stderr)
             response = await client.get(current_link)
             response.raise_for_status()

@@ -17,9 +17,11 @@ import asyncio
 
 
 CACHE_DIR = "./data"
-os.makedirs(CACHE_DIR, exist_ok=True)
 LINK_TRACKER = os.path.join(CACHE_DIR, "ndoh_mhpl_latest_link.txt")
 CACHE_FILE = os.path.join(CACHE_DIR, "ndoh_mhpl_cache.csv")
+
+_CACHED_DF = None
+_CACHED_LINK = None
 
 
 async def discover_latest_ndoh_prod_list_link(client: httpx.AsyncClient) -> str:
@@ -57,9 +59,15 @@ async def get_latest_ndoh_prod_list_df() -> pandas.DataFrame:
     Returns the NDoH Master Hesalth Product List.
     Downloads only if a newer link is found.
     """
+    global _CACHED_DF, _CACHED_LINK
+
     async with httpx.AsyncClient(verify=False, timeout=30.0) as client:
         try:
             current_link = await discover_latest_ndoh_prod_list_link(client)
+
+            if _CACHED_LINK is not None and _CACHED_LINK == current_link:
+                print(f"DEBUG: MHPL cache hit in RAM.", file=sys.stderr)
+                return _CACHED_DF
 
             last_link = ""
             if os.path.exists(LINK_TRACKER):
@@ -67,8 +75,10 @@ async def get_latest_ndoh_prod_list_df() -> pandas.DataFrame:
                     last_link = file.read().strip()
             
             if last_link == current_link and os.path.exists(CACHE_FILE):
-                print(f"DEBUG: MHPL cache is up to date.", file=sys.stderr)
-                return pandas.read_csv(CACHE_FILE)
+                print(f"DEBUG: MHPL RAM empty, but Disk cache is up to date. Loading...", file=sys.stderr)
+                _CACHED_DF = pandas.read_csv(CACHE_FILE)
+                _CACHED_LINK = current_link
+                return _CACHED_DF
             
             print(f"DEBUG: Downloading new MHPL: {current_link}", file=sys.stderr)
             response = await client.get(current_link)
@@ -88,18 +98,31 @@ async def get_latest_ndoh_prod_list_df() -> pandas.DataFrame:
 
             df.dropna(subset=["Description"], inplace=True)
 
-            df.to_csv(CACHE_FILE, index=False)
-            with open(LINK_TRACKER, "w") as file:
-                file.write(current_link)
+            _CACHED_DF = df
+            _CACHED_LINK = current_link
 
-            print(f"DEBUG: MHPL cache rebuilt.", file=sys.stderr)
+            try:
+                os.makedirs(CACHE_DIR, exist_ok=True)
+                df.to_csv(CACHE_FILE, index=False)
+                with open(LINK_TRACKER, "w") as file:
+                    file.write(current_link)
+
+                print(f"DEBUG: MHPL cache rebuilt and saved to disk.", file=sys.stderr)
+
+            except OSError as e:
+                print(f"WARNING: Skipping disk persistence (Read-Only FS): {e}", file=sys.stderr)
+
             return df
 
         except Exception as e:
-            if os.path.exists(CACHE_FILE):
+            if _CACHED_DF is not None:
+                print(f"ERROR: Update failed, falling back to RAM cache: {str(e)}", file=sys.stderr)
+                return _CACHED_DF
+            elif os.path.exists(CACHE_FILE):
                 print(f"ERROR: Update failed, falling back to stale cache: {str(e)}", file=sys.stderr)
 
                 return pandas.read_csv(CACHE_FILE)
+
             raise e
 
 
