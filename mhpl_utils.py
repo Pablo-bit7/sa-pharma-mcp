@@ -120,7 +120,6 @@ async def get_latest_ndoh_prod_list_df() -> pandas.DataFrame:
                 return _CACHED_DF
             elif os.path.exists(CACHE_FILE):
                 print(f"ERROR: Update failed, falling back to stale cache: {str(e)}", file=sys.stderr)
-
                 return pandas.read_csv(CACHE_FILE)
 
             raise e
