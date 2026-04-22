@@ -102,7 +102,9 @@ async def get_licensed_companies(category: str = "Manufacturers & Packers", limi
             if not raw_data:
                 return f"No records for `{category}`"
             
-            df = pandas.DataFrame(raw_data)
+            clean_data = [row.get("value", {}) for row in raw_data]
+            
+            df = pandas.DataFrame(clean_data)
             total_records = len(df)
 
             # Slice dataframe based on pagination parameters
