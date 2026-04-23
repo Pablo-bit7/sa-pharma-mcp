@@ -54,8 +54,8 @@ We use **uv** for lightning-fast dependency management and environment isolation
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/za-pharma-mcp
-cd za-pharma-mcp
+git clone https://github.com/your-username/sa-pharma-mcp
+cd sa-pharma-mcp
 
 # Sync environment and dependencies
 uv sync
@@ -66,7 +66,7 @@ uv sync
 To launch the **FastMCP Inspector** and test tools and prompts visually in your browser:
 
 ```bash
-uv run fastmcp dev server.py
+uv run mcp dev server.py
 ```
 
 ### 3. Integration with Claude Desktop
