@@ -311,7 +311,7 @@ async def analyse_private_market(
 
     df["SEP"] = pandas.to_numeric(df["SEP"], errors="coerce").fillna(0)
     df["Manufacturer_Price"] = pandas.to_numeric(df["Manufacturer_Price"], errors="coerce").fillna(0)
-    df["Effective_Date"] = pandas.to_datetime(df["Effective_Date"], errors="coerce")
+    df["Effective_Date"] = pandas.to_datetime(df["Effective_Date"], format='mixed', errors="coerce")
     # Filter out placeholder rows where SEP is 0.
     df = df[df["SEP"] > 0]
     df["Price_Age_Days"] = (pandas.Timestamp.now() - df["Effective_Date"]).dt.days
