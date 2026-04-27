@@ -307,13 +307,16 @@ async def analyse_private_market(
     :return: A markdown table containing the analysis results.
     :rtype: str
     """
-    df = await get_latest_mpr_list_df()
+    df, doc_date, is_live = await get_latest_mpr_list_df()
+
+    status = "[LIVE]" if is_live else "[CACHE]"
+    freshness_info = f"Source: {doc_date}{status}"
 
     df["SEP"] = pandas.to_numeric(df["SEP"], errors="coerce").fillna(0)
     df["Manufacturer_Price"] = pandas.to_numeric(df["Manufacturer_Price"], errors="coerce").fillna(0)
     df["Effective_Date"] = pandas.to_datetime(df["Effective_Date"], format='mixed', errors="coerce")
-    # Filter out placeholder rows where SEP is 0.
-    df = df[df["SEP"] > 0]
+
+    df = df[df["SEP"] > 0] # Filter out placeholder rows where SEP is 0.
     df["Price_Age_Days"] = (pandas.Timestamp.now() - df["Effective_Date"]).dt.days
 
     if query:
@@ -343,20 +346,27 @@ async def analyse_private_market(
         summary.columns = [
             aggregate_by,
             "Total_Products",
-            "Min_SEP", "Max_SEP", "Avg_SEP", "Avg_Price_Age_Days",
-            "Min_Mfg_Price", "Max_Mfg_Price", "Avg_Mfg_Price"
+            "Min_SEP", "Max_SEP", "Avg_SEP",
+            "Min_Mfg_Price", "Max_Mfg_Price", "Avg_Mfg_Price",
+            "Avg_Price_Age_Days"
         ]
         summary = summary.sort_values(by="Total_Products", ascending=False)
 
         paginated_summary = summary.iloc[offset : offset + limit]
-        meta_info = f"**Aggregate Private Market Analysis by {aggregate_by}** | Showing {offset + 1} - {min(offset + limit, len(summary))} of {len(summary)}\n\n"
+        meta_info = (
+            f"**Aggregate Private Market Analysis by {aggregate_by}**\n"
+            f"{freshness_info} | Showing {offset + 1} - {min(offset + limit, len(summary))} of {len(summary)}\n\n"
+        )
 
         return meta_info + paginated_summary.to_markdown(index=False)
     
     df = df.sort_values(by=sort_by if sort_by in df.columns else "SEP", ascending=True)
 
     paginated_df = df.iloc[offset : offset + limit]
-    meta_info = f"**Granular Private Sector View** | Showing {offset + 1} - {min(offset + limit, total_records)} of {total_records}\n\n"
+    meta_info = (
+        f"**Granular Private Sector View**\n"
+        f"{freshness_info} | Showing {offset + 1} - {min(offset + limit, total_records)} of {total_records}\n\n"
+    )
 
     return meta_info + paginated_df.to_markdown(index=False)
 
