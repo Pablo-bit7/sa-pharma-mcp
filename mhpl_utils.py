@@ -22,9 +22,10 @@ CACHE_FILE = os.path.join(CACHE_DIR, "ndoh_mhpl_cache.csv")
 
 _CACHED_DF = None
 _CACHED_LINK = None
+_CACHED_DATE = None
 
 
-async def discover_latest_ndoh_prod_list_link(client: httpx.AsyncClient) -> str:
+async def discover_latest_ndoh_prod_list_link(client: httpx.AsyncClient) -> tuple[str, str]:
     """
     Scrapes the NDoH Tenders page to find the current Master Health Product List link.
     """
@@ -47,39 +48,46 @@ async def discover_latest_ndoh_prod_list_link(client: httpx.AsyncClient) -> str:
         RELATIVE_PATH = match.group(1)
         FULL_URL = urljoin(URL, RELATIVE_PATH)
 
-        return FULL_URL
+        date_match = re.search(
+            r'([0-9]{1,2}[- _][A-Za-z]+[- _][0-9]{4})',
+            RELATIVE_PATH
+        )
+        doc_date = date_match.group(1).replace('-', ' ').replace('_', ' ') if date_match else "Unknown Date"
+
+        return FULL_URL, doc_date
     
     raise ValueError(
         f"Could not find the Master Health Product List link at {URL}."
     )
 
 
-async def get_latest_ndoh_prod_list_df() -> pandas.DataFrame:
+async def get_latest_ndoh_prod_list_df() -> tuple[pandas.DataFrame, str, bool]:
     """
     Returns the NDoH Master Hesalth Product List.
     Downloads only if a newer link is found.
     """
-    global _CACHED_DF, _CACHED_LINK
+    global _CACHED_DF, _CACHED_LINK, _CACHED_DATE
 
     async with httpx.AsyncClient(verify=False, timeout=30.0) as client:
         try:
-            current_link = await discover_latest_ndoh_prod_list_link(client)
+            current_link, doc_date = await discover_latest_ndoh_prod_list_link(client)
 
-            if _CACHED_LINK is not None and _CACHED_LINK == current_link:
-                print(f"DEBUG: MHPL cache hit in RAM.", file=sys.stderr)
-                return _CACHED_DF
+            # RAM Cache Hit
+            if _CACHED_LINK == current_link and _CACHED_DF is not None:
+                print(f"DEBUG: MHPL cache hit in RAM ({doc_date}).", file=sys.stderr)
+                return _CACHED_DF, doc_date, True
 
-            last_link = ""
-            if os.path.exists(LINK_TRACKER):
+            # Disk Cache Hit            
+            if os.path.exists(LINK_TRACKER) and os.path.exists(CACHE_FILE):
                 with open(LINK_TRACKER, "r") as file:
-                    last_link = file.read().strip()
-            
-            if last_link == current_link and os.path.exists(CACHE_FILE):
-                print(f"DEBUG: MHPL RAM empty, but Disk cache is up to date. Loading...", file=sys.stderr)
-                _CACHED_DF = pandas.read_csv(CACHE_FILE)
-                _CACHED_LINK = current_link
-                return _CACHED_DF
-            
+                    if file.read().strip() == current_link:
+                        print(f"DEBUG: MHPL RAM empty, but Disk cache is up to date ({doc_date}). Loading...", file=sys.stderr)
+                        _CACHED_DF = pandas.read_csv(CACHE_FILE)
+                        _CACHED_LINK = current_link
+                        _CACHED_DATE = doc_date
+                        return _CACHED_DF, doc_date, True
+
+            # Downlaod & Parse (New link found)
             print(f"DEBUG: Downloading new MHPL: {current_link}", file=sys.stderr)
             response = await client.get(current_link)
             response.raise_for_status()
@@ -98,29 +106,31 @@ async def get_latest_ndoh_prod_list_df() -> pandas.DataFrame:
 
             df.dropna(subset=["Description"], inplace=True)
 
-            _CACHED_DF = df
-            _CACHED_LINK = current_link
+            # Update RAM state
+            _CACHED_DF, _CACHED_LINK, _CACHED_DATE = df, current_link, doc_date
 
+            # Persistence Logic
             try:
                 os.makedirs(CACHE_DIR, exist_ok=True)
                 df.to_csv(CACHE_FILE, index=False)
                 with open(LINK_TRACKER, "w") as file:
                     file.write(current_link)
-
                 print(f"DEBUG: MHPL cache rebuilt and saved to disk.", file=sys.stderr)
 
             except OSError as e:
                 print(f"WARNING: Skipping disk persistence (Read-Only FS): {e}", file=sys.stderr)
 
-            return df
+            return df, doc_date, True
 
         except Exception as e:
             if _CACHED_DF is not None:
                 print(f"ERROR: Update failed, falling back to RAM cache: {str(e)}", file=sys.stderr)
-                return _CACHED_DF
+                return _CACHED_DF, _CACHED_DATE or "Unknown", False
+
             elif os.path.exists(CACHE_FILE):
                 print(f"ERROR: Update failed, falling back to stale cache: {str(e)}", file=sys.stderr)
-                return pandas.read_csv(CACHE_FILE)
+                df = pandas.read_csv(CACHE_FILE)
+                return df, "Previous release (Stale)", False
 
             raise e
 
@@ -132,9 +142,11 @@ if __name__ == "__main__":
         print("="*50 + "\n", file=sys.stderr)
         
         try:
-            df = await get_latest_ndoh_prod_list_df()
+            df, doc_date, is_live = await get_latest_ndoh_prod_list_df()
 
+            status = "LIVE" if is_live else "STALE/CACHED"
             print(f"Success: Loaded {len(df)} products.", file=sys.stderr)
+            print(f"Source Date: {doc_date} [{status}]", file=sys.stderr)
             print(f"Columns: {list(df.columns)}", file=sys.stderr)
             
             print("\n--- DATA SAMPLE (TOP 5) ---")
@@ -155,6 +167,5 @@ if __name__ == "__main__":
 
         except Exception as e:
             print(f"\n❌ TEST FAILED: {str(e)}", file=sys.stderr)
-
 
     asyncio.run(test_utility())

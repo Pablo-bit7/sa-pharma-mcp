@@ -225,7 +225,10 @@ async def analyse_ndoh_market(
     :return: A markdown table containing the analysis results.
     :rtype: str
     """
-    df = await get_latest_ndoh_prod_list_df()
+    df, doc_date, is_live = await get_latest_ndoh_prod_list_df()
+
+    status = "[LIVE]" if is_live else "[CACHE]"
+    freshness_info = f"Source: {doc_date} {status}"
 
     df["Unit_Price"] = pandas.to_numeric(df["Unit_Price"], errors="coerce").fillna(0)
     df["Quantity_Awarded"] = pandas.to_numeric(df["Quantity_Awarded"], errors="coerce").fillna(0)
@@ -266,14 +269,20 @@ async def analyse_ndoh_market(
         summary = summary.sort_values(by="Total_Value_ZAR", ascending=False)
 
         paginated_summary = summary.iloc[offset : offset + limit]
-        meta_info = f"**Aggregate Analysis by {aggregate_by}** | Showing {offset + 1} - {min(offset + limit, len(summary))} of {len(summary)}\n\n"
+        meta_info = (
+            f"**Aggregate Public Market Analysis by {aggregate_by}**\n"
+            f"{freshness_info} | Showing {offset + 1} - {min(offset + limit, len(summary))} of {len(summary)}\n\n"
+        )
 
         return meta_info + paginated_summary.to_markdown(index=False)
     
     df = df.sort_values(by=sort_by, ascending=(sort_by == "Unit_Price"))
 
     paginated_df = df.iloc[offset : offset + limit]
-    meta_info = f"**Granular Contract View** | Showing {offset + 1} - {min(offset + limit, total_records)} of {total_records}\n\n"
+    meta_info = (
+        f"**Granular Public Sector Contract View**\n"
+        f"{freshness_info} | Showing {offset + 1} - {min(offset + limit, total_records)} of {total_records}\n\n"
+    )
 
     return meta_info + paginated_df.to_markdown(index=False)
 
@@ -310,7 +319,7 @@ async def analyse_private_market(
     df, doc_date, is_live = await get_latest_mpr_list_df()
 
     status = "[LIVE]" if is_live else "[CACHE]"
-    freshness_info = f"Source: {doc_date}{status}"
+    freshness_info = f"Source: {doc_date} {status}"
 
     df["SEP"] = pandas.to_numeric(df["SEP"], errors="coerce").fillna(0)
     df["Manufacturer_Price"] = pandas.to_numeric(df["Manufacturer_Price"], errors="coerce").fillna(0)
