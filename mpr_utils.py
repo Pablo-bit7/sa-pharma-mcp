@@ -28,7 +28,7 @@ _CACHED_DATE = None
 async def discover_latest_mpr_list_link(client: httpx.AsyncClient) -> tuple[str, str]:
     """
     Scrapes the NDoH NHI page to find the current Database of Medicine Prices
-    link.
+    link and date.
     """
     URL = "https://www.health.gov.za/nhi-pee/"
 

@@ -103,7 +103,7 @@ PORT=8080 uv run fastmcp run server.py --transport sse
 
 ## Future Roadmap
 
-- **Vector Migration** — Transition to a RAG-based vector store for longitudinal trend analysis.
+- **Hybrid Retrieval Architecture** — Transition from positional data valves to a hybrid layer combining semantic vector search with structured aggregation. This will allow the engine to answer exploratory market questions across the full national dataset while preserving the exact-match precision required for regulatory and compliance queries.
 - **Proactive Refresh** — Scheduled background refresh of caches to eliminate cold-start latency.
 
 ---

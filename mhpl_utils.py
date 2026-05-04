@@ -27,7 +27,7 @@ _CACHED_DATE = None
 
 async def discover_latest_ndoh_prod_list_link(client: httpx.AsyncClient) -> tuple[str, str]:
     """
-    Scrapes the NDoH Tenders page to find the current Master Health Product List link.
+    Scrapes the NDoH Tenders page to find the current Master Health Product List link and date.
     """
     URL = "https://www.health.gov.za/tenders/"
 
