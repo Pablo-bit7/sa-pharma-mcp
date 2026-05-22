@@ -12,6 +12,28 @@ South Africa's pharmaceutical landscape spans two distinct markets: a public sec
 
 ---
 
+## Project Interpretation & Potential
+
+### What this project is
+This project is a **South African pharma intelligence API** built on the Model Context Protocol (MCP). It aggregates regulatory, pricing, and procurement datasets from SAHPRA and the NDoH, normalizes them into structured tables, and exposes them as AI-callable tools. In practice, it is a thin, reliable layer that turns fragmented public data into a clean, queryable intelligence surface for automated analysis.
+
+### What it is used for
+The server is designed to power **agentic workflows and analyst tooling** across the public and private pharma markets. Typical use cases include:
+- **Regulatory verification** (e.g., checking whether a supplier on a tender has valid SAHPRA licenses).
+- **Market entry scouting** (e.g., comparing tender demand against the competitive landscape of registered products).
+- **Pricing intelligence** (e.g., benchmarking SEP ranges against public-sector award prices).
+- **Supply risk assessment** (e.g., identifying single-supplier exposure or expiring contracts).
+
+### Potential directions
+Given the current foundation and roadmap, the project has strong potential to evolve in several directions:
+- **Richer intelligence layers**: add additional datasets (tender award documents, product shortages, clinical trial registries, or recall notices) to create a more comprehensive risk and opportunity map.
+- **Proactive monitoring**: scheduled refresh and alerting (supplier license changes, SEP updates, expiring contracts) to support compliance teams and procurement planners.
+- **Decision dashboards**: expose these tools as dashboards or BI connectors for non-technical stakeholders, while keeping the MCP layer as the automated reasoning backend.
+- **Comparative market analytics**: extend the model to neighboring markets with similar procurement structures, enabling cross-country pricing and supply-chain benchmarking.
+- **Ecosystem integrations**: plug into workflow systems (n8n, Slack, procurement suites) so decisions and approvals can be made directly from automated insights.
+
+---
+
 ## Key Features
 
 ### Tools
