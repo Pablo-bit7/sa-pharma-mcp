@@ -10,6 +10,13 @@ import pandas as pd
 import httpx
 from unittest.mock import AsyncMock, MagicMock, patch, mock_open
 
+@pytest.fixture(autouse=True)
+def reset_globals():
+    import mhpl_utils
+    mhpl_utils._CACHED_DF = None
+    mhpl_utils._CACHED_LINK = None
+    mhpl_utils._CACHED_DATE = None
+    yield
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -90,7 +97,7 @@ async def test_discover_link_returns_absolute_url():
     mock_client = AsyncMock(spec=httpx.AsyncClient)
     mock_client.get.return_value = _make_response(text=TENDERS_HTML_WITH_LINK)
 
-    url = await mhpl_utils.discover_latest_ndoh_prod_list_link(mock_client)
+    url, doc_date = await mhpl_utils.discover_latest_ndoh_prod_list_link(mock_client)
 
     assert url.startswith("http")
     assert "Master-Health-Product-List-2024.xlsx" in url
@@ -116,7 +123,7 @@ async def test_discover_link_case_insensitive():
     mock_client = AsyncMock(spec=httpx.AsyncClient)
     mock_client.get.return_value = _make_response(text=html)
 
-    url = await mhpl_utils.discover_latest_ndoh_prod_list_link(mock_client)
+    url, doc_date = await mhpl_utils.discover_latest_ndoh_prod_list_link(mock_client)
     assert "MHPL_2024.xlsx" in url
 
 
@@ -142,9 +149,9 @@ async def test_get_df_uses_cache_when_link_unchanged(tmp_path):
     with (
         patch.object(mhpl_utils, "CACHE_FILE", str(cache_csv)),
         patch.object(mhpl_utils, "LINK_TRACKER", str(link_file)),
-        patch("mhpl_utils.discover_latest_ndoh_prod_list_link", new=AsyncMock(return_value=link)),
+        patch("mhpl_utils.discover_latest_ndoh_prod_list_link", new=AsyncMock(return_value=(link, "Unknown Date"))),
     ):
-        df = await mhpl_utils.get_latest_ndoh_prod_list_df()
+        df, doc_date, is_fresh = await mhpl_utils.get_latest_ndoh_prod_list_df()
 
     assert not df.empty
     assert "Contract" in df.columns
@@ -169,7 +176,7 @@ async def test_get_df_downloads_when_link_changed(tmp_path):
     with (
         patch.object(mhpl_utils, "CACHE_FILE", str(cache_csv)),
         patch.object(mhpl_utils, "LINK_TRACKER", str(link_file)),
-        patch("mhpl_utils.discover_latest_ndoh_prod_list_link", new=AsyncMock(return_value=new_link)),
+        patch("mhpl_utils.discover_latest_ndoh_prod_list_link", new=AsyncMock(return_value=(new_link, "Unknown Date"))),
         patch("httpx.AsyncClient") as mock_cls,
     ):
         mock_client = AsyncMock()
@@ -178,7 +185,7 @@ async def test_get_df_downloads_when_link_changed(tmp_path):
         mock_client.get.return_value = excel_response
         mock_cls.return_value = mock_client
 
-        df = await mhpl_utils.get_latest_ndoh_prod_list_df()
+        df, doc_date, is_fresh = await mhpl_utils.get_latest_ndoh_prod_list_df()
 
     assert not df.empty
     assert "Description" in df.columns
@@ -202,7 +209,7 @@ async def test_get_df_falls_back_to_stale_cache_on_error(tmp_path):
         patch.object(mhpl_utils, "LINK_TRACKER", str(link_file)),
         patch("mhpl_utils.discover_latest_ndoh_prod_list_link", new=AsyncMock(side_effect=RuntimeError("network down"))),
     ):
-        df = await mhpl_utils.get_latest_ndoh_prod_list_df()
+        df, doc_date, is_fresh = await mhpl_utils.get_latest_ndoh_prod_list_df()
 
     assert not df.empty
     assert df["Contract"].iloc[0] == "C999"
@@ -262,7 +269,7 @@ async def test_get_df_drops_rows_with_null_description(tmp_path):
     with (
         patch.object(mhpl_utils, "CACHE_FILE", str(cache_csv)),
         patch.object(mhpl_utils, "LINK_TRACKER", str(link_file)),
-        patch("mhpl_utils.discover_latest_ndoh_prod_list_link", new=AsyncMock(return_value=new_link)),
+        patch("mhpl_utils.discover_latest_ndoh_prod_list_link", new=AsyncMock(return_value=(new_link, "Unknown Date"))),
         patch("httpx.AsyncClient") as mock_cls,
     ):
         mock_client = AsyncMock()
@@ -271,7 +278,7 @@ async def test_get_df_drops_rows_with_null_description(tmp_path):
         mock_client.get.return_value = _make_response(content=excel_bytes)
         mock_cls.return_value = mock_client
 
-        df = await mhpl_utils.get_latest_ndoh_prod_list_df()
+        df, doc_date, is_fresh = await mhpl_utils.get_latest_ndoh_prod_list_df()
 
     assert len(df) == 1
     assert df["Description"].iloc[0] == "Valid Drug"

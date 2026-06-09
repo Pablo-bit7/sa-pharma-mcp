@@ -8,6 +8,13 @@ import pandas as pd
 import httpx
 from unittest.mock import AsyncMock, MagicMock, patch
 
+@pytest.fixture(autouse=True)
+def reset_globals():
+    import mpr_utils
+    mpr_utils._CACHED_DF = None
+    mpr_utils._CACHED_LINK = None
+    mpr_utils._CACHED_DATE = None
+    yield
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -37,7 +44,7 @@ def _minimal_mpr_excel() -> bytes:
     # Row 1 is skipped metadata; row 2 is the header.
     ws.append(["skip_row"])
 
-    num_cols = 17
+    num_cols = 19
     headers = [f"col_{i}" for i in range(num_cols)]
     ws.append(headers)
 
@@ -82,7 +89,7 @@ async def test_discover_mpr_link_returns_absolute_url():
     mock_client = AsyncMock(spec=httpx.AsyncClient)
     mock_client.get.return_value = _make_response(text=NHI_HTML_WITH_LINK)
 
-    url = await mpr_utils.discover_latest_mpr_list_link(mock_client)
+    url, doc_date = await mpr_utils.discover_latest_mpr_list_link(mock_client)
 
     assert url.startswith("http")
     assert "database-of-prices-2024.xlsx" in url
@@ -108,7 +115,7 @@ async def test_discover_mpr_link_case_insensitive_prices():
     mock_client = AsyncMock(spec=httpx.AsyncClient)
     mock_client.get.return_value = _make_response(text=html)
 
-    url = await mpr_utils.discover_latest_mpr_list_link(mock_client)
+    url, doc_date = await mpr_utils.discover_latest_mpr_list_link(mock_client)
     assert "Prices_2024.xlsx" in url
 
 
@@ -133,9 +140,9 @@ async def test_get_mpr_df_uses_cache_when_link_unchanged(tmp_path):
     with (
         patch.object(mpr_utils, "CACHE_FILE", str(cache_csv)),
         patch.object(mpr_utils, "LINK_TRACKER", str(link_file)),
-        patch("mpr_utils.discover_latest_mpr_list_link", new=AsyncMock(return_value=link)),
+        patch("mpr_utils.discover_latest_mpr_list_link", new=AsyncMock(return_value=(link, "Unknown Date"))),
     ):
-        df = await mpr_utils.get_latest_mpr_list_df()
+        df, doc_date, is_fresh = await mpr_utils.get_latest_mpr_list_df()
 
     assert not df.empty
     assert "Applicant" in df.columns
@@ -159,7 +166,7 @@ async def test_get_mpr_df_downloads_when_link_changed(tmp_path):
     with (
         patch.object(mpr_utils, "CACHE_FILE", str(cache_csv)),
         patch.object(mpr_utils, "LINK_TRACKER", str(link_file)),
-        patch("mpr_utils.discover_latest_mpr_list_link", new=AsyncMock(return_value=new_link)),
+        patch("mpr_utils.discover_latest_mpr_list_link", new=AsyncMock(return_value=(new_link, "Unknown Date"))),
         patch("httpx.AsyncClient") as mock_cls,
     ):
         mock_client = AsyncMock()
@@ -168,10 +175,10 @@ async def test_get_mpr_df_downloads_when_link_changed(tmp_path):
         mock_client.get.return_value = excel_response
         mock_cls.return_value = mock_client
 
-        df = await mpr_utils.get_latest_mpr_list_df()
+        df, doc_date, is_fresh = await mpr_utils.get_latest_mpr_list_df()
 
     assert not df.empty
-    assert "Active_Ingredients" in df.columns
+    assert "Active_Ingredient" in df.columns
     assert cache_csv.exists()
     assert link_file.read_text() == new_link
 
@@ -192,7 +199,7 @@ async def test_get_mpr_df_falls_back_to_stale_cache_on_error(tmp_path):
         patch.object(mpr_utils, "LINK_TRACKER", str(link_file)),
         patch("mpr_utils.discover_latest_mpr_list_link", new=AsyncMock(side_effect=RuntimeError("network down"))),
     ):
-        df = await mpr_utils.get_latest_mpr_list_df()
+        df, doc_date, is_fresh = await mpr_utils.get_latest_mpr_list_df()
 
     assert df["Applicant"].iloc[0] == "StaleApplicant"
 
@@ -223,15 +230,15 @@ async def test_get_mpr_df_drops_rows_with_null_active_ingredients(tmp_path):
     wb = openpyxl.Workbook()
     ws = wb.active
     ws.append(["skip"])
-    ws.append([f"col_{i}" for i in range(17)])
+    ws.append([f"col_{i}" for i in range(19)])
 
-    row_good = [""] * 17
+    row_good = [""] * 19
     row_good[7] = "Paracetamol"
     row_good[1] = "Aspen"
     ws.append(row_good)
 
-    row_bad = [""] * 17
-    row_bad[7] = None   # no Active_Ingredients → will be dropped
+    row_bad = [""] * 19
+    row_bad[7] = None   # no Active_Ingredient → will be dropped
     row_bad[1] = "Cipla"
     ws.append(row_bad)
 
@@ -247,7 +254,7 @@ async def test_get_mpr_df_drops_rows_with_null_active_ingredients(tmp_path):
     with (
         patch.object(mpr_utils, "CACHE_FILE", str(cache_csv)),
         patch.object(mpr_utils, "LINK_TRACKER", str(link_file)),
-        patch("mpr_utils.discover_latest_mpr_list_link", new=AsyncMock(return_value=new_link)),
+        patch("mpr_utils.discover_latest_mpr_list_link", new=AsyncMock(return_value=(new_link, "Unknown Date"))),
         patch("httpx.AsyncClient") as mock_cls,
     ):
         mock_client = AsyncMock()
@@ -256,10 +263,10 @@ async def test_get_mpr_df_drops_rows_with_null_active_ingredients(tmp_path):
         mock_client.get.return_value = _make_response(content=excel_bytes)
         mock_cls.return_value = mock_client
 
-        df = await mpr_utils.get_latest_mpr_list_df()
+        df, doc_date, is_fresh = await mpr_utils.get_latest_mpr_list_df()
 
     assert len(df) == 1
-    assert df["Active_Ingredients"].iloc[0] == "Paracetamol"
+    assert df["Active_Ingredient"].iloc[0] == "Paracetamol"
 
 
 @pytest.mark.asyncio
@@ -274,10 +281,10 @@ async def test_get_mpr_df_forward_fills_non_ingredient_columns(tmp_path):
     wb = openpyxl.Workbook()
     ws = wb.active
     ws.append(["skip"])
-    ws.append([f"col_{i}" for i in range(17)])
+    ws.append([f"col_{i}" for i in range(19)])
 
     # First data row – has all values.
-    row1 = [""] * 17
+    row1 = [""] * 19
     row1[1] = "Aspen"
     row1[6] = "Panado"
     row1[7] = "Paracetamol"
@@ -285,8 +292,8 @@ async def test_get_mpr_df_forward_fills_non_ingredient_columns(tmp_path):
     ws.append(row1)
 
     # Second row – Applicant/Proprietery_Name is blank (simulates merged cell);
-    # only Active_Ingredients differs.
-    row2 = [""] * 17
+    # only Active_Ingredient differs.
+    row2 = [""] * 19
     row2[1] = None      # blank → must be ffilled from row1
     row2[6] = None
     row2[7] = "Codeine"
@@ -304,7 +311,7 @@ async def test_get_mpr_df_forward_fills_non_ingredient_columns(tmp_path):
     with (
         patch.object(mpr_utils, "CACHE_FILE", str(cache_csv)),
         patch.object(mpr_utils, "LINK_TRACKER", str(link_file)),
-        patch("mpr_utils.discover_latest_mpr_list_link", new=AsyncMock(return_value=new_link)),
+        patch("mpr_utils.discover_latest_mpr_list_link", new=AsyncMock(return_value=(new_link, "Unknown Date"))),
         patch("httpx.AsyncClient") as mock_cls,
     ):
         mock_client = AsyncMock()
@@ -313,7 +320,7 @@ async def test_get_mpr_df_forward_fills_non_ingredient_columns(tmp_path):
         mock_client.get.return_value = _make_response(content=buf.getvalue())
         mock_cls.return_value = mock_client
 
-        df = await mpr_utils.get_latest_mpr_list_df()
+        df, doc_date, is_fresh = await mpr_utils.get_latest_mpr_list_df()
 
     assert len(df) == 2
     # The forward-filled value from the first row should appear on the second.

@@ -25,8 +25,8 @@ def _make_response(json_data=None, status_code=200):
 def _licensed_companies_payload():
     """Minimal list of dicts that the SAHPRA Ninja Tables endpoint would return."""
     return [
-        {"Name": "Bayer SA", "Licence": "ML001", "Category": "Manufacturers & Packers"},
-        {"Name": "Aspen Pharmacare", "Licence": "ML002", "Category": "Manufacturers & Packers"},
+        {"value": {"Name": "Bayer SA", "Licence": "ML001", "Category": "Manufacturers & Packers"}},
+        {"value": {"Name": "Aspen Pharmacare", "Licence": "ML002", "Category": "Manufacturers & Packers"}},
     ]
 
 
@@ -161,7 +161,7 @@ async def test_get_licensed_companies_all_valid_categories(category):
     """Every valid category must resolve to a table ID without an error."""
     from server import get_licensed_companies
 
-    payload = [{"Name": "Test Co", "Licence": "TST001"}]
+    payload = [{"value": {"Name": "Test Co", "Licence": "TST001"}}]
 
     with (
         patch("server.get_sahpra_nonce", new=AsyncMock(return_value="testnonce")),
@@ -183,7 +183,7 @@ async def test_get_licensed_companies_limits_to_50_rows():
     """Result must contain at most 50 rows even if the API returns more."""
     from server import get_licensed_companies
 
-    payload = [{"Name": f"Co {i}", "Licence": f"LIC{i:03d}"} for i in range(100)]
+    payload = [{"value": {"Name": f"Co {i}", "Licence": f"LIC{i:03d}"}} for i in range(100)]
 
     with (
         patch("server.get_sahpra_nonce", new=AsyncMock(return_value="testnonce")),
@@ -301,7 +301,33 @@ def mock_ndoh_df():
     df = _ndoh_market_dataframe()
 
     async def _fake_get():
-        return df.copy()
+        return df.copy(), "Fake Date", True
+
+    return _fake_get
+
+def _mpr_market_dataframe():
+    """A small DataFrame that mimics the MPR cache."""
+    return pd.DataFrame({
+        "Applicant": ["Aspen", "Cipla", "Bayer"],
+        "Proprietery_Name": ["Panado", "Cipladon", "Aspirin C"],
+        "Active_Ingredient": ["Paracetamol", "Paracetamol", "Aspirin"],
+        "Dosage_Form": ["Tablet", "Tablet", "Effervescent"],
+        "Pack_Size": ["20", "10", "10"],
+        "Quantity": ["1", "1", "1"],
+        "NAPPI_Code": ["123", "456", "789"],
+        "Manufacturer_Price": ["10.00", "5.00", "15.00"],
+        "Logistics_Fee": ["1.00", "0.50", "1.50"],
+        "SEP": ["12.65", "6.32", "18.97"],
+        "Effective_Date": ["2024-01-01", "2024-01-01", "2024-01-01"]
+    })
+
+@pytest.fixture
+def mock_mpr_df():
+    """Patch get_latest_mpr_list_df to return a small in-memory DataFrame."""
+    df = _mpr_market_dataframe()
+
+    async def _fake_get():
+        return df.copy(), "Fake Date", True
 
     return _fake_get
 
@@ -313,7 +339,7 @@ async def test_analyse_ndoh_market_no_query(mock_ndoh_df):
     with patch("server.get_latest_ndoh_prod_list_df", new=mock_ndoh_df):
         result = await analyse_ndoh_market()
 
-    assert "Granular Contract View" in result
+    assert "Granular Public Sector Contract View" in result
     assert "|" in result  # markdown table
 
 
@@ -377,7 +403,7 @@ async def test_analyse_ndoh_market_aggregate_by_supplier(mock_ndoh_df):
     with patch("server.get_latest_ndoh_prod_list_df", new=mock_ndoh_df):
         result = await analyse_ndoh_market(aggregate_by="Supplier")
 
-    assert "Aggregate Analysis by Supplier" in result
+    assert "Aggregate Public Market Analysis by Supplier" in result
     assert "Contracts" in result
     assert "Total_Value_ZAR" in result
 
@@ -389,7 +415,7 @@ async def test_analyse_ndoh_market_aggregate_by_inn(mock_ndoh_df):
     with patch("server.get_latest_ndoh_prod_list_df", new=mock_ndoh_df):
         result = await analyse_ndoh_market(aggregate_by="INN")
 
-    assert "Aggregate Analysis by INN" in result
+    assert "Aggregate Public Market Analysis by INN" in result
 
 
 @pytest.mark.asyncio
@@ -399,7 +425,7 @@ async def test_analyse_ndoh_market_aggregate_by_care_level(mock_ndoh_df):
     with patch("server.get_latest_ndoh_prod_list_df", new=mock_ndoh_df):
         result = await analyse_ndoh_market(aggregate_by="Care_Level")
 
-    assert "Aggregate Analysis by Care_Level" in result
+    assert "Aggregate Public Market Analysis by Care_Level" in result
 
 
 @pytest.mark.asyncio
@@ -410,7 +436,7 @@ async def test_analyse_ndoh_market_invalid_aggregate_by(mock_ndoh_df):
     with patch("server.get_latest_ndoh_prod_list_df", new=mock_ndoh_df):
         result = await analyse_ndoh_market(aggregate_by="NonExistentColumn")
 
-    assert "Granular Contract View" in result
+    assert "Granular Public Sector Contract View" in result
 
 
 @pytest.mark.asyncio
@@ -419,9 +445,9 @@ async def test_analyse_ndoh_market_top_n_limits_rows(mock_ndoh_df):
     from server import analyse_ndoh_market
 
     with patch("server.get_latest_ndoh_prod_list_df", new=mock_ndoh_df):
-        result = await analyse_ndoh_market(top_n=1)
+        result = await analyse_ndoh_market(limit=1)
 
-    # The fixture has 3 rows; with top_n=1 only the first (lowest Unit_Price
+    # The fixture has 3 rows; with limit=1 only the first (lowest Unit_Price
     # after ascending sort, i.e. "C003" Metformin @ 1.50) should appear.
     # The other two contracts must be absent.
     contracts_in_result = sum(1 for c in ["C001", "C002", "C003"] if c in result)
@@ -435,7 +461,7 @@ async def test_analyse_ndoh_market_sort_by_quantity(mock_ndoh_df):
     with patch("server.get_latest_ndoh_prod_list_df", new=mock_ndoh_df):
         result = await analyse_ndoh_market(sort_by="Quantity_Awarded")
 
-    assert "Granular Contract View" in result
+    assert "Granular Public Sector Contract View" in result
     assert "|" in result
 
 
@@ -476,5 +502,126 @@ def test_therapeutic_category_assessment_prompt_contains_atc():
 def test_market_entry_scouting_prompt_contains_molecule():
     from server import market_entry_scouting
 
+    result = market_entry_scouting("Paracetamol")
+    assert "Paracetamol" in result
+
+def test_private_market_disruption_scouting_prompt_contains_molecule():
+    from server import private_market_disruption_scouting
+
+    result = private_market_disruption_scouting("Paracetamol")
+    assert "Paracetamol" in result
+    from server import market_entry_scouting
+
     result = market_entry_scouting("Tenofovir")
     assert "Tenofovir" in result
+
+# ---------------------------------------------------------------------------
+# Tests – analyse_private_market
+# ---------------------------------------------------------------------------
+
+@pytest.mark.asyncio
+async def test_analyse_private_market_no_query(mock_mpr_df):
+    from server import analyse_private_market
+
+    with patch("server.get_latest_mpr_list_df", new=mock_mpr_df):
+        result = await analyse_private_market()
+
+    assert "Granular Private Sector View" in result
+    assert "|" in result  # markdown table
+
+@pytest.mark.asyncio
+async def test_analyse_private_market_filter_inn(mock_mpr_df):
+    from server import analyse_private_market
+
+    with patch("server.get_latest_mpr_list_df", new=mock_mpr_df):
+        result = await analyse_private_market(query="Aspirin", filter_type="active_ingredient")
+
+    assert "Aspirin" in result
+    assert "Paracetamol" not in result
+
+@pytest.mark.asyncio
+async def test_analyse_private_market_filter_supplier(mock_mpr_df):
+    from server import analyse_private_market
+
+    with patch("server.get_latest_mpr_list_df", new=mock_mpr_df):
+        result = await analyse_private_market(query="Aspen", filter_type="applicant")
+
+    assert "Aspen" in result
+    assert "Cipla" not in result
+
+@pytest.mark.asyncio
+async def test_analyse_private_market_filter_all(mock_mpr_df):
+    from server import analyse_private_market
+
+    with patch("server.get_latest_mpr_list_df", new=mock_mpr_df):
+        result = await analyse_private_market(query="Panado", filter_type="all")
+
+    assert "Panado" in result
+
+@pytest.mark.asyncio
+async def test_analyse_private_market_filter_nappi(mock_mpr_df):
+    from server import analyse_private_market
+
+    with patch("server.get_latest_mpr_list_df", new=mock_mpr_df):
+        result = await analyse_private_market(query="123", filter_type="nappi")
+
+    assert "123" in result
+    assert "456" not in result
+
+@pytest.mark.asyncio
+async def test_analyse_private_market_not_found(mock_mpr_df):
+    from server import analyse_private_market
+
+    with patch("server.get_latest_mpr_list_df", new=mock_mpr_df):
+        result = await analyse_private_market(query="Doesnotexist999", filter_type="active_ingredient")
+
+    assert "No private sector data found" in result
+
+@pytest.mark.asyncio
+async def test_analyse_private_market_aggregate_by_supplier(mock_mpr_df):
+    from server import analyse_private_market
+
+    with patch("server.get_latest_mpr_list_df", new=mock_mpr_df):
+        result = await analyse_private_market(aggregate_by="Applicant")
+
+    assert "Aggregate Private Market Analysis by Applicant" in result
+    assert "Total_Products" in result
+
+@pytest.mark.asyncio
+async def test_analyse_private_market_aggregate_by_inn(mock_mpr_df):
+    from server import analyse_private_market
+
+    with patch("server.get_latest_mpr_list_df", new=mock_mpr_df):
+        result = await analyse_private_market(aggregate_by="Active_Ingredient")
+
+    assert "Aggregate Private Market Analysis by Active_Ingredient" in result
+
+@pytest.mark.asyncio
+async def test_analyse_private_market_invalid_aggregate_by(mock_mpr_df):
+    """An invalid aggregate_by column should fall through to the granular view."""
+    from server import analyse_private_market
+
+    with patch("server.get_latest_mpr_list_df", new=mock_mpr_df):
+        result = await analyse_private_market(aggregate_by="NonExistentColumn")
+
+    assert "Granular Private Sector View" in result
+
+@pytest.mark.asyncio
+async def test_analyse_private_market_sort_by_sep(mock_mpr_df):
+    from server import analyse_private_market
+
+    with patch("server.get_latest_mpr_list_df", new=mock_mpr_df):
+        result = await analyse_private_market(sort_by="SEP")
+
+    assert "Granular Private Sector View" in result
+    assert "|" in result
+
+@pytest.mark.asyncio
+async def test_analyse_private_market_numeric_coercion(mock_mpr_df):
+    from server import analyse_private_market
+
+    with patch("server.get_latest_mpr_list_df", new=mock_mpr_df):
+        result = await analyse_private_market(aggregate_by="Applicant")
+
+    assert "nan" not in result.lower()
+
