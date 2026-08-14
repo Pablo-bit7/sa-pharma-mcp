@@ -63,10 +63,10 @@ uv sync
 
 ### 2. Development & Testing
 
-To launch the **FastMCP Inspector** and test tools and prompts visually in your browser:
+To launch the **MCP Inspector** and test tools and prompts visually in your browser:
 
 ```bash
-uv run mcp dev server.py
+uv run fastmcp dev inspector server.py
 ```
 
 ### 3. Integration with Claude Desktop
