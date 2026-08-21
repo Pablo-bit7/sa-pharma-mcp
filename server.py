@@ -22,37 +22,37 @@ import httpx
 import pandas
 import os
 import sys
-#from fastmcp.server.auth.providers.azure import AzureProvider
-#from key_value.aio.stores.redis import RedisStore
-#from key_value.aio.wrappers.encryption import FernetEncryptionWrapper
-#from cryptography.fernet import Fernet
+from fastmcp.server.auth.providers.azure import AzureProvider
+from key_value.aio.stores.redis import RedisStore
+from key_value.aio.wrappers.encryption import FernetEncryptionWrapper
+from cryptography.fernet import Fernet
 
 
 # Encrypted persistent token storage setup
-# auth_provider = AzureProvider(
-#     client_id=os.environ["AZURE_CLIENT_ID"],
-#     client_secret=os.environ["AZURE_CLIENT_SECRET"],
-#     tenant_id=os.environ["AZURE_TENANT_ID"],
-#     base_url=os.environ["ZAPI_BASE_URL"],
-#     required_scopes=["access_as_user"],
-#
-#     # Token management
-#     jwt_signing_key=os.environ["JWT_SIGNING_KEY"],
-#     client_storage=FernetEncryptionWrapper(
-#         key_value=RedisStore(
-#             host=os.environ["AZURE_REDIS_HOST"],
-#             port=10000,
-#             password=os.environ["AZURE_REDIS_KEY"],
-#             default_collection=os.environ["AZURE_REDIS_COLLECTION"]
-#         ),
-#         fernet=Fernet(os.environ["STORAGE_ENCRYPTION_KEY"])
-#     )
-# )
+auth_provider = AzureProvider(
+    client_id=os.environ["AZURE_CLIENT_ID"],
+    client_secret=os.environ["AZURE_CLIENT_SECRET"],
+    tenant_id=os.environ["AZURE_TENANT_ID"],
+    base_url=os.environ["ZAPI_BASE_URL"],
+    required_scopes=["access_as_user"],
+
+    # Token management
+    jwt_signing_key=os.environ["JWT_SIGNING_KEY"],
+    client_storage=FernetEncryptionWrapper(
+        key_value=RedisStore(
+            host=os.environ["AZURE_REDIS_HOST"],
+            port=10000,
+            password=os.environ["AZURE_REDIS_KEY"],
+            default_collection=os.environ["AZURE_REDIS_COLLECTION"]
+        ),
+        fernet=Fernet(os.environ["STORAGE_ENCRYPTION_KEY"])
+    )
+)
 
 
 mcp = FastMCP(
     "za-pharma-intelligence",
-#    auth=auth_provider
+    auth=auth_provider
 )
 
 
@@ -498,7 +498,7 @@ if __name__ == "__main__":
 
     if port:
         mcp.run(
-            transport="streamable-http",
+            transport="http",
             host="0.0.0.0",
             port=int(port),
         )
